@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="AIR//WATCH — média immersif de veille aéronautique, actualités, sécurité, innovation, data et pédagogie.">
+<title>AIR//WATCH — Le ciel en veille</title>
+<style>
+:root{
+  --bg:#eef7ff;--surface:#fff;--surface2:#e6f3fb;--ink:#082137;--muted:#587187;
+  --blue:#1976d2;--blue2:#5db4ff;--line:#cbddea;--accent:#f28c28;--good:#1bb58c;
+  --danger:#dc4d5a;--shadow:0 18px 50px rgba(26,73,111,.12);
+}
+body.radar{
+  --bg:#050b12;--surface:#0a151d;--surface2:#0f202b;--ink:#e8fbff;--muted:#7ea0aa;
+  --blue:#49d3c1;--blue2:#8ff7e4;--line:#21424d;--accent:#ff9d3b;--good:#49d3c1;--danger:#ff6470;
+  --shadow:0 18px 60px rgba(0,0,0,.35)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:var(--bg);color:var(--ink);transition:.35s;
+  background-image:radial-gradient(circle at 20% 0%,rgba(102,192,255,.18),transparent 34%),linear-gradient(180deg,transparent 0 80%,rgba(45,127,185,.05));
+}
+body.radar{
+  background-image:radial-gradient(circle at 50% 28%,rgba(61,211,193,.08),transparent 24%),
+  linear-gradient(rgba(73,211,193,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(73,211,193,.025) 1px,transparent 1px);
+  background-size:auto,32px 32px,32px 32px
+}
+a{color:inherit}
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:30;display:flex;align-items:center;justify-content:space-between;
+  padding:15px clamp(20px,5vw,72px);backdrop-filter:blur(18px);
+  background:color-mix(in srgb,var(--bg) 84%,transparent);border-bottom:1px solid color-mix(in srgb,var(--line) 75%,transparent)
+}
+.logo{font-weight:950;letter-spacing:.11em;font-size:18px;text-decoration:none}
+.logo span{color:var(--blue)}
+.navlinks{display:flex;gap:20px;font-size:13px}
+.navlinks a{color:var(--muted);text-decoration:none}
+.controls{display:flex;align-items:center;gap:9px}
+.pill{
+  border:1px solid var(--line);border-radius:999px;padding:8px 12px;background:var(--surface);
+  color:var(--ink);cursor:pointer;font-size:12px;font-weight:800
+}
+main{padding-top:76px}
+.hero{
+  min-height:88vh;display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;
+  padding:clamp(40px,8vw,110px) clamp(20px,7vw,110px) 70px;position:relative;overflow:hidden
+}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);font-weight:850;margin-bottom:14px}
+.hero h1{font-size:clamp(48px,8vw,104px);line-height:.84;letter-spacing:-.065em;margin:0 0 25px}
+.hero h1 em{font-style:normal;color:var(--blue)}
+.hero p{max-width:650px;color:var(--muted);font-size:18px;line-height:1.55}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border:0;border-radius:14px;
+  padding:13px 18px;font-weight:850;cursor:pointer;background:var(--ink);color:var(--bg)
+}
+.btn.secondary{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+.btn.accent{background:var(--blue);color:white}
+.livebar{
+  display:inline-flex;align-items:center;gap:8px;margin-top:18px;padding:8px 11px;border-radius:10px;
+  background:color-mix(in srgb,var(--surface) 86%,transparent);border:1px solid var(--line);
+  font-size:11px;color:var(--muted);font-weight:800
+}
+.live-dot{width:8px;height:8px;border-radius:50%;background:var(--good);box-shadow:0 0 0 5px color-mix(in srgb,var(--good) 16%,transparent)}
+.sky{position:relative;height:500px;max-width:650px;margin:auto;isolation:isolate}
+.sky:before{
+  content:"";position:absolute;inset:4% 5% 8%;border-radius:52% 48% 55% 45%;
+  background:linear-gradient(145deg,rgba(105,197,255,.28),rgba(255,255,255,0));filter:blur(1px)
+}
+.radar-ring{position:absolute;inset:12% 10%;border:1px solid var(--line);border-radius:50%;box-shadow:inset 0 0 70px rgba(80,180,255,.08)}
+.radar-ring.r2{inset:27% 24%}.radar-ring.r3{inset:42% 39%}
+.plane{position:absolute;left:56%;top:38%;font-size:74px;transform:rotate(-17deg);filter:drop-shadow(0 12px 18px rgba(24,91,140,.2));animation:fly 7s ease-in-out infinite}
+.plane:after{content:"";position:absolute;inset:35px -200px auto -220px;height:2px;background:linear-gradient(90deg,transparent,var(--blue));transform:rotate(-2deg);opacity:.8}
+.ping{position:absolute;width:11px;height:11px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 color-mix(in srgb,var(--good) 40%,transparent);animation:ping 2.4s infinite}
+.p1{left:22%;top:26%}.p2{left:72%;top:22%;animation-delay:.6s}.p3{left:74%;top:70%;animation-delay:1.2s}.p4{left:34%;top:73%;animation-delay:1.8s}
+.data-chip{
+  position:absolute;padding:10px 12px;border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 88%,transparent);
+  backdrop-filter:blur(10px);border-radius:13px;font-size:11px;box-shadow:var(--shadow)
+}
+.dc1{left:4%;top:58%}.dc2{right:2%;top:45%}.dc3{left:31%;bottom:2%}
+.flash{
+  margin:0 clamp(20px,7vw,110px) 20px;padding:14px 16px;border-radius:16px;
+  background:linear-gradient(90deg,color-mix(in srgb,var(--danger) 12%,var(--surface)),var(--surface));
+  border:1px solid color-mix(in srgb,var(--danger) 28%,var(--line));display:flex;gap:12px;align-items:center
+}
+.flash b{color:var(--danger)}.flash a{text-decoration:none;font-weight:850;color:var(--ink)}
+section{padding:82px clamp(20px,7vw,110px)}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:28px}
+.section-head h2{font-size:clamp(34px,5vw,64px);letter-spacing:-.05em;margin:0}
+.section-head p{max-width:520px;color:var(--muted);margin:0}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 28px}
+.filter{
+  border:1px solid var(--line);background:var(--surface);color:var(--muted);padding:9px 12px;border-radius:10px;cursor:pointer;font-weight:750
+}
+.filter.active{color:var(--ink);outline:2px solid color-mix(in srgb,var(--blue) 25%,transparent)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow);
+  transition:.25s;display:flex;flex-direction:column
+}
+.card:hover{transform:translateY(-4px)}
+.card-top{height:150px;position:relative;background:linear-gradient(135deg,color-mix(in srgb,var(--blue) 25%,var(--surface2)),var(--surface2));overflow:hidden}
+.card-top .path{position:absolute;left:-20%;right:-20%;top:55%;height:2px;background:var(--blue);transform:rotate(-10deg);opacity:.7}
+.mini-plane{position:absolute;font-size:44px;left:52%;top:34%;transform:rotate(-18deg)}
+.signal{position:absolute;right:16px;top:14px;padding:6px 8px;border-radius:999px;font-size:9px;font-weight:900;letter-spacing:.08em;background:var(--surface);border:1px solid var(--line)}
+.signal.red{color:var(--danger)}.signal.green{color:var(--good)}
+.card-body{padding:20px;flex:1}.badges{display:flex;gap:7px;flex-wrap:wrap}
+.badge{font-size:10px;font-weight:850;letter-spacing:.08em;border-radius:999px;padding:6px 9px;background:var(--surface2);color:var(--ink)}
+.badge.live{background:rgba(27,181,140,.14);color:var(--good)}.badge.warn{background:rgba(242,140,40,.15);color:var(--accent)}.badge.red{background:rgba(220,77,90,.14);color:var(--danger)}
+.card h3{font-size:21px;line-height:1.1;margin:12px 0 10px;letter-spacing:-.02em}
+.meta{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.summary{color:var(--muted);font-size:14px;line-height:1.5}
+.card-foot{margin-top:18px;display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:900}
+.card-foot a{text-decoration:none;color:var(--blue)}
+.new-flag{margin-bottom:10px;color:var(--blue);font-size:10px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.mapbox{
+  position:relative;border:1px solid var(--line);border-radius:28px;background:var(--surface);min-height:620px;
+  overflow:hidden;box-shadow:var(--shadow)
+}
+.map-grid{
+  position:absolute;inset:0;
+  background:radial-gradient(circle at 50% 60%,color-mix(in srgb,var(--blue) 12%,transparent),transparent 30%),
+  linear-gradient(rgba(50,130,185,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(50,130,185,.05) 1px,transparent 1px);
+  background-size:auto,28px 28px,28px 28px
+}
+.map-image{
+  position:absolute;left:50%;top:53%;transform:translate(-50%,-50%);
+  width:min(70vw,650px);height:min(62vw,590px);object-fit:contain;
+  filter:drop-shadow(0 14px 25px rgba(25,118,210,.10));
+  opacity:.98;transition:.35s
+}
+body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16));opacity:.82}
+.maplabel{
+  position:absolute;left:24px;top:22px;z-index:2;padding:9px 11px;border:1px solid var(--line);
+  background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(10px);border-radius:11px
+}
+.maplabel strong{font-size:11px;letter-spacing:.12em}.maplabel small{display:block;margin-top:4px;color:var(--muted)}
+.marker{
+  position:absolute;width:18px;height:18px;border-radius:50%;background:var(--blue);
+  box-shadow:0 0 0 7px color-mix(in srgb,var(--blue) 14%,transparent);cursor:pointer;z-index:3
+}
+.marker:hover{transform:scale(1.15)}
+.label{
+  position:absolute;z-index:3;padding:7px 9px;border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 92%,transparent);
+  border-radius:9px;font-size:10px;font-weight:850;white-space:nowrap
+}
+.marker.paris{left:61%;top:29%}.label.paris{left:calc(61% + 13px);top:27%}
+.marker.lyon{left:74%;top:58%}.label.lyon{left:calc(74% + 13px);top:56%}
+.marker.bordeaux{left:43%;top:67%}.label.bordeaux{left:calc(43% - 2px);top:69%}
+.marker.toulouse{left:51%;top:76%}.label.toulouse{left:calc(51% + 12px);top:78%}
+.marker.miami,.marker.jakarta,.marker.london{width:13px;height:13px;background:var(--danger);box-shadow:0 0 0 5px color-mix(in srgb,var(--danger) 14%,transparent)}
+.tooltip{
+  position:absolute;right:20px;bottom:20px;width:min(340px,calc(100% - 40px));padding:16px;border:1px solid var(--line);
+  background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(12px);border-radius:18px;display:none;z-index:5
+}
+.tooltip.show{display:block}.tooltip h4{margin:0 0 7px}.tooltip p{margin:0;color:var(--muted);font-size:12px;line-height:1.45}
+.map-note{
+  position:absolute;left:24px;bottom:22px;max-width:380px;padding:11px 12px;border:1px solid var(--line);
+  border-radius:12px;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(10px);
+  color:var(--muted);font-size:10px;z-index:2
+}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:25px;padding:28px;box-shadow:var(--shadow)}
+.panel h3{margin-top:0;font-size:30px;letter-spacing:-.03em}
+.panel p{color:var(--muted);line-height:1.55}
+.lab-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.lab{padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--surface2);font-weight:800}
+.lexicon{display:grid;gap:12px}.term{border-top:1px solid var(--line);padding-top:13px}
+.term b{color:var(--blue)}.term span{display:block;color:var(--muted);font-size:13px;line-height:1.45;margin-top:4px}
+.stat{display:grid;grid-template-columns:1fr 2fr;align-items:center;gap:25px}
+.big{font-size:clamp(70px,10vw,130px);font-weight:950;letter-spacing:-.08em;color:var(--blue)}
+.newsletter-panel{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:30px;border:1px solid color-mix(in srgb,var(--blue) 25%,var(--line));background:linear-gradient(135deg,color-mix(in srgb,var(--blue) 12%,var(--surface)),var(--surface));border-radius:24px}
+.newsletter-panel h3{margin:0 0 6px;font-size:28px}.newsletter-panel p{margin:0;color:var(--muted)}
+.data-strip{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px
+}
+.data-chipbox{padding:18px;border-radius:16px;background:var(--surface);border:1px solid var(--line);box-shadow:0 8px 24px rgba(9,36,61,.05)}
+.data-chipbox strong{display:block;font-size:28px;letter-spacing:-.05em;color:var(--blue)}.data-chipbox span{display:block;margin-top:4px;color:var(--muted);font-size:12px}
+.sources{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+.sources ul{margin:0;padding-left:18px;color:var(--muted)}.sources li{margin:6px 0}
+.sources a{color:var(--blue);text-decoration:none}
+.credits{margin-top:18px;color:var(--muted);font-size:10px;line-height:1.45}
+.footer{
+  padding:40px clamp(20px,7vw,110px) 70px;border-top:1px solid var(--line);display:flex;justify-content:space-between;
+  gap:20px;color:var(--muted);font-size:12px
+}
+@keyframes fly{0%,100%{transform:translate(-5px,4px) rotate(-17deg)}50%{transform:translate(35px,-20px) rotate(-13deg)}}
+@keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--good) 45%,transparent)}70%{box-shadow:0 0 0 20px transparent}100%{box-shadow:0 0 0 0 transparent}}
+@media(max-width:980px){.hero,.split,.sources{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.data-strip{grid-template-columns:1fr 1fr}.newsletter-panel{align-items:flex-start;flex-direction:column}}
+@media(max-width:680px){
+  .navlinks{display:none}.hero{min-height:auto;padding-top:70px}.sky{height:370px}.cards{grid-template-columns:1fr}
+  .section-head{align-items:start;flex-direction:column}.hero h1{font-size:58px}.data-strip{grid-template-columns:1fr 1fr}
+  .mapbox{min-height:520px}.map-image{width:95vw;height:480px}.maplabel{left:14px;top:14px}
+  .map-note{left:14px;bottom:14px;max-width:290px}.flash{margin-inline:20px}.marker.paris{left:59%}.marker.lyon{left:72%}.marker.bordeaux{left:40%}.marker.toulouse{left:49%}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="#top">AIR<span>//</span>WATCH</a>
+  <div class="navlinks">
+    <a href="#trafic">Le trafic</a><a href="#carte">Carte</a><a href="#lab">Laboratoire</a><a href="#tour">Tour de contrôle</a><a href="#briefing">Briefing</a>
+  </div>
+  <div class="controls"><button class="pill" id="mode" aria-pressed="false">◐ Mode radar</button></div>
+</nav>
+
+<main id="top">
+<section class="hero">
+  <div>
+    <div class="eyebrow">Centre de veille aéronautique · 09 septembre 2026</div>
+    <h1>LE CIEL<br><em>EN VEILLE.</em></h1>
+    <p>Une autre manière de suivre l’aviation : des événements cartographiés, des innovations expliquées et des données qui se lisent comme un trafic aérien.</p>
+    <div class="cta">
+      <a class="btn" href="#trafic">Entrer dans le trafic</a>
+      <a class="btn secondary" href="#tour">Comprendre l’aviation</a>
+      <a class="btn accent" href="#briefing">Lire le briefing de bord</a>
+    </div>
+    <div class="livebar"><span class="live-dot"></span> VEILLE ACTIVE · dernière mise à jour éditoriale : 09/09/2026</div>
+  </div>
+  <div class="sky" aria-label="Visualisation stylisée du trafic aérien">
+    <div class="radar-ring"></div><div class="radar-ring r2"></div><div class="radar-ring r3"></div>
+    <div class="ping p1"></div><div class="ping p2"></div><div class="ping p3"></div><div class="ping p4"></div>
+    <div class="plane">✈</div>
+    <div class="data-chip dc1">PARIS · 12:42<br><b>Trafic sous surveillance</b></div>
+    <div class="data-chip dc2">VEILLE<br><b>09.09 · 06 signaux récents</b></div>
+    <div class="data-chip dc3">▰ DATA STREAM · LIVE</div>
+  </div>
+</section>
+
+<div class="flash">
+  <span>●</span>
+  <div><b>FLASH SÉCURITÉ</b> — Le système de traitement des données de vol de NATS a provoqué une nouvelle journée de perturbations au Royaume-Uni. <a href="#securite">Voir le briefing sécurité →</a></div>
+</div>
+
+<section id="trafic">
+  <div class="section-head">
+    <div><div class="eyebrow">01 — Le trafic</div><h2>Ce qui se passe.</h2></div>
+    <p>La veille privilégie les informations récentes et distingue les faits établis des éléments encore sous enquête.</p>
+  </div>
+  <div class="filters">
+    <button class="filter active" data-filter="all">Tous</button>
+    <button class="filter" data-filter="securite">Sécurité</button>
+    <button class="filter" data-filter="technique">Technique</button>
+    <button class="filter" data-filter="meteo">Météo / environnement</button>
+    <button class="filter" data-filter="innovation">Innovation</button>
+    <button class="filter" data-filter="industrie">Industrie</button>
+  </div>
+  <div class="cards" id="cards"></div>
+</section>
+
+<section id="securite">
+  <div class="section-head">
+    <div><div class="eyebrow">01 — Le trafic · focus sécurité</div><h2>Les signaux à surveiller.</h2></div>
+    <p>Les dernières informations disponibles au 9 septembre sont intégrées au fil principal et replacées dans leur contexte.</p>
+  </div>
+  <div class="cards" id="security-cards"></div>
+</section>
+
+<section id="carte">
+  <div class="section-head">
+    <div><div class="eyebrow">03 — Visualiser</div><h2>Le trafic de l’info.</h2></div>
+    <p>La carte utilise une silhouette géographique réelle de la France métropolitaine : les balises correspondent aux points éditoriaux suivis par la veille.</p>
+  </div>
+  <div class="mapbox">
+    <div class="map-grid"></div>
+    <img class="map-image" alt="Carte réelle de la France métropolitaine" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/France_blank_1.svg">
+    <div class="maplabel"><strong>CARTE DE FRANCE · VEILLE ACTIVE</strong><small>4 points éditoriaux en France · visualisation indicative</small></div>
+
+    <div class="marker paris" title="Paris" data-city="Paris" data-copy="Point de veille : actualités du trafic et incidents affectant les grands hubs français."></div>
+    <div class="label paris">PARIS</div>
+    <div class="marker lyon" title="Lyon" data-city="Lyon" data-copy="Point de veille : mouvements régionaux, opérations et réseau intérieur."></div>
+    <div class="label lyon">LYON</div>
+    <div class="marker bordeaux" title="Bordeaux" data-city="Bordeaux" data-copy="Point de veille : météo, opérations et évolution du trafic dans le Sud-Ouest."></div>
+    <div class="label bordeaux">BORDEAUX</div>
+    <div class="marker toulouse" title="Toulouse" data-city="Toulouse" data-copy="Point de veille : innovation aéronautique, industrie et essais."></div>
+    <div class="label toulouse">TOULOUSE</div>
+
+    <div class="tooltip" id="tooltip"></div>
+    <div class="map-note">La silhouette de la France est issue de la carte métropolitaine « France blank 1.svg » disponible sur Wikimedia Commons. Coordonnées et position des balises sont indicatives pour la démonstration éditoriale.</div>
+  </div>
+</section>
+
+<section id="lab">
+  <div class="section-head">
+    <div><div class="eyebrow">02 — Le laboratoire</div><h2>Ce qui arrive.</h2></div>
+    <p>Une lecture par technologies, preuves, maturité et impact opérationnel.</p>
+  </div>
+  <div class="split">
+    <div class="panel">
+      <h3>Les innovations intégrées</h3>
+      <div class="lab-list">
+        <div class="lab">✈️ Kepplair 72</div><div class="lab">📡 Starlink Aviation</div>
+        <div class="lab">🚁 H160 de secours</div><div class="lab">🎓 Formation CBTA</div>
+        <div class="lab">🤖 IA & accueil</div><div class="lab">🛰️ Connectivité orbitale</div>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>La méthode AIR//WATCH</h3>
+      <div class="term"><b>01 · Le prototype</b><span>Quelle technologie ? Quel besoin ? Quel niveau de maturité ?</span></div>
+      <div class="term"><b>02 · Le test</b><span>Ce qui a été démontré, mesuré ou homologué.</span></div>
+      <div class="term"><b>03 · La projection</b><span>Ce que cela pourrait changer pour les compagnies, les aéroports ou les équipages.</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-head">
+    <div><div class="eyebrow">02 — Le laboratoire · nouveautés</div><h2>Cette semaine.</h2></div>
+    <p>Des innovations publiées ou confirmées entre le 2 et le 9 septembre 2026, avec quelques signaux ajoutés après la newsletter.</p>
+  </div>
+  <div class="cards" id="innovation-cards"></div>
+</section>
+
+<section id="data">
+  <div class="section-head">
+    <div><div class="eyebrow">04 — Data</div><h2>Quelques chiffres.</h2></div>
+    <p>Les chiffres doivent toujours être accompagnés d’une source et d’un contexte.</p>
+  </div>
+  <div class="data-strip">
+    <div class="data-chipbox"><strong>+0,2%</strong><span>Demande mondiale de transport aérien en juillet 2026, selon l’IATA.</span></div>
+    <div class="data-chipbox"><strong>1 300+</strong><span>Vols annulés recensés autour de la panne NATS dans les premiers décomptes du 8 septembre.</span></div>
+    <div class="data-chipbox"><strong>€6 M</strong><span>Nouvelle levée annoncée par Kepplair Evolution le 9 septembre.</span></div>
+    <div class="data-chipbox"><strong>40</strong><span>ATR 72-600 commandés par FLY91, commande confirmée le 3 septembre.</span></div>
+  </div>
+</section>
+
+<section id="tour">
+  <div class="section-head">
+    <div><div class="eyebrow">03 — La tour de contrôle</div><h2>Comprendre.</h2></div>
+    <p>Le jargon aéronautique devient un vocabulaire utile, relié aux actualités.</p>
+  </div>
+  <div class="split">
+    <div class="panel">
+      <h3>Bon à savoir</h3>
+      <div class="lexicon">
+        <div class="term"><b>Remise de gaz</b><span>Procédure par laquelle l’équipage interrompt l’atterrissage et reprend de l’altitude lorsqu’une approche n’est plus jugée suffisamment sûre.</span></div>
+        <div class="term"><b>Déroutement</b><span>Lorsqu’un avion change de destination prévue pour atterrir sur un autre aéroport.</span></div>
+        <div class="term"><b>CBTA</b><span>Competency-Based Training and Assessment : une approche qui forme et évalue les compétences concrètement nécessaires à l’exploitation.</span></div>
+        <div class="term"><b>EMAS</b><span>Engineered Materials Arresting System : système destiné à ralentir un avion qui sortirait d’une piste, installé sur certains aérodromes.</span></div>
+      </div>
+    </div>
+    <div class="panel stat">
+      <div class="big">+0,2%</div>
+      <div><h3>Le chiffre de la semaine</h3><p class="summary">L’IATA indique que la demande mondiale de transport aérien a progressé de 0,2 % en juillet 2026. Ici, le chiffre sert d’objet éditorial : il doit toujours être lu avec sa source et son périmètre.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="briefing">
+  <div class="newsletter-panel">
+    <div>
+      <div class="eyebrow">Le briefing de bord</div>
+      <h3>Édition du 2 → 9 septembre 2026</h3>
+      <p>Retrouve la newsletter complète : incidents, innovations, chiffre de la semaine, pédagogie et sélection internationale.</p>
+    </div>
+    <a class="btn accent" href="briefing-de-bord-semaine-du-2-au-9-septembre-2026.html">Lire la newsletter ↗</a>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="section-head">
+    <div><div class="eyebrow">05 — Sources</div><h2>Tracer l’information.</h2></div>
+    <p>Les informations d’actualité sont reliées autant que possible à la source primaire ou à un média de référence.</p>
+  </div>
+  <div class="sources">
+    <div class="panel">
+      <ul>
+        <li><a href="https://www.nats.aero/news/technical-issue-causing-some-disruption-to-flight-departures/" target="_blank" rel="noopener">NATS — Technical issue updates</a></li>
+        <li><a href="https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/" target="_blank" rel="noopener">Reuters — UK air traffic outage, 9 Sept.</a></li>
+        <li><a href="https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/" target="_blank" rel="noopener">Reuters — Miami cargo crash, 9 Sept.</a></li>
+        <li><a href="https://www.faa.gov/newsroom/statements/accident_incidents" target="_blank" rel="noopener">FAA — Accident & incident statements</a></li>
+        <li><a href="https://www.faa.gov/newsroom/faa-proposes-31-million-fines-against-boeing" target="_blank" rel="noopener">FAA — Boeing safety violations</a></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <ul>
+        <li><a href="https://media.txtav.com/270132-hawker-operators-gain-access-to-high-speed-starlink-connectivity-through-textron-aviation-customer-support-network/" target="_blank" rel="noopener">Textron Aviation — Starlink for Hawker, 8 Sept.</a></li>
+        <li><a href="https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency" target="_blank" rel="noopener">Airbus — H160 de secours au Japon</a></li>
+        <li><a href="https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme" target="_blank" rel="noopener">Airbus — ANA / programme de formation pilotes</a></li>
+        <li><a href="https://www.airbus.com/en/newsroom/press-releases/2026-09-aircairo-places-order-for-15-airbus-a320neo-aircraft" target="_blank" rel="noopener">Airbus — AIRCAIRO commande 15 A320neo</a></li>
+        <li><a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener">Carte France — licence CC BY-SA 2.5</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="credits">Carte métropolitaine : Eric Gaba (Sting), Wikimedia Commons, France blank 1.svg, CC BY-SA 2.5. La carte est utilisée comme base visuelle réelle ; les balises sont des positions éditoriales indicatives.</div>
+</section>
+</main>
+
+<footer class="footer">
+  <div><b>AIR//WATCH</b><br>La veille aéronautique comme expérience.</div>
+  <div>09.09.2026 · Actualités · Sécurité · Innovations · Data · Pédagogie</div>
+</footer>
+
+<script>
+const items=[
+  {cat:'securite',label:'SÉCURITÉ',fresh:'< 24 H · FLASH',tone:'red',title:'Panne NATS : les perturbations se prolongent au Royaume-Uni',city:'Royaume-Uni · 9 sept.',copy:'Le système de traitement des données de vol de NATS a provoqué une nouvelle journée de perturbations. Les vols reprennent progressivement mais les effets en cascade persistent. Une cyberattaque a été écartée par NATS.',src:'Reuters / NATS',url:'https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/'},
+  {cat:'securite',label:'SÉCURITÉ',fresh:'< 24 H · ENQUÊTE',tone:'red',title:'Miami : le NTSB analyse une remise de gaz après le toucher',city:'Miami · 9 sept.',copy:'Le vol cargo 21 Air / Amazon Prime Air a dépassé la piste. Les données indiquent une hausse de poussée compatible avec une tentative de remise de gaz, puis une réduction des gaz. Les causes restent sous enquête.',src:'Reuters / NTSB',url:'https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/'},
+  {cat:'securite',label:'SÉCURITÉ',fresh:'7 JOURS · À SUIVRE',tone:'red',title:'Boeing : 3,1 M$ de pénalités après des violations de sécurité',city:'États-Unis · 2 sept.',copy:'La FAA a confirmé que Boeing avait payé en janvier 2026 la pénalité maximale recherchée dans un dossier portant sur des centaines de violations de qualité et de sécurité relevées en production.',src:'FAA / Reuters',url:'https://www.faa.gov/newsroom/faa-proposes-31-million-fines-against-boeing'},
+  {cat:'technique',label:'TECHNIQUE',fresh:'< 24 H · NOUVEAU',title:'Bird strike et incidents de flotte suivis par la FAA',city:'États-Unis · 8 sept.',copy:'La FAA a notamment signalé un Boeing 737 MAX 8 ayant atterri en sécurité après un impact aviaire au départ de Ronald Reagan Washington National Airport.',src:'FAA',url:'https://www.faa.gov/newsroom/statements/accident_incidents'},
+  {cat:'meteo',label:'ENVIRONNEMENT',fresh:'3 JOURS · RÉCENT',title:'Les cendres de l’Anak Krakatau perturbent huit aéroports',city:'Indonésie · 6 sept.',copy:'L’éruption a suspendu des opérations, notamment à Jakarta. Le ministère des Transports a fait état de centaines de vols affectés et de conséquences importantes pour les passagers.',src:'Reuters',url:'https://www.reuters.com/business/environment/indonesias-jakarta-airport-suspends-flights-due-ash-mount-anak-krakatau-2026-09-06/'},
+  {cat:'industrie',label:'INDUSTRIE',fresh:'2 JOURS · RÉCENT',title:'AIRCAIRO signe pour 15 Airbus A320neo',city:'Égypte · 8 sept.',copy:'La compagnie égyptienne a signé sa première commande ferme directe auprès d’Airbus. L’accord doit soutenir une forte croissance de flotte et du réseau.',src:'Airbus',url:'https://www.airbus.com/en/newsroom/press-releases/2026-09-aircairo-places-order-for-15-airbus-a320neo-aircraft'},
+  {cat:'innovation',label:'INNOVATION',fresh:'< 24 H · NOUVEAU',tone:'green',title:'Kepplair Evolution lève 6 M€ pour accélérer le Kepplair 72',city:'France · 9 sept.',copy:'Quelques jours après ses premiers vols d’essai pré-modification, la société annonce 6 M€ supplémentaires. Le financement doit soutenir le développement, les essais, la certification EASA et la préparation industrielle.',src:'Kepplair Evolution',url:'https://find.50skyshades.com/news/finance/kepplair-evolution-accelerates-its-growth-with-a-new-6-million-funding-round-bringing-the-total-funding-raised-to-175-million'},
+  {cat:'innovation',label:'INNOVATION',fresh:'1–3 JOURS · RÉCENT',tone:'green',title:'Starlink arrive sur les Hawker 700 / 800 / 900',city:'États-Unis · 8 sept.',copy:'Le haut débit Starlink est désormais proposé sur ces séries Hawker après l’obtention d’un STC FAA. L’objectif est une connectivité plus fiable, y compris au-dessus des zones isolées.',src:'Textron Aviation',url:'https://media.txtav.com/270132-hawker-operators-gain-access-to-high-speed-starlink-connectivity-through-textron-aviation-customer-support-network/'},
+  {cat:'innovation',label:'INNOVATION',fresh:'1–7 JOURS · RÉCENT',tone:'green',title:'Un H160 connecté pour les secours au Japon',city:'Kumamoto · 3 sept.',copy:'L’agence japonaise de gestion des incendies et catastrophes a commandé un Airbus H160 pour la reconnaissance aérienne et la collecte d’images en temps réel lors de catastrophes.',src:'Airbus',url:'https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency'},
+  {cat:'innovation',label:'FORMATION',fresh:'1–7 JOURS · RÉCENT',tone:'green',title:'ANA et Airbus lancent une filière pilote basée sur les compétences',city:'Japon · 2 sept.',copy:'La première promotion doit compter 19 cadets formés sans expérience de vol jusqu’à la licence, avec une approche alignée sur le CBTA.',src:'Airbus',url:'https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme'},
+  {cat:'innovation',label:'PASSAGER · IA',fresh:'1–7 JOURS · RÉCENT',tone:'green',title:'Amelia, l’hologramme IA qui guide les voyageurs à Boston Logan',city:'Boston · semaine du 2 sept.',copy:'Déployée dans neuf emplacements, Amelia fournit itinéraires, informations bagages, cartes et temps d’attente, avec possibilité de passer la main à un agent humain.',src:'International Airport Review',url:'https://www.internationalairportreview.com/boston-logan-airport-introduces-ai-hologram-to-transform-passenger-wayfinding-and-accessibility/2136409.article'}
+];
+const innovations=items.filter(x=>x.cat==='innovation');
+const security=items.filter(x=>x.cat==='securite');
+const cards=document.querySelector('#cards');
+const securityCards=document.querySelector('#security-cards');
+const innovationCards=document.querySelector('#innovation-cards');
+
+function cardHTML(x){
+  return `<article class="card">
+    <div class="card-top"><div class="path"></div><div class="mini-plane">✈</div><div class="signal ${x.tone||''}">${x.cat.toUpperCase()}</div></div>
+    <div class="card-body">
+      <div class="badges"><span class="badge ${x.tone==='red'?'red':x.tone==='green'?'live':''}">${x.label}</span><span class="badge">${x.fresh}</span></div>
+      <h3>${x.title}</h3>
+      <div class="meta"><span>⌖ ${x.city}</span><span>◷ ${x.src}</span></div>
+      <p class="summary">${x.copy}</p>
+      <div class="card-foot"><span>EN 10 SECONDES</span><a href="${x.url}" target="_blank" rel="noopener">SOURCE ↗</a></div>
+    </div>
+  </article>`;
+}
+function render(filter='all'){
+  cards.innerHTML=items.filter(x=>filter==='all'||x.cat===filter).map(cardHTML).join('');
+}
+function renderSecurity(){securityCards.innerHTML=security.map(cardHTML).join('')}
+function renderInnovations(){innovationCards.innerHTML=innovations.map(cardHTML).join('')}
+render();renderSecurity();renderInnovations();
+
+document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');render(b.dataset.filter);
+}));
+
+const mode=document.querySelector('#mode');
+mode.addEventListener('click',()=>{
+  const radar=document.body.classList.toggle('radar');
+  mode.textContent=radar?'◉ Vue éditoriale':'◐ Mode radar';
+  mode.setAttribute('aria-pressed',String(radar));
+});
+
+const tooltip=document.querySelector('#tooltip');
+document.querySelectorAll('.marker').forEach(m=>m.addEventListener('click',()=>{
+  tooltip.classList.add('show');
+  tooltip.innerHTML=`<h4>${m.dataset.city}</h4><p>${m.dataset.copy}</p>`;
+}));
+</script>
+</body>
+</html>

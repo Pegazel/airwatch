@@ -1,0 +1,35 @@
+name: Veille Aéronautique Hebdomadaire
+
+on:
+  schedule:
+    # S'exécute tous les lundis à 07h00 UTC
+    - cron: '0 7 * * 1'
+  workflow_dispatch: # Permet aussi de lancer la mise à jour manuellement en 1 clic sur GitHub
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code source
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Installer les dépendances
+        run: npm install
+
+      - name: Lancer le script de veille IA
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/update-news.js
+
+      - name: Commiter et pousser les modifications sur GitHub
+        run: |
+          git config --global user.name "AirWatch Bot"
+          git config --global user.email "bot@airwatch.internal"
+          git add items.json
+          git diff-index --quiet HEAD || git commit -m "auto: mise à jour hebdomadaire des actualités"
+          git push
