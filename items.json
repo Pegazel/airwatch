@@ -1,0 +1,35 @@
+[
+  {
+    "cat":"securite","label":"SÉCURITÉ","fresh":"< 24 H · FLASH","title":"Panne NATS : les perturbations se prolongent au Royaume-Uni","city":"Royaume-Uni · 9 sept.","copy":"Le système de traitement des données de vol de NATS a provoqué une nouvelle journée de perturbations. Les vols reprennent progressivement mais les effets en cascade persistent. Une cyberattaque a été écartée par NATS.","src":"Reuters / NATS","url":"https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/","img":"https://img.lemde.fr/2026/09/09/1/0/5000/3333/1440/960/60/0/d18c54a_ftp-1-9zkd9v0grmmd-5032403-01-06.jpg"
+  },
+  {
+    "cat":"securite","label":"SÉCURITÉ","fresh":"< 24 H · ENQUÊTE","title":"Miami : le NTSB analyse une remise de gaz après le toucher","city":"Miami · 9 sept.","copy":"Le vol cargo 21 Air / Amazon Prime Air a dépassé la piste. Les données indiquent une hausse de poussée compatible avec une tentative de remise de gaz, puis une réduction des gaz. Les causes restent sous enquête.","src":"Reuters / NTSB","url":"https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/","img":"https://actu-aero.fr/wp-content/uploads/2026/09/Falcon-2000-LXS-Albatros-Marine-nationale-DGA-Sept-2026.jpg"
+  },
+  {
+    "cat":"securite","label":"SÉCURITÉ","fresh":"7 JOURS · À SUIVRE","title":"Boeing : 3,1 M$ de pénalités après des violations de sécurité","city":"États-Unis · 2 sept.","copy":"La FAA a confirmé que Boeing avait payé en janvier 2026 la pénalité maximale recherchée dans un dossier portant sur des centaines de violations de qualité et de sécurité relevées en production.","src":"FAA / Reuters","url":"https://www.faa.gov/newsroom/faa-proposes-31-million-fines-against-boeing","img":"https://aeroaffaires.fr/wp-content/uploads/2022/01/logo-boeing-credit-flickr.jpeg"
+  },
+  {
+    "cat":"technique","label":"TECHNIQUE","fresh":"< 24 H · NOUVEAU","title":"Bird strike et incidents de flotte suivis par la FAA","city":"États-Unis · 8 sept.","copy":"La FAA a notamment signalé un Boeing 737 MAX 8 ayant atterri en sécurité après un impact aviaire au départ de Ronald Reagan Washington National Airport.","src":"FAA","url":"https://www.faa.gov/newsroom/statements/accident_incidents","img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTvSZJvBrl6sy19Pf0mzxJdYPfnUtfLD-1-YhfAh_3ehXFca2UteTim2Y&s=10"
+  },
+  {
+    "cat":"meteo","label":"ENVIRONNEMENT","fresh":"3 JOURS · RÉCENT","title":"Les cendres de l’Anak Krakatau perturbent huit aéroports","city":"Indonésie · 6 sept.","copy":"L’éruption a suspendu des opérations, notamment à Jakarta. Le ministère des Transports a fait état de centaines de vols affectés et de conséquences importantes pour les passagers.","src":"Reuters","url":"https://www.reuters.com/business/environment/indonesias-jakarta-airport-suspends-flights-due-ash-mount-anak-krakatau-2026-09-06/","img":"https://cdn-s-www.bienpublic.com/images/DAAE6B09-5888-4799-883D-4D0C97FB62CC/FB1200/photo-1788696246.jpg"
+  },
+  {
+    "cat":"industrie","label":"INDUSTRIE","fresh":"2 JOURS · RÉCENT","title":"AIRCAIRO signe pour 15 Airbus A320neo","city":"Égypte · 8 sept.","copy":"La compagnie égyptienne a signé sa première commande ferme directe auprès d’Airbus. L’accord doit soutenir une forte croissance de flotte et du réseau.","src":"Airbus","url":"https://www.airbus.com/en/newsroom/press-releases/2026-09-aircairo-places-order-for-15-airbus-a320neo-aircraft","img":"https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "cat":"innovation","label":"INNOVATION","fresh": " < 24 H · NOUVEAU","title":"Kepplair Evolution lève 6 M€ pour accélérer le Kepplair 72","city":"France · 9 sept.","copy":"Quelques jours après ses premiers vols d’essai pré-modification, la société annonce 6 M€ supplémentaires. Le financement doit soutenir le développement, les essais, la certification EASA et la préparation industrielle.","src":"Kepplair Evolution","url":"https://find.50skyshades.com/news/finance/kepplair-evolution-accelerates-its-growth-with-a-new-6-million-funding-round-bringing-the-total-funding-raised-to-175-million","img":"https://actu-aero.fr/wp-content/uploads/2026/05/Kepplair_72_Kepplair_Evolution_2.jpg"
+  },
+  {
+    "cat":"innovation","label":"INNOVATION","fresh":"1–3 JOURS · RÉCENT","title":"Starlink arrive sur les Hawker 700 / 800 / 900","city":"États-Unis · 8 sept.","copy":"Le haut débit Starlink est désormais proposé sur ces séries Hawker après l’obtention d’un STC FAA. L’objectif est une connectivité plus fiable, y compris au-dessus des zones isolées.","src":"Textron Aviation","url":"https://media.txtav.com/270132-hawker-operators-gain-access-to-high-speed-starlink-connectivity-through-textron-aviation-customer-support-network/","img":"https://s.yimg.com/lo/mysterio/api/06840e9c563e183354efc8dbe135f361f49e2146115c37307cb8ad6e64273c7f/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finteresting_engineering_646%2F16258030ff219657756ec14521b35a11.jpg"
+  },
+  {
+    "cat":"innovation","label":"INNOVATION","fresh":"1–7 JOURS · RÉCENT","title":"Un H160 connecté pour les secours au Japon","city":"Kumamoto · 3 sept.","copy":"L’agence japonaise de gestion des incendies et catastrophes a commandé un Airbus H160 pour la reconnaissance aérienne et la collecte d’images en temps réel lors de catastrophes.","src":"Airbus","url":"https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency","img":"https://www.journal-aviation.com/storage/2025/10/H160-Hiroshima-750x375.jpg"
+  },
+  {
+    "cat":"formation","label":"FORMATION","fresh":"1–7 JOURS · RÉCENT","title":"ANA et Airbus lancent une filière pilote basée sur les compétences","city":"Japon · 2 sept.","copy":"La première promotion doit compter 19 cadets formés sans expérience de vol jusqu’à la licence, avec une approche alignée sur le CBTA.","src":"Airbus","url":"https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme","img":"https://www.air-journal.fr/wp-content/uploads/Air-Journal-Airbus-A380-ANA-source-Narita-Airport.jpg"
+  },
+  {
+    "cat":"passager","label":"PASSAGER · IA","fresh":"1–7 JOURS · RÉCENT","title":"Amelia, l’hologramme IA qui guide les voyageurs à Boston Logan","city":"Boston · semaine du 2 sept.","copy":"Déployée dans neuf emplacements, Amelia fournit itinéraires, informations bagages, cartes et temps d’attente, avec possibilité de passer la main à un agent humain.","src":"International Airport Review","url":"https://internationalairportreview.com/boston-logan-airport-introduces-ai-hologram-to-transform-passenger-wayfinding-and-accessibility/2136409.article","img":"https://www.bostonglobe.com/resizer/v2/SVFADX3FD5CWXACSUSWAJHVCVE.JPG?auth=de82a8608690937ed6d2dc83586678aeed01d10378375ada05470e4e7f8b3a6c"
+  }
+]

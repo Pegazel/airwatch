@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Le Briefing de Bord — les faits marquants de l’actualité aéronautique du 2 au 9 septembre 2026.">
+  <title>✈️ Le Briefing de Bord — 2 au 9 septembre 2026</title>
+  <style>
+    :root {
+      --navy: #09243d;
+      --navy-2: #123b5d;
+      --blue: #1c78b8;
+      --sky: #eaf6ff;
+      --ink: #172b3a;
+      --muted: #607487;
+      --line: #dbe7ef;
+      --paper: #ffffff;
+      --canvas: #f4f8fb;
+      --red: #cf4252;
+      --red-bg: #fff1f2;
+      --green: #1b8068;
+      --green-bg: #eaf8f4;
+      --amber: #a96c09;
+      --amber-bg: #fff7e5;
+      --shadow: 0 16px 40px rgba(9,36,61,.09);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--canvas); color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+    .hero { position: relative; overflow: hidden; color: #fff; background: radial-gradient(circle at 85% 10%, rgba(89,190,255,.35), transparent 28%), linear-gradient(135deg, #071d32 0%, #0d456b 62%, #1a79a9 100%); }
+    .hero::after { content: "✈"; position: absolute; right: 4%; top: 17px; color: rgba(255,255,255,.12); font-size: 13rem; line-height: 1; transform: rotate(-9deg); pointer-events: none; }
+    .hero-inner { position: relative; z-index: 1; padding: 54px 0 42px; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 8px; padding: 7px 12px; border: 1px solid rgba(255,255,255,.25); border-radius: 999px; color: #d9f2ff; background: rgba(255,255,255,.08); font-size: .78rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    h1 { max-width: 720px; margin: 18px 0 6px; font-size: clamp(2.45rem, 6vw, 5rem); line-height: .98; letter-spacing: -.055em; }
+    .subtitle { margin: 0; color: #d6ecf8; font-size: clamp(1rem, 2vw, 1.25rem); }
+    .hero-rule { width: 70px; height: 4px; margin: 27px 0 0; border-radius: 99px; background: #64d1ff; }
+    .quick-nav { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .quick-nav a { padding: 8px 12px; border-radius: 8px; color: #e8f6ff; background: rgba(255,255,255,.1); font-size: .84rem; font-weight: 700; }
+    main { padding: 34px 0 58px; }
+    .lead { display: grid; grid-template-columns: 1.4fr .6fr; gap: 20px; align-items: stretch; margin-bottom: 30px; }
+    .lead-card, .metric-card, .panel, .story { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); }
+    .lead-card { padding: 28px; }
+    .kicker { margin: 0 0 7px; color: var(--blue); font-size: .77rem; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
+    h2 { margin: 0 0 18px; color: var(--navy); font-size: clamp(1.55rem, 3vw, 2.15rem); line-height: 1.1; letter-spacing: -.03em; }
+    .lead-card p { max-width: 680px; margin: 0; color: var(--muted); font-size: 1.04rem; }
+    .metric-card { display: flex; flex-direction: column; justify-content: center; padding: 28px; color: #fff; background: linear-gradient(150deg, var(--navy), var(--navy-2)); }
+    .metric-label { color: #9fdcff; font-size: .8rem; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
+    .metric-value { margin: 9px 0 1px; font-size: clamp(3.3rem, 7vw, 5rem); font-weight: 900; line-height: .95; letter-spacing: -.07em; }
+    .metric-copy { margin: 11px 0 0; color: #d1e5f1; font-size: .9rem; }
+    .section { margin-top: 38px; }
+    .section-head { display: flex; gap: 16px; align-items: end; justify-content: space-between; margin-bottom: 16px; }
+    .section-title { display: flex; gap: 10px; align-items: center; margin: 0; color: var(--navy); font-size: clamp(1.35rem, 3vw, 1.9rem); letter-spacing: -.03em; }
+    .section-title .icon { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 11px; font-size: 1.1rem; }
+    .section-title .icon.red { background: var(--red-bg); }
+    .section-title .icon.green { background: var(--green-bg); }
+    .section-title .icon.amber { background: var(--amber-bg); }
+    .section-note { margin: 0; color: var(--muted); font-size: .88rem; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .story { overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 8px 24px rgba(9,36,61,.06); }
+    .story-top { height: 7px; background: var(--blue); }
+    .story.incident .story-top { background: var(--red); }
+    .story.innovation .story-top { background: var(--green); }
+    .story-body { padding: 21px 21px 22px; flex: 1; }
+    .tag { display: inline-block; margin-bottom: 12px; padding: 4px 8px; border-radius: 6px; font-size: .7rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+    .incident .tag { color: #a82d3d; background: var(--red-bg); }
+    .innovation .tag { color: #126d58; background: var(--green-bg); }
+    .story h3 { margin: 0 0 10px; color: var(--navy); font-size: 1.08rem; line-height: 1.25; letter-spacing: -.015em; }
+    .story p { margin: 0; color: #536a7c; font-size: .93rem; }
+    .impact { margin-top: 16px !important; padding-top: 13px; border-top: 1px solid var(--line); color: var(--ink) !important; font-size: .86rem !important; }
+    .impact strong { color: var(--navy); }
+    .stat-panel { display: grid; grid-template-columns: .8fr 1.2fr; gap: 26px; align-items: center; padding: 28px; background: linear-gradient(135deg, #e8f6ff 0%, #fff 70%); border: 1px solid #cce8f7; border-radius: 18px; }
+    .big-stat { color: var(--blue); font-size: clamp(3.4rem, 9vw, 6.5rem); font-weight: 900; line-height: .9; letter-spacing: -.08em; }
+    .stat-panel h3 { margin: 0 0 8px; color: var(--navy); font-size: 1.35rem; }
+    .stat-panel p { margin: 0; color: var(--muted); }
+    .lower-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .panel { padding: 25px; box-shadow: 0 8px 24px rgba(9,36,61,.05); }
+    .panel h3 { margin: 0 0 10px; color: var(--navy); font-size: 1.2rem; }
+    .panel p { margin: 0; color: #536a7c; }
+    .definition { margin-top: 15px; padding: 13px 15px; border-left: 4px solid var(--blue); border-radius: 0 10px 10px 0; background: var(--sky); color: var(--navy); font-size: .9rem; }
+    .international { border-top: 6px solid var(--blue); }
+    .international .tag { color: #12639b; background: var(--sky); }
+    .takeaways { padding: 26px 28px; color: #fff; background: linear-gradient(135deg, #0a2944, #145f83); border-radius: 18px; box-shadow: var(--shadow); }
+    .takeaways h2 { color: #fff; margin-bottom: 14px; }
+    .takeaways ul { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+    .takeaways li { display: flex; gap: 10px; align-items: start; color: #e2f2fa; }
+    .check { color: #6fdbbc; font-weight: 900; }
+    .sources { margin-top: 38px; padding-top: 26px; border-top: 1px solid var(--line); }
+    .sources h2 { margin-bottom: 12px; font-size: 1.25rem; }
+    .sources ol { margin: 0; padding-left: 22px; color: var(--muted); font-size: .82rem; }
+    .sources li { margin: 5px 0; overflow-wrap: anywhere; }
+    footer { padding: 20px 0 40px; color: #7a8d9d; text-align: center; font-size: .78rem; }
+    @media (max-width: 820px) { .lead, .stat-panel, .lower-grid { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr 1fr; } .hero::after { right: -10%; font-size: 9rem; } }
+    @media (max-width: 560px) { .wrap { width: min(100% - 24px, 1120px); } .hero-inner { padding: 38px 0 30px; } .grid { grid-template-columns: 1fr; } .lead-card, .metric-card, .panel, .stat-panel { padding: 22px; } .section-head { display: block; } .section-note { margin-top: 7px; } }
+    @media print { body { background: #fff; } .hero { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .story, .lead-card, .metric-card, .panel, .stat-panel, .takeaways { box-shadow: none; break-inside: avoid; } .quick-nav { display: none; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <div class="eyebrow">Veille stratégique · Industrie aéronautique</div>
+      <h1>✈️ Le Briefing<br>de Bord</h1>
+      <p class="subtitle">Les faits marquants de la semaine · 2 au 9 septembre 2026</p>
+      <div class="hero-rule"></div>
+      <nav class="quick-nav" aria-label="Navigation rapide">
+        <a href="#incidents">Incidents</a><a href="#innovations">Innovations</a><a href="#chiffre">Le chiffre</a><a href="#pedagogie">Pédagogie</a><a href="#international">International</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="lead" aria-label="Synthèse de la semaine">
+      <div class="lead-card">
+        <p class="kicker">En bref</p>
+        <h2>Une semaine sous tension, mais tournée vers l’avenir</h2>
+        <p>Des incidents opérationnels au Royaume-Uni, en Indonésie et à Miami rappellent la fragilité des chaînes aériennes. En parallèle, formation des pilotes, secours connectés et accueil augmenté dessinent les usages qui transforment déjà le secteur.</p>
+      </div>
+      <div class="metric-card" id="chiffre">
+        <div class="metric-label">Chiffre de la semaine</div>
+        <div class="metric-value">+0,2%</div>
+        <p class="metric-copy">Progression de la demande mondiale de transport aérien en juillet 2026.</p>
+      </div>
+    </section>
+
+    <section class="section" id="incidents">
+      <div class="section-head"><h2 class="section-title"><span class="icon red">🚨</span>Les principaux incidents</h2><p class="section-note">Trois signaux à surveiller</p></div>
+      <div class="grid">
+        <article class="story incident"><div class="story-top"></div><div class="story-body"><span class="tag">Royaume-Uni · 8 sept.</span><h3>1 300 vols annulés après la panne NATS</h3><p>Une panne du traitement des données de vol de NATS a perturbé les départs à Heathrow, Gatwick, Manchester et Stansted. NATS a appliqué un correctif et annoncé un retour progressif à la normale. Flightradar24 a recensé 1 300 annulations et des centaines de retards [1] [2].</p><p class="impact"><strong>Impact :</strong> un incident numérique peut rapidement créer un effet domino sur compagnies, aéroports, équipages et passagers.</p></div></article>
+        <article class="story incident"><div class="story-top"></div><div class="story-body"><span class="tag">Indonésie · 6 sept.</span><h3>Les cendres de l’Anak Krakatau ferment huit aéroports</h3><p>L’éruption a suspendu les opérations, notamment à Soekarno-Hatta, l’aéroport de Jakarta. Le ministère des Transports compte 964 vols affectés à Jakarta et plus de 1 500 dans les huit plateformes. Plusieurs compagnies ont annulé des liaisons [3].</p><p class="impact"><strong>Impact :</strong> retards, déroutements, hébergement et assistance concernent jusqu’à 170 000 passagers.</p></div></article>
+        <article class="story incident"><div class="story-top"></div><div class="story-body"><span class="tag">Miami · 9 sept.</span><h3>Le NTSB examine une remise de gaz après le toucher</h3><p>Les données du Boeing 767 cargo d’Amazon Prime Air sont compatibles avec une remise de gaz après le toucher. L’avion a dépassé la piste de 396 mètres et heurté deux véhicules ; cinq personnes sont mortes et cinq ont été blessées [4].</p><p class="impact"><strong>Impact :</strong> la sécurité en bout de piste est réexaminée, après plus de 225 vols annulés à Miami.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="innovations">
+      <div class="section-head"><h2 class="section-title"><span class="icon green">🚀</span>Les innovations de la semaine</h2><p class="section-note">Trois usages concrets</p></div>
+      <div class="grid">
+        <article class="story innovation"><div class="story-top"></div><div class="story-body"><span class="tag">Formation · Airbus</span><h3>ANA–Airbus : une filière de pilotes fondée sur les compétences</h3><p>La première promotion doit compter 19 cadets, formés sans expérience de vol jusqu’à la licence de pilote. Le parcours s’aligne sur le <em>Competency-Based Training and Assessment</em> (CBTA) [5].</p><p class="impact"><strong>Bénéfice attendu :</strong> standardiser la formation face aux besoins futurs en équipages.</p></div></article>
+        <article class="story innovation"><div class="story-top"></div><div class="story-body"><span class="tag">Secours · Japon</span><h3>Un premier H160 pour la réponse aux catastrophes</h3><p>L’agence japonaise de gestion des incendies et des catastrophes a commandé un Airbus H160 pour Kumamoto. L’appareil assurera reconnaissance aérienne et collecte d’images en temps réel, y compris lorsque les réseaux terrestres sont endommagés [6].</p><p class="impact"><strong>Bénéfice attendu :</strong> renforcer la réponse connectée aux situations d’urgence.</p></div></article>
+        <article class="story innovation"><div class="story-top"></div><div class="story-body"><span class="tag">Passager · Boston Logan</span><h3>Amelia, un hologramme d’intelligence artificielle</h3><p>Déployé dans neuf emplacements, l’avatar fournit itinéraires, informations bagages, cartes et temps d’attente. Il est multilingue, accessible et peut mettre le voyageur en relation avec un agent humain [7].</p><p class="impact"><strong>Bénéfice attendu :</strong> compléter l’accueil humain et rendre l’orientation plus accessible.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="pedagogie">
+      <div class="lower-grid">
+        <article class="panel"><p class="kicker">🎓 Le coin pédagogique</p><h3>Le CBTA, en bref</h3><p>Le <em>Competency-Based Training and Assessment</em> (CBTA), ou formation et évaluation fondées sur les compétences, vise les capacités concrètes nécessaires à un métier. Pour les pilotes, il développe et observe notamment la décision, la communication et la gestion des situations. Il ne se limite donc pas au seul temps de formation [5].</p><div class="definition"><strong>À retenir :</strong> une formation qui rapproche l’apprentissage des compétences réellement requises en exploitation.</div></article>
+        <article class="panel international" id="international"><p class="kicker">🌍 Tour de contrôle international</p><span class="tag">Inde · 3 sept.</span><h3>FLY91 confirme 40 ATR 72-600</h3><p>La compagnie régionale FLY91 a signé une commande ferme de 40 ATR 72-600, confirmée par ATR. Les livraisons sont prévues de 2027 à 2032, pour une valeur catalogue avoisinant 1 milliard de dollars [9].</p><div class="definition"><strong>Impact :</strong> soutenir les liaisons vers de petites villes, adaptées aux turbopropulseurs sur trajets courts.</div></article>
+      </div>
+    </section>
+
+    <section class="section takeaways">
+      <h2>🎤 L’essentiel à retenir</h2>
+      <ul><li><span class="check">✓</span><span>La panne de NATS montre la vulnérabilité de toute la chaîne aérienne à un incident de traitement des données de vol [1] [2].</span></li><li><span class="check">✓</span><span>En Indonésie comme à Miami, l’exploitation fait face à des risques distincts : cendres volcaniques et sortie de piste [3] [4].</span></li><li><span class="check">✓</span><span>Formation par compétences, secours connectés et IA d’accueil sont les trois axes d’innovation de la semaine [5] [6] [7].</span></li></ul>
+    </section>
+
+    <section class="sources" id="sources"><h2>Sources</h2><ol><li><a href="https://www.reuters.com/world/uk/some-uk-departing-flights-disrupted-by-nats-technical-issue-heathrow-says-2026-09-08/">Reuters — Air traffic control issue disrupts flights at major UK airports</a></li><li><a href="https://www.nats.aero/news/technical-issue-causing-some-disruption-to-flight-departures/">NATS — Technical issue updates</a></li><li><a href="https://www.reuters.com/business/environment/indonesias-jakarta-airport-suspends-flights-due-ash-mount-anak-krakatau-2026-09-06/">Reuters — Indonesia's Anak Krakatau eruption halts flights, schools, fishing</a></li><li><a href="https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/">Reuters — Pilots considered aborting landing after touchdown in Miami cargo crash, NTSB says</a></li><li><a href="https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme">Airbus — All Nippon Airways selects Airbus for new flight training programme</a></li><li><a href="https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency">Airbus — Japan’s fire and disaster management agency orders first Airbus H160</a></li><li><a href="https://www.internationalairportreview.com/boston-logan-airport-introduces-ai-hologram-to-transform-passenger-wayfinding-and-accessibility/2136409.article">International Airport Review — Boston Logan Airport introduces Amelia AI hologram</a></li><li><a href="https://www.iata.org/en/pressroom/2026-releases/08-31-air-passenger-demand-grows-july/">IATA — Air Passenger Demand Grows 0.2% in July</a></li><li><a href="https://www.atr-aircraft.com/presspost/fly91-places-historic-order-for-40-atr-72-600-aircraft/">ATR — FLY91 Places Historic Order for 40 ATR 72-600 Aircraft</a></li></ol></section>
+  </main>
+  <footer>Le Briefing de Bord · Veille aéronautique hebdomadaire · Semaine du 2 au 9 septembre 2026</footer>
+</body>
+</html>
