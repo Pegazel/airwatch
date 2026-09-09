@@ -402,80 +402,64 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
 
 <script>
 async function loadAndRender() {
-  const response = await fetch('items.json');
-  const items = await response.json();
+  try {
+    const response = await fetch('items.json');
+    const items = await response.json();
 
-  function cardHTML(x) {
-    return `<article class="card">
-      <div class="card-img-wrap">
-        <img src="${x.img}" alt="${x.title}" loading="lazy">
-        <div class="signal">${x.cat.toUpperCase()}</div>
-      </div>
-      <div class="card-body">
-        <div class="badges"><span class="badge ${x.cat}">${x.label}</span><span class="badge">${x.fresh}</span></div>
-        <h3>${x.title}</h3>
-        <div class="meta"><span>⌖ ${x.city}</span><span>◷ ${x.src}</span></div>
-        <p class="summary">${x.copy}</p>
-        <div class="card-foot"><span>EN 10 SECONDES</span><a href="${x.url}" target="_blank" rel="noopener">SOURCE ↗</a></div>
-      </div>
-    </article>`;
+    const cards = document.querySelector('#cards');
+
+    function cardHTML(x) {
+      return `<article class="card">
+        <div class="card-img-wrap">
+          <img src="${x.img}" alt="${x.title}" loading="lazy">
+          <div class="signal">${x.cat.toUpperCase()}</div>
+        </div>
+        <div class="card-body">
+          <div class="badges"><span class="badge ${x.cat}">${x.label}</span><span class="badge">${x.fresh}</span></div>
+          <h3>${x.title}</h3>
+          <div class="meta"><span>⌖ ${x.city}</span><span>◷ ${x.src}</span></div>
+          <p class="summary">${x.copy}</p>
+          <div class="card-foot"><span>EN 10 SECONDES</span><a href="${x.url}" target="_blank" rel="noopener">SOURCE ↗</a></div>
+        </div>
+      </article>`;
+    }
+
+    function render(filter = 'all') {
+      cards.innerHTML = items.filter(x => filter === 'all' || x.cat === filter).map(cardHTML).join('');
+    }
+
+    render();
+
+    document.querySelectorAll('.filter').forEach(b => b.addEventListener('click', () => {
+      document.querySelectorAll('.filter').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      render(b.dataset.filter);
+    }));
+  } catch (err) {
+    console.error("Erreur lors du chargement du fichier JSON :", err);
   }
-
-  function render(filter='all'){
-    cards.innerHTML = items.filter(x => filter === 'all' || x.cat === filter).map(cardHTML).join('');
-  }
-
-  render();
-
-  document.querySelectorAll('.filter').forEach(b => b.addEventListener('click', () => {
-    document.querySelectorAll('.filter').forEach(x => x.classList.remove('active'));
-    b.classList.add('active');
-    render(b.dataset.filter);
-  }));
 }
 
+// Lancement du chargement des cartes
 loadAndRender();
 
-
-const cards=document.querySelector('#cards');
-
-function cardHTML(x){
-  return `<article class="card">
-    <div class="card-img-wrap">
-      <img src="${x.img}" alt="${x.title}" loading="lazy">
-      <div class="signal">${x.cat.toUpperCase()}</div>
-    </div>
-    <div class="card-body">
-      <div class="badges"><span class="badge ${x.cat}">${x.label}</span><span class="badge">${x.fresh}</span></div>
-      <h3>${x.title}</h3>
-      <div class="meta"><span>⌖ ${x.city}</span><span>◷ ${x.src}</span></div>
-      <p class="summary">${x.copy}</p>
-      <div class="card-foot"><span>EN 10 SECONDES</span><a href="${x.url}" target="_blank" rel="noopener">SOURCE ↗</a></div>
-    </div>
-  </article>`;
+// Gestion du Mode Radar (Sombre)
+const mode = document.querySelector('#mode');
+if (mode) {
+  mode.addEventListener('click', () => {
+    const radar = document.body.classList.toggle('radar');
+    mode.textContent = radar ? '◉ Vue éditoriale' : '◐ Mode radar';
+    mode.setAttribute('aria-pressed', String(radar));
+  });
 }
 
-function render(filter='all'){
-  cards.innerHTML=items.filter(x=>filter==='all'||x.cat===filter).map(cardHTML).join('');
-}
-render();
-
-document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{
-  document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));
-  b.classList.add('active');render(b.dataset.filter);
-}));
-
-const mode=document.querySelector('#mode');
-mode.addEventListener('click',()=>{
-  const radar=document.body.classList.toggle('radar');
-  mode.textContent=radar?'◉ Vue éditoriale':'◐ Mode radar';
-  mode.setAttribute('aria-pressed',String(radar));
-});
-
-const tooltip=document.querySelector('#tooltip');
-document.querySelectorAll('.marker').forEach(m=>m.addEventListener('click',()=>{
-  tooltip.classList.add('show');
-  tooltip.innerHTML=`<h4>${m.dataset.city}</h4><p>${m.dataset.copy}</p>`;
+// Gestion des tooltips de la carte
+const tooltip = document.querySelector('#tooltip');
+document.querySelectorAll('.marker').forEach(m => m.addEventListener('click', () => {
+  if (tooltip) {
+    tooltip.classList.add('show');
+    tooltip.innerHTML = `<h4>${m.dataset.city}</h4><p>${m.dataset.copy}</p>`;
+  }
 }));
 </script>
 </body>
