@@ -2,7 +2,9 @@ const Parser = require('rss-parser');
 const { OpenAI } = require('openai');
 const fs = require('fs');
 
-const parser = new Parser();
+const parser = new Parser({
+  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AirwatchBot/1.0)' }
+});
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const RSS_FEEDS = [
