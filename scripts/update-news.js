@@ -5,7 +5,6 @@ const fs = require('fs');
 const parser = new Parser();
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-// Liste de tes flux RSS aéronautiques préférés
 const RSS_FEEDS = [
   'https://www.air-journal.fr/feed',
   'https://www.flightglobal.com/rss/news',
@@ -19,6 +18,7 @@ async function run() {
   for (const url of RSS_FEEDS) {
     try {
       const feed = await parser.parseURL(url);
+      console.log(`OK — ${url} : ${feed.items.length} articles trouvés`);
       feed.items.slice(0, 5).forEach(item => {
         articles.push({
           title: item.title,
@@ -31,14 +31,20 @@ async function run() {
     }
   }
 
-  console.log(`${articles.length} articles récupérés. Envoi à l'IA...`);
+  console.log(`${articles.length} articles récupérés au total.`);
+
+  if (articles.length === 0) {
+    throw new Error("Aucun article récupéré depuis les flux RSS — arrêt.");
+  }
+
+  console.log("Envoi à l'IA...");
 
   const prompt = `
 Voici une liste d'articles d'actualité aéronautique récents :
 ${JSON.stringify(articles, null, 2)}
 
 Analyse ces articles et sélectionne les 8-10 actualités les plus pertinentes pour un média de veille aéronautique.
-Pour chaque article retenu, retourne un objet au format JSON respectant strictement la structure suivante :
+Pour chaque article retenu, retourne un objet respectant strictement la structure suivante :
 - cat : l'un des choix parmi ["securite", "technique", "meteo", "innovation", "industrie", "formation", "passager"]
 - label : la catégorie en majuscules (ex: "SÉCURITÉ", "INNOVATION")
 - fresh : une mention de temporalité (ex: "< 24 H · FLASH" ou "RÉCENT")
@@ -49,7 +55,7 @@ Pour chaque article retenu, retourne un objet au format JSON respectant strictem
 - url : le lien vers l'article d'origine
 - img : une URL d'image valide liée à l'article ou une image générique d'aviation
 
-Retourne UNIQUEMENT un tableau JSON valide sous la forme [ {...}, {...} ].
+Réponds UNIQUEMENT avec un objet JSON de cette forme exacte : {"items": [ {...}, {...} ]}
 `;
 
   const response = await openai.chat.completions.create({
@@ -58,15 +64,23 @@ Retourne UNIQUEMENT un tableau JSON valide sous la forme [ {...}, {...} ].
     response_format: { type: "json_object" }
   });
 
-  const output = JSON.parse(response.choices[0].message.content);
-  const newItems = Array.isArray(output) ? output : (output.items || output.articles || []);
+  const rawContent = response.choices[0].message.content;
+  console.log("Réponse brute de l'IA :", rawContent);
+
+  const output = JSON.parse(rawContent);
+  const newItems = output.items || [];
+
+  console.log(`${newItems.length} actualités extraites de la réponse IA.`);
 
   if (newItems.length > 0) {
     fs.writeFileSync('./items.json', JSON.stringify(newItems, null, 2));
     console.log("Fichier items.json mis à jour avec succès !");
   } else {
-    console.error("Aucun article généré par l'IA.");
+    throw new Error("Aucun article généré par l'IA — vérifier le format de la réponse ci-dessus.");
   }
 }
 
-run().catch(console.error);
+run().catch(err => {
+  console.error("Échec du script de veille :", err);
+  process.exit(1);
+});
