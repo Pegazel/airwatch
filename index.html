@@ -254,7 +254,7 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
 <nav>
   <a class="logo" href="#top">AIR<span>//</span>WATCH</a>
   <div class="navlinks">
-    <a href="#trafic">Le trafic</a><a href="#carte">La carte</a><a href="#tour">Tour de contrôle</a><a href="#briefing">Briefing</a>
+    <a href="#trafic">Le trafic</a><a href="#lab">Le laboratoire</a><a href="#carte">La carte</a><a href="#tour">Tour de contrôle</a><a href="#briefing">Briefing</a>
   </div>
   <div class="controls"><button class="pill" id="mode" aria-pressed="false">◐ Mode radar</button></div>
 </nav>
@@ -401,6 +401,10 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
 </footer>
 
 <script>
+// Image de secours affichée si l'URL fournie par items.json ne charge pas
+// (lien mort, hotlinking bloqué, domaine changé, etc.)
+const DEFAULT_IMG = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Aircraft_in_flight.jpg/800px-Aircraft_in_flight.jpg';
+
 async function loadAndRender() {
   try {
     const response = await fetch('items.json');
@@ -409,9 +413,10 @@ async function loadAndRender() {
     const cards = document.querySelector('#cards');
 
     function cardHTML(x) {
+      const imgSrc = x.img && x.img.trim() ? x.img : DEFAULT_IMG;
       return `<article class="card">
         <div class="card-img-wrap">
-          <img src="${x.img}" alt="${x.title}" loading="lazy">
+          <img src="${imgSrc}" alt="${x.title}" loading="lazy" onerror="this.onerror=null;this.src='${DEFAULT_IMG}';">
           <div class="signal">${x.cat.toUpperCase()}</div>
         </div>
         <div class="card-body">
