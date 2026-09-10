@@ -163,7 +163,7 @@ Réponds UNIQUEMENT avec un objet JSON valide de la forme :
 `;
 
   const response = await generateContentWithRetry({
-    model: 'gemini-flash-latest', // alias toujours redirigé vers le dernier modèle stable
+    model: 'gemini-3.6-flash',
     contents: prompt,
     config: { responseMimeType: 'application/json' }
   });
