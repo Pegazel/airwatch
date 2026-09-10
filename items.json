@@ -122,5 +122,69 @@
       "url": "https://internationalairportreview.com/boston-logan-airport-introduces-ai-hologram-to-transform-passenger-wayfinding-and-accessibility/2136409.article",
       "img": "https://www.bostonglobe.com/resizer/v2/SVFADX3FD5CWXACSUSWAJHVCVE.JPG?auth=de82a8608690937ed6d2dc83586678aeed01d10378375ada05470e4e7f8b3a6c"
     }
+  ],
+  "lexicon": [
+    {
+      "term": "Remise de gaz",
+      "def": "Procédure par laquelle l’équipage interrompt l’atterrissage et reprend de l’altitude lorsqu’une approche n’est plus jugée suffisamment sûre."
+    },
+    {
+      "term": "Déroutement",
+      "def": "Lorsqu’un avion change de destination prévue pour atterrir sur un autre aéroport."
+    },
+    {
+      "term": "CBTA",
+      "def": "Competency-Based Training and Assessment : une approche qui forme et évalue les compétences concrètement nécessaires à l’exploitation."
+    },
+    {
+      "term": "EMAS",
+      "def": "Engineered Materials Arresting System : système destiné à ralentir un avion qui sortirait d’une piste, installé sur certains aérodromes."
+    }
+  ],
+  "stat": {
+    "big": "+0,2%",
+    "text": "L’IATA indique que la demande mondiale de transport aérien a progressé de 0,2 % en juillet 2026. Ici, le chiffre sert d’objet éditorial : il doit toujours être lu avec sa source et son périmètre."
+  },
+  "sources": [
+    {
+      "label": "NATS — Incident technique, 9 sept.",
+      "url": "https://www.nats.aero/news/technical-issue-causing-some-disruption-to-flight-departures/"
+    },
+    {
+      "label": "Reuters — Panne du contrôle aérien britannique, 9 sept.",
+      "url": "https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/"
+    },
+    {
+      "label": "Reuters — Crash cargo à Miami, 9 sept.",
+      "url": "https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/"
+    },
+    {
+      "label": "FAA — Déclarations accidents / incidents",
+      "url": "https://www.faa.gov/newsroom/statements/accident_incidents"
+    },
+    {
+      "label": "FAA — Pénalités contre Boeing",
+      "url": "https://www.faa.gov/newsroom/faa-proposes-31-million-fines-against-boeing"
+    },
+    {
+      "label": "Textron Aviation — Starlink sur Hawker, 8 sept.",
+      "url": "https://media.txtav.com/270132-hawker-operators-gain-access-to-high-speed-starlink-connectivity-through-textron-aviation-customer-support-network/"
+    },
+    {
+      "label": "Airbus — H160 de secours au Japon",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency"
+    },
+    {
+      "label": "Airbus — ANA / formation pilotes",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme"
+    },
+    {
+      "label": "Airbus — AIRCAIRO commande 15 A320neo",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-aircairo-places-order-for-15-airbus-a320neo-aircraft"
+    },
+    {
+      "label": "Licence de la carte — CC BY-SA 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5/"
+    }
   ]
 }

@@ -344,7 +344,7 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
   <div class="split">
     <div class="panel">
       <h3>Bon à savoir</h3>
-      <div class="lexicon">
+      <div class="lexicon" id="lexicon">
         <div class="term"><b>Remise de gaz</b><span>Procédure par laquelle l’équipage interrompt l’atterrissage et reprend de l’altitude lorsqu’une approche n’est plus jugée suffisamment sûre.</span></div>
         <div class="term"><b>Déroutement</b><span>Lorsqu’un avion change de destination prévue pour atterrir sur un autre aéroport.</span></div>
         <div class="term"><b>CBTA</b><span>Competency-Based Training and Assessment : une approche qui forme et évalue les compétences concrètement nécessaires à l’exploitation.</span></div>
@@ -352,10 +352,10 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
       </div>
     </div>
     <div class="panel stat">
-      <div class="big">+0,2%</div>
+      <div class="big" id="statBig">+0,2%</div>
       <div>
         <h3 style="margin:0 0 6px; font-size:20px;">Le chiffre de la semaine</h3>
-        <p class="summary" style="margin:0;">L’IATA indique que la demande mondiale de transport aérien a progressé de 0,2 % en juillet 2026. Ici, le chiffre sert d’objet éditorial : il doit toujours être lu avec sa source et son périmètre.</p>
+        <p class="summary" id="statText" style="margin:0;">L’IATA indique que la demande mondiale de transport aérien a progressé de 0,2 % en juillet 2026. Ici, le chiffre sert d’objet éditorial : il doit toujours être lu avec sa source et son périmètre.</p>
       </div>
     </div>
   </div>
@@ -378,7 +378,7 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
   </div>
   <div class="sources">
     <div class="panel">
-      <ul>
+      <ul id="sourcesCol1">
         <li><a href="https://www.nats.aero/news/technical-issue-causing-some-disruption-to-flight-departures/" target="_blank" rel="noopener">NATS — Technical issue updates</a></li>
         <li><a href="https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/" target="_blank" rel="noopener">Reuters — UK air traffic outage, 9 Sept.</a></li>
         <li><a href="https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/" target="_blank" rel="noopener">Reuters — Miami cargo crash, 9 Sept.</a></li>
@@ -387,7 +387,7 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
       </ul>
     </div>
     <div class="panel">
-      <ul>
+      <ul id="sourcesCol2">
         <li><a href="https://media.txtav.com/270132-hawker-operators-gain-access-to-high-speed-starlink-connectivity-through-textron-aviation-customer-support-network/" target="_blank" rel="noopener">Textron Aviation — Starlink for Hawker, 8 Sept.</a></li>
         <li><a href="https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency" target="_blank" rel="noopener">Airbus — H160 de secours au Japon</a></li>
         <li><a href="https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme" target="_blank" rel="noopener">Airbus — ANA / programme de formation pilotes</a></li>
@@ -464,6 +464,38 @@ async function loadAndRender() {
     }
 
     render();
+
+    // ----- "Bon à savoir" : lexique généré par l'IA chaque semaine -----
+    const lexicon = Array.isArray(data.lexicon) ? data.lexicon : [];
+    if (lexicon.length > 0) {
+      const lexiconEl = document.querySelector('#lexicon');
+      if (lexiconEl) {
+        lexiconEl.innerHTML = lexicon.map(t =>
+          `<div class="term"><b>${t.term}</b><span>${t.def}</span></div>`
+        ).join('');
+      }
+    }
+
+    // ----- Le chiffre de la semaine (généré par l'IA) -----
+    if (data.stat && data.stat.big) {
+      const bigEl = document.querySelector('#statBig');
+      const textEl = document.querySelector('#statText');
+      if (bigEl) bigEl.textContent = data.stat.big;
+      if (textEl && data.stat.text) textEl.textContent = data.stat.text;
+    }
+
+    // ----- Sources des actualités (5e partie), mises à jour par l'IA -----
+    const sources = Array.isArray(data.sources) ? data.sources : [];
+    if (sources.length > 0) {
+      const mkList = arr => arr.map(s =>
+        `<li><a href="${s.url}" target="_blank" rel="noopener">${s.label}</a></li>`
+      ).join('');
+      const half = Math.ceil(sources.length / 2);
+      const col1 = document.querySelector('#sourcesCol1');
+      const col2 = document.querySelector('#sourcesCol2');
+      if (col1) col1.innerHTML = mkList(sources.slice(0, half));
+      if (col2) col2.innerHTML = mkList(sources.slice(half));
+    }
 
     document.querySelectorAll('.filter').forEach(b => b.addEventListener('click', () => {
       document.querySelectorAll('.filter').forEach(x => x.classList.remove('active'));
