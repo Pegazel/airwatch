@@ -122,28 +122,48 @@ Voici une liste d'articles d'actualité aéronautique récents. Chaque article p
 d'origine, soit null si aucune image n'a été trouvée :
 ${JSON.stringify(articles, null, 2)}
 
-Analyse ces articles et sélectionne les 8-10 actualités les plus pertinentes pour un média de veille aéronautique.
-Pour chaque article retenu, retourne un objet respectant strictement la structure suivante :
-- cat : l'un des choix parmi ["securite", "technique", "meteo", "innovation", "industrie", "formation", "passager"]
-- label : la catégorie en majuscules (ex: "SÉCURITÉ", "INNOVATION")
-- fresh : une mention de temporalité (ex: "< 24 H · FLASH" ou "RÉCENT")
-- title : titre court et percutant en français
-- city : lieu principal ou zone géographique + date courte (ex: "France · 9 sept.")
-- copy : résumé clair et pédagogique de 2 phrases maximum en français
-- src : le média d'origine
-- url : le lien vers l'article d'origine
-- img : recopie EXACTEMENT la valeur du champ "realImage" de l'article correspondant, sans la modifier
-  et sans en inventer une autre. Si "realImage" vaut null, mets une chaîne vide "" pour "img".
+Analyse ces articles et produis un objet JSON avec exactement 4 clés :
 
-IMPORTANT : n'invente jamais d'URL d'image, ne complète jamais une image manquante par une image
-générique trouvée sur Unsplash ou ailleurs. Le champ "img" doit être soit une copie exacte de
-"realImage", soit une chaîne vide.
+1. "items" : les 8-10 actualités les plus pertinentes pour un média de veille aéronautique.
+   Chaque objet respecte STRICTEMENT cette structure :
+   - cat : l'un des choix parmi ["securite", "technique", "meteo", "innovation", "industrie", "formation", "passager"]
+   - label : la catégorie en majuscules (ex: "SÉCURITÉ", "INNOVATION")
+   - fresh : une mention de temporalité (ex: "< 24 H · FLASH" ou "RÉCENT")
+   - title : titre court et percutant en français
+   - city : lieu principal ou zone géographique + date courte (ex: "France · 9 sept.")
+   - copy : résumé clair et pédagogique de 2 phrases maximum en français
+   - src : le média d'origine
+   - url : le lien vers l'article d'origine
+   - img : recopie EXACTEMENT la valeur du champ "realImage" de l'article correspondant, sans la modifier
+     et sans en inventer une autre. Si "realImage" vaut null, mets une chaîne vide "" pour "img".
 
-Réponds UNIQUEMENT avec un tableau JSON valide sous la forme [ {...}, {...} ].
+2. "lexicon" : 4 termes techniques ou mots un peu compliqués apparus dans ces actualités,
+   avec pour chacun :
+   - "term" : le mot ou sigle (ex: "Remise de gaz", "CBTA", "EMAS")
+   - "def" : une définition pédagogique d'environ 2 phrases, en français, compréhensible par un néophyte.
+
+3. "stat" : LE chiffre marquant de la semaine tiré de ces actualités :
+   - "big" : le chiffre formaté court (ex: "+0,2%", "15", "6 M€")
+   - "text" : 2 phrases maximum qui contextualisent le chiffre (source, périmètre, pourquoi il compte).
+
+4. "sources" : 6 à 10 liens vers les sources ORIGINALES citées par ces actualités
+   (communiqués officiels, régulateurs, agences de presse), avec pour chacun :
+   - "label" : un libellé court en français (ex: "NATS — Incident technique, 9 sept.")
+   - "url" : le lien exact de la source
+
+IMPORTANT pour "items" : n'invente jamais d'URL d'image, ne complète jamais une image manquante
+par une image générique trouvée sur Unsplash ou ailleurs. Le champ "img" doit être soit une
+copie exacte de "realImage", soit une chaîne vide.
+
+IMPORTANT pour "lexicon", "stat" et "sources" : ne reprends QUE ce qui se trouve réellement
+dans les articles fournis. N'invente aucun chiffre, aucune définition, aucun lien.
+
+Réponds UNIQUEMENT avec un objet JSON valide de la forme :
+{ "items": [...], "lexicon": [...], "stat": { "big": "...", "text": "..." }, "sources": [...] }
 `;
 
   const response = await generateContentWithRetry({
-    model: 'gemini-3.6-flash',
+    model: 'gemini-flash-latest', // alias toujours redirigé vers le dernier modèle stable
     contents: prompt,
     config: { responseMimeType: 'application/json' }
   });
@@ -151,7 +171,11 @@ Réponds UNIQUEMENT avec un tableau JSON valide sous la forme [ {...}, {...} ].
   const rawContent = response.text;
   console.log("Réponse brute de l'IA :", rawContent);
 
-  const newItems = JSON.parse(rawContent);
+  const parsed = JSON.parse(rawContent);
+
+  // Compatibilité : l'IA peut renvoyer directement un tableau (ancien format)
+  // ou l'objet complet { items, lexicon, stat, sources } demandé.
+  const newItems = Array.isArray(parsed) ? parsed : (parsed.items || []);
 
   console.log(`${newItems.length} actualités extraites de la réponse IA.`);
 
@@ -171,11 +195,28 @@ Réponds UNIQUEMENT avec un tableau JSON valide sous la forme [ {...}, {...} ].
   });
 
   // On emballe les actualités avec la date de génération : le site affichera
-  // automatiquement la date de dernière actualisation.
+  // automatiquement la date de dernière actualisation, le lexique, le chiffre
+  // de la semaine et les sources.
   const payload = {
     updated: new Date().toISOString(),
     items: finalItems
   };
+
+  // Champs éditoriaux générés par l'IA — on ne garde que ce qui est exploitable,
+  // sinon le site conserve son contenu statique par défaut.
+  if (Array.isArray(parsed.lexicon) && parsed.lexicon.length > 0) {
+    payload.lexicon = parsed.lexicon
+      .filter(t => t && typeof t.term === 'string' && typeof t.def === 'string')
+      .slice(0, 6);
+  }
+  if (parsed.stat && typeof parsed.stat.big === 'string' && parsed.stat.big.trim() !== '') {
+    payload.stat = { big: parsed.stat.big.trim(), text: String(parsed.stat.text || '') };
+  }
+  if (Array.isArray(parsed.sources) && parsed.sources.length > 0) {
+    payload.sources = parsed.sources
+      .filter(s => s && typeof s.url === 'string' && /^https?:\/\//.test(s.url))
+      .slice(0, 12);
+  }
 
   fs.writeFileSync('./items.json', JSON.stringify(payload, null, 2));
   console.log("Fichier items.json mis à jour avec succès !");
