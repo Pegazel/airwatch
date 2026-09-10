@@ -1,35 +1,101 @@
 [
   {
-    "cat":"securite","label":"SÉCURITÉ","fresh":"< 24 H · FLASH","title":"Panne NATS : les perturbations se prolongent au Royaume-Uni","city":"Royaume-Uni · 9 sept.","copy":"Le système de traitement des données de vol de NATS a provoqué une nouvelle journée de perturbations. Les vols reprennent progressivement mais les effets en cascade persistent. Une cyberattaque a été écartée par NATS.","src":"Reuters / NATS","url":"https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/","img":"https://img.lemde.fr/2026/09/09/1/0/5000/3333/1440/960/60/0/d18c54a_ftp-1-9zkd9v0grmmd-5032403-01-06.jpg"
+    "cat": "securite",
+    "label": "SÉCURITÉ",
+    "fresh": "< 24 H · FLASH",
+    "title": "Crash Amazon à Miami : un pilote signale une vitesse excessive",
+    "city": "Miami · 10 sept.",
+    "copy": "Selon le NTSB, l'un des pilotes du Boeing 767-300F avait prévenu à plusieurs reprises de la vitesse trop élevée avant la sortie de piste. L'alerte a été enregistrée dans la dernière minute et demi du vol.",
+    "src": "Air Journal",
+    "url": "https://www.air-journal.fr/2026-09-10-crash-amazon-a-miami-un-pilote-du-boeing-767-300f-avait-signale-une-vitesse-excessive-5277410.html",
+    "img": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
   },
   {
-    "cat":"securite","label":"SÉCURITÉ","fresh":"< 24 H · ENQUÊTE","title":"Miami : le NTSB analyse une remise de gaz après le toucher","city":"Miami · 9 sept.","copy":"Le vol cargo 21 Air / Amazon Prime Air a dépassé la piste. Les données indiquent une hausse de poussée compatible avec une tentative de remise de gaz, puis une réduction des gaz. Les causes restent sous enquête.","src":"Reuters / NTSB","url":"https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/","img":"https://actu-aero.fr/wp-content/uploads/2026/09/Falcon-2000-LXS-Albatros-Marine-nationale-DGA-Sept-2026.jpg"
+    "cat": "technique",
+    "label": "TECHNIQUE",
+    "fresh": "< 24 H · FLASH",
+    "title": "Panne du contrôle aérien britannique : la cyberattaque écartée",
+    "city": "Royaume-Uni · 10 sept.",
+    "copy": "Une défaillance technique majeure a provoqué l'annulation de plus de 2 100 vols en deux jours. Le gestionnaire NATS exclut une attaque informatique, tandis qu'une enquête gouvernementale a été ouverte.",
+    "src": "Air Journal",
+    "url": "https://www.air-journal.fr/2026-09-10-panne-du-controle-aerien-au-royaume-uni-british-airways-et-ryanair-touchees-cyberattaque-exclue-5277406.html",
+    "img": "https://images.unsplash.com/photo-1508873696983-2df515122519"
   },
   {
-    "cat":"securite","label":"SÉCURITÉ","fresh":"7 JOURS · À SUIVRE","title":"Boeing : 3,1 M$ de pénalités après des violations de sécurité","city":"États-Unis · 2 sept.","copy":"La FAA a confirmé que Boeing avait payé en janvier 2026 la pénalité maximale recherchée dans un dossier portant sur des centaines de violations de qualité et de sécurité relevées en production.","src":"FAA / Reuters","url":"https://www.faa.gov/newsroom/faa-proposes-31-million-fines-against-boeing","img":"https://aeroaffaires.fr/wp-content/uploads/2022/01/logo-boeing-credit-flickr.jpeg"
+    "cat": "innovation",
+    "label": "INNOVATION",
+    "fresh": "RÉCENT",
+    "title": "La France apporte son soutien au programme spatial VORTEX de Dassault",
+    "city": "France · 10 sept.",
+    "copy": "Le gouvernement français élargit son soutien au projet d'avion spatial réutilisable VORTEX développé par Dassault Aviation. Cet engagement dépasse le cadre du simple démonstrateur technologique initial.",
+    "src": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/france-backs-dassault-vortex-reusable-spaceplane-program",
+    "img": "https://images.unsplash.com/photo-1517976487192-5754f72128f2"
   },
   {
-    "cat":"technique","label":"TECHNIQUE","fresh":"< 24 H · NOUVEAU","title":"Bird strike et incidents de flotte suivis par la FAA","city":"États-Unis · 8 sept.","copy":"La FAA a notamment signalé un Boeing 737 MAX 8 ayant atterri en sécurité après un impact aviaire au départ de Ronald Reagan Washington National Airport.","src":"FAA","url":"https://www.faa.gov/newsroom/statements/accident_incidents","img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTvSZJvBrl6sy19Pf0mzxJdYPfnUtfLD-1-YhfAh_3ehXFca2UteTim2Y&s=10"
+    "cat": "industrie",
+    "label": "INDUSTRIE",
+    "fresh": "RÉCENT",
+    "title": "EasyJet poursuivie à Londres pour 72 millions $ liés à la Russie",
+    "city": "Londres · 10 sept.",
+    "copy": "Une structure liée au loueur public russe GTLK réclame 72 millions de dollars à la compagnie britannique devant la justice. Le litige porte sur six Airbus A319 retirés de location suite aux sanctions de 2022.",
+    "src": "Air Journal",
+    "url": "https://www.air-journal.fr/2026-09-10-easyjet-face-a-un-contentieux-de-72-millions-de-dollars-sur-six-a319-lies-a-la-russie-5277403.html",
+    "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
   },
   {
-    "cat":"meteo","label":"ENVIRONNEMENT","fresh":"3 JOURS · RÉCENT","title":"Les cendres de l’Anak Krakatau perturbent huit aéroports","city":"Indonésie · 6 sept.","copy":"L’éruption a suspendu des opérations, notamment à Jakarta. Le ministère des Transports a fait état de centaines de vols affectés et de conséquences importantes pour les passagers.","src":"Reuters","url":"https://www.reuters.com/business/environment/indonesias-jakarta-airport-suspends-flights-due-ash-mount-anak-krakatau-2026-09-06/","img":"https://cdn-s-www.bienpublic.com/images/DAAE6B09-5888-4799-883D-4D0C97FB62CC/FB1200/photo-1788696246.jpg"
+    "cat": "securite",
+    "label": "SÉCURITÉ",
+    "fresh": "< 24 H · FLASH",
+    "title": "Air Force One : retard au décollage après un problème de toboggan",
+    "city": "Washington · 10 sept.",
+    "copy": "Un toboggan d'évacuation s'est déployé involontairement sur le Boeing 747-8 temporaire du président américain avant son vol vers Dallas. L'incident a nécessité des vérifications techniques complètes.",
+    "src": "Air Journal",
+    "url": "https://www.air-journal.fr/2026-09-10-air-force-one-qatari-donald-trump-retarde-au-depart-par-un-incident-de-toboggan-5277409.html",
+    "img": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a"
   },
   {
-    "cat":"industrie","label":"INDUSTRIE","fresh":"2 JOURS · RÉCENT","title":"AIRCAIRO signe pour 15 Airbus A320neo","city":"Égypte · 8 sept.","copy":"La compagnie égyptienne a signé sa première commande ferme directe auprès d’Airbus. L’accord doit soutenir une forte croissance de flotte et du réseau.","src":"Airbus","url":"https://www.airbus.com/en/newsroom/press-releases/2026-09-aircairo-places-order-for-15-airbus-a320neo-aircraft","img":"https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=600&q=80"
+    "cat": "technique",
+    "label": "TECHNIQUE",
+    "fresh": "RÉCENT",
+    "title": "Le Bombardier Global 8000 approuvé à London City",
+    "city": "Londres · 10 sept.",
+    "copy": "L'autorité d'aviation civile britannique a accordé la certification nécessaire pour l'atterrissage sur la piste courte de London City. Le biréacteur confirme ainsi ses capacités d'approche à forte pente.",
+    "src": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/bombardier-global-8000-london-city-airport-approval",
+    "img": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
   },
   {
-    "cat":"innovation","label":"INNOVATION","fresh": " < 24 H · NOUVEAU","title":"Kepplair Evolution lève 6 M€ pour accélérer le Kepplair 72","city":"France · 9 sept.","copy":"Quelques jours après ses premiers vols d’essai pré-modification, la société annonce 6 M€ supplémentaires. Le financement doit soutenir le développement, les essais, la certification EASA et la préparation industrielle.","src":"Kepplair Evolution","url":"https://find.50skyshades.com/news/finance/kepplair-evolution-accelerates-its-growth-with-a-new-6-million-funding-round-bringing-the-total-funding-raised-to-175-million","img":"https://actu-aero.fr/wp-content/uploads/2026/05/Kepplair_72_Kepplair_Evolution_2.jpg"
+    "cat": "securite",
+    "label": "SÉCURITÉ",
+    "fresh": "RÉCENT",
+    "title": "Visez les hélicoptères sanitaires avec un laser peut être catastrophique",
+    "city": "Royaume-Uni · 10 sept.",
+    "copy": "La CAA britannique alerte sur les attaques par pointeurs laser ciblant les ambulances aériennes en mission. Ces éblouissements font courir des risques d'accident très graves aux équipages.",
+    "src": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/caa-air-ambulances-laser-catastrophic-incident",
+    "img": "https://images.unsplash.com/photo-1508873696983-2df515122519"
   },
   {
-    "cat":"innovation","label":"INNOVATION","fresh":"1–3 JOURS · RÉCENT","title":"Starlink arrive sur les Hawker 700 / 800 / 900","city":"États-Unis · 8 sept.","copy":"Le haut débit Starlink est désormais proposé sur ces séries Hawker après l’obtention d’un STC FAA. L’objectif est une connectivité plus fiable, y compris au-dessus des zones isolées.","src":"Textron Aviation","url":"https://media.txtav.com/270132-hawker-operators-gain-access-to-high-speed-starlink-connectivity-through-textron-aviation-customer-support-network/","img":"https://s.yimg.com/lo/mysterio/api/06840e9c563e183354efc8dbe135f361f49e2146115c37307cb8ad6e64273c7f/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finteresting_engineering_646%2F16258030ff219657756ec14521b35a11.jpg"
+    "cat": "passager",
+    "label": "PASSAGER",
+    "fresh": "RÉCENT",
+    "title": "EgyptAir s'implante à Stockholm au départ du Caire dès fin 2026",
+    "city": "Le Caire · 10 sept.",
+    "copy": "La compagnie égyptienne proposera quatre liaisons hebdomadaires permanentes entre Le Caire et l'aéroport d'Arlanda à partir de décembre 2026. Les vols seront opérés en Airbus A321neo.",
+    "src": "Air Journal",
+    "url": "https://www.air-journal.fr/2026-09-10-egyptair-ouvre-une-nouvelle-ligne-entre-le-caire-et-stockholm-5277404.html",
+    "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
   },
   {
-    "cat":"innovation","label":"INNOVATION","fresh":"1–7 JOURS · RÉCENT","title":"Un H160 connecté pour les secours au Japon","city":"Kumamoto · 3 sept.","copy":"L’agence japonaise de gestion des incendies et catastrophes a commandé un Airbus H160 pour la reconnaissance aérienne et la collecte d’images en temps réel lors de catastrophes.","src":"Airbus","url":"https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency","img":"https://www.journal-aviation.com/storage/2025/10/H160-Hiroshima-750x375.jpg"
-  },
-  {
-    "cat":"formation","label":"FORMATION","fresh":"1–7 JOURS · RÉCENT","title":"ANA et Airbus lancent une filière pilote basée sur les compétences","city":"Japon · 2 sept.","copy":"La première promotion doit compter 19 cadets formés sans expérience de vol jusqu’à la licence, avec une approche alignée sur le CBTA.","src":"Airbus","url":"https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme","img":"https://www.air-journal.fr/wp-content/uploads/Air-Journal-Airbus-A380-ANA-source-Narita-Airport.jpg"
-  },
-  {
-    "cat":"passager","label":"PASSAGER · IA","fresh":"1–7 JOURS · RÉCENT","title":"Amelia, l’hologramme IA qui guide les voyageurs à Boston Logan","city":"Boston · semaine du 2 sept.","copy":"Déployée dans neuf emplacements, Amelia fournit itinéraires, informations bagages, cartes et temps d’attente, avec possibilité de passer la main à un agent humain.","src":"International Airport Review","url":"https://internationalairportreview.com/boston-logan-airport-introduces-ai-hologram-to-transform-passenger-wayfinding-and-accessibility/2136409.article","img":"https://www.bostonglobe.com/resizer/v2/SVFADX3FD5CWXACSUSWAJHVCVE.JPG?auth=de82a8608690937ed6d2dc83586678aeed01d10378375ada05470e4e7f8b3a6c"
+    "cat": "industrie",
+    "label": "INDUSTRIE",
+    "fresh": "RÉCENT",
+    "title": "Défense : Boeing et Anduril franchissent une étape avec l'US Army",
+    "city": "États-Unis · 10 sept.",
+    "copy": "L'armée américaine a sélectionné le tandem Boeing-Anduril pour passer en Phase 2 du programme d'intercepteur IFPC. Ce projet vise à renforcer les capacités de défense antiaérienne tactique.",
+    "src": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/boeing-anduril-interceptor-us-army-ifpc-phase-2",
+    "img": "https://images.unsplash.com/photo-1517976487192-5754f72128f2"
   }
 ]
