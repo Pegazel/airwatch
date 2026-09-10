@@ -170,7 +170,14 @@ Réponds UNIQUEMENT avec un tableau JSON valide sous la forme [ {...}, {...} ].
     };
   });
 
-  fs.writeFileSync('./items.json', JSON.stringify(finalItems, null, 2));
+  // On emballe les actualités avec la date de génération : le site affichera
+  // automatiquement la date de dernière actualisation.
+  const payload = {
+    updated: new Date().toISOString(),
+    items: finalItems
+  };
+
+  fs.writeFileSync('./items.json', JSON.stringify(payload, null, 2));
   console.log("Fichier items.json mis à jour avec succès !");
 }
 
