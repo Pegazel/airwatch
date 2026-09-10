@@ -2,8 +2,17 @@ const Parser = require('rss-parser');
 const { GoogleGenAI } = require('@google/genai');
 const fs = require('fs');
 
+// customFields permet à rss-parser de remonter les balises media:content /
+// media:thumbnail que le parseur n'expose pas par défaut, en plus de
+// l'"enclosure" déjà gérée nativement.
 const parser = new Parser({
-  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AirwatchBot/1.0)' }
+  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AirwatchBot/1.0)' },
+  customFields: {
+    item: [
+      ['media:content', 'mediaContent', { keepArray: true }],
+      ['media:thumbnail', 'mediaThumbnail', { keepArray: true }]
+    ]
+  }
 });
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
@@ -13,8 +22,46 @@ const RSS_FEEDS = [
   'https://www.aerotime.aero/feed'
 ];
 
+// Images de secours fiables (Wikimedia Commons, liens stables) utilisées
+// quand aucune image exploitable n'a été trouvée dans le flux RSS.
+// L'IA ne choisit JAMAIS elle-même une image : elle ne fait que reprendre
+// l'URL réelle qu'on lui fournit, ou "" si on n'en a pas trouvé.
+const FALLBACK_IMAGES = {
+  securite: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Air_Traffic_Control_Tower.jpg/800px-Air_Traffic_Control_Tower.jpg',
+  technique: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Airplane_engine.jpg/800px-Airplane_engine.jpg',
+  meteo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Cumulonimbus_cloud.jpg/800px-Cumulonimbus_cloud.jpg',
+  innovation: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Airbus_A350-900_MSN_002_F-WWCF.jpg/800px-Airbus_A350-900_MSN_002_F-WWCF.jpg',
+  industrie: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Airbus_A320neo_%28cropped%29.jpg/800px-Airbus_A320neo_%28cropped%29.jpg',
+  formation: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cockpit_training.jpg/800px-Cockpit_training.jpg',
+  passager: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Airport_departure_hall.jpg/800px-Airport_departure_hall.jpg',
+  default: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Aircraft_in_flight.jpg/800px-Aircraft_in_flight.jpg'
+};
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Essaie de récupérer une vraie image liée à l'article, dans l'ordre :
+// enclosure (standard RSS) -> media:content -> media:thumbnail ->
+// première balise <img> trouvée dans le contenu HTML de l'article.
+function extractImage(item) {
+  if (item.enclosure && item.enclosure.url && /^https?:\/\//.test(item.enclosure.url)) {
+    return item.enclosure.url;
+  }
+  if (Array.isArray(item.mediaContent) && item.mediaContent.length > 0) {
+    const url = item.mediaContent[0]?.$?.url;
+    if (url) return url;
+  }
+  if (Array.isArray(item.mediaThumbnail) && item.mediaThumbnail.length > 0) {
+    const url = item.mediaThumbnail[0]?.$?.url;
+    if (url) return url;
+  }
+  const html = item['content:encoded'] || item.content || '';
+  const match = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+  if (match && /^https?:\/\//.test(match[1])) {
+    return match[1];
+  }
+  return null;
 }
 
 // Réessaie l'appel à l'API Gemini en cas d'erreur temporaire (503 = surcharge, 429 = quota)
@@ -50,7 +97,9 @@ async function run() {
         articles.push({
           title: item.title,
           link: item.link,
-          content: item.contentSnippet || item.content || ''
+          content: item.contentSnippet || item.content || '',
+          // image réelle trouvée dans le flux (ou null si aucune)
+          realImage: extractImage(item)
         });
       });
     } catch (e) {
@@ -59,6 +108,7 @@ async function run() {
   }
 
   console.log(`${articles.length} articles récupérés au total.`);
+  console.log(`${articles.filter(a => a.realImage).length} article(s) avec une image réelle détectée.`);
 
   if (articles.length === 0) {
     throw new Error("Aucun article récupéré depuis les flux RSS — arrêt.");
@@ -67,7 +117,9 @@ async function run() {
   console.log("Envoi à l'IA...");
 
   const prompt = `
-Voici une liste d'articles d'actualité aéronautique récents :
+Voici une liste d'articles d'actualité aéronautique récents. Chaque article possède un champ
+"realImage" qui contient soit l'URL réelle de l'image associée à l'article dans le flux RSS
+d'origine, soit null si aucune image n'a été trouvée :
 ${JSON.stringify(articles, null, 2)}
 
 Analyse ces articles et sélectionne les 8-10 actualités les plus pertinentes pour un média de veille aéronautique.
@@ -80,7 +132,12 @@ Pour chaque article retenu, retourne un objet respectant strictement la structur
 - copy : résumé clair et pédagogique de 2 phrases maximum en français
 - src : le média d'origine
 - url : le lien vers l'article d'origine
-- img : une URL d'image valide liée à l'article ou une image générique d'aviation
+- img : recopie EXACTEMENT la valeur du champ "realImage" de l'article correspondant, sans la modifier
+  et sans en inventer une autre. Si "realImage" vaut null, mets une chaîne vide "" pour "img".
+
+IMPORTANT : n'invente jamais d'URL d'image, ne complète jamais une image manquante par une image
+générique trouvée sur Unsplash ou ailleurs. Le champ "img" doit être soit une copie exacte de
+"realImage", soit une chaîne vide.
 
 Réponds UNIQUEMENT avec un tableau JSON valide sous la forme [ {...}, {...} ].
 `;
@@ -98,12 +155,23 @@ Réponds UNIQUEMENT avec un tableau JSON valide sous la forme [ {...}, {...} ].
 
   console.log(`${newItems.length} actualités extraites de la réponse IA.`);
 
-  if (Array.isArray(newItems) && newItems.length > 0) {
-    fs.writeFileSync('./items.json', JSON.stringify(newItems, null, 2));
-    console.log("Fichier items.json mis à jour avec succès !");
-  } else {
+  if (!Array.isArray(newItems) || newItems.length === 0) {
     throw new Error("Aucun article généré par l'IA — vérifier le format de la réponse ci-dessus.");
   }
+
+  // Filet de sécurité final : si l'IA a quand même renvoyé un champ "img"
+  // vide, invalide, ou pointant vers un domaine non http(s), on retombe sur
+  // l'image de secours fiable correspondant à la catégorie de l'article.
+  const finalItems = newItems.map(it => {
+    const hasValidImg = typeof it.img === 'string' && /^https?:\/\//.test(it.img.trim());
+    return {
+      ...it,
+      img: hasValidImg ? it.img.trim() : (FALLBACK_IMAGES[it.cat] || FALLBACK_IMAGES.default)
+    };
+  });
+
+  fs.writeFileSync('./items.json', JSON.stringify(finalItems, null, 2));
+  console.log("Fichier items.json mis à jour avec succès !");
 }
 
 run().catch(err => {
