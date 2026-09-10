@@ -2,9 +2,11 @@ name: Veille Aéronautique Hebdomadaire
 
 on:
   schedule:
-    # S'exécute tous les lundis à 07h00 UTC
     - cron: '0 7 * * 1'
-  workflow_dispatch: # Permet aussi de lancer la mise à jour manuellement en 1 clic sur GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-data:
