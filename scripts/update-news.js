@@ -13,6 +13,31 @@ const RSS_FEEDS = [
   'https://www.aerotime.aero/feed'
 ];
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Réessaie l'appel à l'API Gemini en cas d'erreur temporaire (503 = surcharge, 429 = quota)
+async function generateContentWithRetry(params, maxRetries = 4) {
+  let lastError;
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await ai.models.generateContent(params);
+    } catch (e) {
+      lastError = e;
+      const status = e.status || (e.error && e.error.code);
+      const isRetryable = status === 503 || status === 429 || status === 500;
+      if (!isRetryable || attempt === maxRetries) {
+        throw e;
+      }
+      const waitMs = 5000 * attempt; // 5s, 10s, 15s...
+      console.log(`Tentative ${attempt}/${maxRetries} échouée (${status}), nouvelle tentative dans ${waitMs / 1000}s...`);
+      await sleep(waitMs);
+    }
+  }
+  throw lastError;
+}
+
 async function run() {
   console.log("Récupération des flux RSS...");
   let articles = [];
@@ -60,7 +85,7 @@ Pour chaque article retenu, retourne un objet respectant strictement la structur
 Réponds UNIQUEMENT avec un tableau JSON valide sous la forme [ {...}, {...} ].
 `;
 
-  const response = await ai.models.generateContent({
+  const response = await generateContentWithRetry({
     model: 'gemini-3.6-flash',
     contents: prompt,
     config: { responseMimeType: 'application/json' }
