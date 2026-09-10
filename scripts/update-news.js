@@ -1,11 +1,11 @@
 const Parser = require('rss-parser');
-const { OpenAI } = require('openai');
+const { GoogleGenAI } = require('@google/genai');
 const fs = require('fs');
 
 const parser = new Parser({
   headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AirwatchBot/1.0)' }
 });
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const RSS_FEEDS = [
   'https://www.air-journal.fr/feed',
@@ -57,24 +57,23 @@ Pour chaque article retenu, retourne un objet respectant strictement la structur
 - url : le lien vers l'article d'origine
 - img : une URL d'image valide liée à l'article ou une image générique d'aviation
 
-Réponds UNIQUEMENT avec un objet JSON de cette forme exacte : {"items": [ {...}, {...} ]}
+Réponds UNIQUEMENT avec un tableau JSON valide sous la forme [ {...}, {...} ].
 `;
 
-  const response = await openai.chat.completions.create({
-    model: 'gpt-4o-mini',
-    messages: [{ role: 'user', content: prompt }],
-    response_format: { type: "json_object" }
+  const response = await ai.models.generateContent({
+    model: 'gemini-2.5-flash',
+    contents: prompt,
+    config: { responseMimeType: 'application/json' }
   });
 
-  const rawContent = response.choices[0].message.content;
+  const rawContent = response.text;
   console.log("Réponse brute de l'IA :", rawContent);
 
-  const output = JSON.parse(rawContent);
-  const newItems = output.items || [];
+  const newItems = JSON.parse(rawContent);
 
   console.log(`${newItems.length} actualités extraites de la réponse IA.`);
 
-  if (newItems.length > 0) {
+  if (Array.isArray(newItems) && newItems.length > 0) {
     fs.writeFileSync('./items.json', JSON.stringify(newItems, null, 2));
     console.log("Fichier items.json mis à jour avec succès !");
   } else {
