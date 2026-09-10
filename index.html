@@ -284,9 +284,9 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
   </div>
 </section>
 
-<div class="flash">
+<div class="flash" id="flashBar">
   <span>●</span>
-  <div><b>FLASH SÉCURITÉ</b> — Le système de traitement des données de vol de NATS a provoqué une nouvelle journée de perturbations au Royaume-Uni. <a href="#trafic">Voir le détail →</a></div>
+  <div><b>FLASH SÉCURITÉ</b> — <span id="flashText">Le système de traitement des données de vol de NATS a provoqué une nouvelle journée de perturbations au Royaume-Uni.</span> <a href="#trafic" id="flashLink">Voir le détail →</a></div>
 </div>
 
 <section id="trafic">
@@ -409,6 +409,18 @@ async function loadAndRender() {
   try {
     const response = await fetch('items.json');
     const items = await response.json();
+
+    // Bandeau FLASH SÉCURITÉ : on prend la 1ère actu de catégorie "securite"
+    // (Gemini classe déjà les actus par pertinence, donc la 1ère = la plus
+    // importante de la semaine). S'il n'y a aucune actu sécurité cette
+    // semaine, on laisse le texte par défaut déjà présent dans le HTML.
+    const flashItem = items.find(x => x.cat === 'securite');
+    if (flashItem) {
+      const flashText = document.querySelector('#flashText');
+      const flashLink = document.querySelector('#flashLink');
+      if (flashText) flashText.textContent = flashItem.title;
+      if (flashLink) flashLink.href = '#trafic';
+    }
 
     const cards = document.querySelector('#cards');
 
