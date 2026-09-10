@@ -1,190 +1,171 @@
 {
-  "updated": "2026-09-10T18:00:00.000Z",
+  "updated": "2026-09-10T18:54:46.341Z",
   "items": [
     {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
+      "cat": "passager",
+      "label": "PASSAGER",
       "fresh": "< 24 H · FLASH",
-      "title": "Panne NATS : les perturbations se prolongent au Royaume-Uni",
-      "city": "Royaume-Uni · 9 sept.",
-      "copy": "Le système de traitement des données de vol de NATS a provoqué une nouvelle journée de perturbations. Les vols reprennent progressivement mais les effets en cascade persistent. Une cyberattaque a été écartée par NATS.",
-      "src": "Reuters / NATS",
-      "url": "https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/",
-      "img": "https://img.lemde.fr/2026/09/09/1/0/5000/3333/1440/960/60/0/d18c54a_ftp-1-9zkd9v0grmmd-5032403-01-06.jpg"
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "< 24 H · ENQUÊTE",
-      "title": "Miami : le NTSB analyse une remise de gaz après le toucher",
-      "city": "Miami · 9 sept.",
-      "copy": "Le vol cargo 21 Air / Amazon Prime Air a dépassé la piste. Les données indiquent une hausse de poussée compatible avec une tentative de remise de gaz, puis une réduction des gaz. Les causes restent sous enquête.",
-      "src": "Reuters / NTSB",
-      "url": "https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/",
-      "img": "https://actu-aero.fr/wp-content/uploads/2026/09/Falcon-2000-LXS-Albatros-Marine-nationale-DGA-Sept-2026.jpg"
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "7 JOURS · À SUIVRE",
-      "title": "Boeing : 3,1 M$ de pénalités après des violations de sécurité",
-      "city": "États-Unis · 2 sept.",
-      "copy": "La FAA a confirmé que Boeing avait payé en janvier 2026 la pénalité maximale recherchée dans un dossier portant sur des centaines de violations de qualité et de sécurité relevées en production.",
-      "src": "FAA / Reuters",
-      "url": "https://www.faa.gov/newsroom/faa-proposes-31-million-fines-against-boeing",
-      "img": "https://aeroaffaires.fr/wp-content/uploads/2022/01/logo-boeing-credit-flickr.jpeg"
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "< 24 H · NOUVEAU",
-      "title": "Bird strike et incidents de flotte suivis par la FAA",
-      "city": "États-Unis · 8 sept.",
-      "copy": "La FAA a notamment signalé un Boeing 737 MAX 8 ayant atterri en sécurité après un impact aviaire au départ de Ronald Reagan Washington National Airport.",
-      "src": "FAA",
-      "url": "https://www.faa.gov/newsroom/statements/accident_incidents",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTvSZJvBrl6sy19Pf0mzxJdYPfnUtfLD-1-YhfAh_3ehXFca2UteTim2Y&s=10"
-    },
-    {
-      "cat": "meteo",
-      "label": "ENVIRONNEMENT",
-      "fresh": "3 JOURS · RÉCENT",
-      "title": "Les cendres de l’Anak Krakatau perturbent huit aéroports",
-      "city": "Indonésie · 6 sept.",
-      "copy": "L’éruption a suspendu des opérations, notamment à Jakarta. Le ministère des Transports a fait état de centaines de vols affectés et de conséquences importantes pour les passagers.",
-      "src": "Reuters",
-      "url": "https://www.reuters.com/business/environment/indonesias-jakarta-airport-suspends-flights-due-ash-mount-anak-krakatau-2026-09-06/",
-      "img": "https://cdn-s-www.bienpublic.com/images/DAAE6B09-5888-4799-883D-4D0C97FB62CC/FB1200/photo-1788696246.jpg"
+      "title": "Maroc : nouvelles tenues pour Airports of Morocco",
+      "city": "Maroc · 10 sept.",
+      "copy": "L'ONDA dote ses agents d'accueil d'une nouvelle tenue aux couleurs de la marque « Airports of Morocco ». Cette initiative accompagne la stratégie Aéroports 2030 pour moderniser l'expérience passager.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-10-maroc-les-equipes-daccueil-aux-couleurs-d-airports-of-morocco-symbole-de-la-modernisation-aeroportuaire-5277416.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-uniformes-accueil-Airports-of-Morocco-aeroport-maroc-source-ONDA.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "2 JOURS · RÉCENT",
-      "title": "AIRCAIRO signe pour 15 Airbus A320neo",
-      "city": "Égypte · 8 sept.",
-      "copy": "La compagnie égyptienne a signé sa première commande ferme directe auprès d’Airbus. L’accord doit soutenir une forte croissance de flotte et du réseau.",
-      "src": "Airbus",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-aircairo-places-order-for-15-airbus-a320neo-aircraft",
-      "img": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=600&q=80"
+      "fresh": "< 24 H · FLASH",
+      "title": "Air Corsica affrète un Airbus A350 et deux autres avions",
+      "city": "France · 10 sept.",
+      "copy": "Suite à l'immobilisation préventive de plusieurs ATR 72, Air Corsica mobilise trois appareils tiers dont un Airbus A350 d'Air Caraïbes. Plus d'une centaine de vols de substitution sont planifiés jusqu'à fin octobre.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-10-atr-immobilises-air-corsica-affrete-trois-avions-dont-un-airbus-a350-pour-operer-ses-vols-5277411.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-air-caraibes-airbus-a350-aeroport-Paris-Orly-source-Paris-Aeroport-ADP.jpg"
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · FLASH",
+      "title": "Air Force One qatari retardé par un déploiement de toboggan",
+      "city": "États-Unis · 10 sept.",
+      "copy": "Un Boeing 747-8 offert par le Qatar à Donald Trump a décollé en retard de la base d'Andrews. Le déploiement accidentel d'un toboggan d'évacuation a nécessité une vérification complète de l'appareil.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-10-air-force-one-qatari-donald-trump-retarde-au-depart-par-un-incident-de-toboggan-5277409.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-air-force-one-boeing-787-8-qatari-nouvelle-livree-source-US-Air-Force.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "EgyptAir ouvre la ligne Le Caire - Stockholm",
+      "city": "Suède · 10 sept.",
+      "copy": "EgyptAir desservira la capitale suédoise depuis Le Caire quatre fois par semaine à partir de décembre 2026. La ligne sera opérée toute l'année en Airbus A321neo de 182 sièges.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-10-egyptair-ouvre-une-nouvelle-ligne-entre-le-caire-et-stockholm-5277404.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_egyptair-premier-a3221neo-takeoff©Airbus-Operations-GmbH-2023-Stefan-Kruijer.jpg"
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · FLASH",
+      "title": "Crash Amazon à Miami : vitesse excessive signalée en cockpit",
+      "city": "États-Unis · 10 sept.",
+      "copy": "Un pilote du Boeing 767-300F d'Amazon Prime Air sorti de piste avait alerté sur une vitesse trop élevée. L'enregistreur phonique montre des avertissements répétés dans la dernière minute de vol.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-10-crash-amazon-a-miami-un-pilote-du-boeing-767-300f-avait-signale-une-vitesse-excessive-5277410.html",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Air_Traffic_Control_Tower.jpg/800px-Air_Traffic_Control_Tower.jpg"
     },
     {
       "cat": "innovation",
       "label": "INNOVATION",
-      "fresh": " < 24 H · NOUVEAU",
-      "title": "Kepplair Evolution lève 6 M€ pour accélérer le Kepplair 72",
-      "city": "France · 9 sept.",
-      "copy": "Quelques jours après ses premiers vols d’essai pré-modification, la société annonce 6 M€ supplémentaires. Le financement doit soutenir le développement, les essais, la certification EASA et la préparation industrielle.",
-      "src": "Kepplair Evolution",
-      "url": "https://find.50skyshades.com/news/finance/kepplair-evolution-accelerates-its-growth-with-a-new-6-million-funding-round-bringing-the-total-funding-raised-to-175-million",
-      "img": "https://actu-aero.fr/wp-content/uploads/2026/05/Kepplair_72_Kepplair_Evolution_2.jpg"
+      "fresh": "RÉCENT",
+      "title": "La France commande 8 drones Airbus U050 Capa-X",
+      "city": "France · 10 sept.",
+      "copy": "Les forces armées françaises ont passé commande de huit drones non habités Airbus U050 Capa-X. Ces appareils équiperont l'armée de Terre et la Marine nationale suite à des essais concluants.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/france-airbus-u050-capa-x-drone-order",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Airbus_A350-900_MSN_002_F-WWCF.jpg/800px-Airbus_A350-900_MSN_002_F-WWCF.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Avianca signe une cession-bail pour 12 Airbus A320neo",
+      "city": "Colombie · 10 sept.",
+      "copy": "La compagnie colombienne Avianca conclut un accord de cession-bail (« sale and leaseback ») avec BOC Aviation. Le contrat porte sur la gestion et le financement de 12 appareils Airbus A320neo.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/avianca-sale-leaseback-airbus-a320neos-boc-aviation",
+      "img": "https://www.aerotime.aero/images/2026/07/Bombardier-Global-8000-80x80.jpg.webp"
     },
     {
       "cat": "innovation",
       "label": "INNOVATION",
-      "fresh": "1–3 JOURS · RÉCENT",
-      "title": "Starlink arrive sur les Hawker 700 / 800 / 900",
-      "city": "États-Unis · 8 sept.",
-      "copy": "Le haut débit Starlink est désormais proposé sur ces séries Hawker après l’obtention d’un STC FAA. L’objectif est une connectivité plus fiable, y compris au-dessus des zones isolées.",
-      "src": "Textron Aviation",
-      "url": "https://media.txtav.com/270132-hawker-operators-gain-access-to-high-speed-starlink-connectivity-through-textron-aviation-customer-support-network/",
-      "img": "https://s.yimg.com/lo/mysterio/api/06840e9c563e183354efc8dbe135f361f49e2146115c37307cb8ad6e64273c7f/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finteresting_engineering_646%2F16258030ff219657756ec14521b35a11.jpg"
+      "fresh": "RÉCENT",
+      "title": "General Atomics dévoile le drone Wildfire",
+      "city": "États-Unis · 10 sept.",
+      "copy": "General Atomics a présenté le Wildfire, un drone de nouvelle génération conçu comme successeur plus économique du MQ-9 Reaper. L'appareil est proposé à l'US Air Force pour de futures missions.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/general-atomics-wildfire-drone-mq-9-reaper-successor",
+      "img": "https://www.aerotime.aero/images/2026/09/General-Atomics-Wildfire-uncrewed-aircraft-system-concept-1200x675.png"
     },
     {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "1–7 JOURS · RÉCENT",
-      "title": "Un H160 connecté pour les secours au Japon",
-      "city": "Kumamoto · 3 sept.",
-      "copy": "L’agence japonaise de gestion des incendies et catastrophes a commandé un Airbus H160 pour la reconnaissance aérienne et la collecte d’images en temps réel lors de catastrophes.",
-      "src": "Airbus",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency",
-      "img": "https://www.journal-aviation.com/storage/2025/10/H160-Hiroshima-750x375.jpg"
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "RÉCENT",
+      "title": "Le Bombardier Global 8000 certifié à London City",
+      "city": "Royaume-Uni · 10 sept.",
+      "copy": "L'autorité britannique d'aviation civile (CAA) a autorisé l'atterrissage du Bombardier Global 8000 à l'aéroport de London City. L'appareil répond aux exigences strictes de cette approche en forte pente.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/bombardier-global-8000-london-city-airport-approval",
+      "img": "https://www.aerotime.aero/images/2026/09/Bombardier-Global-8000.jpg"
     },
     {
-      "cat": "formation",
-      "label": "FORMATION",
-      "fresh": "1–7 JOURS · RÉCENT",
-      "title": "ANA et Airbus lancent une filière pilote basée sur les compétences",
-      "city": "Japon · 2 sept.",
-      "copy": "La première promotion doit compter 19 cadets formés sans expérience de vol jusqu’à la licence, avec une approche alignée sur le CBTA.",
-      "src": "Airbus",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-Airbus-A380-ANA-source-Narita-Airport.jpg"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER · IA",
-      "fresh": "1–7 JOURS · RÉCENT",
-      "title": "Amelia, l’hologramme IA qui guide les voyageurs à Boston Logan",
-      "city": "Boston · semaine du 2 sept.",
-      "copy": "Déployée dans neuf emplacements, Amelia fournit itinéraires, informations bagages, cartes et temps d’attente, avec possibilité de passer la main à un agent humain.",
-      "src": "International Airport Review",
-      "url": "https://internationalairportreview.com/boston-logan-airport-introduces-ai-hologram-to-transform-passenger-wayfinding-and-accessibility/2136409.article",
-      "img": "https://www.bostonglobe.com/resizer/v2/SVFADX3FD5CWXACSUSWAJHVCVE.JPG?auth=de82a8608690937ed6d2dc83586678aeed01d10378375ada05470e4e7f8b3a6c"
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "RÉCENT",
+      "title": "Tirs de laser ciblés : la CAA alerte sur un risque d'accident fatal",
+      "city": "Royaume-Uni · 10 sept.",
+      "copy": "La CAA britannique avertit que le pointage de lasers vers des hélicoptères d'ambulance peut être catastrophique. Ces actes d'aveuglement mettent directement en danger l'équipage et la mission de secours.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/caa-air-ambulances-laser-catastrophic-incident",
+      "img": "https://www.aerotime.aero/images/2026/09/Amazon-Air-crash-Miami-80x80.jpg.webp"
     }
   ],
   "lexicon": [
     {
-      "term": "Remise de gaz",
-      "def": "Procédure par laquelle l’équipage interrompt l’atterrissage et reprend de l’altitude lorsqu’une approche n’est plus jugée suffisamment sûre."
+      "term": "Affrètement",
+      "def": "Opération par laquelle une compagnie aérienne loue un avion avec ou sans équipage auprès d'un autre opérateur. Cela permet de remplacer temporairement un appareil indisponible ou d'assurer un pic de trafic."
     },
     {
-      "term": "Déroutement",
-      "def": "Lorsqu’un avion change de destination prévue pour atterrir sur un autre aéroport."
+      "term": "NTSB",
+      "def": "Sigle pour National Transportation Safety Board, l'organisme américain indépendant chargé d'enquêter sur les accidents d'aviation. Ses rapports visent à établir les causes exactes et à formuler des recommandations de sécurité."
     },
     {
-      "term": "CBTA",
-      "def": "Competency-Based Training and Assessment : une approche qui forme et évalue les compétences concrètement nécessaires à l’exploitation."
+      "term": "Sale and leaseback",
+      "def": "Montage financier où une compagnie vend ses avions neufs à une société de leasing pour les relouer immédiatement. Cela permet de dégager de la trésorerie tout en exploitant les appareils dans sa flotte."
     },
     {
-      "term": "EMAS",
-      "def": "Engineered Materials Arresting System : système destiné à ralentir un avion qui sortirait d’une piste, installé sur certains aérodromes."
+      "term": "CAA",
+      "def": "Sigle pour Civil Aviation Authority, l'autorité de régulation de l'aviation civile au Royaume-Uni. Elle délivre les certifications d'aéronefs, les licences de pilotes et veille aux normes de sécurité du secteur."
     }
   ],
   "stat": {
-    "big": "+0,2%",
-    "text": "L’IATA indique que la demande mondiale de transport aérien a progressé de 0,2 % en juillet 2026. Ici, le chiffre sert d’objet éditorial : il doit toujours être lu avec sa source et son périmètre."
+    "big": "8",
+    "text": "C'est le nombre de drones Airbus U050 Capa-X commandés par la France pour ses forces armées. Ces appareils équiperont l'armée de Terre et la Marine nationale à l'issue de phases d'essais réussies."
   },
   "sources": [
     {
-      "label": "NATS — Incident technique, 9 sept.",
-      "url": "https://www.nats.aero/news/technical-issue-causing-some-disruption-to-flight-departures/"
+      "label": "Air Journal — Modernisation de l'ONDA au Maroc",
+      "url": "https://www.air-journal.fr/2026-09-10-maroc-les-equipes-daccueil-aux-couleurs-d-airports-of-morocco-symbole-de-la-modernisation-aeroportuaire-5277416.html"
     },
     {
-      "label": "Reuters — Panne du contrôle aérien britannique, 9 sept.",
-      "url": "https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/"
+      "label": "Air Journal — Affrètements exceptionnels Air Corsica",
+      "url": "https://www.air-journal.fr/2026-09-10-atr-immobilises-air-corsica-affrete-trois-avions-dont-un-airbus-a350-pour-operer-ses-vols-5277411.html"
     },
     {
-      "label": "Reuters — Crash cargo à Miami, 9 sept.",
-      "url": "https://www.reuters.com/business/aerospace-defense/evidence-suggests-pilots-considered-aborting-landing-miami-cargo-plane-crash-2026-09-09/"
+      "label": "Air Journal — Incident de toboggan sur Air Force One",
+      "url": "https://www.air-journal.fr/2026-09-10-air-force-one-qatari-donald-trump-retarde-au-depart-par-un-incident-de-toboggan-5277409.html"
     },
     {
-      "label": "FAA — Déclarations accidents / incidents",
-      "url": "https://www.faa.gov/newsroom/statements/accident_incidents"
+      "label": "Air Journal — Enquête NTSB sur le crash Amazon à Miami",
+      "url": "https://www.air-journal.fr/2026-09-10-crash-amazon-a-miami-un-pilote-du-boeing-767-300f-avait-signale-une-vitesse-excessive-5277410.html"
     },
     {
-      "label": "FAA — Pénalités contre Boeing",
-      "url": "https://www.faa.gov/newsroom/faa-proposes-31-million-fines-against-boeing"
+      "label": "AeroTime — Commande française de drones Airbus U050 Capa-X",
+      "url": "https://www.aerotime.aero/articles/france-airbus-u050-capa-x-drone-order"
     },
     {
-      "label": "Textron Aviation — Starlink sur Hawker, 8 sept.",
-      "url": "https://media.txtav.com/270132-hawker-operators-gain-access-to-high-speed-starlink-connectivity-through-textron-aviation-customer-support-network/"
+      "label": "AeroTime — Accord Avianca et BOC Aviation pour 12 A320neo",
+      "url": "https://www.aerotime.aero/articles/avianca-sale-leaseback-airbus-a320neos-boc-aviation"
     },
     {
-      "label": "Airbus — H160 de secours au Japon",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-japans-fire-and-disaster-management-agency-orders-first-airbus-h160-to-bolster-emergency"
+      "label": "AeroTime — Présentation du drone Wildfire de General Atomics",
+      "url": "https://www.aerotime.aero/articles/general-atomics-wildfire-drone-mq-9-reaper-successor"
     },
     {
-      "label": "Airbus — ANA / formation pilotes",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-all-nippon-airways-selects-airbus-for-new-flight-training-programme"
-    },
-    {
-      "label": "Airbus — AIRCAIRO commande 15 A320neo",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-aircairo-places-order-for-15-airbus-a320neo-aircraft"
-    },
-    {
-      "label": "Licence de la carte — CC BY-SA 2.5",
-      "url": "https://creativecommons.org/licenses/by-sa/2.5/"
+      "label": "AeroTime — Certification CAA pour le Bombardier Global 8000",
+      "url": "https://www.aerotime.aero/articles/bombardier-global-8000-london-city-airport-approval"
     }
   ]
 }
