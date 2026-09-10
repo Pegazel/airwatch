@@ -249,8 +249,13 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
   html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}
 }
 </style>
+<base target="_blank">
 </head>
 <body>
+<script>
+// Applique le mode radar sauvegardé AVANT le premier rendu (évite le flash)
+try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.classList.add('radar'); } catch (e) {}
+</script>
 <nav>
   <a class="logo" href="#top">AIR<span>//</span>WATCH</a>
   <div class="navlinks">
@@ -262,7 +267,7 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
 <main id="top">
 <section class="hero">
   <div>
-    <div class="eyebrow">Centre de veille aéronautique · 09 septembre 2026</div>
+    <div class="eyebrow">Centre de veille aéronautique · <span data-updated-long>…</span></div>
     <h1>LE CIEL<br><em>EN VEILLE</em></h1>
     <p>Une autre manière de suivre l’aviation : des événements cartographiés, des innovations expliquées et des données qui se lisent comme un trafic aérien.</p>
     <div class="cta">
@@ -270,7 +275,7 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
       <a class="btn secondary" href="#tour">Comprendre l’aviation</a>
       <a class="btn accent" href="#briefing">Lire le briefing de bord</a>
     </div>
-    <div class="livebar"><span class="live-dot"></span> VEILLE ACTIVE · dernière mise à jour éditoriale : 09/09/2026</div>
+    <div class="livebar"><span class="live-dot"></span> VEILLE ACTIVE · dernière mise à jour éditoriale : <span data-updated-short>…</span></div>
   </div>
   <div class="sky" aria-label="Illustration stylisée : radar aérien symbolique">
     <div class="radar-scope">
@@ -408,7 +413,20 @@ const DEFAULT_IMG = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/A
 async function loadAndRender() {
   try {
     const response = await fetch('items.json');
-    const items = await response.json();
+    const data = await response.json();
+
+    // Compatibilité : nouveau format { updated, items } ou ancien format [ ... ]
+    const items = Array.isArray(data) ? data : (data.items || []);
+
+    // Date de dernière actualisation (écrite par update-news.js à chaque veille)
+    const updated = !Array.isArray(data) ? (data.updated || null) : null;
+    if (updated) {
+      const d = new Date(updated);
+      const longOpts = { timeZone: 'Europe/Paris', weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+      const shortOpts = { timeZone: 'Europe/Paris', day: '2-digit', month: '2-digit', year: 'numeric' };
+      document.querySelectorAll('[data-updated-long]').forEach(el => el.textContent = new Intl.DateTimeFormat('fr-FR', longOpts).format(d));
+      document.querySelectorAll('[data-updated-short]').forEach(el => el.textContent = new Intl.DateTimeFormat('fr-FR', shortOpts).format(d));
+    }
 
     // Bandeau FLASH SÉCURITÉ : on prend la 1ère actu de catégorie "securite"
     // (Gemini classe déjà les actus par pertinence, donc la 1ère = la plus
@@ -460,13 +478,23 @@ async function loadAndRender() {
 // Lancement du chargement des cartes
 loadAndRender();
 
-// Gestion du Mode Radar (Sombre)
+// Gestion du Mode Radar (Sombre) — mémorisation du choix utilisateur
+const MODE_KEY = 'airwatch-mode';
 const mode = document.querySelector('#mode');
+
+function syncModeButton(radar) {
+  if (!mode) return;
+  mode.textContent = radar ? '◉ Vue éditoriale' : '◐ Mode radar';
+  mode.setAttribute('aria-pressed', String(radar));
+}
+
 if (mode) {
+  // Reprend le mode déjà appliqué par le script en haut de page
+  syncModeButton(document.body.classList.contains('radar'));
   mode.addEventListener('click', () => {
     const radar = document.body.classList.toggle('radar');
-    mode.textContent = radar ? '◉ Vue éditoriale' : '◐ Mode radar';
-    mode.setAttribute('aria-pressed', String(radar));
+    try { localStorage.setItem(MODE_KEY, radar ? 'radar' : 'light'); } catch (e) {}
+    syncModeButton(radar);
   });
 }
 
