@@ -1,101 +1,101 @@
 [
   {
-    "cat": "securite",
-    "label": "SÉCURITÉ",
+    "cat": "passager",
+    "label": "PASSAGER",
     "fresh": "< 24 H · FLASH",
-    "title": "Crash Amazon à Miami : un pilote signale une vitesse excessive",
-    "city": "Miami · 10 sept.",
-    "copy": "Selon le NTSB, l'un des pilotes du Boeing 767-300F avait prévenu à plusieurs reprises de la vitesse trop élevée avant la sortie de piste. L'alerte a été enregistrée dans la dernière minute et demi du vol.",
+    "title": "Air Corsica affrète un A350 face à l'immobilisation de ses ATR",
+    "city": "France · 10 sept.",
+    "copy": "Air Corsica mobilise trois appareils de remplacement, dont un Airbus A350 d'Air Caraïbes, pour maintenir son programme de vols. Cette mesure exceptionnelle fait suite à l'immobilisation préventive de plusieurs ATR 72.",
     "src": "Air Journal",
-    "url": "https://www.air-journal.fr/2026-09-10-crash-amazon-a-miami-un-pilote-du-boeing-767-300f-avait-signale-une-vitesse-excessive-5277410.html",
-    "img": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
+    "url": "https://www.air-journal.fr/2026-09-10-atr-immobilises-air-corsica-affrete-trois-avions-dont-un-airbus-a350-pour-operer-ses-vols-5277411.html",
+    "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-air-caraibes-airbus-a350-aeroport-Paris-Orly-source-Paris-Aeroport-ADP.jpg"
   },
   {
     "cat": "technique",
     "label": "TECHNIQUE",
     "fresh": "< 24 H · FLASH",
-    "title": "Panne du contrôle aérien britannique : la cyberattaque écartée",
-    "city": "Royaume-Uni · 10 sept.",
-    "copy": "Une défaillance technique majeure a provoqué l'annulation de plus de 2 100 vols en deux jours. Le gestionnaire NATS exclut une attaque informatique, tandis qu'une enquête gouvernementale a été ouverte.",
-    "src": "Air Journal",
-    "url": "https://www.air-journal.fr/2026-09-10-panne-du-controle-aerien-au-royaume-uni-british-airways-et-ryanair-touchees-cyberattaque-exclue-5277406.html",
-    "img": "https://images.unsplash.com/photo-1508873696983-2df515122519"
-  },
-  {
-    "cat": "innovation",
-    "label": "INNOVATION",
-    "fresh": "RÉCENT",
-    "title": "La France apporte son soutien au programme spatial VORTEX de Dassault",
-    "city": "France · 10 sept.",
-    "copy": "Le gouvernement français élargit son soutien au projet d'avion spatial réutilisable VORTEX développé par Dassault Aviation. Cet engagement dépasse le cadre du simple démonstrateur technologique initial.",
-    "src": "AeroTime",
-    "url": "https://www.aerotime.aero/articles/france-backs-dassault-vortex-reusable-spaceplane-program",
-    "img": "https://images.unsplash.com/photo-1517976487192-5754f72128f2"
-  },
-  {
-    "cat": "industrie",
-    "label": "INDUSTRIE",
-    "fresh": "RÉCENT",
-    "title": "EasyJet poursuivie à Londres pour 72 millions $ liés à la Russie",
-    "city": "Londres · 10 sept.",
-    "copy": "Une structure liée au loueur public russe GTLK réclame 72 millions de dollars à la compagnie britannique devant la justice. Le litige porte sur six Airbus A319 retirés de location suite aux sanctions de 2022.",
-    "src": "Air Journal",
-    "url": "https://www.air-journal.fr/2026-09-10-easyjet-face-a-un-contentieux-de-72-millions-de-dollars-sur-six-a319-lies-a-la-russie-5277403.html",
-    "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
-  },
-  {
-    "cat": "securite",
-    "label": "SÉCURITÉ",
-    "fresh": "< 24 H · FLASH",
-    "title": "Air Force One : retard au décollage après un problème de toboggan",
-    "city": "Washington · 10 sept.",
-    "copy": "Un toboggan d'évacuation s'est déployé involontairement sur le Boeing 747-8 temporaire du président américain avant son vol vers Dallas. L'incident a nécessité des vérifications techniques complètes.",
+    "title": "Un incident de toboggan retarde l'Air Force One de Donald Trump",
+    "city": "États-Unis · 10 sept.",
+    "copy": "Le déploiement accidentel d'un toboggan d'évacuation avant l'embarquement a retardé le décollage du Boeing 747-8 présidentiel. L'appareil a subi des vérifications de sécurité avant d'emmener le président américain à Dallas.",
     "src": "Air Journal",
     "url": "https://www.air-journal.fr/2026-09-10-air-force-one-qatari-donald-trump-retarde-au-depart-par-un-incident-de-toboggan-5277409.html",
-    "img": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a"
-  },
-  {
-    "cat": "technique",
-    "label": "TECHNIQUE",
-    "fresh": "RÉCENT",
-    "title": "Le Bombardier Global 8000 approuvé à London City",
-    "city": "Londres · 10 sept.",
-    "copy": "L'autorité d'aviation civile britannique a accordé la certification nécessaire pour l'atterrissage sur la piste courte de London City. Le biréacteur confirme ainsi ses capacités d'approche à forte pente.",
-    "src": "AeroTime",
-    "url": "https://www.aerotime.aero/articles/bombardier-global-8000-london-city-airport-approval",
-    "img": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
-  },
-  {
-    "cat": "securite",
-    "label": "SÉCURITÉ",
-    "fresh": "RÉCENT",
-    "title": "Visez les hélicoptères sanitaires avec un laser peut être catastrophique",
-    "city": "Royaume-Uni · 10 sept.",
-    "copy": "La CAA britannique alerte sur les attaques par pointeurs laser ciblant les ambulances aériennes en mission. Ces éblouissements font courir des risques d'accident très graves aux équipages.",
-    "src": "AeroTime",
-    "url": "https://www.aerotime.aero/articles/caa-air-ambulances-laser-catastrophic-incident",
-    "img": "https://images.unsplash.com/photo-1508873696983-2df515122519"
+    "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-air-force-one-boeing-787-8-qatari-nouvelle-livree-source-US-Air-Force.jpg"
   },
   {
     "cat": "passager",
     "label": "PASSAGER",
     "fresh": "RÉCENT",
-    "title": "EgyptAir s'implante à Stockholm au départ du Caire dès fin 2026",
-    "city": "Le Caire · 10 sept.",
-    "copy": "La compagnie égyptienne proposera quatre liaisons hebdomadaires permanentes entre Le Caire et l'aéroport d'Arlanda à partir de décembre 2026. Les vols seront opérés en Airbus A321neo.",
+    "title": "EgyptAir ouvre une ligne directe entre Le Caire et Stockholm",
+    "city": "Égypte / Suède · 10 sept.",
+    "copy": "La compagnie nationale égyptienne proposera quatre vols hebdomadaires en Airbus A321neo à partir de décembre 2026. Cette nouvelle liaison renforcera la connectivité directe entre la Suède et l'Égypte toute l'année.",
     "src": "Air Journal",
     "url": "https://www.air-journal.fr/2026-09-10-egyptair-ouvre-une-nouvelle-ligne-entre-le-caire-et-stockholm-5277404.html",
-    "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
+    "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_egyptair-premier-a3221neo-takeoff©Airbus-Operations-GmbH-2023-Stefan-Kruijer.jpg"
+  },
+  {
+    "cat": "securite",
+    "label": "SÉCURITÉ",
+    "fresh": "< 24 H · FLASH",
+    "title": "Crash Amazon à Miami : une vitesse trop élevée signalée par le pilote",
+    "city": "États-Unis · 10 sept.",
+    "copy": "L'un des pilotes du Boeing 767-300F d'Amazon avait averti à plusieurs reprises de la vitesse excessive avant l'excursion de piste. Les données de l'enregistreur de vol analysées par le NTSB confirment des alertes répétées dans le poste de pilotage.",
+    "src": "Air Journal",
+    "url": "https://www.air-journal.fr/2026-09-10-crash-amazon-a-miami-un-pilote-du-boeing-767-300f-avait-signale-une-vitesse-excessive-5277410.html",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Air_Traffic_Control_Tower.jpg/800px-Air_Traffic_Control_Tower.jpg"
+  },
+  {
+    "cat": "securite",
+    "label": "SÉCURITÉ",
+    "fresh": "RÉCENT",
+    "title": "Panne du contrôle aérien britannique : l'hypothèse cyber écartée",
+    "city": "Royaume-Uni · 10 sept.",
+    "copy": "La panne majeure ayant provoqué l'annulation de plus de 2 100 vols au Royaume-Uni n'est pas due à une cyberattaque selon le NATS. Une enquête gouvernementale a été ouverte pour évaluer l'éventuelle implication d'un vol militaire dans ce bug.",
+    "src": "Air Journal",
+    "url": "https://www.air-journal.fr/2026-09-10-panne-du-controle-aerien-au-royaume-uni-british-airways-et-ryanair-touchees-cyberattaque-exclue-5277406.html",
+    "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-controleur-controleuse-femme-controle-aerien-britannique-royaume-uni-source-NATS.png"
+  },
+  {
+    "cat": "technique",
+    "label": "TECHNIQUE",
+    "fresh": "RÉCENT",
+    "title": "Le Bombardier Global 8000 certifié pour l'aéroport de London City",
+    "city": "Royaume-Uni · 10 sept.",
+    "copy": "L'autorité de l'aviation civile britannique a accordé l'homologation au Global 8000 pour atterrir à London City. Cette approbation valide les capacités d'approche à fort pourcentage de pente de l'avion d'affaires canadien.",
+    "src": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/bombardier-global-8000-london-city-airport-approval",
+    "img": "https://www.aerotime.aero/images/2026/09/Bombardier-Global-8000.jpg"
+  },
+  {
+    "cat": "securite",
+    "label": "SÉCURITÉ",
+    "fresh": "RÉCENT",
+    "title": "Viseur laser contre les hélicoptères médicaux : alerte de la CAA",
+    "city": "Royaume-Uni · 10 sept.",
+    "copy": "La CAA britannique prévient que le ciblage par laser des avions et hélicoptères ambulances peut provoquer un accident catastrophique. L'autorité rappelle le danger mortel lié à l'éblouissement des équipages lors des missions d'urgence.",
+    "src": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/caa-air-ambulances-laser-catastrophic-incident",
+    "img": "https://www.aerotime.aero/images/2026/09/Amazon-Air-crash-Miami-80x80.jpg"
+  },
+  {
+    "cat": "innovation",
+    "label": "INNOVATION",
+    "fresh": "RÉCENT",
+    "title": "La France soutient le programme d'avion spatial réutilisable VORTEX",
+    "city": "France · 10 sept.",
+    "copy": "Le gouvernement français apporte son soutien au projet d'avion spatial réutilisable VORTEX porté par Dassault Aviation. Cet engagement étend l'appui de l'État bien au-delà du simple démonstrateur technologique initial.",
+    "src": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/france-backs-dassault-vortex-reusable-spaceplane-program",
+    "img": "https://www.aerotime.aero/images/2026/09/Dassault-VORTEX-spaceplane-1200x800.jpg"
   },
   {
     "cat": "industrie",
     "label": "INDUSTRIE",
     "fresh": "RÉCENT",
-    "title": "Défense : Boeing et Anduril franchissent une étape avec l'US Army",
+    "title": "Défense aérienne : Boeing et Anduril passent en Phase 2 pour l'US Army",
     "city": "États-Unis · 10 sept.",
-    "copy": "L'armée américaine a sélectionné le tandem Boeing-Anduril pour passer en Phase 2 du programme d'intercepteur IFPC. Ce projet vise à renforcer les capacités de défense antiaérienne tactique.",
+    "copy": "L'armée américaine a sélectionné Boeing pour poursuivre le développement de son système d'interception antiaérienne IFPC. Le projet mené en partenariat avec le groupe Anduril franchit ainsi une étape décisive.",
     "src": "AeroTime",
     "url": "https://www.aerotime.aero/articles/boeing-anduril-interceptor-us-army-ifpc-phase-2",
-    "img": "https://images.unsplash.com/photo-1517976487192-5754f72128f2"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Airbus_A320neo_%28cropped%29.jpg/800px-Airbus_A320neo_%28cropped%29.jpg"
   }
 ]
