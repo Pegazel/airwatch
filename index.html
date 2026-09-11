@@ -238,11 +238,32 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
 @keyframes sweep{to{transform:rotate(360deg)}}
 @keyframes hover{0%,100%{transform:rotate(90deg) translateY(0)}50%{transform:rotate(90deg) translateY(-6px)}}
 @keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--good) 45%,transparent)}70%{box-shadow:0 0 0 20px transparent}100%{box-shadow:0 0 0 0 transparent}}
+/* ----- Ticker d'actualités ----- */
+.ticker{overflow:hidden;border-block:1px solid var(--line);background:var(--surface);padding:10px 0;margin-bottom:26px}
+.ticker-track{display:inline-flex;gap:38px;white-space:nowrap;align-items:center;animation:ticker 60s linear infinite;font-size:12px;font-weight:800;color:var(--muted)}
+.ticker-track a{text-decoration:none}
+.ticker-track a:hover{color:var(--blue)}
+.ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes ticker{to{transform:translateX(-50%)}}
+/* ----- Radar temps réel ----- */
+.live-layer{position:absolute;inset:0;z-index:2;pointer-events:none}
+.ac{position:absolute;width:0;height:0;pointer-events:auto;cursor:pointer;color:var(--ink)}
+.ac span{display:block;font-size:12px;line-height:1;transform:translate(-50%,-50%);text-shadow:0 0 6px color-mix(in srgb,var(--blue) 65%,transparent)}
+body.radar .ac span{text-shadow:0 0 9px rgba(73,211,193,.9)}
+.live-chip{position:absolute;right:24px;top:22px;z-index:4;display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 90%,transparent);backdrop-filter:blur(10px);border-radius:11px;font-size:11px;font-weight:800}
+.live-chip small{color:var(--muted);font-weight:700}
+/* ----- METAR ----- */
+.metar-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:14px}
+.metar{padding:13px 14px;border:1px solid var(--line);border-radius:14px;background:var(--surface2)}
+.metar b{font-size:15px;letter-spacing:.06em}
+.metar small{display:block;margin-top:6px;color:var(--muted);font-size:11px;line-height:1.5}
+.metar .cat{float:right;font-size:9px;font-weight:900;padding:3px 8px;border-radius:999px;color:#fff}
+.cat.VFR{background:#1bb58c}.cat.MVFR{background:#1976d2}.cat.IFR{background:#dc4d5a}.cat.LIFR{background:#8e44ad}
 @media(max-width:980px){.hero,.split,.sources{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.data-strip{grid-template-columns:1fr 1fr}.newsletter-panel{align-items:flex-start;flex-direction:column}}
 @media(max-width:680px){
   .navlinks{display:none}.hero{min-height:auto;padding-top:70px}.sky{height:370px}.cards{grid-template-columns:1fr}
   .section-head{align-items:start;flex-direction:column}.hero h1{font-size:58px}.data-strip{grid-template-columns:1fr 1fr}
-  .mapbox{min-height:520px}.map-frame{width:92vw;aspect-ratio:1.04/1}.maplabel{left:14px;top:14px}
+  .mapbox{min-height:520px}.map-frame{width:92vw;aspect-ratio:1.04/1}.maplabel{left:14px;top:14px}.live-chip{right:14px;top:14px;padding:7px 9px}
   .map-note{left:14px;bottom:14px;max-width:290px}.flash{margin-inline:20px}
 }
 @media(prefers-reduced-motion:reduce){
@@ -275,7 +296,7 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
       <a class="btn secondary" href="#tour">Comprendre l’aviation</a>
       <a class="btn accent" href="#briefing">Lire le briefing de bord</a>
     </div>
-    <div class="livebar"><span class="live-dot"></span> VEILLE ACTIVE · dernière mise à jour éditoriale : <span data-updated-short>…</span></div>
+    <div class="livebar"><span class="live-dot"></span> VEILLE ACTIVE · dernière mise à jour éditoriale : <span data-updated-short>…</span> · prochaine veille dans <b id="countdown">…</b></div>
   </div>
   <div class="sky" aria-label="Illustration stylisée : radar aérien symbolique">
     <div class="radar-scope">
@@ -293,6 +314,8 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
   <span>●</span>
   <div><b>FLASH SÉCURITÉ</b> — <span id="flashText">Le système de traitement des données de vol de NATS a provoqué une nouvelle journée de perturbations au Royaume-Uni.</span> <a href="#trafic" id="flashLink">Voir le détail →</a></div>
 </div>
+
+<div class="ticker" id="ticker"></div>
 
 <section id="trafic">
   <div class="section-head">
@@ -317,6 +340,7 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
     <div class="map-grid"></div>
     <div class="map-frame">
       <img class="map-image" alt="Carte réelle de la France métropolitaine" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/France_blank_1.svg">
+      <div class="live-layer" id="liveLayer" aria-hidden="true"></div>
       <div class="marker paris" title="Paris" data-city="Paris / Hubs parisiens" data-copy="Point de veille : gestion des flux de l'espace aérien, perturbations et annulations de grands hubs."></div>
       <div class="label paris">PARIS</div>
       <div class="marker lyon" title="Lyon" data-city="Lyon / Centre-Est" data-copy="Point de veille : mouvements régionaux, liaisons d'aviation d'affaires et régulation Centre-Est."></div>
@@ -332,8 +356,10 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
     </div>
     <div class="maplabel"><strong>CARTE DE FRANCE · POINTS DE VEILLE</strong><small>6 points actifs en France métropolitaine</small></div>
 
+    <div class="live-chip"><span class="live-dot"></span><span id="liveCount">connexion au radar…</span><small id="liveTime"></small></div>
+
     <div class="tooltip" id="tooltip"></div>
-    <div class="map-note">Cliquez sur les balises pour afficher le détail du point de veille associé sur le territoire.</div>
+    <div class="map-note">Avions &#9992; en temps réel (OpenSky Network) — cliquez sur une balise de veille ou sur un avion pour le détail.</div>
   </div>
 </section>
 
@@ -359,6 +385,8 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
       </div>
     </div>
   </div>
+<div class="eyebrow" style="margin-top:30px">Météo aviation en direct</div>
+  <div class="metar-strip" id="metarStrip"><div class="metar"><b>METAR</b><small>chargement…</small></div></div>
 </section>
 
 <section id="briefing">
@@ -514,6 +542,15 @@ async function loadAndRender() {
       if (col2) col2.innerHTML = mkList(sources.slice(half));
     }
 
+    // ----- Ticker défilant : les titres de la semaine -----
+    const tickerEl = document.getElementById('ticker');
+    if (tickerEl && items.length > 0) {
+      const links = items.map(x =>
+        `<a href="${x.url}" target="_blank" rel="noopener">&#9992; ${x.title}</a>`
+      ).join('<span style="opacity:.35"> · </span>');
+      tickerEl.innerHTML = `<div class="ticker-track">${links}<span style="opacity:.35"> · </span>${links}<span style="opacity:.35"> · </span></div>`;
+    }
+
     document.querySelectorAll('.filter').forEach(b => b.addEventListener('click', () => {
       document.querySelectorAll('.filter').forEach(x => x.classList.remove('active'));
       b.classList.add('active');
@@ -555,6 +592,126 @@ document.querySelectorAll('.marker').forEach(m => m.addEventListener('click', ()
     tooltip.innerHTML = `<h4>${m.dataset.city}</h4><p>${m.dataset.copy}</p>`;
   }
 }));
+
+// =================== RADAR TEMPS RÉEL — OpenSky Network ===================
+// API publique et gratuite (réseau communautaire ADS-B). Les positions sont
+// projetées avec une calibration linéaire issue des 6 villes de la carte.
+const PROJ = { xA: 6.0518, xB: 35.4951, yA: -9.0603, yB: 471.8015 };
+const OPENSKY_URL = 'https://opensky-network.org/api/states/all?lamin=41&lomin=-6&lamax=52&lomax=10';
+const PLANE_MAX = 400;
+
+function renderPlanes(states) {
+  const layer = document.getElementById('liveLayer');
+  const countEl = document.getElementById('liveCount');
+  if (!layer) return;
+  const airborne = (states || []).filter(s => s && s[5] != null && s[6] != null && !s[8]);
+  if (countEl) countEl.textContent = airborne.length + ' avion' + (airborne.length > 1 ? 's' : '') + ' en vol';
+  layer.innerHTML = airborne.slice(0, PLANE_MAX).map(s => {
+    const left = PROJ.xA * s[5] + PROJ.xB;
+    const top = PROJ.yA * s[6] + PROJ.yB;
+    if (left < -1 || left > 101 || top < -1 || top > 101) return '';
+    const track = (typeof s[10] === 'number') ? s[10] : 0;
+    const cs = (s[1] || '').trim() || s[0];
+    const altFt = (typeof s[7] === 'number') ? Math.round(s[7] * 3.28084) : null;
+    const spdKt = (typeof s[9] === 'number') ? Math.round(s[9] * 1.94384) : null;
+    const info = cs + ' — ' + (s[2] || '') +
+      (altFt ? ' · FL' + String(Math.round(altFt / 100)).padStart(3, '0') : '') +
+      (spdKt ? ' · ' + spdKt + ' kt' : '');
+    return `<div class="ac" style="left:${left.toFixed(2)}%;top:${top.toFixed(2)}%" data-info="${info}" data-track="${track}"><span>&#9992;</span></div>`;
+  }).join('');
+  layer.querySelectorAll('.ac').forEach(el => {
+    el.style.transform = 'rotate(' + ((parseFloat(el.dataset.track) || 0) - 45).toFixed(0) + 'deg)';
+    el.addEventListener('click', () => {
+      const tt = document.getElementById('tooltip');
+      if (tt) {
+        const parts = el.dataset.info.split(' — ');
+        tt.classList.add('show');
+        tt.innerHTML = `<h4>&#9992; ${parts[0]}</h4><p>${parts.slice(1).join(' — ')}</p>`;
+      }
+    });
+  });
+}
+
+async function refreshPlanes() {
+  try {
+    const res = await fetch(OPENSKY_URL);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    renderPlanes(data.states);
+    const t = document.getElementById('liveTime');
+    if (t) t.textContent = 'maj ' + new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+  } catch (e) {
+    const c = document.getElementById('liveCount');
+    if (c) c.textContent = 'radar indisponible';
+  }
+}
+refreshPlanes();
+setInterval(refreshPlanes, 20000); // limite anonyme OpenSky : ~20 s entre requêtes
+
+// ============== MÉTÉO AVIATION EN DIRECT — aviationweather.gov ==============
+const METAR_IDS = 'LFPG,LFPO,LFLL,LFBO,LFML,LFRS'; // CDG, Orly, Lyon, Bordeaux, Marseille, Nantes
+
+async function refreshMetar() {
+  const strip = document.getElementById('metarStrip');
+  if (!strip) return;
+  try {
+    const res = await fetch('https://aviationweather.gov/api/data/metar?ids=' + METAR_IDS + '&format=json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const metars = await res.json();
+    strip.innerHTML = metars.map(m => {
+      const wind = (m.wdir != null && m.wspd != null) ? String(m.wdir).padStart(3, '0') + '° / ' + m.wspd + ' kt' : 'vent —';
+      const temp = (m.temp != null) ? ' · ' + m.temp + '°C' : '';
+      const qnh = (m.altim != null) ? ' · Q' + Math.round(m.altim) : '';
+      return `<div class="metar"><span class="cat ${m.flightCategory || ''}">${m.flightCategory || '—'}</span><b>${m.icaoId}</b><small>${wind}${temp}${qnh}</small></div>`;
+    }).join('');
+  } catch (e) {
+    strip.innerHTML = '<div class="metar"><b>METAR</b><small>données météo indisponibles pour le moment</small></div>';
+  }
+}
+refreshMetar();
+setInterval(refreshMetar, 600000); // toutes les 10 minutes
+
+// ============== COMPTE À REBOURS — prochaine veille (lundi 07:00, Paris) ==============
+function parisParts(date) {
+  const fmt = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Europe/Paris', weekday: 'short',
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+  });
+  const p = {};
+  fmt.formatToParts(date).forEach(x => { p[x.type] = x.value; });
+  return p;
+}
+
+// Convertit une heure "murale" de Paris (y, mo, d, h, mi) en timestamp UTC.
+function parisWallToUTC(y, mo, d, h, mi) {
+  const guess = Date.UTC(y, mo, d, h, mi);
+  const asUTC = ts => {
+    const p = parisParts(new Date(ts));
+    return Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute);
+  };
+  let ts = guess;
+  for (let i = 0; i < 4; i++) ts = guess + (guess - asUTC(ts));
+  return ts;
+}
+
+function nextVeilleTS() {
+  const p = parisParts(new Date());
+  const dow = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(p.weekday); // 0 = dim
+  let add = (8 - dow) % 7; // jours jusqu'au prochain lundi
+  if (add === 0 && (+p.hour > 7 || (+p.hour === 7 && +p.minute > 0))) add = 7;
+  return parisWallToUTC(+p.year, +p.month - 1, +p.day + add, 7, 0);
+}
+
+function tickCountdown() {
+  const el = document.getElementById('countdown');
+  if (!el) return;
+  const min = Math.max(0, Math.floor((nextVeilleTS() - Date.now()) / 60000));
+  const j = Math.floor(min / 1440), h = Math.floor((min % 1440) / 60), m = min % 60;
+  el.textContent = (j > 0 ? j + ' j ' : '') + String(h).padStart(2, '0') + ' h ' + String(m).padStart(2, '0') + ' min';
+}
+tickCountdown();
+setInterval(tickCountdown, 60000);
 </script>
 </body>
 </html>
