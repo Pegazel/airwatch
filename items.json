@@ -1,171 +1,171 @@
 {
-  "updated": "2026-09-10T18:54:46.341Z",
+  "updated": "2026-09-11T09:30:33.344Z",
   "items": [
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · FLASH",
+      "title": "Ryanair : 85 chutes de passagers signalées sur les escaliers intégrés en Italie",
+      "city": "Italie · 11 sept.",
+      "copy": "L'agence italienne de sécurité des vols alerte sur les risques liés aux escaliers escamotables des Boeing 737-800. Entre 2023 et 2025, la majorité des accidents à l'embarquement impliquaient ces équipements.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-11-ryanair-85-chutes-de-passagers-recensees-en-italie-sur-les-escaliers-integres-des-boeing-737-800-5277425.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-douane-douaniers-securite-surete-police-ryanair-aeroport-beauvais-source-Prefet-de-Oise.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "Airbus décroche une commande de 50 appareils auprès de Vietravel Airlines",
+      "city": "Vietnam · 11 sept.",
+      "copy": "L'avionneur européen enregistre un contrat ferme portant sur 50 avions avec la compagnie vietnamienne Vietravel Airlines. Un protocole d'accord a également été conclu avec Vietnam Airlines pour des A350.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/airbus-vietravel-order-vietnam-airlines-a350-mou",
+      "img": "https://www.aerotime.aero/images/2026/09/Vietravel-Airlines-Airbus-order-1200x800.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Défense : la France commande le système de roquettes longue portée Thundart",
+      "city": "France · 11 sept.",
+      "copy": "La Direction générale de l'armement a notifié un contrat stratégique à Safran et MBDA pour développer ce nouveau système. Il est destiné à moderniser les capacités d'artillerie et à remplacer les LRU.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/france-orders-thundart-rocket-system-replace-lru",
+      "img": "https://www.aerotime.aero/images/2026/06/Thundart-rocket-presented-by-Safran-and-MBDA-at-Eurosatory-2026-1200x800.jpg"
+    },
+    {
+      "cat": "formation",
+      "label": "FORMATION",
+      "fresh": "< 24 H · FLASH",
+      "title": "Royal Air Maroc recrute des pilotes de ligne expérimentés à l'international",
+      "city": "Maroc · 11 sept.",
+      "copy": "La compagnie marocaine mandate le prestataire Flight Crew International pour embaucher des équipages qualifiés sur B737, B787 et Embraer. Les prises de fonction débuteront dès l'automne.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-11-emploi-royal-air-maroc-recrute-des-pilotes-experimentes-a-linternational-via-flight-crew-international-5277427.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-flotte-boeing-737-source-royal-air-maroc.jpg"
+    },
+    {
+      "cat": "innovation",
+      "label": "INNOVATION",
+      "fresh": "RÉCENT",
+      "title": "Horizon Aircraft cible le marché des hélicoptères plutôt que les eVTOL",
+      "city": "Canada · 11 sept.",
+      "copy": "Le constructeur de l'aéronef hybride Cavorite X7 affirme viser directement les missions traditionnelles des hélicoptères rapides. Son directeur général estime que les appareils purement électriques ne constituent pas des rivaux directs.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/horizon-aircraft-brandon-robbinson-helicopter-evtol",
+      "img": "https://www.aerotime.aero/images/2026/07/Horizon-Aircraft-Cavorite-X7-1200x799.jpg"
+    },
     {
       "cat": "passager",
       "label": "PASSAGER",
       "fresh": "< 24 H · FLASH",
-      "title": "Maroc : nouvelles tenues pour Airports of Morocco",
-      "city": "Maroc · 10 sept.",
-      "copy": "L'ONDA dote ses agents d'accueil d'une nouvelle tenue aux couleurs de la marque « Airports of Morocco ». Cette initiative accompagne la stratégie Aéroports 2030 pour moderniser l'expérience passager.",
+      "title": "Air Cairo ouvre des lignes directes vers Bruxelles depuis Le Caire et Louxor",
+      "city": "Belgique · 11 sept.",
+      "copy": "Le transporteur égyptien reliera la capitale belge à partir de la mi-décembre en Airbus A320. Cette opération comportera trois fréquences hebdomadaires vers Le Caire et une vers Louxor.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-10-maroc-les-equipes-daccueil-aux-couleurs-d-airports-of-morocco-symbole-de-la-modernisation-aeroportuaire-5277416.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-uniformes-accueil-Airports-of-Morocco-aeroport-maroc-source-ONDA.jpg"
+      "url": "https://www.air-journal.fr/2026-09-11-air-cairo-desservira-bruxelles-depuis-le-caire-et-louxor-en-decembre-2026-5277426.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-a320neo-parking-source-Air-Cairo.jpg"
     },
     {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
+      "cat": "passager",
+      "label": "PASSAGER",
       "fresh": "< 24 H · FLASH",
-      "title": "Air Corsica affrète un Airbus A350 et deux autres avions",
-      "city": "France · 10 sept.",
-      "copy": "Suite à l'immobilisation préventive de plusieurs ATR 72, Air Corsica mobilise trois appareils tiers dont un Airbus A350 d'Air Caraïbes. Plus d'une centaine de vols de substitution sont planifiés jusqu'à fin octobre.",
+      "title": "ANA offre deux vols intérieurs au Japon pour tout voyageur international",
+      "city": "Japon · 11 sept.",
+      "copy": "All Nippon Airways reconduit son offre promotionnelle pour les voyageurs européens réservant en septembre. Elle permet d'ajouter deux liaisons intérieures japonaises sans frais de tarif de base.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-10-atr-immobilises-air-corsica-affrete-trois-avions-dont-un-airbus-a350-pour-operer-ses-vols-5277411.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-air-caraibes-airbus-a350-aeroport-Paris-Orly-source-Paris-Aeroport-ADP.jpg"
+      "url": "https://www.air-journal.fr/2026-09-11-voyage-au-japon-ana-propose-deux-vols-interieurs-sans-supplement-avec-un-billet-international-5277414.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/ir-journal-aeroport-tokyo-japon-avions-ana-all-nippon-airlines-japan-airlines-jal-source-Haneda-Airport.jpg"
     },
     {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "< 24 H · FLASH",
-      "title": "Air Force One qatari retardé par un déploiement de toboggan",
-      "city": "États-Unis · 10 sept.",
-      "copy": "Un Boeing 747-8 offert par le Qatar à Donald Trump a décollé en retard de la base d'Andrews. Le déploiement accidentel d'un toboggan d'évacuation a nécessité une vérification complète de l'appareil.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-10-air-force-one-qatari-donald-trump-retarde-au-depart-par-un-incident-de-toboggan-5277409.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-air-force-one-boeing-787-8-qatari-nouvelle-livree-source-US-Air-Force.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
+      "cat": "passager",
+      "label": "PASSAGER",
       "fresh": "RÉCENT",
-      "title": "EgyptAir ouvre la ligne Le Caire - Stockholm",
-      "city": "Suède · 10 sept.",
-      "copy": "EgyptAir desservira la capitale suédoise depuis Le Caire quatre fois par semaine à partir de décembre 2026. La ligne sera opérée toute l'année en Airbus A321neo de 182 sièges.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-10-egyptair-ouvre-une-nouvelle-ligne-entre-le-caire-et-stockholm-5277404.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_egyptair-premier-a3221neo-takeoff©Airbus-Operations-GmbH-2023-Stefan-Kruijer.jpg"
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "< 24 H · FLASH",
-      "title": "Crash Amazon à Miami : vitesse excessive signalée en cockpit",
-      "city": "États-Unis · 10 sept.",
-      "copy": "Un pilote du Boeing 767-300F d'Amazon Prime Air sorti de piste avait alerté sur une vitesse trop élevée. L'enregistreur phonique montre des avertissements répétés dans la dernière minute de vol.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-10-crash-amazon-a-miami-un-pilote-du-boeing-767-300f-avait-signale-une-vitesse-excessive-5277410.html",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Air_Traffic_Control_Tower.jpg/800px-Air_Traffic_Control_Tower.jpg"
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "RÉCENT",
-      "title": "La France commande 8 drones Airbus U050 Capa-X",
-      "city": "France · 10 sept.",
-      "copy": "Les forces armées françaises ont passé commande de huit drones non habités Airbus U050 Capa-X. Ces appareils équiperont l'armée de Terre et la Marine nationale suite à des essais concluants.",
+      "title": "Shenzhen Airlines lance une route directe à destination de Sydney en décembre",
+      "city": "Australie · 11 sept.",
+      "copy": "L'aéroport australien accueillera quatre vols hebdomadaires en provenance de Shenzhen avant la fin d'année. Cette liaison marque le renforcement continu des connexions aériennes entre la Chine et l'Océanie.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/france-airbus-u050-capa-x-drone-order",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Airbus_A350-900_MSN_002_F-WWCF.jpg/800px-Airbus_A350-900_MSN_002_F-WWCF.jpg"
+      "url": "https://www.aerotime.aero/articles/shenzhen-airlines-to-launch-four-weekly-shenzhen-sydney-service-in-december",
+      "img": "https://www.aerotime.aero/images/2026/09/Untitled-design-69-80x80.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "Avianca signe une cession-bail pour 12 Airbus A320neo",
-      "city": "Colombie · 10 sept.",
-      "copy": "La compagnie colombienne Avianca conclut un accord de cession-bail (« sale and leaseback ») avec BOC Aviation. Le contrat porte sur la gestion et le financement de 12 appareils Airbus A320neo.",
+      "title": "Des transporteurs indiens signent un protocole pour 85 turbopropulseurs Il-114-300",
+      "city": "Inde · 11 sept.",
+      "copy": "Deux entreprises aéronautiques indiennes ont conclu des accords préliminaires pour acquérir ces avions régionaux russes. Cette transaction soutient les ambitions d'exportation du consortium aéronautique russe UAC.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/avianca-sale-leaseback-airbus-a320neos-boc-aviation",
-      "img": "https://www.aerotime.aero/images/2026/07/Bombardier-Global-8000-80x80.jpg.webp"
+      "url": "https://www.aerotime.aero/articles/indian-firms-sign-preliminary-deals-for-85-russian-il-114-300-turboprops",
+      "img": ""
     },
     {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "RÉCENT",
-      "title": "General Atomics dévoile le drone Wildfire",
-      "city": "États-Unis · 10 sept.",
-      "copy": "General Atomics a présenté le Wildfire, un drone de nouvelle génération conçu comme successeur plus économique du MQ-9 Reaper. L'appareil est proposé à l'US Air Force pour de futures missions.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/general-atomics-wildfire-drone-mq-9-reaper-successor",
-      "img": "https://www.aerotime.aero/images/2026/09/General-Atomics-Wildfire-uncrewed-aircraft-system-concept-1200x675.png"
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "RÉCENT",
-      "title": "Le Bombardier Global 8000 certifié à London City",
-      "city": "Royaume-Uni · 10 sept.",
-      "copy": "L'autorité britannique d'aviation civile (CAA) a autorisé l'atterrissage du Bombardier Global 8000 à l'aéroport de London City. L'appareil répond aux exigences strictes de cette approche en forte pente.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/bombardier-global-8000-london-city-airport-approval",
-      "img": "https://www.aerotime.aero/images/2026/09/Bombardier-Global-8000.jpg"
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Tirs de laser ciblés : la CAA alerte sur un risque d'accident fatal",
-      "city": "Royaume-Uni · 10 sept.",
-      "copy": "La CAA britannique avertit que le pointage de lasers vers des hélicoptères d'ambulance peut être catastrophique. Ces actes d'aveuglement mettent directement en danger l'équipage et la mission de secours.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/caa-air-ambulances-laser-catastrophic-incident",
-      "img": "https://www.aerotime.aero/images/2026/09/Amazon-Air-crash-Miami-80x80.jpg.webp"
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "< 24 H · FLASH",
+      "title": "Les concerts parisiens de Céline Dion font grimper les recherches de billets de 11%",
+      "city": "France · 11 sept.",
+      "copy": "L'annonce des représentations de la chanteuse à Paris stimule l'intérêt des voyageurs internationaux selon les données d'Amadeus. Le volume des réservations aériennes vers la France connaît un bond immédiat.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-11-paris-les-concerts-de-celine-dion-font-grimper-les-recherches-de-vols-de-11-5277422.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-vacances-france-paris-eiffel-source-Iberia.jpg"
     }
   ],
   "lexicon": [
     {
-      "term": "Affrètement",
-      "def": "Opération par laquelle une compagnie aérienne loue un avion avec ou sans équipage auprès d'un autre opérateur. Cela permet de remplacer temporairement un appareil indisponible ou d'assurer un pic de trafic."
+      "term": "Airstairs",
+      "def": "Désigne un escalier escamotable intégré directement sous la porte d'un avion pour permettre l'embarquement sans passerelle aéroportuaire. Il offre une grande autonomie aux compagnies mais présente des marches souvent plus raides et étroites."
     },
     {
-      "term": "NTSB",
-      "def": "Sigle pour National Transportation Safety Board, l'organisme américain indépendant chargé d'enquêter sur les accidents d'aviation. Ses rapports visent à établir les causes exactes et à formuler des recommandations de sécurité."
+      "term": "eVTOL",
+      "def": "Acronyme d'aéronef électrique à décollage et atterrissage verticaux, souvent comparé à un taxi volant. Ces appareils utilisent une propulsion électrique distribuée pour voler en milieu urbain ou régional avec une faible empreinte sonore."
     },
     {
-      "term": "Sale and leaseback",
-      "def": "Montage financier où une compagnie vend ses avions neufs à une société de leasing pour les relouer immédiatement. Cela permet de dégager de la trésorerie tout en exploitant les appareils dans sa flotte."
+      "term": "Turbopropulseur",
+      "def": "Type de moteur d'avion où une turbine à gaz entraîne une hélice externe pour générer la poussée. Ce système est particulièrement économe en carburant pour les vols régionaux à moyenne altitude et à vitesse modérée."
     },
     {
-      "term": "CAA",
-      "def": "Sigle pour Civil Aviation Authority, l'autorité de régulation de l'aviation civile au Royaume-Uni. Elle délivre les certifications d'aéronefs, les licences de pilotes et veille aux normes de sécurité du secteur."
+      "term": "MOU",
+      "def": "Abréviation de Memorandum of Understanding, soit un protocole d'accord préliminaire entre deux entreprises. Dans l'aviation, il formalise une intention mutuelle d'achat ou de partenariat avant la signature d'un contrat ferme."
     }
   ],
   "stat": {
-    "big": "8",
-    "text": "C'est le nombre de drones Airbus U050 Capa-X commandés par la France pour ses forces armées. Ces appareils équiperont l'armée de Terre et la Marine nationale à l'issue de phases d'essais réussies."
+    "big": "85",
+    "text": "Il s'agit du nombre de chutes de passagers recensées en Italie sur les escaliers intégrés des Boeing 737 de Ryanair entre 2023 et 2025. Ces événements représentent plus de 80% des accidents d'embarquement et de débarquement comptabilisés dans le pays par l'autorité de sécurité ANSV."
   },
   "sources": [
     {
-      "label": "Air Journal — Modernisation de l'ONDA au Maroc",
-      "url": "https://www.air-journal.fr/2026-09-10-maroc-les-equipes-daccueil-aux-couleurs-d-airports-of-morocco-symbole-de-la-modernisation-aeroportuaire-5277416.html"
+      "label": "Air Journal — Sécurité Ryanair et escaliers intégrés en Italie",
+      "url": "https://www.air-journal.fr/2026-09-11-ryanair-85-chutes-de-passagers-recensees-en-italie-sur-les-escaliers-integres-des-boeing-737-800-5277425.html"
     },
     {
-      "label": "Air Journal — Affrètements exceptionnels Air Corsica",
-      "url": "https://www.air-journal.fr/2026-09-10-atr-immobilises-air-corsica-affrete-trois-avions-dont-un-airbus-a350-pour-operer-ses-vols-5277411.html"
+      "label": "AeroTime — Commande d'Airbus par Vietravel Airlines et protocole A350",
+      "url": "https://www.aerotime.aero/articles/airbus-vietravel-order-vietnam-airlines-a350-mou"
     },
     {
-      "label": "Air Journal — Incident de toboggan sur Air Force One",
-      "url": "https://www.air-journal.fr/2026-09-10-air-force-one-qatari-donald-trump-retarde-au-depart-par-un-incident-de-toboggan-5277409.html"
+      "label": "AeroTime — Commande militaire française du système Thundart",
+      "url": "https://www.aerotime.aero/articles/france-orders-thundart-rocket-system-replace-lru"
     },
     {
-      "label": "Air Journal — Enquête NTSB sur le crash Amazon à Miami",
-      "url": "https://www.air-journal.fr/2026-09-10-crash-amazon-a-miami-un-pilote-du-boeing-767-300f-avait-signale-une-vitesse-excessive-5277410.html"
+      "label": "Air Journal — Recrutement international de pilotes par Royal Air Maroc",
+      "url": "https://www.air-journal.fr/2026-09-11-emploi-royal-air-maroc-recrute-des-pilotes-experimentes-a-linternational-via-flight-crew-international-5277427.html"
     },
     {
-      "label": "AeroTime — Commande française de drones Airbus U050 Capa-X",
-      "url": "https://www.aerotime.aero/articles/france-airbus-u050-capa-x-drone-order"
+      "label": "AeroTime — Horizon Aircraft et le marché des hélicoptères",
+      "url": "https://www.aerotime.aero/articles/horizon-aircraft-brandon-robbinson-helicopter-evtol"
     },
     {
-      "label": "AeroTime — Accord Avianca et BOC Aviation pour 12 A320neo",
-      "url": "https://www.aerotime.aero/articles/avianca-sale-leaseback-airbus-a320neos-boc-aviation"
+      "label": "AeroTime — Accords préliminaires en Inde pour l'Ilyushin Il-114-300",
+      "url": "https://www.aerotime.aero/articles/indian-firms-sign-preliminary-deals-for-85-russian-il-114-300-turboprops"
     },
     {
-      "label": "AeroTime — Présentation du drone Wildfire de General Atomics",
-      "url": "https://www.aerotime.aero/articles/general-atomics-wildfire-drone-mq-9-reaper-successor"
+      "label": "Air Journal — Nouvelles liaisons Bruxelles d'Air Cairo",
+      "url": "https://www.air-journal.fr/2026-09-11-air-cairo-desservira-bruxelles-depuis-le-caire-et-louxor-en-decembre-2026-5277426.html"
     },
     {
-      "label": "AeroTime — Certification CAA pour le Bombardier Global 8000",
-      "url": "https://www.aerotime.aero/articles/bombardier-global-8000-london-city-airport-approval"
+      "label": "Air Journal — Impact des concerts de Céline Dion sur le trafic parisien",
+      "url": "https://www.air-journal.fr/2026-09-11-paris-les-concerts-de-celine-dion-font-grimper-les-recherches-de-vols-de-11-5277422.html"
     }
   ]
 }
