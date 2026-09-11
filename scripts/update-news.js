@@ -22,20 +22,44 @@ const RSS_FEEDS = [
   'https://www.aerotime.aero/feed'
 ];
 
-// Images de secours fiables (Wikimedia Commons, liens stables) utilisées
-// quand aucune image exploitable n'a été trouvée dans le flux RSS.
-// L'IA ne choisit JAMAIS elle-même une image : elle ne fait que reprendre
-// l'URL réelle qu'on lui fournit, ou "" si on n'en a pas trouvé.
-const FALLBACK_IMAGES = {
-  securite: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Air_Traffic_Control_Tower.jpg/800px-Air_Traffic_Control_Tower.jpg',
-  technique: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Airplane_engine.jpg/800px-Airplane_engine.jpg',
-  meteo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Cumulonimbus_cloud.jpg/800px-Cumulonimbus_cloud.jpg',
-  innovation: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Airbus_A350-900_MSN_002_F-WWCF.jpg/800px-Airbus_A350-900_MSN_002_F-WWCF.jpg',
-  industrie: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Airbus_A320neo_%28cropped%29.jpg/800px-Airbus_A320neo_%28cropped%29.jpg',
-  formation: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cockpit_training.jpg/800px-Cockpit_training.jpg',
-  passager: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Airport_departure_hall.jpg/800px-Airport_departure_hall.jpg',
-  default: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Aircraft_in_flight.jpg/800px-Aircraft_in_flight.jpg'
-};
+
+// rss-parser expose aussi parseString (XML déjà en mémoire) — promessifié ici.
+function parseStringAsync(xml) {
+  return new Promise((resolve, reject) => {
+    parser.parseString(xml, (err, feed) => err ? reject(err) : resolve(feed));
+  });
+}
+
+// Certains sites (FlightGlobal via Cloudflare) bloquent les requêtes venant
+// d'IP de datacenter comme celles des runners GitHub Actions : c'est l'IP qui
+// est rejetée, pas le User-Agent. Si l'accès direct échoue, on réessaie donc
+// en passant par des proxies publics, qui récupèrent le flux depuis une autre
+// IP. Nécessite Node 18+ (fetch global).
+async function parseFeedWithFallback(url) {
+  try {
+    return await parser.parseURL(url);
+  } catch (directErr) {
+    console.log(`Accès direct impossible pour ${url} (${directErr.message}) — essai via proxy...`);
+    const proxyUrls = [
+      u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+      u => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`
+    ];
+    for (const build of proxyUrls) {
+      try {
+        const res = await fetch(build(url), {
+          headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
+        });
+        if (!res.ok) continue;
+        const xml = await res.text();
+        if (!xml.includes('<')) continue; // le proxy n'a pas renvoyé de XML
+        return await parseStringAsync(xml);
+      } catch (e) {
+        // proxy indisponible : on essaie le suivant
+      }
+    }
+    throw directErr; // aucun proxy n'a fonctionné : on propage l'erreur d'origine
+  }
+}
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -91,7 +115,7 @@ async function run() {
 
   for (const url of RSS_FEEDS) {
     try {
-      const feed = await parser.parseURL(url);
+      const feed = await parseFeedWithFallback(url);
       console.log(`OK — ${url} : ${feed.items.length} articles trouvés`);
       feed.items.slice(0, 5).forEach(item => {
         articles.push({
@@ -163,7 +187,7 @@ Réponds UNIQUEMENT avec un objet JSON valide de la forme :
 `;
 
   const response = await generateContentWithRetry({
-    model: 'gemini-3.6-flash',
+    model: 'gemini-flash-latest', // alias toujours redirigé vers le dernier modèle stable
     contents: prompt,
     config: { responseMimeType: 'application/json' }
   });
@@ -183,15 +207,13 @@ Réponds UNIQUEMENT avec un objet JSON valide de la forme :
     throw new Error("Aucun article généré par l'IA — vérifier le format de la réponse ci-dessus.");
   }
 
-  // Filet de sécurité final : si l'IA a quand même renvoyé un champ "img"
-  // vide, invalide, ou pointant vers un domaine non http(s), on retombe sur
-  // l'image de secours fiable correspondant à la catégorie de l'article.
+  // Filet de sécurité final : on ne conserve que les images réellement
+  // fournies par les flux RSS. Si "img" est vide ou invalide, le SITE
+  // affichera une illustration de secours générée localement (aucune URL
+  // externe, donc rien à casser).
   const finalItems = newItems.map(it => {
     const hasValidImg = typeof it.img === 'string' && /^https?:\/\//.test(it.img.trim());
-    return {
-      ...it,
-      img: hasValidImg ? it.img.trim() : (FALLBACK_IMAGES[it.cat] || FALLBACK_IMAGES.default)
-    };
+    return { ...it, img: hasValidImg ? it.img.trim() : '' };
   });
 
   // On emballe les actualités avec la date de génération : le site affichera
