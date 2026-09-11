@@ -406,9 +406,26 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
 </footer>
 
 <script>
-// Image de secours affichée si l'URL fournie par items.json ne charge pas
-// (lien mort, hotlinking bloqué, domaine changé, etc.)
-const DEFAULT_IMG = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Aircraft_in_flight.jpg/800px-Aircraft_in_flight.jpg';
+// Illustration de secours générée EN LOCAL (aucune URL externe, donc
+// impossible à casser) : affichée si l'image de l'article ne charge pas
+// (lien mort, hotlinking bloqué, domaine changé, etc.).
+function placeholderImg(text = 'AIR//WATCH') {
+  const safeText = String(text).replace(/[<>&]/g, '').slice(0, 30);
+  const svg =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">' +
+    '<rect width="800" height="450" fill="#dceeff"/>' +
+    '<g stroke="#b9d4ea" stroke-width="1">' +
+    '<line x1="0" y1="112" x2="800" y2="112"/><line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="337" x2="800" y2="337"/>' +
+    '<line x1="200" y1="0" x2="200" y2="450"/><line x1="400" y1="0" x2="400" y2="450"/><line x1="600" y1="0" x2="600" y2="450"/>' +
+    '</g>' +
+    '<circle cx="400" cy="225" r="125" fill="none" stroke="#8fc3ea" stroke-width="2"/>' +
+    '<circle cx="400" cy="225" r="62" fill="none" stroke="#8fc3ea" stroke-width="2"/>' +
+    '<text x="400" y="258" font-size="84" text-anchor="middle" fill="#1976d2">&#9992;</text>' +
+    '<text x="400" y="412" font-size="24" text-anchor="middle" fill="#587187" font-family="sans-serif" font-weight="700" letter-spacing="3">' + safeText + '</text>' +
+    '</svg>';
+  return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+}
+const DEFAULT_IMG = placeholderImg();
 
 async function loadAndRender() {
   try {
@@ -443,7 +460,7 @@ async function loadAndRender() {
     const cards = document.querySelector('#cards');
 
     function cardHTML(x) {
-      const imgSrc = x.img && x.img.trim() ? x.img : DEFAULT_IMG;
+      const imgSrc = x.img && x.img.trim() ? x.img : placeholderImg(x.label);
       return `<article class="card">
         <div class="card-img-wrap">
           <img src="${imgSrc}" alt="${x.title}" loading="lazy" onerror="this.onerror=null;this.src='${DEFAULT_IMG}';">
