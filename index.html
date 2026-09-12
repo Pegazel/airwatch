@@ -194,9 +194,9 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
    Les % sont désormais relatifs à .map-frame, qui a le même ratio que la carte elle-même,
    donc ils tombent au bon endroit quel que soit l'écran. */
 .marker.paris{left:50.0%;top:28.5%}.label.paris{left:calc(50.0% + 14px);top:28.5%}
-.marker.lyon{left:65.1%;top:56.6%}.label.lyon{left:calc(65.1% + 14px);top:56.6%}
+.marker.lyon{left:66.1%;top:58.6%}.label.lyon{left:calc(66.1% + 14px);top:58.6%}
 .marker.bordeaux{left:32.5%;top:65.0%}.label.bordeaux{left:calc(32.5% - 72px);top:65.0%}
-.marker.toulouse{left:43.0%;top:76.2%}.label.toulouse{left:calc(43.0% + 14px);top:76.2%}
+.marker.toulouse{left:45.0%;top:78.2%}.label.toulouse{left:calc(45.0% + 14px);top:78.2%}
 .marker.marseille{left:66.2%;top:77.7%}.label.marseille{left:calc(66.2% + 14px);top:77.7%}
 .marker.nantes{left:25.0%;top:44.1%}.label.nantes{left:calc(25.0% - 62px);top:44.1%}
 
@@ -743,7 +743,7 @@ document.querySelectorAll('.marker').forEach(m => m.addEventListener('click', ()
 // Bornes approximatives, utilisées uniquement pour le filtre "isInMapArea" ci-dessous.
 const MAP_BOUNDS = {
   lonMin: -4.8,
-  lonMax: 12.2,
+  lonMax: 8.2,
   latMin: 42.3,
   latMax: 51.1
 };
@@ -764,7 +764,7 @@ function projectCoordinates(lat, lon) {
   return { left, top };
 }
 
-const PLANE_MAX = 400;
+const PLANE_MAX = 1200;
 
 function normalizeAdsb(list) {
   return (list || []).map(a => {
@@ -796,10 +796,10 @@ const RADAR_SOURCES = [
 
 function isInMapArea(lat, lon) {
   return (
-    lat >= MAP_BOUNDS.latMin - 1 &&
-    lat <= MAP_BOUNDS.latMax + 1 &&
-    lon >= MAP_BOUNDS.lonMin - 1 &&
-    lon <= MAP_BOUNDS.lonMax + 1
+    lat >= 40.3 &&
+    lat <= 52.5 &&
+    lon >= -6.5 &&
+    lon <= 11.0
   );
 }
 
