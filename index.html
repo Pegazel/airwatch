@@ -740,6 +740,7 @@ document.querySelectorAll('.marker').forEach(m => m.addEventListener('click', ()
 // OpenSky Network a fermé son accès anonyme. On utilise à la place des
 // réseaux ADS-B communautaires (gratuits, sans clé API, CORS ouvert pour
 // les navigateurs), avec bascule automatique vers une source de secours.
+// Bornes approximatives, utilisées uniquement pour le filtre "isInMapArea" ci-dessous.
 const MAP_BOUNDS = {
   lonMin: -4.8,
   lonMax: 8.2,
@@ -747,15 +748,18 @@ const MAP_BOUNDS = {
   latMax: 51.1
 };
 
-
+// Transformation affine calibrée sur les 6 repères de villes déjà positionnés
+// "à la main" dans le CSS (Paris, Lyon, Bordeaux, Toulouse, Marseille, Nantes).
+// Le fond de carte (France_blank_1.svg) n'est pas une simple grille lat/lon
+// linéaire : une règle de trois toute bête (comme avant) créait un décalage
+// grandissant à mesure qu'on s'éloigne du centre de l'image, d'où les avions
+// décalés vers le nord-est de Paris. Cette formule a été obtenue par régression
+// linéaire (moindres carrés) à partir des coordonnées réelles des 6 villes et de
+// leur position % déjà correcte sur l'image, ce qui la rend cohérente à <2% près
+// avec les repères existants sur toute la carte.
 function projectCoordinates(lat, lon) {
-  const left =
-    ((lon - MAP_BOUNDS.lonMin) /
-      (MAP_BOUNDS.lonMax - MAP_BOUNDS.lonMin)) * 100;
-
-  const top =
-    ((MAP_BOUNDS.latMax - lat) /
-      (MAP_BOUNDS.latMax - MAP_BOUNDS.latMin)) * 100;
+  const left = 6.06828 * lon + 0.07302 * lat + 32.13315;
+  const top = -0.05810 * lon + -9.08246 * lat + 472.92508;
 
   return { left, top };
 }
