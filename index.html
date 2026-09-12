@@ -287,6 +287,69 @@ body.radar .ac span {
 .metar small{display:block;margin-top:6px;color:var(--muted);font-size:11px;line-height:1.5}
 .metar .cat{float:right;font-size:9px;font-weight:900;padding:3px 8px;border-radius:999px;color:#fff}
 .cat.VFR{background:#1bb58c}.cat.MVFR{background:#1976d2}.cat.IFR{background:#dc4d5a}.cat.LIFR{background:#8e44ad}
+.metar-help {
+  margin-top: 16px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--surface2) 72%, transparent);
+}
+
+.metar-help h4 {
+  margin: 0 0 8px;
+  font-size: 17px;
+  color: var(--ink);
+}
+
+.metar-help p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.metar-help-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.metar-help-grid div {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.metar-help-grid strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--blue);
+  font-size: 12px;
+  letter-spacing: .08em;
+}
+
+.metar-help-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.metar-help-note {
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 11px !important;
+  font-style: italic;
+}
+
+@media (max-width: 680px) {
+  .metar-help-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media(max-width:980px){.hero,.split,.sources{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.data-strip{grid-template-columns:1fr 1fr}.newsletter-panel{align-items:flex-start;flex-direction:column}}
 @media(max-width:680px){
   .navlinks{display:none}.hero{min-height:auto;padding-top:70px}.sky{height:370px}.cards{grid-template-columns:1fr}
@@ -421,6 +484,52 @@ try {
   </div>
 <div class="eyebrow" style="margin-top:30px">Météo aviation en direct</div>
   <div class="metar-strip" id="metarStrip"><div class="metar"><b>METAR</b><small>chargement…</small></div></div>
+  <div class="metar-help">
+  <h4>Lire le bulletin météo aéronautique</h4>
+
+  <p>
+    Ces informations sont issues des bulletins <strong>METAR</strong>,
+    utilisés par les pilotes et les contrôleurs pour connaître les conditions
+    météo d’un aéroport.
+  </p>
+
+  <div class="metar-help-grid">
+    <div>
+      <strong>VFR</strong>
+      <span>Bonnes conditions : le vol à vue est généralement possible.</span>
+    </div>
+
+    <div>
+      <strong>MVFR</strong>
+      <span>Conditions marginales : visibilité ou plafond nuageux réduits.</span>
+    </div>
+
+    <div>
+      <strong>IFR</strong>
+      <span>Conditions nécessitant généralement un vol aux instruments.</span>
+    </div>
+
+    <div>
+      <strong>Vent</strong>
+      <span>270° / 6 kt signifie : vent venant de l’ouest à 6 nœuds.</span>
+    </div>
+
+    <div>
+      <strong>VRB</strong>
+      <span>Direction du vent variable ou insuffisamment stable.</span>
+    </div>
+
+    <div>
+      <strong>Q1025</strong>
+      <span>Pression atmosphérique de 1 025 hPa, utilisée pour régler l’altimètre.</span>
+    </div>
+  </div>
+
+  <p class="metar-help-note">
+    Les catégories météo donnent une indication générale des conditions sur
+    l’aéroport. Elles ne remplacent pas les informations officielles
+    nécessaires à la préparation d’un vol.
+  </p>
 </section>
 
 <section id="briefing">
