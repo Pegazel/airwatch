@@ -617,8 +617,7 @@ function normalizeAdsb(list) {
 }
 
 const RADAR_SOURCES = [
-  { name: 'adsb.lol', url: 'https://api.adsb.lol/v2/point/46.7/2.4/250' },
-  { name: 'adsb.fi',  url: 'https://api.adsb.fi/v2/point/46.7/2.4/250' }
+  { name: 'adsb.lol', url: 'https://api.adsb.lol/v2/point/46.7/2.4/250' }
 ];
 
 function renderPlanes(planes) {
@@ -645,25 +644,55 @@ function renderPlanes(planes) {
         tt.innerHTML = `<h4>&#9992; ${parts[0]}</h4><p>${parts.slice(1).join(' · ') || 'Aéronef en vol'}</p>`;
       }
     });
+    console.log('Position calculée', {
+    avion: p.cs,
+    latitude: p.lat,
+    longitude: p.lon,
+    left,
+    top
+    });
   });
 }
-
-async function refreshPlanes() {
+async function refreshPlanes( ) {
   const timeEl = document.getElementById('liveTime');
+
   for (const src of RADAR_SOURCES) {
     try {
       const res = await fetch(src.url);
-      if (!res.ok) throw new Error('HTTP ' + res.status);
+
+      if (!res.ok) {
+        throw new Error('HTTP ' + res.status);
+      }
+
       const data = await res.json();
-      renderPlanes(normalizeAdsb(data.ac));
-      if (timeEl) timeEl.textContent = 'maj ' + new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }) + ' · ' + src.name;
+      const planes = normalizeAdsb(data.ac);
+
+      console.log('Radar chargé :', src.name, planes.length, 'avions');
+
+      renderPlanes(planes);
+
+      if (timeEl) {
+        timeEl.textContent =
+          'maj ' +
+          new Date().toLocaleTimeString('fr-FR', {
+            hour: '2-digit',
+            minute: '2-digit'
+          }) +
+          ' · ' +
+          src.name;
+      }
+
       return;
     } catch (e) {
-      // source indisponible : on essaie la suivante
+      console.error('Erreur radar avec ' + src.name + ':', e);
     }
   }
+
   const c = document.getElementById('liveCount');
-  if (c) c.textContent = 'radar indisponible';
+
+  if (c) {
+    c.textContent = 'radar indisponible — voir la console';
+  }
 }
 refreshPlanes();
 setInterval(refreshPlanes, 20000);
@@ -679,9 +708,15 @@ async function fetchMetarJson() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     return await res.json();
   } catch (e) {
-    // Échec probablement dû au CORS côté navigateur : repli via proxy public
-    const res = await fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent(direct));
-    if (!res.ok) throw new Error('HTTP ' + res.status);
+    console.warn('API METAR directe indisponible :', e);
+
+    const proxy =
+      'https://api.allorigins.win/raw?url=' +
+      encodeURIComponent(direct );
+
+    const res = await fetch(proxy);
+    if (!res.ok) throw new Error('Proxy METAR HTTP ' + res.status);
+
     return JSON.parse(await res.text());
   }
 }
