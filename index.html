@@ -617,8 +617,12 @@ function normalizeAdsb(list) {
 }
 
 const RADAR_SOURCES = [
-  { name: 'adsb.lol', url: 'https://api.adsb.lol/v2/point/46.7/2.4/250' }
+  {
+    name: 'proxy Vercel',
+    url: '/api/planes'
+  }
 ];
+
 
 function renderPlanes(planes) {
   const layer = document.getElementById('liveLayer');
@@ -698,28 +702,17 @@ refreshPlanes();
 setInterval(refreshPlanes, 20000);
 
 
-// ============== MÉTÉO AVIATION EN DIRECT — aviationweather.gov ==============
-const METAR_IDS = 'LFPG,LFPO,LFLL,LFBO,LFML,LFRS'; // CDG, Orly, Lyon, Bordeaux, Marseille, Nantes
 
 async function fetchMetarJson() {
-  const direct = 'https://aviationweather.gov/api/data/metar?ids=' + METAR_IDS + '&format=json';
-  try {
-    const res = await fetch(direct);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    return await res.json();
-  } catch (e) {
-    console.warn('API METAR directe indisponible :', e);
+  const res = await fetch('/api/metar');
 
-    const proxy =
-      'https://api.allorigins.win/raw?url=' +
-      encodeURIComponent(direct );
-
-    const res = await fetch(proxy);
-    if (!res.ok) throw new Error('Proxy METAR HTTP ' + res.status);
-
-    return JSON.parse(await res.text());
+  if (!res.ok) {
+    throw new Error('Proxy METAR HTTP ' + res.status);
   }
+
+  return await res.json();
 }
+
 
 async function refreshMetar() {
   const strip = document.getElementById('metarStrip');
