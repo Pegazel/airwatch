@@ -276,6 +276,12 @@ body.radar .ac span{text-shadow:0 0 9px rgba(73,211,193,.9)}
 <script>
 // Applique le mode radar sauvegardé AVANT le premier rendu (évite le flash)
 try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.classList.add('radar'); } catch (e) {}
+// Neutralise d'éventuelles balises <base target="_blank"> qui forceraient
+// TOUS les liens (y compris la navigation interne) à s'ouvrir en nouvel onglet.
+try {
+  document.querySelectorAll('base[target]').forEach(b => b.remove());
+  document.querySelectorAll('a:not([target])').forEach(a => a.setAttribute('target', '_self'));
+} catch (e) {}
 </script>
 <nav>
   <a class="logo" href="#top">AIR<span>//</span>WATCH</a>
@@ -359,7 +365,7 @@ try { if (localStorage.getItem('airwatch-mode') === 'radar') document.body.class
     <div class="live-chip"><span class="live-dot"></span><span id="liveCount">connexion au radar…</span><small id="liveTime"></small></div>
 
     <div class="tooltip" id="tooltip"></div>
-    <div class="map-note">Avions &#9992; en temps réel (OpenSky Network) — cliquez sur une balise de veille ou sur un avion pour le détail.</div>
+    <div class="map-note">Avions &#9992; en temps réel (réseaux ADS-B communautaires) — cliquez sur une balise de veille ou sur un avion pour le détail.</div>
   </div>
 </section>
 
@@ -593,76 +599,106 @@ document.querySelectorAll('.marker').forEach(m => m.addEventListener('click', ()
   }
 }));
 
-// =================== RADAR TEMPS RÉEL — OpenSky Network ===================
-// API publique et gratuite (réseau communautaire ADS-B). Les positions sont
-// projetées avec une calibration linéaire issue des 6 villes de la carte.
+// =================== RADAR TEMPS RÉEL — réseaux ADS-B communautaires ===================
+// OpenSky Network a fermé son accès anonyme. On utilise à la place des
+// réseaux ADS-B communautaires (gratuits, sans clé API, CORS ouvert pour
+// les navigateurs), avec bascule automatique vers une source de secours.
 const PROJ = { xA: 6.0518, xB: 35.4951, yA: -9.0603, yB: 471.8015 };
-const OPENSKY_URL = 'https://opensky-network.org/api/states/all?lamin=41&lomin=-6&lamax=52&lomax=10';
 const PLANE_MAX = 400;
 
-function renderPlanes(states) {
+function normalizeAdsb(list) {
+  return (list || []).map(a => ({
+    cs: ((a.flight || '').trim() || a.hex || 'INCONNU'),
+    lat: a.lat, lon: a.lon,
+    altFt: (typeof a.alt_baro === 'number') ? a.alt_baro : null,
+    spdKt: (typeof a.gs === 'number') ? a.gs : null,
+    track: (typeof a.track === 'number') ? a.track : 0
+  })).filter(p => typeof p.lat === 'number' && typeof p.lon === 'number');
+}
+
+const RADAR_SOURCES = [
+  { name: 'adsb.lol', url: 'https://api.adsb.lol/v2/point/46.7/2.4/250' },
+  { name: 'adsb.fi',  url: 'https://api.adsb.fi/v2/point/46.7/2.4/250' }
+];
+
+function renderPlanes(planes) {
   const layer = document.getElementById('liveLayer');
   const countEl = document.getElementById('liveCount');
   if (!layer) return;
-  const airborne = (states || []).filter(s => s && s[5] != null && s[6] != null && !s[8]);
-  if (countEl) countEl.textContent = airborne.length + ' avion' + (airborne.length > 1 ? 's' : '') + ' en vol';
-  layer.innerHTML = airborne.slice(0, PLANE_MAX).map(s => {
-    const left = PROJ.xA * s[5] + PROJ.xB;
-    const top = PROJ.yA * s[6] + PROJ.yB;
+  if (countEl) countEl.textContent = planes.length + ' avion' + (planes.length > 1 ? 's' : '') + ' en vol';
+  layer.innerHTML = planes.slice(0, PLANE_MAX).map(p => {
+    const left = PROJ.xA * p.lon + PROJ.xB;
+    const top = PROJ.yA * p.lat + PROJ.yB;
     if (left < -1 || left > 101 || top < -1 || top > 101) return '';
-    const track = (typeof s[10] === 'number') ? s[10] : 0;
-    const cs = (s[1] || '').trim() || s[0];
-    const altFt = (typeof s[7] === 'number') ? Math.round(s[7] * 3.28084) : null;
-    const spdKt = (typeof s[9] === 'number') ? Math.round(s[9] * 1.94384) : null;
-    const info = cs + ' — ' + (s[2] || '') +
-      (altFt ? ' · FL' + String(Math.round(altFt / 100)).padStart(3, '0') : '') +
-      (spdKt ? ' · ' + spdKt + ' kt' : '');
-    return `<div class="ac" style="left:${left.toFixed(2)}%;top:${top.toFixed(2)}%" data-info="${info}" data-track="${track}"><span>&#9992;</span></div>`;
+    const altFl = (p.altFt != null) ? ' · FL' + String(Math.round(p.altFt / 100)).padStart(3, '0') : '';
+    const spd = (p.spdKt != null) ? ' · ' + p.spdKt + ' kt' : '';
+    const info = p.cs + altFl + spd;
+    return `<div class="ac" style="left:${left.toFixed(2)}%;top:${top.toFixed(2)}%" data-info="${info}" data-track="${p.track}"><span>&#9992;</span></div>`;
   }).join('');
   layer.querySelectorAll('.ac').forEach(el => {
     el.style.transform = 'rotate(' + ((parseFloat(el.dataset.track) || 0) - 45).toFixed(0) + 'deg)';
     el.addEventListener('click', () => {
       const tt = document.getElementById('tooltip');
       if (tt) {
-        const parts = el.dataset.info.split(' — ');
+        const parts = el.dataset.info.split(' · ');
         tt.classList.add('show');
-        tt.innerHTML = `<h4>&#9992; ${parts[0]}</h4><p>${parts.slice(1).join(' — ')}</p>`;
+        tt.innerHTML = `<h4>&#9992; ${parts[0]}</h4><p>${parts.slice(1).join(' · ') || 'Aéronef en vol'}</p>`;
       }
     });
   });
 }
 
 async function refreshPlanes() {
-  try {
-    const res = await fetch(OPENSKY_URL);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    renderPlanes(data.states);
-    const t = document.getElementById('liveTime');
-    if (t) t.textContent = 'maj ' + new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-  } catch (e) {
-    const c = document.getElementById('liveCount');
-    if (c) c.textContent = 'radar indisponible';
+  const timeEl = document.getElementById('liveTime');
+  for (const src of RADAR_SOURCES) {
+    try {
+      const res = await fetch(src.url);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      renderPlanes(normalizeAdsb(data.ac));
+      if (timeEl) timeEl.textContent = 'maj ' + new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }) + ' · ' + src.name;
+      return;
+    } catch (e) {
+      // source indisponible : on essaie la suivante
+    }
   }
+  const c = document.getElementById('liveCount');
+  if (c) c.textContent = 'radar indisponible';
 }
 refreshPlanes();
-setInterval(refreshPlanes, 20000); // limite anonyme OpenSky : ~20 s entre requêtes
+setInterval(refreshPlanes, 20000);
+
 
 // ============== MÉTÉO AVIATION EN DIRECT — aviationweather.gov ==============
 const METAR_IDS = 'LFPG,LFPO,LFLL,LFBO,LFML,LFRS'; // CDG, Orly, Lyon, Bordeaux, Marseille, Nantes
+
+async function fetchMetarJson() {
+  const direct = 'https://aviationweather.gov/api/data/metar?ids=' + METAR_IDS + '&format=json';
+  try {
+    const res = await fetch(direct);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return await res.json();
+  } catch (e) {
+    // Échec probablement dû au CORS côté navigateur : repli via proxy public
+    const res = await fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent(direct));
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return JSON.parse(await res.text());
+  }
+}
 
 async function refreshMetar() {
   const strip = document.getElementById('metarStrip');
   if (!strip) return;
   try {
-    const res = await fetch('https://aviationweather.gov/api/data/metar?ids=' + METAR_IDS + '&format=json');
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const metars = await res.json();
+    const metars = await fetchMetarJson();
     strip.innerHTML = metars.map(m => {
-      const wind = (m.wdir != null && m.wspd != null) ? String(m.wdir).padStart(3, '0') + '° / ' + m.wspd + ' kt' : 'vent —';
+      const wind = (m.wspd != null)
+        ? (((m.wdir === 'VRB' || m.wdir == null) ? 'VRB' : String(m.wdir).padStart(3, '0') + '°') + ' / ' + m.wspd + ' kt')
+        : 'vent —';
       const temp = (m.temp != null) ? ' · ' + m.temp + '°C' : '';
       const qnh = (m.altim != null) ? ' · Q' + Math.round(m.altim) : '';
-      return `<div class="metar"><span class="cat ${m.flightCategory || ''}">${m.flightCategory || '—'}</span><b>${m.icaoId}</b><small>${wind}${temp}${qnh}</small></div>`;
+      const cat = m.fltCat || '—';
+      return `<div class="metar"><span class="cat ${cat}">${cat}</span><b>${m.icaoId}</b><small>${wind}${temp}${qnh}</small></div>`;
     }).join('');
   } catch (e) {
     strip.innerHTML = '<div class="metar"><b>METAR</b><small>données météo indisponibles pour le moment</small></div>';
