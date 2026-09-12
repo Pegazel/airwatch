@@ -167,7 +167,7 @@ section{padding:82px clamp(20px,7vw,110px)}
 }
 .map-frame{
   position:absolute;left:50%;top:53%;transform:translate(-50%,-50%);
-  width:min(70vw,650px);aspect-ratio:1.04/1;
+  width:min(70vw,650px);aspect-ratio: 14 / 9;
 }
 .map-image{
   position:absolute;inset:0;width:100%;height:100%;object-fit:contain;
@@ -631,18 +631,48 @@ document.querySelectorAll('.marker').forEach(m => m.addEventListener('click', ()
 // OpenSky Network a fermé son accès anonyme. On utilise à la place des
 // réseaux ADS-B communautaires (gratuits, sans clé API, CORS ouvert pour
 // les navigateurs), avec bascule automatique vers une source de secours.
-const PROJ = { xA: 6.0518, xB: 35.4951, yA: -9.0603, yB: 471.8015 };
+const MAP_BOUNDS = {
+  lonMin: -4,
+  lonMax: 8,
+  latMin: 42,
+  latMax: 50
+};
+
+
+function projectCoordinates(lat, lon) {
+  const left =
+    ((lon - MAP_BOUNDS.lonMin) /
+      (MAP_BOUNDS.lonMax - MAP_BOUNDS.lonMin)) * 100;
+
+  const top =
+    ((MAP_BOUNDS.latMax - lat) /
+      (MAP_BOUNDS.latMax - MAP_BOUNDS.latMin)) * 100;
+
+  return { left, top };
+}
+
 const PLANE_MAX = 400;
 
 function normalizeAdsb(list) {
-  return (list || []).map(a => ({
-    cs: ((a.flight || '').trim() || a.hex || 'INCONNU'),
-    lat: a.lat, lon: a.lon,
-    altFt: (typeof a.alt_baro === 'number') ? a.alt_baro : null,
-    spdKt: (typeof a.gs === 'number') ? a.gs : null,
-    track: (typeof a.track === 'number') ? a.track : 0
-  })).filter(p => typeof p.lat === 'number' && typeof p.lon === 'number');
+  return (list || []).map(a => {
+    const plane = {
+      cs: ((a.flight || '').trim() || a.hex || 'INCONNU'),
+      lat: a.lat,
+      lon: a.lon,
+      altFt: typeof a.alt_baro === 'number' ? a.alt_baro : null,
+      spdKt: typeof a.gs === 'number' ? a.gs : null,
+      track: typeof a.track === 'number' ? a.track : 0
+    };
+
+    console.log('Coordonnée avion :', plane.cs, plane.lat, plane.lon);
+
+    return plane;
+  }).filter(p =>
+    typeof p.lat === 'number' &&
+    typeof p.lon === 'number'
+  );
 }
+
 
 const RADAR_SOURCES = [
   {
@@ -651,6 +681,15 @@ const RADAR_SOURCES = [
   }
 ];
 
+function isInMapArea(lat, lon) {
+  return (
+    lat >= MAP_BOUNDS.latMin - 1 &&
+    lat <= MAP_BOUNDS.latMax + 1 &&
+    lon >= MAP_BOUNDS.lonMin - 1 &&
+    lon <= MAP_BOUNDS.lonMax + 1
+  );
+}
+
 
 function renderPlanes(planes) {
   const layer = document.getElementById('liveLayer');
@@ -658,20 +697,22 @@ function renderPlanes(planes) {
 
   if (!layer) return;
 
+  const visiblePlanes = planes.filter(p =>
+    isInMapArea(p.lat, p.lon)
+  );
+
   if (countEl) {
     countEl.textContent =
-      planes.length + ' avion' + (planes.length > 1 ? 's' : '') + ' en vol';
+      visiblePlanes.length +
+      ' avion' +
+      (visiblePlanes.length > 1 ? 's' : '') +
+      ' dans la zone';
   }
 
-  layer.innerHTML = planes
+  layer.innerHTML = visiblePlanes
     .slice(0, PLANE_MAX)
     .map(p => {
-      const left = PROJ.xA * p.lon + PROJ.xB;
-      const top = PROJ.yA * p.lat + PROJ.yB;
-
-      if (left < -1 || left > 101 || top < -1 || top > 101) {
-        return '';
-      }
+      const { left, top } = projectCoordinates(p.lat, p.lon);
 
       const altFl =
         p.altFt != null
@@ -684,14 +725,15 @@ function renderPlanes(planes) {
           : '';
 
       const info = p.cs + altFl + spd;
+      const safeInfo = info.replace(/"/g, '&quot;');
 
       return `
         <div
           class="ac"
           style="left:${left.toFixed(2)}%;top:${top.toFixed(2)}%"
-          data-info="${info.replace(/"/g, '&quot;')}"
+          data-info="${safeInfo}"
           data-track="${p.track}"
-          title="${info.replace(/"/g, '&quot;')}"
+          title="${safeInfo}"
         >
           <span>&#9992;</span>
         </div>
@@ -717,7 +759,6 @@ function renderPlanes(planes) {
       const parts = el.dataset.info.split(' · ');
 
       tooltip.classList.add('show');
-
       tooltip.innerHTML = `
         <h4>&#9992; ${parts[0]}</h4>
         <p>${parts.slice(1).join(' · ') || 'Aéronef en vol'}</p>
@@ -725,6 +766,7 @@ function renderPlanes(planes) {
     });
   });
 }
+
 
 async function refreshPlanes( ) {
   const timeEl = document.getElementById('liveTime');
