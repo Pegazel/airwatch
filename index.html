@@ -247,9 +247,37 @@ body.radar .map-image{filter:invert(1) drop-shadow(0 0 18px rgba(73,211,193,.16)
 @keyframes ticker{to{transform:translateX(-50%)}}
 /* ----- Radar temps réel ----- */
 .live-layer{position:absolute;inset:0;z-index:2;pointer-events:none}
-.ac{position:absolute;width:0;height:0;pointer-events:auto;cursor:pointer;color:var(--ink)}
-.ac span{display:block;font-size:12px;line-height:1;transform:translate(-50%,-50%);text-shadow:0 0 6px color-mix(in srgb,var(--blue) 65%,transparent)}
-body.radar .ac span{text-shadow:0 0 9px rgba(73,211,193,.9)}
+.ac {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  transform-origin: center;
+  pointer-events: auto;
+  cursor: pointer;
+  color: var(--ink);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ac span {
+  display: block;
+  font-size: 16px;
+  line-height: 1;
+  transform: none;
+  text-shadow: 0 0 6px color-mix(in srgb, var(--blue) 65%, transparent);
+}
+
+.ac:hover {
+  z-index: 20;
+  filter: drop-shadow(0 0 6px var(--blue));
+}
+
+body.radar .ac span {
+  text-shadow: 0 0 9px rgba(73, 211, 193, 0.9);
+}
+
 .live-chip{position:absolute;right:24px;top:22px;z-index:4;display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 90%,transparent);backdrop-filter:blur(10px);border-radius:11px;font-size:11px;font-weight:800}
 .live-chip small{color:var(--muted);font-weight:700}
 /* ----- METAR ----- */
@@ -627,36 +655,77 @@ const RADAR_SOURCES = [
 function renderPlanes(planes) {
   const layer = document.getElementById('liveLayer');
   const countEl = document.getElementById('liveCount');
+
   if (!layer) return;
-  if (countEl) countEl.textContent = planes.length + ' avion' + (planes.length > 1 ? 's' : '') + ' en vol';
-  layer.innerHTML = planes.slice(0, PLANE_MAX).map(p => {
-    const left = PROJ.xA * p.lon + PROJ.xB;
-    const top = PROJ.yA * p.lat + PROJ.yB;
-    if (left < -1 || left > 101 || top < -1 || top > 101) return '';
-    const altFl = (p.altFt != null) ? ' · FL' + String(Math.round(p.altFt / 100)).padStart(3, '0') : '';
-    const spd = (p.spdKt != null) ? ' · ' + p.spdKt + ' kt' : '';
-    const info = p.cs + altFl + spd;
-    return `<div class="ac" style="left:${left.toFixed(2)}%;top:${top.toFixed(2)}%" data-info="${info}" data-track="${p.track}"><span>&#9992;</span></div>`;
-  }).join('');
-  layer.querySelectorAll('.ac').forEach(el => {
-    el.style.transform = 'rotate(' + ((parseFloat(el.dataset.track) || 0) - 45).toFixed(0) + 'deg)';
-    el.addEventListener('click', () => {
-      const tt = document.getElementById('tooltip');
-      if (tt) {
-        const parts = el.dataset.info.split(' · ');
-        tt.classList.add('show');
-        tt.innerHTML = `<h4>&#9992; ${parts[0]}</h4><p>${parts.slice(1).join(' · ') || 'Aéronef en vol'}</p>`;
+
+  if (countEl) {
+    countEl.textContent =
+      planes.length + ' avion' + (planes.length > 1 ? 's' : '') + ' en vol';
+  }
+
+  layer.innerHTML = planes
+    .slice(0, PLANE_MAX)
+    .map(p => {
+      const left = PROJ.xA * p.lon + PROJ.xB;
+      const top = PROJ.yA * p.lat + PROJ.yB;
+
+      if (left < -1 || left > 101 || top < -1 || top > 101) {
+        return '';
       }
-    });
-    console.log('Position calculée', {
-    avion: p.cs,
-    latitude: p.lat,
-    longitude: p.lon,
-    left,
-    top
+
+      const altFl =
+        p.altFt != null
+          ? ' · FL' + String(Math.round(p.altFt / 100)).padStart(3, '0')
+          : '';
+
+      const spd =
+        p.spdKt != null
+          ? ' · ' + Math.round(p.spdKt) + ' kt'
+          : '';
+
+      const info = p.cs + altFl + spd;
+
+      return `
+        <div
+          class="ac"
+          style="left:${left.toFixed(2)}%;top:${top.toFixed(2)}%"
+          data-info="${info.replace(/"/g, '&quot;')}"
+          data-track="${p.track}"
+          title="${info.replace(/"/g, '&quot;')}"
+        >
+          <span>&#9992;</span>
+        </div>
+      `;
+    })
+    .join('');
+
+  layer.querySelectorAll('.ac').forEach(el => {
+    const track = parseFloat(el.dataset.track) || 0;
+
+    el.style.transform =
+      'translate(-50%, -50%) rotate(' +
+      (track - 45).toFixed(0) +
+      'deg)';
+
+    el.addEventListener('click', event => {
+      event.stopPropagation();
+
+      const tooltip = document.getElementById('tooltip');
+
+      if (!tooltip) return;
+
+      const parts = el.dataset.info.split(' · ');
+
+      tooltip.classList.add('show');
+
+      tooltip.innerHTML = `
+        <h4>&#9992; ${parts[0]}</h4>
+        <p>${parts.slice(1).join(' · ') || 'Aéronef en vol'}</p>
+      `;
     });
   });
 }
+
 async function refreshPlanes( ) {
   const timeEl = document.getElementById('liveTime');
 
