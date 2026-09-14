@@ -1,171 +1,179 @@
 {
-  "updated": "2026-09-11T09:30:33.344Z",
+  "updated": "2026-09-14T20:55:39.959Z",
   "items": [
     {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
+      "cat": "meteo",
+      "label": "MÉTÉO",
       "fresh": "< 24 H · FLASH",
-      "title": "Ryanair : 85 chutes de passagers signalées sur les escaliers intégrés en Italie",
-      "city": "Italie · 11 sept.",
-      "copy": "L'agence italienne de sécurité des vols alerte sur les risques liés aux escaliers escamotables des Boeing 737-800. Entre 2023 et 2025, la majorité des accidents à l'embarquement impliquaient ces équipements.",
+      "title": "Turbulences et déroutement pour un vol Turkish Airlines vers Tunis",
+      "city": "Tunisie · 10 sept.",
+      "copy": "Un Airbus A321 a dû être dérouté vers l'aéroport d'Enfidha-Hammamet après trois approches interrompues à Tunis-Carthage en raison de violents orages. Les passagers ont vécu de fortes secousses en cabine avant un atterrissage sans encombre.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-11-ryanair-85-chutes-de-passagers-recensees-en-italie-sur-les-escaliers-integres-des-boeing-737-800-5277425.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-douane-douaniers-securite-surete-police-ryanair-aeroport-beauvais-source-Prefet-de-Oise.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Airbus décroche une commande de 50 appareils auprès de Vietravel Airlines",
-      "city": "Vietnam · 11 sept.",
-      "copy": "L'avionneur européen enregistre un contrat ferme portant sur 50 avions avec la compagnie vietnamienne Vietravel Airlines. Un protocole d'accord a également été conclu avec Vietnam Airlines pour des A350.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/airbus-vietravel-order-vietnam-airlines-a350-mou",
-      "img": "https://www.aerotime.aero/images/2026/09/Vietravel-Airlines-Airbus-order-1200x800.jpg"
+      "url": "https://www.air-journal.fr/2026-09-14-turbulences-a-tunis-un-vol-turkish-airlines-deroute-vers-enfidha-apres-trois-approches-interrompues-5277494.html",
+      "img": "https://s.w.org/images/core/emoji/15.0.3/72x72/1f1ee-1f1f3.png"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "Défense : la France commande le système de roquettes longue portée Thundart",
-      "city": "France · 11 sept.",
-      "copy": "La Direction générale de l'armement a notifié un contrat stratégique à Safran et MBDA pour développer ce nouveau système. Il est destiné à moderniser les capacités d'artillerie et à remplacer les LRU.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/france-orders-thundart-rocket-system-replace-lru",
-      "img": "https://www.aerotime.aero/images/2026/06/Thundart-rocket-presented-by-Safran-and-MBDA-at-Eurosatory-2026-1200x800.jpg"
+      "title": "Qatar Airways renforce son réseau hivernal avec plus de 170 destinations",
+      "city": "Qatar · 14 sept.",
+      "copy": "La compagnie qatarie annonce la reprise de ses liaisons vers Zanzibar et Canberra, ainsi qu'une hausse globale de ses fréquences à travers le monde. Elle anticipe un programme soutenu comptant près de 1 800 vols pour la saison 2026-2027.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-14-qatar-airways-relance-canberra-et-zanzibar-renforce-londres-laustralie-et-lasie-5277493.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-queue-airbus-A350-source-qatar-airways-scaled.jpg"
     },
     {
-      "cat": "formation",
-      "label": "FORMATION",
-      "fresh": "< 24 H · FLASH",
-      "title": "Royal Air Maroc recrute des pilotes de ligne expérimentés à l'international",
-      "city": "Maroc · 11 sept.",
-      "copy": "La compagnie marocaine mandate le prestataire Flight Crew International pour embaucher des équipages qualifiés sur B737, B787 et Embraer. Les prises de fonction débuteront dès l'automne.",
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "RÉCENT",
+      "title": "Crise sociale et enquête anticorruption à l'Aviation civile malgache",
+      "city": "Madagascar · 14 sept.",
+      "copy": "Des employés de l'Aviation civile de Madagascar manifestent pour obtenir des arriérés de salaires et des indemnités de logement devant leur siège à Antananarivo. En parallèle, le Bureau indépendant anti-corruption mène des investigations sur des recrutements effectués depuis 2023.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-11-emploi-royal-air-maroc-recrute-des-pilotes-experimentes-a-linternational-via-flight-crew-international-5277427.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-flotte-boeing-737-source-royal-air-maroc.jpg"
+      "url": "https://www.air-journal.fr/2026-09-14-madagascar-greve-a-laviation-civile-sur-fond-denquete-anticorruption-5277491.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-avion-monocouloir-blanc-neutre-Stocklib-ssuaphoto.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "AirBaltic se place sous la protection du Chapitre 11 américain",
+      "city": "Lettonie · 14 sept.",
+      "copy": "Lourdement endettée et touchée par l'immobilisation d'une partie de ses Airbus A220, la compagnie lettone a déposé le bilan sous le régime du Chapitre 11. Cette restructuration vise à réduire ses coûts tout en maintenant ses vols commerciaux sans interruption.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-14-airbaltic-en-difficultes-la-compagnie-lettone-se-place-sous-protection-du-chapitre-11-5277492.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-flotte-Airbus-A220-300-source-aeroport-airBaltic.jpg"
+    },
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "RÉCENT",
+      "title": "Violente altercation à bord d'un vol Qatar Airways vers Doha",
+      "city": "Australie / Qatar · 11 sept.",
+      "copy": "Deux passagers ont été maîtrisés en vol par l'équipage entre Melbourne et Doha à la suite de violences physiques et de menaces signalées en cabine. Ils ont immédiatement été remis aux forces de l'ordre à leur atterrissage au Qatar.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-14-menaces-crachats-et-coups-de-tete-incident-a-bord-dun-vol-qatar-airways-vers-doha-5277490.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-queue-airbus-A350-source-qatar-airways-scaled.jpg"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "RÉCENT",
+      "title": "Les États-Unis révèlent la présence d'armes offensives en orbite",
+      "city": "États-Unis · Septembre",
+      "copy": "Le secrétaire de l'US Air Force a publiquement confirmé le déploiement d'équipements militaires en orbite pour défendre les forces spatiales contre des attaques adverses. Cette déclaration officielle met en lumière l'arsenalisation croissante du domaine spatial.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/us-weapons-orbit-space-force-troy-meink",
+      "img": ""
     },
     {
       "cat": "innovation",
       "label": "INNOVATION",
       "fresh": "RÉCENT",
-      "title": "Horizon Aircraft cible le marché des hélicoptères plutôt que les eVTOL",
-      "city": "Canada · 11 sept.",
-      "copy": "Le constructeur de l'aéronef hybride Cavorite X7 affirme viser directement les missions traditionnelles des hélicoptères rapides. Son directeur général estime que les appareils purement électriques ne constituent pas des rivaux directs.",
+      "title": "Textron et Merlin développent un Cessna SkyCourier autonome",
+      "city": "États-Unis · Septembre",
+      "copy": "Les deux entreprises ont dévoilé un concept d'avion de transport sans pilote basé sur le biturbopropulseur Cessna SkyCourier. Le projet est spécifiquement pensé pour assurer des missions automatisées de réapprovisionnement logistique militaire.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/horizon-aircraft-brandon-robbinson-helicopter-evtol",
-      "img": "https://www.aerotime.aero/images/2026/07/Horizon-Aircraft-Cavorite-X7-1200x799.jpg"
+      "url": "https://www.aerotime.aero/articles/textron-merlin-pilotless-skycourier-ux-military-resupply",
+      "img": ""
     },
     {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "< 24 H · FLASH",
-      "title": "Air Cairo ouvre des lignes directes vers Bruxelles depuis Le Caire et Louxor",
-      "city": "Belgique · 11 sept.",
-      "copy": "Le transporteur égyptien reliera la capitale belge à partir de la mi-décembre en Airbus A320. Cette opération comportera trois fréquences hebdomadaires vers Le Caire et une vers Louxor.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-11-air-cairo-desservira-bruxelles-depuis-le-caire-et-louxor-en-decembre-2026-5277426.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-a320neo-parking-source-Air-Cairo.jpg"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "< 24 H · FLASH",
-      "title": "ANA offre deux vols intérieurs au Japon pour tout voyageur international",
-      "city": "Japon · 11 sept.",
-      "copy": "All Nippon Airways reconduit son offre promotionnelle pour les voyageurs européens réservant en septembre. Elle permet d'ajouter deux liaisons intérieures japonaises sans frais de tarif de base.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-11-voyage-au-japon-ana-propose-deux-vols-interieurs-sans-supplement-avec-un-billet-international-5277414.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/ir-journal-aeroport-tokyo-japon-avions-ana-all-nippon-airlines-japan-airlines-jal-source-Haneda-Airport.jpg"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
+      "cat": "securite",
+      "label": "SÉCURITÉ",
       "fresh": "RÉCENT",
-      "title": "Shenzhen Airlines lance une route directe à destination de Sydney en décembre",
-      "city": "Australie · 11 sept.",
-      "copy": "L'aéroport australien accueillera quatre vols hebdomadaires en provenance de Shenzhen avant la fin d'année. Cette liaison marque le renforcement continu des connexions aériennes entre la Chine et l'Océanie.",
+      "title": "Un drone russe frappe une locomotive près de la frontière polonaise",
+      "city": "Ukraine · Septembre",
+      "copy": "Une frappe de drone a touché un train de voyageurs circulant à proximité de la frontière avec la Pologne. Des responsables évoquent la possibilité que le convoi ait été ciblé en raison de la présence éventuelle de Boris Johnson à bord.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/shenzhen-airlines-to-launch-four-weekly-shenzhen-sydney-service-in-december",
-      "img": "https://www.aerotime.aero/images/2026/09/Untitled-design-69-80x80.jpg"
+      "url": "https://www.aerotime.aero/articles/russian-drone-train-boris-johnson-ukraine",
+      "img": ""
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · FLASH",
+      "title": "Tir groupé de missiles, roquettes et drones en Corée du Nord",
+      "city": "Corée du Nord · 14 sept.",
+      "copy": "Pyongyang a orchestré un exercice militaire coordonné impliquant des drones d'attaque, des missiles de croisière et des missiles balistiques. Cette démonstration de force vise à tester la saturation et la réactivité des systèmes défensifs régionaux.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/north-korea-fires-drones-missiles-and-rockets-in-coordinated-salvo-drill",
+      "img": "https://www.aerotime.aero/images/2026/08/A-North-Korean-KN-23-short-range-ballistic-missile-on-its-transporter-erector-launcher-80x80.jpg.webp"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "Des transporteurs indiens signent un protocole pour 85 turbopropulseurs Il-114-300",
-      "city": "Inde · 11 sept.",
-      "copy": "Deux entreprises aéronautiques indiennes ont conclu des accords préliminaires pour acquérir ces avions régionaux russes. Cette transaction soutient les ambitions d'exportation du consortium aéronautique russe UAC.",
+      "title": "ANA Holdings unifie son pôle fret sous le nom ANA Nippon Cargo",
+      "city": "Japon · Septembre",
+      "copy": "Le groupe aérien japonais a formalisé le nom de sa future entité dédiée au transport de marchandises, dont le lancement officiel interviendra au printemps 2027. Cette réorganisation permettra de consolider ses flux logistiques mondiaux sous une bannière unique.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/indian-firms-sign-preliminary-deals-for-85-russian-il-114-300-turboprops",
-      "img": ""
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "< 24 H · FLASH",
-      "title": "Les concerts parisiens de Céline Dion font grimper les recherches de billets de 11%",
-      "city": "France · 11 sept.",
-      "copy": "L'annonce des représentations de la chanteuse à Paris stimule l'intérêt des voyageurs internationaux selon les données d'Amadeus. Le volume des réservations aériennes vers la France connaît un bond immédiat.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-11-paris-les-concerts-de-celine-dion-font-grimper-les-recherches-de-vols-de-11-5277422.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-vacances-france-paris-eiffel-source-Iberia.jpg"
+      "url": "https://www.aerotime.aero/articles/ana-holdings-names-new-cargo-airline-ana-nippon-cargo-launching-april-2027",
+      "img": "https://www.aerotime.aero/images/2026/09/Embraer-E190-E2-ANA-80x80.jpg.webp"
     }
   ],
   "lexicon": [
     {
-      "term": "Airstairs",
-      "def": "Désigne un escalier escamotable intégré directement sous la porte d'un avion pour permettre l'embarquement sans passerelle aéroportuaire. Il offre une grande autonomie aux compagnies mais présente des marches souvent plus raides et étroites."
+      "term": "Approche interrompue",
+      "def": "Manœuvre de sécurité au cours de laquelle un équipage décide d'abandonner son atterrissage en phase finale pour remonter en altitude. Elle est déclenchée lorsque les conditions de visibilité, de vent ou d'alignement ne garantissent plus une sécurité optimale."
     },
     {
-      "term": "eVTOL",
-      "def": "Acronyme d'aéronef électrique à décollage et atterrissage verticaux, souvent comparé à un taxi volant. Ces appareils utilisent une propulsion électrique distribuée pour voler en milieu urbain ou régional avec une faible empreinte sonore."
+      "term": "Déroutement",
+      "def": "Action de diriger un aéronef vers un aéroport alternatif plutôt que vers sa destination initiale prévue au plan de vol. Cette décision est généralement motivée par une dégradation météorologique, une urgence médicale ou un incident technique."
     },
     {
-      "term": "Turbopropulseur",
-      "def": "Type de moteur d'avion où une turbine à gaz entraîne une hélice externe pour générer la poussée. Ce système est particulièrement économe en carburant pour les vols régionaux à moyenne altitude et à vitesse modérée."
+      "term": "Chapitre 11",
+      "def": "Dispositif légal du droit américain permettant à une entreprise en difficulté financière de se restructurer sous la supervision d'un tribunal tout en maintenant ses activités. Il offre une protection temporaire contre les créanciers pour renégocier dettes et contrats."
     },
     {
-      "term": "MOU",
-      "def": "Abréviation de Memorandum of Understanding, soit un protocole d'accord préliminaire entre deux entreprises. Dans l'aviation, il formalise une intention mutuelle d'achat ou de partenariat avant la signature d'un contrat ferme."
+      "term": "Vol sans pilote (pilotless)",
+      "def": "Système de transport aérien où la conduite de l'aéronef est entièrement automatisée ou téléopérée depuis le sol, sans présence humaine dans le cockpit. Cette technologie se déploie progressivement sur des appareils cargo ou de logistique militaire pour limiter les risques humains."
     }
   ],
   "stat": {
-    "big": "85",
-    "text": "Il s'agit du nombre de chutes de passagers recensées en Italie sur les escaliers intégrés des Boeing 737 de Ryanair entre 2023 et 2025. Ces événements représentent plus de 80% des accidents d'embarquement et de débarquement comptabilisés dans le pays par l'autorité de sécurité ANSV."
+    "big": "170",
+    "text": "Il s'agit du nombre de destinations que Qatar Airways prévoit de desservir durant la saison hivernale 2026-2027. Ce chiffre illustre le redéploiement massif de son réseau mondial, soutenu par près de 1 800 vols programmés."
   },
   "sources": [
     {
-      "label": "Air Journal — Sécurité Ryanair et escaliers intégrés en Italie",
-      "url": "https://www.air-journal.fr/2026-09-11-ryanair-85-chutes-de-passagers-recensees-en-italie-sur-les-escaliers-integres-des-boeing-737-800-5277425.html"
+      "label": "Air Journal — Vol Turkish Airlines dérouté à Tunis",
+      "url": "https://www.air-journal.fr/2026-09-14-turbulences-a-tunis-un-vol-turkish-airlines-deroute-vers-enfidha-apres-trois-approches-interrompues-5277494.html"
     },
     {
-      "label": "AeroTime — Commande d'Airbus par Vietravel Airlines et protocole A350",
-      "url": "https://www.aerotime.aero/articles/airbus-vietravel-order-vietnam-airlines-a350-mou"
+      "label": "Air Journal — Programme hiver de Qatar Airways",
+      "url": "https://www.air-journal.fr/2026-09-14-qatar-airways-relance-canberra-et-zanzibar-renforce-londres-laustralie-et-lasie-5277493.html"
     },
     {
-      "label": "AeroTime — Commande militaire française du système Thundart",
-      "url": "https://www.aerotime.aero/articles/france-orders-thundart-rocket-system-replace-lru"
+      "label": "Air Journal — Crise à l'Aviation civile de Madagascar",
+      "url": "https://www.air-journal.fr/2026-09-14-madagascar-greve-a-laviation-civile-sur-fond-denquete-anticorruption-5277491.html"
     },
     {
-      "label": "Air Journal — Recrutement international de pilotes par Royal Air Maroc",
-      "url": "https://www.air-journal.fr/2026-09-11-emploi-royal-air-maroc-recrute-des-pilotes-experimentes-a-linternational-via-flight-crew-international-5277427.html"
+      "label": "Air Journal — AirBaltic et le régime du Chapitre 11",
+      "url": "https://www.air-journal.fr/2026-09-14-airbaltic-en-difficultes-la-compagnie-lettone-se-place-sous-protection-du-chapitre-11-5277492.html"
     },
     {
-      "label": "AeroTime — Horizon Aircraft et le marché des hélicoptères",
-      "url": "https://www.aerotime.aero/articles/horizon-aircraft-brandon-robbinson-helicopter-evtol"
+      "label": "Air Journal — Incident en cabine sur un vol vers Doha",
+      "url": "https://www.air-journal.fr/2026-09-14-menaces-crachats-et-coups-de-tete-incident-a-bord-dun-vol-qatar-airways-vers-doha-5277490.html"
     },
     {
-      "label": "AeroTime — Accords préliminaires en Inde pour l'Ilyushin Il-114-300",
-      "url": "https://www.aerotime.aero/articles/indian-firms-sign-preliminary-deals-for-85-russian-il-114-300-turboprops"
+      "label": "AeroTime — Armement orbital selon l'US Air Force",
+      "url": "https://www.aerotime.aero/articles/us-weapons-orbit-space-force-troy-meink"
     },
     {
-      "label": "Air Journal — Nouvelles liaisons Bruxelles d'Air Cairo",
-      "url": "https://www.air-journal.fr/2026-09-11-air-cairo-desservira-bruxelles-depuis-le-caire-et-louxor-en-decembre-2026-5277426.html"
+      "label": "AeroTime — Cessna SkyCourier autonome par Textron et Merlin",
+      "url": "https://www.aerotime.aero/articles/textron-merlin-pilotless-skycourier-ux-military-resupply"
     },
     {
-      "label": "Air Journal — Impact des concerts de Céline Dion sur le trafic parisien",
-      "url": "https://www.air-journal.fr/2026-09-11-paris-les-concerts-de-celine-dion-font-grimper-les-recherches-de-vols-de-11-5277422.html"
+      "label": "AeroTime — Drone russe contre un train en Ukraine",
+      "url": "https://www.aerotime.aero/articles/russian-drone-train-boris-johnson-ukraine"
+    },
+    {
+      "label": "AeroTime — Tirs d'entraînement combinés en Corée du Nord",
+      "url": "https://www.aerotime.aero/articles/north-korea-fires-drones-missiles-and-rockets-in-coordinated-salvo-drill"
+    },
+    {
+      "label": "AeroTime — Création d'ANA Nippon Cargo par ANA Holdings",
+      "url": "https://www.aerotime.aero/articles/ana-holdings-names-new-cargo-airline-ana-nippon-cargo-launching-april-2027"
     }
   ]
 }
