@@ -1,179 +1,171 @@
 {
-  "updated": "2026-09-14T20:55:39.959Z",
+  "updated": "2026-09-15T12:14:16.007Z",
   "items": [
-    {
-      "cat": "meteo",
-      "label": "MÉTÉO",
-      "fresh": "< 24 H · FLASH",
-      "title": "Turbulences et déroutement pour un vol Turkish Airlines vers Tunis",
-      "city": "Tunisie · 10 sept.",
-      "copy": "Un Airbus A321 a dû être dérouté vers l'aéroport d'Enfidha-Hammamet après trois approches interrompues à Tunis-Carthage en raison de violents orages. Les passagers ont vécu de fortes secousses en cabine avant un atterrissage sans encombre.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-14-turbulences-a-tunis-un-vol-turkish-airlines-deroute-vers-enfidha-apres-trois-approches-interrompues-5277494.html",
-      "img": "https://s.w.org/images/core/emoji/15.0.3/72x72/1f1ee-1f1f3.png"
-    },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Qatar Airways renforce son réseau hivernal avec plus de 170 destinations",
-      "city": "Qatar · 14 sept.",
-      "copy": "La compagnie qatarie annonce la reprise de ses liaisons vers Zanzibar et Canberra, ainsi qu'une hausse globale de ses fréquences à travers le monde. Elle anticipe un programme soutenu comptant près de 1 800 vols pour la saison 2026-2027.",
+      "fresh": "< 24 H · FLASH",
+      "title": "Airbus ouvre un nouveau centre de livraison A320neo à Toulouse",
+      "city": "Toulouse · 15 sept.",
+      "copy": "L'avionneur a inauguré un complexe sur le site Jean-Luc Lagardère pour fluidifier la remise des avions aux clients. L'objectif est de soutenir la montée en cadence vers 70 à 75 appareils par mois.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-14-qatar-airways-relance-canberra-et-zanzibar-renforce-londres-laustralie-et-lasie-5277493.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-queue-airbus-A350-source-qatar-airways-scaled.jpg"
+      "url": "https://www.air-journal.fr/2026-09-15-a-toulouse-airbus-ouvre-un-nouveau-centre-pour-accelerer-les-remises-da320neo-5277507.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-ligne-assemblage-finale-FAL-Airbus-A320neo-Toulouse_Source-Airbus.jpg"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Crise sociale et enquête anticorruption à l'Aviation civile malgache",
-      "city": "Madagascar · 14 sept.",
-      "copy": "Des employés de l'Aviation civile de Madagascar manifestent pour obtenir des arriérés de salaires et des indemnités de logement devant leur siège à Antananarivo. En parallèle, le Bureau indépendant anti-corruption mène des investigations sur des recrutements effectués depuis 2023.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-14-madagascar-greve-a-laviation-civile-sur-fond-denquete-anticorruption-5277491.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-avion-monocouloir-blanc-neutre-Stocklib-ssuaphoto.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
       "fresh": "< 24 H · FLASH",
-      "title": "AirBaltic se place sous la protection du Chapitre 11 américain",
-      "city": "Lettonie · 14 sept.",
-      "copy": "Lourdement endettée et touchée par l'immobilisation d'une partie de ses Airbus A220, la compagnie lettone a déposé le bilan sous le régime du Chapitre 11. Cette restructuration vise à réduire ses coûts tout en maintenant ses vols commerciaux sans interruption.",
+      "title": "Grève nocturne des contrôleurs aériens à Bruxelles-Charleroi",
+      "city": "Charleroi · 15 sept.",
+      "copy": "Les contrôleurs aériens de Skeyes entament un mouvement social prévoyant 24 nuits de débrayages. Les vols tardifs et les appareils basés à Charleroi risquent d'être fortement perturbés.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-14-airbaltic-en-difficultes-la-compagnie-lettone-se-place-sous-protection-du-chapitre-11-5277492.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-flotte-Airbus-A220-300-source-aeroport-airBaltic.jpg"
+      "url": "https://www.air-journal.fr/2026-09-15-aeroport-de-bruxelles-charleroi-les-controleurs-aeriens-annoncent-24-nuits-de-greve-5277503.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-aeroport-Charleroi-Bruxelles-sud.jpg"
     },
     {
       "cat": "passager",
       "label": "PASSAGER",
       "fresh": "RÉCENT",
-      "title": "Violente altercation à bord d'un vol Qatar Airways vers Doha",
-      "city": "Australie / Qatar · 11 sept.",
-      "copy": "Deux passagers ont été maîtrisés en vol par l'équipage entre Melbourne et Doha à la suite de violences physiques et de menaces signalées en cabine. Ils ont immédiatement été remis aux forces de l'ordre à leur atterrissage au Qatar.",
+      "title": "La Tunisie s'appuie sur l'aérien pour renforcer son tourisme",
+      "city": "Tunisie · 15 sept.",
+      "copy": "L'augmentation des connexions aériennes soutient la reprise de la fréquentation touristique. Le pays cherche désormais à diversifier son offre face à une concurrence vive en Méditerranée.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-14-menaces-crachats-et-coups-de-tete-incident-a-bord-dun-vol-qatar-airways-vers-doha-5277490.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-queue-airbus-A350-source-qatar-airways-scaled.jpg"
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "RÉCENT",
-      "title": "Les États-Unis révèlent la présence d'armes offensives en orbite",
-      "city": "États-Unis · Septembre",
-      "copy": "Le secrétaire de l'US Air Force a publiquement confirmé le déploiement d'équipements militaires en orbite pour défendre les forces spatiales contre des attaques adverses. Cette déclaration officielle met en lumière l'arsenalisation croissante du domaine spatial.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/us-weapons-orbit-space-force-troy-meink",
-      "img": ""
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "RÉCENT",
-      "title": "Textron et Merlin développent un Cessna SkyCourier autonome",
-      "city": "États-Unis · Septembre",
-      "copy": "Les deux entreprises ont dévoilé un concept d'avion de transport sans pilote basé sur le biturbopropulseur Cessna SkyCourier. Le projet est spécifiquement pensé pour assurer des missions automatisées de réapprovisionnement logistique militaire.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/textron-merlin-pilotless-skycourier-ux-military-resupply",
-      "img": ""
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Un drone russe frappe une locomotive près de la frontière polonaise",
-      "city": "Ukraine · Septembre",
-      "copy": "Une frappe de drone a touché un train de voyageurs circulant à proximité de la frontière avec la Pologne. Des responsables évoquent la possibilité que le convoi ait été ciblé en raison de la présence éventuelle de Boris Johnson à bord.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/russian-drone-train-boris-johnson-ukraine",
-      "img": ""
+      "url": "https://www.air-journal.fr/2026-09-15-voyage-en-tunisie-laerien-soutient-le-rebond-touristique-mais-la-diversification-reste-le-defi-5277415.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-vacances-tunisie-ruines-romaines-carthage-source-Tunisia-Tourism.jpg"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
       "fresh": "< 24 H · FLASH",
-      "title": "Tir groupé de missiles, roquettes et drones en Corée du Nord",
-      "city": "Corée du Nord · 14 sept.",
-      "copy": "Pyongyang a orchestré un exercice militaire coordonné impliquant des drones d'attaque, des missiles de croisière et des missiles balistiques. Cette démonstration de force vise à tester la saturation et la réactivité des systèmes défensifs régionaux.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/north-korea-fires-drones-missiles-and-rockets-in-coordinated-salvo-drill",
-      "img": "https://www.aerotime.aero/images/2026/08/A-North-Korean-KN-23-short-range-ballistic-missile-on-its-transporter-erector-launcher-80x80.jpg.webp"
+      "title": "Amazon suspend 21 Air après le crash d'un Boeing 767",
+      "city": "Miami · 15 sept.",
+      "copy": "Après la sortie de piste mortelle d'un appareil cargo à Miami, Amazon stoppe les opérations confiées à cet opérateur. L'enquête menée par le NTSB se poursuit pour clarifier les circonstances du drame.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-15-crash-du-boeing-767-a-miami-amazon-suspend-sa-collaboration-avec-loperateur-21-air-5277500.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Prime-Air-767-300F-fret_Source-Copyright-Chad-Slattery-Amazon-Air.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "ANA Holdings unifie son pôle fret sous le nom ANA Nippon Cargo",
-      "city": "Japon · Septembre",
-      "copy": "Le groupe aérien japonais a formalisé le nom de sa future entité dédiée au transport de marchandises, dont le lancement officiel interviendra au printemps 2027. Cette réorganisation permettra de consolider ses flux logistiques mondiaux sous une bannière unique.",
+      "title": "Flydubai lance une division cargo en Boeing 737-800",
+      "city": "Dubaï · 15 sept.",
+      "copy": "La compagnie aérienne émiratie démarrera des liaisons dédiées au fret le 1er octobre au départ de l'aéroport DWC. Elle exploitera trois avions configurés pour transporter jusqu'à 23 tonnes par vol.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-15-flydubai-se-lance-dans-le-fret-tout-cargo-avec-trois-boeing-737-800-5277499.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-avions-boeing-737ng-737-800-flydubai-source-Dubai-World-Central-Al-Maktoum-International.jpg"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "RÉCENT",
+      "title": "Un turboréacteur britannique produit en moins de 7 mois",
+      "city": "Royaume-Uni · 15 sept.",
+      "copy": "Un nouveau concept de turboréacteur destiné aux drones et avions légers est passé du projet à la fabrication industrielle. L'initiative est menée en partenariat avec le ministère de la Défense du Royaume-Uni.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/ana-holdings-names-new-cargo-airline-ana-nippon-cargo-launching-april-2027",
-      "img": "https://www.aerotime.aero/images/2026/09/Embraer-E190-E2-ANA-80x80.jpg.webp"
+      "url": "https://www.aerotime.aero/articles/uk-turbojet-engine-ministry-of-defence-alloyed",
+      "img": "https://www.aerotime.aero/images/2026/09/Recently-Saved-1-of-1-8-80x80.jpeg"
+    },
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "RÉCENT",
+      "title": "Etihad réinvente ses cabines A330neo et A321LR",
+      "city": "Abou Dabi · 15 sept.",
+      "copy": "Etihad Airways présente son nouveau concept 'Beyond Borders' pour moderniser le confort à bord. Le réaménagement concerne l'ensemble des classes de voyage, de la Première à la classe Économique.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/etihad-unveils-beyond-borders-experience-with-new-a330-900neo-a321lr-cabins",
+      "img": "https://www.aerotime.aero/images/2025/11/IMG_4614-1-80x80.jpg.webp"
+    },
+    {
+      "cat": "innovation",
+      "label": "INNOVATION",
+      "fresh": "RÉCENT",
+      "title": "Qantas ouvre un centre d'innovation technologique à Adélaïde",
+      "city": "Adélaïde · 15 sept.",
+      "copy": "La compagnie australienne implante un nouveau pôle d'innovation produit en Australie du Sud. Ce projet rassemble les équipes technologiques du groupe et va générer 400 emplois qualifiés.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/qantas-opens-product-innovation-center-in-adelaide-creating-400-tech-jobs-2",
+      "img": "https://www.aerotime.aero/images/2025/11/QF-Adelaide-innovation-ctr-80x80.jpg.webp"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Cebu Pacific franchit le cap des 77 % d'avions NEO dans sa flotte",
+      "city": "Manille · 15 sept.",
+      "copy": "Le transporteur philippin a réceptionné un troisième Airbus A320neo pour l'année 2026. Cette livraison s'inscrit dans son plan global de modernisation et de réduction de sa consommation de carburant.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/cebu-pacific-takes-delivery-of-third-a320neo-for-2026-fleet-hits-77-neo",
+      "img": "https://www.aerotime.aero/images/2026/08/Untitled-design-14-1-80x80.jpg.webp"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Air Arabia obtient son certificat de transporteur en Arabie saoudite",
+      "city": "Riyad · 15 sept.",
+      "copy": "L'autorité saoudienne de l'aviation civile (GACA) a délivré un certificat de transporteur aérien au consortium. L'obtention de ce document permet de lancer la nouvelle compagnie à bas coûts dans le pays.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/air-arabia-consortium-aoc-saudi-low-cost-carrier",
+      "img": "https://www.aerotime.aero/images/2026/09/Air-Arabia-Saudi-Arabia-1200x799.jpg"
     }
   ],
   "lexicon": [
     {
-      "term": "Approche interrompue",
-      "def": "Manœuvre de sécurité au cours de laquelle un équipage décide d'abandonner son atterrissage en phase finale pour remonter en altitude. Elle est déclenchée lorsque les conditions de visibilité, de vent ou d'alignement ne garantissent plus une sécurité optimale."
+      "term": "AOC / CTA",
+      "def": "Le Certificat de Transporteur Aérien est un agrément officiel délivré par l'autorité d'aviation civile d'un pays. Il valide la capacité technique et financière d'une compagnie à exploiter des vols commerciaux en toute sécurité."
     },
     {
-      "term": "Déroutement",
-      "def": "Action de diriger un aéronef vers un aéroport alternatif plutôt que vers sa destination initiale prévue au plan de vol. Cette décision est généralement motivée par une dégradation météorologique, une urgence médicale ou un incident technique."
+      "term": "NTSB",
+      "def": "Le National Transportation Safety Board est l'agence gouvernementale américaine chargée d'enquêter sur les accidents d'aviation. Ses conclusions permettent d'émettre des recommandations réglementaires pour prévenir de futurs incidents."
     },
     {
-      "term": "Chapitre 11",
-      "def": "Dispositif légal du droit américain permettant à une entreprise en difficulté financière de se restructurer sous la supervision d'un tribunal tout en maintenant ses activités. Il offre une protection temporaire contre les créanciers pour renégocier dettes et contrats."
+      "term": "NEO",
+      "def": "L'acronyme New Engine Option désigne la génération remotorisée de la famille Airbus A320. Ces avions intègrent des réacteurs plus récents permettant de réduire la consommation de carburant et les émissions sonores."
     },
     {
-      "term": "Vol sans pilote (pilotless)",
-      "def": "Système de transport aérien où la conduite de l'aéronef est entièrement automatisée ou téléopérée depuis le sol, sans présence humaine dans le cockpit. Cette technologie se déploie progressivement sur des appareils cargo ou de logistique militaire pour limiter les risques humains."
+      "term": "Turboréacteur",
+      "def": "Il s'agit d'un moteur à réaction qui aspire l'air, le comprime et le mélange à du carburant pour générer une forte poussée. Ce type de motorisation équipe une grande partie des avions militaires, des drones et des avions de ligne."
     }
   ],
   "stat": {
-    "big": "170",
-    "text": "Il s'agit du nombre de destinations que Qatar Airways prévoit de desservir durant la saison hivernale 2026-2027. Ce chiffre illustre le redéploiement massif de son réseau mondial, soutenu par près de 1 800 vols programmés."
+    "big": "77 %",
+    "text": "La compagnie Cebu Pacific atteint désormais 77 % d'avions de nouvelle génération (NEO) dans sa flotte. Ce franchissement de seuil fait suite à la réception de son troisième Airbus A320neo de l'année."
   },
   "sources": [
     {
-      "label": "Air Journal — Vol Turkish Airlines dérouté à Tunis",
-      "url": "https://www.air-journal.fr/2026-09-14-turbulences-a-tunis-un-vol-turkish-airlines-deroute-vers-enfidha-apres-trois-approches-interrompues-5277494.html"
+      "label": "Air Journal — Nouveau centre de livraisons Airbus à Toulouse",
+      "url": "https://www.air-journal.fr/2026-09-15-a-toulouse-airbus-ouvre-un-nouveau-centre-pour-accelerer-les-remises-da320neo-5277507.html"
     },
     {
-      "label": "Air Journal — Programme hiver de Qatar Airways",
-      "url": "https://www.air-journal.fr/2026-09-14-qatar-airways-relance-canberra-et-zanzibar-renforce-londres-laustralie-et-lasie-5277493.html"
+      "label": "Air Journal — Débrayages des contrôleurs à l'aéroport de Charleroi",
+      "url": "https://www.air-journal.fr/2026-09-15-aeroport-de-bruxelles-charleroi-les-controleurs-aeriens-annoncent-24-nuits-de-greve-5277503.html"
     },
     {
-      "label": "Air Journal — Crise à l'Aviation civile de Madagascar",
-      "url": "https://www.air-journal.fr/2026-09-14-madagascar-greve-a-laviation-civile-sur-fond-denquete-anticorruption-5277491.html"
+      "label": "Air Journal — Suspension des vols cargo 21 Air par Amazon",
+      "url": "https://www.air-journal.fr/2026-09-15-crash-du-boeing-767-a-miami-amazon-suspend-sa-collaboration-avec-loperateur-21-air-5277500.html"
     },
     {
-      "label": "Air Journal — AirBaltic et le régime du Chapitre 11",
-      "url": "https://www.air-journal.fr/2026-09-14-airbaltic-en-difficultes-la-compagnie-lettone-se-place-sous-protection-du-chapitre-11-5277492.html"
+      "label": "Air Journal — Flydubai lance sa division de transport de fret",
+      "url": "https://www.air-journal.fr/2026-09-15-flydubai-se-lance-dans-le-fret-tout-cargo-avec-trois-boeing-737-800-5277499.html"
     },
     {
-      "label": "Air Journal — Incident en cabine sur un vol vers Doha",
-      "url": "https://www.air-journal.fr/2026-09-14-menaces-crachats-et-coups-de-tete-incident-a-bord-dun-vol-qatar-airways-vers-doha-5277490.html"
+      "label": "AeroTime — Développement d'un turboréacteur au Royaume-Uni",
+      "url": "https://www.aerotime.aero/articles/uk-turbojet-engine-ministry-of-defence-alloyed"
     },
     {
-      "label": "AeroTime — Armement orbital selon l'US Air Force",
-      "url": "https://www.aerotime.aero/articles/us-weapons-orbit-space-force-troy-meink"
+      "label": "AeroTime — Nouvelles cabines de voyage présentées par Etihad",
+      "url": "https://www.aerotime.aero/articles/etihad-unveils-beyond-borders-experience-with-new-a330-900neo-a321lr-cabins"
     },
     {
-      "label": "AeroTime — Cessna SkyCourier autonome par Textron et Merlin",
-      "url": "https://www.aerotime.aero/articles/textron-merlin-pilotless-skycourier-ux-military-resupply"
+      "label": "AeroTime — Création du centre d'innovation Qantas à Adélaïde",
+      "url": "https://www.aerotime.aero/articles/qantas-opens-product-innovation-center-in-adelaide-creating-400-tech-jobs-2"
     },
     {
-      "label": "AeroTime — Drone russe contre un train en Ukraine",
-      "url": "https://www.aerotime.aero/articles/russian-drone-train-boris-johnson-ukraine"
-    },
-    {
-      "label": "AeroTime — Tirs d'entraînement combinés en Corée du Nord",
-      "url": "https://www.aerotime.aero/articles/north-korea-fires-drones-missiles-and-rockets-in-coordinated-salvo-drill"
-    },
-    {
-      "label": "AeroTime — Création d'ANA Nippon Cargo par ANA Holdings",
-      "url": "https://www.aerotime.aero/articles/ana-holdings-names-new-cargo-airline-ana-nippon-cargo-launching-april-2027"
+      "label": "AeroTime — Attribution d'un CTA au consortium Air Arabia par la GACA",
+      "url": "https://www.aerotime.aero/articles/air-arabia-consortium-aoc-saudi-low-cost-carrier"
     }
   ]
 }
