@@ -2,7 +2,8 @@ name: Veille Aéronautique Hebdomadaire
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+  - cron: '45 5 * * 1'
+    timezone: 'Europe/Paris'
   workflow_dispatch:
 
 permissions:
