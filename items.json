@@ -1,13 +1,13 @@
 {
-  "updated": "2026-09-15T17:00:34.042Z",
+  "updated": "2026-09-15T20:05:04.531Z",
   "items": [
     {
       "cat": "passager",
       "label": "PASSAGER",
       "fresh": "< 24 H · FLASH",
-      "title": "ITA Airways choisit Sharon Stone comme ambassadrice",
+      "title": "Sharon Stone devient la nouvelle ambassadrice d'ITA Airways",
       "city": "Italie · 15 sept.",
-      "copy": "ITA Airways lance sa nouvelle campagne mondiale « Simply Italian » portée par l'actrice Sharon Stone. La compagnie vise particulièrement à renforcer son image sur le marché américain.",
+      "copy": "ITA Airways lance sa campagne « Simply Italian » en s'associant à l'actrice Sharon Stone comme ambassadrice mondiale. La compagnie entend ainsi renforcer son image et promouvoir le style italien à l'international.",
       "src": "Air Journal",
       "url": "https://www.air-journal.fr/2026-09-15-ita-airways-choisit-sharon-stone-pour-incarner-son-nouveau-visage-5277509.html",
       "img": ""
@@ -16,9 +16,9 @@
       "cat": "technique",
       "label": "TECHNIQUE",
       "fresh": "< 24 H · FLASH",
-      "title": "737 MAX : Premier échange de trains réussi pour Boeing",
+      "title": "737 MAX : Premier échange de trains d'atterrissage réussi par Boeing",
       "city": "États-Unis · 15 sept.",
-      "copy": "Boeing et American Airlines ont achevé le premier échange de trains d'atterrissage sur 737 MAX. Ce programme permet de réduire le temps d'immobilisation des avions grâce à des ensembles pré-révisés.",
+      "copy": "Boeing et American Airlines ont réalisé un premier échange de trains d'atterrissage sur un 737 MAX. Ce programme permet aux compagnies de recevoir des ensembles certifiés prêts à poser pour réduire l'immobilisation des appareils.",
       "src": "Air Journal",
       "url": "https://www.air-journal.fr/2026-09-15-737-max-boeing-inaugure-avec-american-airlines-son-programme-dechange-de-trains-5277505.html",
       "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_American-Airlines-737-MAX-1er-vol-N314RH-dec20©American-Airlines.jpg"
@@ -27,9 +27,9 @@
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "< 24 H · FLASH",
-      "title": "Airbus inaugure un centre de livraison A320neo à Toulouse",
+      "title": "Airbus ouvre un nouveau centre de livraison A320neo à Toulouse",
       "city": "Toulouse · 15 sept.",
-      "copy": "Airbus s'est doté d'un nouveau complexe sur son site Jean-Luc Lagardère pour accélérer les remises d'A320neo. L'objectif est de fluidifier les opérations alors que les cadences de production augmentent.",
+      "copy": "Inauguré sur le site Jean-Luc Lagardère, ce centre de livraison vise à accélérer les remises d'appareils aux compagnies aériennes. Airbus prépare une augmentation des cadences de production pour atteindre 70 à 75 avions par mois.",
       "src": "Air Journal",
       "url": "https://www.air-journal.fr/2026-09-15-a-toulouse-airbus-ouvre-un-nouveau-centre-pour-accelerer-les-remises-da320neo-5277507.html",
       "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-ligne-assemblage-finale-FAL-Airbus-A320neo-Toulouse_Source-Airbus.jpg"
@@ -38,9 +38,9 @@
       "cat": "securite",
       "label": "SÉCURITÉ",
       "fresh": "< 24 H · FLASH",
-      "title": "Bruxelles-Charleroi : 24 nuits de grève annoncées",
-      "city": "Belgique · 15 sept.",
-      "copy": "Les contrôleurs aériens de Skeyes entament un mouvement de débrayage nocturne à l'aéroport de Charleroi. Des perturbations importantes sont prévues sur les vols tardifs jusqu'au 10 octobre.",
+      "title": "Grève des contrôleurs aériens à l'aéroport de Charleroi",
+      "city": "Charleroi · 15 sept.",
+      "copy": "Les contrôleurs aériens de Skeyes annoncent 24 nuits de grève à l'aéroport de Bruxelles-Charleroi. Le mouvement nocturne pourrait fortement perturber les arrivées tardives et les départs très matutinaux.",
       "src": "Air Journal",
       "url": "https://www.air-journal.fr/2026-09-15-aeroport-de-bruxelles-charleroi-les-controleurs-aeriens-annoncent-24-nuits-de-greve-5277503.html",
       "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-aeroport-Charleroi-Bruxelles-sud.jpg"
@@ -48,10 +48,10 @@
     {
       "cat": "passager",
       "label": "PASSAGER",
-      "fresh": "RÉCENT",
-      "title": "Tunisie : L'aérien soutient la reprise du tourisme",
+      "fresh": "< 24 H · FLASH",
+      "title": "Aérien et tourisme en Tunisie : le défi de la diversification",
       "city": "Tunisie · 15 sept.",
-      "copy": "La Tunisie consolide son attractivité touristique grâce au renforcement des liaisons aériennes depuis la France. Le pays cherche désormais à diversifier son offre face à la concurrence méditerranéenne.",
+      "copy": "Le renforcement des dessertes aériennes soutient la reprise du tourisme tunisien face à la concurrence méditerranéenne. Le secteur cherche désormais à diversifier son offre au-delà des séjours balnéaires.",
       "src": "Air Journal",
       "url": "https://www.air-journal.fr/2026-09-15-voyage-en-tunisie-laerien-soutient-le-rebond-touristique-mais-la-diversification-reste-le-defi-5277415.html",
       "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-vacances-tunisie-ruines-romaines-carthage-source-Tunisia-Tourism.jpg"
@@ -60,20 +60,20 @@
       "cat": "innovation",
       "label": "INNOVATION",
       "fresh": "< 24 H · FLASH",
-      "title": "Samson Sky lève 80 millions $ pour sa voiture volante",
+      "title": "Samson Sky sécurise 80 millions de dollars pour sa voiture volante",
       "city": "Dubaï · 15 sept.",
-      "copy": "Samson Sky a sécurisé un financement majeur auprès du groupe Matin basé à Dubaï. Ces fonds permettront de soutenir la production en série de l'aéronef Switchblade.",
+      "copy": "La société Samson Sky a obtenu un financement de 80 millions de dollars auprès du groupe Matin Group basés à Dubaï. Cet apport doit accélérer la mise en production de sa voiture volante Switchblade.",
       "src": "AeroTime",
       "url": "https://www.aerotime.aero/articles/samson-sky-secures-80-million-investment-to-support-flying-car-production",
       "img": "https://www.aerotime.aero/images/2026/09/electra-el9-80x80.jpg.webp"
     },
     {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
+      "cat": "innovation",
+      "label": "INNOVATION",
       "fresh": "< 24 H · FLASH",
-      "title": "Electra confie à Atlas Group la production de l'EL9",
-      "city": "États-Unis · 15 sept.",
-      "copy": "La start-up américaine Electra s'associe à Atlas Group pour fabriquer les cellules de son appareil hybride STOL EL9. Ce partenariat prépare la campagne d'essais en vue de la certification.",
+      "title": "Electra confie la fabrication des cellules de l'EL9 à Atlas Group",
+      "city": "Virginie · 15 sept.",
+      "copy": "La startup Electra a sélectionné Atlas Group pour produire les structures de son appareil hybride ultra-court. Ce partenariat soutient le programme d'essais en vue de la certification officielle.",
       "src": "AeroTime",
       "url": "https://www.aerotime.aero/articles/electra-selects-atlas-group-to-produce-el9-airframes-for-certification-program",
       "img": "https://www.aerotime.aero/images/2026/01/Interview-1620x1080-Diana-Siegel-Electra-1-80x80.jpg.webp"
@@ -81,10 +81,10 @@
     {
       "cat": "innovation",
       "label": "INNOVATION",
-      "fresh": "RÉCENT",
-      "title": "Sydney déploie 50 bus électriques à l'aéroport",
-      "city": "Australie · 15 sept.",
-      "copy": "L'aéroport de Sydney commence la mise en service de 50 bus 100 % électriques pour remplacer sa flotte diesel. La démarche s'inscrit dans son plan vers la neutralité carbone d'ici 2030.",
+      "fresh": "< 24 H · FLASH",
+      "title": "L'aéroport de Sydney déploie 50 bus électriques",
+      "city": "Sydney · 15 sept.",
+      "copy": "L'aéroport de Sydney a commencé à remplacer ses bus diesel par une flotte de 50 véhicules 100 % électriques. Ce projet participe à son objectif d'atteindre zéro émission nette d'ici 2030.",
       "src": "AeroTime",
       "url": "https://www.aerotime.aero/articles/sydney-airport-rolls-out-50-electric-buses-in-push-toward-net-zero-by-2030",
       "img": "https://www.aerotime.aero/images/2026/09/image-2-1200x675.png"
@@ -92,21 +92,21 @@
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Aviation d'affaires : Marché record à venir sur 5 ans",
-      "city": "International · 15 sept.",
-      "copy": "Les ventes globales de jets d'affaires neufs et d'occasion devraient s'approcher de 250 milliards de dollars. La demande mondiale reste particulièrement soutenue pour les cinq prochaines années.",
+      "fresh": "< 24 H · FLASH",
+      "title": "Aviation d'affaires : le marché frôle les 250 milliards de dollars",
+      "city": "Monde · 15 sept.",
+      "copy": "Les ventes et transactions de jets d'affaires neufs et d'occasion devaient atteindre près de 250 milliards de dollars sur cinq ans. Le marché confirme ainsi la très forte demande du secteur.",
       "src": "AeroTime",
       "url": "https://www.aerotime.aero/articles/business-jet-transactions-increase",
       "img": "https://www.aerotime.aero/images/2026/01/Bombardier-Challenger-650-1200x800.jpg"
     },
     {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "RÉCENT",
-      "title": "Rafale F5 : La DGA commande les premiers sous-systèmes",
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "Rafale F5 : La France commande les premiers travaux de développement",
       "city": "France · 15 sept.",
-      "copy": "La DGA a notifié le développement du radar, du moteur et de la guerre électronique du standard Rafale F5. Ces travaux préparent le lancement formel de la future version de l'avion de chasse.",
+      "copy": "La DGA française a notifié des contrats de développement pour cinq systèmes majeurs du futur Rafale F5. Ces commandes couvrent notamment le radar, les motorisations et la guerre électronique.",
       "src": "AeroTime",
       "url": "https://www.aerotime.aero/articles/france-rafale-f5-radar-engine-ew-development",
       "img": "https://www.aerotime.aero/images/2026/07/Safran-M88-T-REX-1200x875.jpg"
@@ -114,49 +114,49 @@
   ],
   "lexicon": [
     {
-      "term": "Train d'atterrissage",
-      "def": "Ensemble des organes de structure et de roulement permettant à un avion de se déplacer au sol, de décoller et d'atterrir. Son remplacement périodique garantit la sécurité opérationnelle de l'appareil."
+      "term": "737 MAX",
+      "def": "Ligne d'avions de ligne mono-couloirs développée par l'avionneur américain Boeing pour les vols moyen-courriers. Il succède à la famille 737 Next Generation avec des moteurs plus efficients."
     },
     {
-      "term": "STOL",
-      "def": "Sigle désignant les aéronefs à décollage et atterrissage courts (Short Take-Off and Landing). Ces appareils sont conçus pour opérer sur des pistes très réduites ou peu aménagées."
+      "term": "A320neo",
+      "def": "Version modernisée de la famille d'avions moyen-courriers Airbus A320. Le sigle 'neo' signifie 'New Engine Option', désignant une remotorisation réduisant la consommation de carburant."
     },
     {
-      "term": "Net Zero",
-      "def": "Objectif de neutralité carbone consistant à réduire au maximum les émissions de gaz à effet de serre et à compenser le solde résiduel. Il engage l'industrie aéronautique à décarboner ses infrastructures d'ici 2030."
+      "term": "Rafale F5",
+      "def": "Futur standard de développement de l'avion de chasse français Rafale prévu pour la prochaine décennie. Il intégrera de nouveaux radars, des moteurs modernisés et des capacités de guerre électronique avancées."
     },
     {
-      "term": "Guerre électronique",
-      "def": "Ensemble de technologies destinées à exploiter, intercepter ou perturber le spectre électromagnétique. Sur un avion de combat, elle protège l'appareil contre les radars et missiles adverses."
+      "term": "Guerre électronique (EW)",
+      "def": "Ensemble d'actions militaires exploitant l'énergie électromagnétique pour détecter, brouiller ou contrer les radars et systèmes de communication ennemis. L'acronyme EW vient du terme anglais 'Electronic Warfare'."
     }
   ],
   "stat": {
     "big": "80 M$",
-    "text": "Samson Sky a obtenu un investissement de 80 millions de dollars auprès de Matin Group à Dubaï. Ce financement doit permettre le lancement de la production de sa voiture volante Switchblade."
+    "text": "Montant de l'investissement décroché par la société Samson Sky auprès du groupe Matin Group à Dubaï. Ce financement doit accélérer la production industrielle de sa voiture volante Switchblade."
   },
   "sources": [
     {
-      "label": "Air Journal — Campagne Sharon Stone ITA Airways",
+      "label": "Air Journal — ITA Airways et Sharon Stone",
       "url": "https://www.air-journal.fr/2026-09-15-ita-airways-choisit-sharon-stone-pour-incarner-son-nouveau-visage-5277509.html"
     },
     {
-      "label": "Air Journal — Échange de trains Boeing 737 MAX",
+      "label": "Air Journal — Boeing 737 MAX train d'atterrissage",
       "url": "https://www.air-journal.fr/2026-09-15-737-max-boeing-inaugure-avec-american-airlines-son-programme-dechange-de-trains-5277505.html"
     },
     {
-      "label": "Air Journal — Centre de livraisons Airbus Toulouse",
+      "label": "Air Journal — Centre de livraison Airbus Toulouse",
       "url": "https://www.air-journal.fr/2026-09-15-a-toulouse-airbus-ouvre-un-nouveau-centre-pour-accelerer-les-remises-da320neo-5277507.html"
     },
     {
-      "label": "Air Journal — Grève contrôleurs Charleroi",
+      "label": "Air Journal — Grève à l'aéroport de Charleroi",
       "url": "https://www.air-journal.fr/2026-09-15-aeroport-de-bruxelles-charleroi-les-controleurs-aeriens-annoncent-24-nuits-de-greve-5277503.html"
     },
     {
-      "label": "AeroTime — Investissement Samson Sky",
+      "label": "AeroTime — Samson Sky levée de fonds",
       "url": "https://www.aerotime.aero/articles/samson-sky-secures-80-million-investment-to-support-flying-car-production"
     },
     {
-      "label": "AeroTime — Contrats DGA Rafale F5",
+      "label": "AeroTime — Développement Rafale F5",
       "url": "https://www.aerotime.aero/articles/france-rafale-f5-radar-engine-ew-development"
     }
   ]
