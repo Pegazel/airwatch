@@ -1,13 +1,35 @@
 {
-  "updated": "2026-09-15T12:14:16.007Z",
+  "updated": "2026-09-15T17:00:34.042Z",
   "items": [
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "< 24 H · FLASH",
+      "title": "ITA Airways choisit Sharon Stone comme ambassadrice",
+      "city": "Italie · 15 sept.",
+      "copy": "ITA Airways lance sa nouvelle campagne mondiale « Simply Italian » portée par l'actrice Sharon Stone. La compagnie vise particulièrement à renforcer son image sur le marché américain.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-15-ita-airways-choisit-sharon-stone-pour-incarner-son-nouveau-visage-5277509.html",
+      "img": ""
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "< 24 H · FLASH",
+      "title": "737 MAX : Premier échange de trains réussi pour Boeing",
+      "city": "États-Unis · 15 sept.",
+      "copy": "Boeing et American Airlines ont achevé le premier échange de trains d'atterrissage sur 737 MAX. Ce programme permet de réduire le temps d'immobilisation des avions grâce à des ensembles pré-révisés.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-15-737-max-boeing-inaugure-avec-american-airlines-son-programme-dechange-de-trains-5277505.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_American-Airlines-737-MAX-1er-vol-N314RH-dec20©American-Airlines.jpg"
+    },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "< 24 H · FLASH",
-      "title": "Airbus ouvre un nouveau centre de livraison A320neo à Toulouse",
+      "title": "Airbus inaugure un centre de livraison A320neo à Toulouse",
       "city": "Toulouse · 15 sept.",
-      "copy": "L'avionneur a inauguré un complexe sur le site Jean-Luc Lagardère pour fluidifier la remise des avions aux clients. L'objectif est de soutenir la montée en cadence vers 70 à 75 appareils par mois.",
+      "copy": "Airbus s'est doté d'un nouveau complexe sur son site Jean-Luc Lagardère pour accélérer les remises d'A320neo. L'objectif est de fluidifier les opérations alors que les cadences de production augmentent.",
       "src": "Air Journal",
       "url": "https://www.air-journal.fr/2026-09-15-a-toulouse-airbus-ouvre-un-nouveau-centre-pour-accelerer-les-remises-da320neo-5277507.html",
       "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-ligne-assemblage-finale-FAL-Airbus-A320neo-Toulouse_Source-Airbus.jpg"
@@ -16,9 +38,9 @@
       "cat": "securite",
       "label": "SÉCURITÉ",
       "fresh": "< 24 H · FLASH",
-      "title": "Grève nocturne des contrôleurs aériens à Bruxelles-Charleroi",
-      "city": "Charleroi · 15 sept.",
-      "copy": "Les contrôleurs aériens de Skeyes entament un mouvement social prévoyant 24 nuits de débrayages. Les vols tardifs et les appareils basés à Charleroi risquent d'être fortement perturbés.",
+      "title": "Bruxelles-Charleroi : 24 nuits de grève annoncées",
+      "city": "Belgique · 15 sept.",
+      "copy": "Les contrôleurs aériens de Skeyes entament un mouvement de débrayage nocturne à l'aéroport de Charleroi. Des perturbations importantes sont prévues sur les vols tardifs jusqu'au 10 octobre.",
       "src": "Air Journal",
       "url": "https://www.air-journal.fr/2026-09-15-aeroport-de-bruxelles-charleroi-les-controleurs-aeriens-annoncent-24-nuits-de-greve-5277503.html",
       "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-aeroport-Charleroi-Bruxelles-sud.jpg"
@@ -27,145 +49,115 @@
       "cat": "passager",
       "label": "PASSAGER",
       "fresh": "RÉCENT",
-      "title": "La Tunisie s'appuie sur l'aérien pour renforcer son tourisme",
+      "title": "Tunisie : L'aérien soutient la reprise du tourisme",
       "city": "Tunisie · 15 sept.",
-      "copy": "L'augmentation des connexions aériennes soutient la reprise de la fréquentation touristique. Le pays cherche désormais à diversifier son offre face à une concurrence vive en Méditerranée.",
+      "copy": "La Tunisie consolide son attractivité touristique grâce au renforcement des liaisons aériennes depuis la France. Le pays cherche désormais à diversifier son offre face à la concurrence méditerranéenne.",
       "src": "Air Journal",
       "url": "https://www.air-journal.fr/2026-09-15-voyage-en-tunisie-laerien-soutient-le-rebond-touristique-mais-la-diversification-reste-le-defi-5277415.html",
       "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-vacances-tunisie-ruines-romaines-carthage-source-Tunisia-Tourism.jpg"
     },
     {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
+      "cat": "innovation",
+      "label": "INNOVATION",
       "fresh": "< 24 H · FLASH",
-      "title": "Amazon suspend 21 Air après le crash d'un Boeing 767",
-      "city": "Miami · 15 sept.",
-      "copy": "Après la sortie de piste mortelle d'un appareil cargo à Miami, Amazon stoppe les opérations confiées à cet opérateur. L'enquête menée par le NTSB se poursuit pour clarifier les circonstances du drame.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-15-crash-du-boeing-767-a-miami-amazon-suspend-sa-collaboration-avec-loperateur-21-air-5277500.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Prime-Air-767-300F-fret_Source-Copyright-Chad-Slattery-Amazon-Air.jpg"
+      "title": "Samson Sky lève 80 millions $ pour sa voiture volante",
+      "city": "Dubaï · 15 sept.",
+      "copy": "Samson Sky a sécurisé un financement majeur auprès du groupe Matin basé à Dubaï. Ces fonds permettront de soutenir la production en série de l'aéronef Switchblade.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/samson-sky-secures-80-million-investment-to-support-flying-car-production",
+      "img": "https://www.aerotime.aero/images/2026/09/electra-el9-80x80.jpg.webp"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Flydubai lance une division cargo en Boeing 737-800",
-      "city": "Dubaï · 15 sept.",
-      "copy": "La compagnie aérienne émiratie démarrera des liaisons dédiées au fret le 1er octobre au départ de l'aéroport DWC. Elle exploitera trois avions configurés pour transporter jusqu'à 23 tonnes par vol.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-15-flydubai-se-lance-dans-le-fret-tout-cargo-avec-trois-boeing-737-800-5277499.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-avions-boeing-737ng-737-800-flydubai-source-Dubai-World-Central-Al-Maktoum-International.jpg"
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "RÉCENT",
-      "title": "Un turboréacteur britannique produit en moins de 7 mois",
-      "city": "Royaume-Uni · 15 sept.",
-      "copy": "Un nouveau concept de turboréacteur destiné aux drones et avions légers est passé du projet à la fabrication industrielle. L'initiative est menée en partenariat avec le ministère de la Défense du Royaume-Uni.",
+      "fresh": "< 24 H · FLASH",
+      "title": "Electra confie à Atlas Group la production de l'EL9",
+      "city": "États-Unis · 15 sept.",
+      "copy": "La start-up américaine Electra s'associe à Atlas Group pour fabriquer les cellules de son appareil hybride STOL EL9. Ce partenariat prépare la campagne d'essais en vue de la certification.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/uk-turbojet-engine-ministry-of-defence-alloyed",
-      "img": "https://www.aerotime.aero/images/2026/09/Recently-Saved-1-of-1-8-80x80.jpeg"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "RÉCENT",
-      "title": "Etihad réinvente ses cabines A330neo et A321LR",
-      "city": "Abou Dabi · 15 sept.",
-      "copy": "Etihad Airways présente son nouveau concept 'Beyond Borders' pour moderniser le confort à bord. Le réaménagement concerne l'ensemble des classes de voyage, de la Première à la classe Économique.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/etihad-unveils-beyond-borders-experience-with-new-a330-900neo-a321lr-cabins",
-      "img": "https://www.aerotime.aero/images/2025/11/IMG_4614-1-80x80.jpg.webp"
+      "url": "https://www.aerotime.aero/articles/electra-selects-atlas-group-to-produce-el9-airframes-for-certification-program",
+      "img": "https://www.aerotime.aero/images/2026/01/Interview-1620x1080-Diana-Siegel-Electra-1-80x80.jpg.webp"
     },
     {
       "cat": "innovation",
       "label": "INNOVATION",
       "fresh": "RÉCENT",
-      "title": "Qantas ouvre un centre d'innovation technologique à Adélaïde",
-      "city": "Adélaïde · 15 sept.",
-      "copy": "La compagnie australienne implante un nouveau pôle d'innovation produit en Australie du Sud. Ce projet rassemble les équipes technologiques du groupe et va générer 400 emplois qualifiés.",
+      "title": "Sydney déploie 50 bus électriques à l'aéroport",
+      "city": "Australie · 15 sept.",
+      "copy": "L'aéroport de Sydney commence la mise en service de 50 bus 100 % électriques pour remplacer sa flotte diesel. La démarche s'inscrit dans son plan vers la neutralité carbone d'ici 2030.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/qantas-opens-product-innovation-center-in-adelaide-creating-400-tech-jobs-2",
-      "img": "https://www.aerotime.aero/images/2025/11/QF-Adelaide-innovation-ctr-80x80.jpg.webp"
+      "url": "https://www.aerotime.aero/articles/sydney-airport-rolls-out-50-electric-buses-in-push-toward-net-zero-by-2030",
+      "img": "https://www.aerotime.aero/images/2026/09/image-2-1200x675.png"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "Cebu Pacific franchit le cap des 77 % d'avions NEO dans sa flotte",
-      "city": "Manille · 15 sept.",
-      "copy": "Le transporteur philippin a réceptionné un troisième Airbus A320neo pour l'année 2026. Cette livraison s'inscrit dans son plan global de modernisation et de réduction de sa consommation de carburant.",
+      "title": "Aviation d'affaires : Marché record à venir sur 5 ans",
+      "city": "International · 15 sept.",
+      "copy": "Les ventes globales de jets d'affaires neufs et d'occasion devraient s'approcher de 250 milliards de dollars. La demande mondiale reste particulièrement soutenue pour les cinq prochaines années.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/cebu-pacific-takes-delivery-of-third-a320neo-for-2026-fleet-hits-77-neo",
-      "img": "https://www.aerotime.aero/images/2026/08/Untitled-design-14-1-80x80.jpg.webp"
+      "url": "https://www.aerotime.aero/articles/business-jet-transactions-increase",
+      "img": "https://www.aerotime.aero/images/2026/01/Bombardier-Challenger-650-1200x800.jpg"
     },
     {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
+      "cat": "technique",
+      "label": "TECHNIQUE",
       "fresh": "RÉCENT",
-      "title": "Air Arabia obtient son certificat de transporteur en Arabie saoudite",
-      "city": "Riyad · 15 sept.",
-      "copy": "L'autorité saoudienne de l'aviation civile (GACA) a délivré un certificat de transporteur aérien au consortium. L'obtention de ce document permet de lancer la nouvelle compagnie à bas coûts dans le pays.",
+      "title": "Rafale F5 : La DGA commande les premiers sous-systèmes",
+      "city": "France · 15 sept.",
+      "copy": "La DGA a notifié le développement du radar, du moteur et de la guerre électronique du standard Rafale F5. Ces travaux préparent le lancement formel de la future version de l'avion de chasse.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/air-arabia-consortium-aoc-saudi-low-cost-carrier",
-      "img": "https://www.aerotime.aero/images/2026/09/Air-Arabia-Saudi-Arabia-1200x799.jpg"
+      "url": "https://www.aerotime.aero/articles/france-rafale-f5-radar-engine-ew-development",
+      "img": "https://www.aerotime.aero/images/2026/07/Safran-M88-T-REX-1200x875.jpg"
     }
   ],
   "lexicon": [
     {
-      "term": "AOC / CTA",
-      "def": "Le Certificat de Transporteur Aérien est un agrément officiel délivré par l'autorité d'aviation civile d'un pays. Il valide la capacité technique et financière d'une compagnie à exploiter des vols commerciaux en toute sécurité."
+      "term": "Train d'atterrissage",
+      "def": "Ensemble des organes de structure et de roulement permettant à un avion de se déplacer au sol, de décoller et d'atterrir. Son remplacement périodique garantit la sécurité opérationnelle de l'appareil."
     },
     {
-      "term": "NTSB",
-      "def": "Le National Transportation Safety Board est l'agence gouvernementale américaine chargée d'enquêter sur les accidents d'aviation. Ses conclusions permettent d'émettre des recommandations réglementaires pour prévenir de futurs incidents."
+      "term": "STOL",
+      "def": "Sigle désignant les aéronefs à décollage et atterrissage courts (Short Take-Off and Landing). Ces appareils sont conçus pour opérer sur des pistes très réduites ou peu aménagées."
     },
     {
-      "term": "NEO",
-      "def": "L'acronyme New Engine Option désigne la génération remotorisée de la famille Airbus A320. Ces avions intègrent des réacteurs plus récents permettant de réduire la consommation de carburant et les émissions sonores."
+      "term": "Net Zero",
+      "def": "Objectif de neutralité carbone consistant à réduire au maximum les émissions de gaz à effet de serre et à compenser le solde résiduel. Il engage l'industrie aéronautique à décarboner ses infrastructures d'ici 2030."
     },
     {
-      "term": "Turboréacteur",
-      "def": "Il s'agit d'un moteur à réaction qui aspire l'air, le comprime et le mélange à du carburant pour générer une forte poussée. Ce type de motorisation équipe une grande partie des avions militaires, des drones et des avions de ligne."
+      "term": "Guerre électronique",
+      "def": "Ensemble de technologies destinées à exploiter, intercepter ou perturber le spectre électromagnétique. Sur un avion de combat, elle protège l'appareil contre les radars et missiles adverses."
     }
   ],
   "stat": {
-    "big": "77 %",
-    "text": "La compagnie Cebu Pacific atteint désormais 77 % d'avions de nouvelle génération (NEO) dans sa flotte. Ce franchissement de seuil fait suite à la réception de son troisième Airbus A320neo de l'année."
+    "big": "80 M$",
+    "text": "Samson Sky a obtenu un investissement de 80 millions de dollars auprès de Matin Group à Dubaï. Ce financement doit permettre le lancement de la production de sa voiture volante Switchblade."
   },
   "sources": [
     {
-      "label": "Air Journal — Nouveau centre de livraisons Airbus à Toulouse",
+      "label": "Air Journal — Campagne Sharon Stone ITA Airways",
+      "url": "https://www.air-journal.fr/2026-09-15-ita-airways-choisit-sharon-stone-pour-incarner-son-nouveau-visage-5277509.html"
+    },
+    {
+      "label": "Air Journal — Échange de trains Boeing 737 MAX",
+      "url": "https://www.air-journal.fr/2026-09-15-737-max-boeing-inaugure-avec-american-airlines-son-programme-dechange-de-trains-5277505.html"
+    },
+    {
+      "label": "Air Journal — Centre de livraisons Airbus Toulouse",
       "url": "https://www.air-journal.fr/2026-09-15-a-toulouse-airbus-ouvre-un-nouveau-centre-pour-accelerer-les-remises-da320neo-5277507.html"
     },
     {
-      "label": "Air Journal — Débrayages des contrôleurs à l'aéroport de Charleroi",
+      "label": "Air Journal — Grève contrôleurs Charleroi",
       "url": "https://www.air-journal.fr/2026-09-15-aeroport-de-bruxelles-charleroi-les-controleurs-aeriens-annoncent-24-nuits-de-greve-5277503.html"
     },
     {
-      "label": "Air Journal — Suspension des vols cargo 21 Air par Amazon",
-      "url": "https://www.air-journal.fr/2026-09-15-crash-du-boeing-767-a-miami-amazon-suspend-sa-collaboration-avec-loperateur-21-air-5277500.html"
+      "label": "AeroTime — Investissement Samson Sky",
+      "url": "https://www.aerotime.aero/articles/samson-sky-secures-80-million-investment-to-support-flying-car-production"
     },
     {
-      "label": "Air Journal — Flydubai lance sa division de transport de fret",
-      "url": "https://www.air-journal.fr/2026-09-15-flydubai-se-lance-dans-le-fret-tout-cargo-avec-trois-boeing-737-800-5277499.html"
-    },
-    {
-      "label": "AeroTime — Développement d'un turboréacteur au Royaume-Uni",
-      "url": "https://www.aerotime.aero/articles/uk-turbojet-engine-ministry-of-defence-alloyed"
-    },
-    {
-      "label": "AeroTime — Nouvelles cabines de voyage présentées par Etihad",
-      "url": "https://www.aerotime.aero/articles/etihad-unveils-beyond-borders-experience-with-new-a330-900neo-a321lr-cabins"
-    },
-    {
-      "label": "AeroTime — Création du centre d'innovation Qantas à Adélaïde",
-      "url": "https://www.aerotime.aero/articles/qantas-opens-product-innovation-center-in-adelaide-creating-400-tech-jobs-2"
-    },
-    {
-      "label": "AeroTime — Attribution d'un CTA au consortium Air Arabia par la GACA",
-      "url": "https://www.aerotime.aero/articles/air-arabia-consortium-aoc-saudi-low-cost-carrier"
+      "label": "AeroTime — Contrats DGA Rafale F5",
+      "url": "https://www.aerotime.aero/articles/france-rafale-f5-radar-engine-ew-development"
     }
   ]
 }
