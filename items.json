@@ -1,163 +1,156 @@
 {
-  "updated": "2026-09-15T20:05:04.531Z",
+  "updated": "2026-09-21T09:36:20.780Z",
   "items": [
     {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "< 24 H · FLASH",
-      "title": "Sharon Stone devient la nouvelle ambassadrice d'ITA Airways",
-      "city": "Italie · 15 sept.",
-      "copy": "ITA Airways lance sa campagne « Simply Italian » en s'associant à l'actrice Sharon Stone comme ambassadrice mondiale. La compagnie entend ainsi renforcer son image et promouvoir le style italien à l'international.",
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "RÉCENT",
+      "title": "Sécurité aérienne européenne : hausse des décès hors vols commerciaux",
+      "city": "Europe · 2025",
+      "copy": "L'EASA et Eurostat recensent 116 décès en 2025 dans l'espace aérien européen. Les vols commerciaux restent très sûrs, 94 % des victimes concernant l'aviation générale et d'affaires.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-15-ita-airways-choisit-sharon-stone-pour-incarner-son-nouveau-visage-5277509.html",
-      "img": ""
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "< 24 H · FLASH",
-      "title": "737 MAX : Premier échange de trains d'atterrissage réussi par Boeing",
-      "city": "États-Unis · 15 sept.",
-      "copy": "Boeing et American Airlines ont réalisé un premier échange de trains d'atterrissage sur un 737 MAX. Ce programme permet aux compagnies de recevoir des ensembles certifiés prêts à poser pour réduire l'immobilisation des appareils.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-15-737-max-boeing-inaugure-avec-american-airlines-son-programme-dechange-de-trains-5277505.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_American-Airlines-737-MAX-1er-vol-N314RH-dec20©American-Airlines.jpg"
+      "url": "https://www.air-journal.fr/2026-09-21-securite-aerienne-en-europe-94-des-116-deces-recenses-en-2025-concernent-des-vols-non-commerciaux-5277628.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Aviation-d-affaires-Bombardier_Source-Bombardier.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Airbus ouvre un nouveau centre de livraison A320neo à Toulouse",
-      "city": "Toulouse · 15 sept.",
-      "copy": "Inauguré sur le site Jean-Luc Lagardère, ce centre de livraison vise à accélérer les remises d'appareils aux compagnies aériennes. Airbus prépare une augmentation des cadences de production pour atteindre 70 à 75 avions par mois.",
+      "fresh": "RÉCENT",
+      "title": "Malaysia Airlines envisage l'achat de dix Boeing 787-10 Dreamliner",
+      "city": "Kuala Lumpur · 21 sept.",
+      "copy": "Le groupe maison mère de Malaysia Airlines pourrait commander dix Boeing 787-10 à partir de 2031. Cette opération remplacerait sept Airbus A350-900 actuellement loués.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-15-a-toulouse-airbus-ouvre-un-nouveau-centre-pour-accelerer-les-remises-da320neo-5277507.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-ligne-assemblage-finale-FAL-Airbus-A320neo-Toulouse_Source-Airbus.jpg"
+      "url": "https://www.air-journal.fr/2026-09-21-boeing-787-10-malaysia-airlines-pourrait-tourner-la-page-des-a350-loues-5277621.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-A350-malaysia-airlines-source-H.Gousse-Airbus-scaled.jpg"
+    },
+    {
+      "cat": "innovation",
+      "label": "INNOVATION",
+      "fresh": "RÉCENT",
+      "title": "Transavia déploie la technologie satellitaire IRIS sur sa flotte Airbus",
+      "city": "Pays-Bas · 21 sept.",
+      "copy": "La compagnie intègre la technologie IRIS pour optimiser les échanges avec le contrôle aérien. L'objectif est de raccourcir les trajectoires et de réduire la consommation de carburant.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-21-trajectoires-carburant-co%e2%82%82-transavia-generalise-iris-sur-sa-flotte-airbus-5277625.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-Airbus-A321neo-Transavia-Holland-scaled.jpg"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
-      "fresh": "< 24 H · FLASH",
-      "title": "Grève des contrôleurs aériens à l'aéroport de Charleroi",
-      "city": "Charleroi · 15 sept.",
-      "copy": "Les contrôleurs aériens de Skeyes annoncent 24 nuits de grève à l'aéroport de Bruxelles-Charleroi. Le mouvement nocturne pourrait fortement perturber les arrivées tardives et les départs très matutinaux.",
+      "fresh": "RÉCENT",
+      "title": "Interruption des vols à Riyad suite à une attaque d'un dépôt de carburant",
+      "city": "Riyad · 21 sept.",
+      "copy": "L'aéroport international King Khalid a temporairement suspendu ses opérations après une attaque revendiquée par les Houthis. Un incendie à proximité a perturbé le trafic durant deux heures.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-15-aeroport-de-bruxelles-charleroi-les-controleurs-aeriens-annoncent-24-nuits-de-greve-5277503.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-aeroport-Charleroi-Bruxelles-sud.jpg"
+      "url": "https://www.air-journal.fr/2026-09-21-a-riyad-laviation-civile-rattrapee-par-lescalade-entre-larabie-saoudite-et-les-houthis-5277627.html",
+      "img": "https://s.w.org/images/core/emoji/15.0.3/72x72/1f1fe.png"
     },
     {
       "cat": "passager",
       "label": "PASSAGER",
-      "fresh": "< 24 H · FLASH",
-      "title": "Aérien et tourisme en Tunisie : le défi de la diversification",
-      "city": "Tunisie · 15 sept.",
-      "copy": "Le renforcement des dessertes aériennes soutient la reprise du tourisme tunisien face à la concurrence méditerranéenne. Le secteur cherche désormais à diversifier son offre au-delà des séjours balnéaires.",
+      "fresh": "RÉCENT",
+      "title": "Lufthansa célèbre l'Oktoberfest 2026 avec des costumes traditionnels",
+      "city": "Munich · 21 sept.",
+      "copy": "Les équipages long-courriers de Lufthansa portent des dirndls et lederhosen pour la fête de la bière. Cette tradition bavaroise s'applique sur une sélection de vols jusqu'au 4 octobre.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-15-voyage-en-tunisie-laerien-soutient-le-rebond-touristique-mais-la-diversification-reste-le-defi-5277415.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-vacances-tunisie-ruines-romaines-carthage-source-Tunisia-Tourism.jpg"
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "< 24 H · FLASH",
-      "title": "Samson Sky sécurise 80 millions de dollars pour sa voiture volante",
-      "city": "Dubaï · 15 sept.",
-      "copy": "La société Samson Sky a obtenu un financement de 80 millions de dollars auprès du groupe Matin Group basés à Dubaï. Cet apport doit accélérer la mise en production de sa voiture volante Switchblade.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/samson-sky-secures-80-million-investment-to-support-flying-car-production",
-      "img": "https://www.aerotime.aero/images/2026/09/electra-el9-80x80.jpg.webp"
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "< 24 H · FLASH",
-      "title": "Electra confie la fabrication des cellules de l'EL9 à Atlas Group",
-      "city": "Virginie · 15 sept.",
-      "copy": "La startup Electra a sélectionné Atlas Group pour produire les structures de son appareil hybride ultra-court. Ce partenariat soutient le programme d'essais en vue de la certification officielle.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/electra-selects-atlas-group-to-produce-el9-airframes-for-certification-program",
-      "img": "https://www.aerotime.aero/images/2026/01/Interview-1620x1080-Diana-Siegel-Electra-1-80x80.jpg.webp"
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "< 24 H · FLASH",
-      "title": "L'aéroport de Sydney déploie 50 bus électriques",
-      "city": "Sydney · 15 sept.",
-      "copy": "L'aéroport de Sydney a commencé à remplacer ses bus diesel par une flotte de 50 véhicules 100 % électriques. Ce projet participe à son objectif d'atteindre zéro émission nette d'ici 2030.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/sydney-airport-rolls-out-50-electric-buses-in-push-toward-net-zero-by-2030",
-      "img": "https://www.aerotime.aero/images/2026/09/image-2-1200x675.png"
+      "url": "https://www.air-journal.fr/2026-09-21-lufthansa-habille-ses-equipages-aux-couleurs-de-loktoberfest-2026-5277622.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-uniformes-equipage-LufthansaOktoberfest_Source-Lufthansa.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Aviation d'affaires : le marché frôle les 250 milliards de dollars",
-      "city": "Monde · 15 sept.",
-      "copy": "Les ventes et transactions de jets d'affaires neufs et d'occasion devaient atteindre près de 250 milliards de dollars sur cinq ans. Le marché confirme ainsi la très forte demande du secteur.",
+      "fresh": "RÉCENT",
+      "title": "Embraer et Japan Airlines prolongent leur contrat de maintenance",
+      "city": "Japon · 21 sept.",
+      "copy": "Le constructeur brésilien et la compagnie japonaise renouvellent leur accord pour la flotte E170 et E190. L'entente couvre la fourniture de pièces de rechange et les services de réparation.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/business-jet-transactions-increase",
-      "img": "https://www.aerotime.aero/images/2026/01/Bombardier-Challenger-650-1200x800.jpg"
+      "url": "https://www.aerotime.aero/articles/embraer-japan-airlines-e170-e190",
+      "img": "https://www.aerotime.aero/images/mc-21_flying-80x80.jpg.webp"
+    },
+    {
+      "cat": "innovation",
+      "label": "INNOVATION",
+      "fresh": "RÉCENT",
+      "title": "Un turbopropulseur ATR évalué pour la lutte contre les incendies en Europe",
+      "city": "Toulouse · 1 sept.",
+      "copy": "Un appareil ATR a effectué des vols d'essai au-dessus de Toulouse au début du mois de septembre. Ce projet étudie l'utilisation du turbopropulseur comme solution face aux feux de forêt.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/is-this-atr-turboprop-the-answer-to-europes-pressing-wildfire-problem",
+      "img": "https://www.aerotime.aero/images/2026/09/Portrait_David_Joubert_Pdt_Kepplair-Evolution©KepplairEvolution-1200x800.jpg"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "RÉCENT",
+      "title": "L'Europe étudie le futur du transport aérien stratégique lourd",
+      "city": "Europe · 21 sept.",
+      "copy": "Une étude financée par l'Union européenne analyse la modernisation de la flotte d'Antonov An-124. L'option alternative consisterait à concevoir un successeur européen au Boeing C-17.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/europe-an124-modernization-c17-successor-airlift",
+      "img": "https://www.aerotime.aero/images/a_german_military_helicopter_loaded_onto_the_airbus_belugast_aircraft-1024x682.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Rafale F5 : La France commande les premiers travaux de développement",
-      "city": "France · 15 sept.",
-      "copy": "La DGA française a notifié des contrats de développement pour cinq systèmes majeurs du futur Rafale F5. Ces commandes couvrent notamment le radar, les motorisations et la guerre électronique.",
+      "fresh": "RÉCENT",
+      "title": "Aeroflot confirme une commande ferme pour 90 avions russes MC-21-310",
+      "city": "Russie · 12 sept.",
+      "copy": "La compagnie aérienne russe Aeroflot a formalisé sa commande de 90 appareils moyen-courriers MC-21-310. Cette signature s'inscrit dans le renouvellement national de sa flotte commercialisée.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/france-rafale-f5-radar-engine-ew-development",
-      "img": "https://www.aerotime.aero/images/2026/07/Safran-M88-T-REX-1200x875.jpg"
+      "url": "https://www.aerotime.aero/articles/aeroflot-firms-order-for-90-russian-made-mc-21-310-aircraft",
+      "img": ""
     }
   ],
   "lexicon": [
     {
-      "term": "737 MAX",
-      "def": "Ligne d'avions de ligne mono-couloirs développée par l'avionneur américain Boeing pour les vols moyen-courriers. Il succède à la famille 737 Next Generation avec des moteurs plus efficients."
+      "term": "IRIS",
+      "def": "Le programme IRIS est une technologie de communication par satellite entre le cockpit et le contrôle aérien. Elle permet d'optimiser les trajectoires de vol en temps réel pour réduire la consommation de carburant et l'empreinte carbone."
     },
     {
-      "term": "A320neo",
-      "def": "Version modernisée de la famille d'avions moyen-courriers Airbus A320. Le sigle 'neo' signifie 'New Engine Option', désignant une remotorisation réduisant la consommation de carburant."
+      "term": "MC-21-310",
+      "def": "Le MC-21-310 est un avion de ligne bimoteur moyen-courrier conçu par le constructeur russe Irkout. Il vise à équiper les compagnies nationales comme Aeroflot en se passant des composants occidentaux."
     },
     {
-      "term": "Rafale F5",
-      "def": "Futur standard de développement de l'avion de chasse français Rafale prévu pour la prochaine décennie. Il intégrera de nouveaux radars, des moteurs modernisés et des capacités de guerre électronique avancées."
+      "term": "Aviation générale",
+      "def": "L'aviation générale englobe l'ensemble des activités aériennes civiles non commerciales, y compris les vols de loisir, le pilotage privé et l'aviation d'affaires. Elle se distingue du transport aérien commercial régulier sur lignes fixes."
     },
     {
-      "term": "Guerre électronique (EW)",
-      "def": "Ensemble d'actions militaires exploitant l'énergie électromagnétique pour détecter, brouiller ou contrer les radars et systèmes de communication ennemis. L'acronyme EW vient du terme anglais 'Electronic Warfare'."
+      "term": "Transport aérien stratégique",
+      "def": "Le transport aérien stratégique désigne la capacité à déplacer du matériel militaire ou humanitaire lourd et volumineux sur de très longues distances. Cela nécessite des avions cargo hors normes tels que le Boeing C-17 ou l'Antonov An-124."
     }
   ],
   "stat": {
-    "big": "80 M$",
-    "text": "Montant de l'investissement décroché par la société Samson Sky auprès du groupe Matin Group à Dubaï. Ce financement doit accélérer la production industrielle de sa voiture volante Switchblade."
+    "big": "94%",
+    "text": "En 2025, 94 % des 116 personnes tuées dans des accidents aériens en Europe concernaient des vols non commerciaux. Les bilans d'Eurostat et de l'EASA soulignent la très forte sécurité du transport commercial régulier par rapport à l'aviation générale."
   },
   "sources": [
     {
-      "label": "Air Journal — ITA Airways et Sharon Stone",
-      "url": "https://www.air-journal.fr/2026-09-15-ita-airways-choisit-sharon-stone-pour-incarner-son-nouveau-visage-5277509.html"
+      "label": "Air Journal — Sécurité aérienne en Europe en 2025",
+      "url": "https://www.air-journal.fr/2026-09-21-securite-aerienne-en-europe-94-des-116-deces-recenses-en-2025-concernent-des-vols-non-commerciaux-5277628.html"
     },
     {
-      "label": "Air Journal — Boeing 737 MAX train d'atterrissage",
-      "url": "https://www.air-journal.fr/2026-09-15-737-max-boeing-inaugure-avec-american-airlines-son-programme-dechange-de-trains-5277505.html"
+      "label": "Air Journal — Projet d'acquisition Boeing 787-10 par Malaysia Airlines",
+      "url": "https://www.air-journal.fr/2026-09-21-boeing-787-10-malaysia-airlines-pourrait-tourner-la-page-des-a350-loues-5277621.html"
     },
     {
-      "label": "Air Journal — Centre de livraison Airbus Toulouse",
-      "url": "https://www.air-journal.fr/2026-09-15-a-toulouse-airbus-ouvre-un-nouveau-centre-pour-accelerer-les-remises-da320neo-5277507.html"
+      "label": "Air Journal — Transavia et la technologie IRIS",
+      "url": "https://www.air-journal.fr/2026-09-21-trajectoires-carburant-co%e2%82%82-transavia-generalise-iris-sur-sa-flotte-airbus-5277625.html"
     },
     {
-      "label": "Air Journal — Grève à l'aéroport de Charleroi",
-      "url": "https://www.air-journal.fr/2026-09-15-aeroport-de-bruxelles-charleroi-les-controleurs-aeriens-annoncent-24-nuits-de-greve-5277503.html"
+      "label": "Air Journal — Incidents à l'aéroport King Khalid de Riyad",
+      "url": "https://www.air-journal.fr/2026-09-21-a-riyad-laviation-civile-rattrapee-par-lescalade-entre-larabie-saoudite-et-les-houthis-5277627.html"
     },
     {
-      "label": "AeroTime — Samson Sky levée de fonds",
-      "url": "https://www.aerotime.aero/articles/samson-sky-secures-80-million-investment-to-support-flying-car-production"
+      "label": "AeroTime — Évaluation de turbopropulseurs ATR bombardiers d'eau",
+      "url": "https://www.aerotime.aero/articles/is-this-atr-turboprop-the-answer-to-europes-pressing-wildfire-problem"
     },
     {
-      "label": "AeroTime — Développement Rafale F5",
-      "url": "https://www.aerotime.aero/articles/france-rafale-f5-radar-engine-ew-development"
+      "label": "AeroTime — Étude européenne sur la capacité de transport stratégique",
+      "url": "https://www.aerotime.aero/articles/europe-an124-modernization-c17-successor-airlift"
+    },
+    {
+      "label": "AeroTime — Commande ferme d'Aeroflot pour des MC-21-310",
+      "url": "https://www.aerotime.aero/articles/aeroflot-firms-order-for-90-russian-made-mc-21-310-aircraft"
     }
   ]
 }
