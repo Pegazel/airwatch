@@ -1,156 +1,160 @@
 {
-  "updated": "2026-09-21T09:36:20.780Z",
+  "updated": "2026-09-28T07:28:50.790Z",
   "items": [
     {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Sécurité aérienne européenne : hausse des décès hors vols commerciaux",
-      "city": "Europe · 2025",
-      "copy": "L'EASA et Eurostat recensent 116 décès en 2025 dans l'espace aérien européen. Les vols commerciaux restent très sûrs, 94 % des victimes concernant l'aviation générale et d'affaires.",
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "EasyJet renforce sa base de Londres-Southend",
+      "city": "Royaume-Uni · 28 sept.",
+      "copy": "La compagnie low-cost basera un quatrième Airbus A320neo à Londres-Southend dès l'été 2027. Elle ouvrira également une nouvelle liaison vers la Grèce avec deux vols par semaine.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-21-securite-aerienne-en-europe-94-des-116-deces-recenses-en-2025-concernent-des-vols-non-commerciaux-5277628.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Aviation-d-affaires-Bombardier_Source-Bombardier.jpg"
+      "url": "https://www.air-journal.fr/2026-09-28-easyjet-accelere-a-londres-southend-avec-un-quatrieme-avion-et-une-liaison-vers-rhodes-5277773.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-a320-easyjet-aeroport-malaga-espagne-source-AJ-DR.jpg"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "< 24 H · FLASH",
+      "title": "Boeing 737 MAX 7 : certifié mais sans passagers",
+      "city": "États-Unis · 28 sept.",
+      "copy": "Certifié par la FAA début août, le plus petit appareil de la gamme MAX n'a pas encore livré de premier exemplaire. Un problème logiciel retarde sa mise en service commerciale chez Southwest Airlines.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-28-boeing-737-max-7-certifie-mais-toujours-sans-passagers-5277770.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_Southwest_737-MAX-7-july23©Boeing.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "Schiphol lance un plan massif de 10 milliards d'euros",
+      "city": "Pays-Bas · 28 sept.",
+      "copy": "L'aéroport d'Amsterdam cherche des partenaires à long terme pour moderniser ses terminaux et aires de stationnement. Ce programme d'investissement majeur s'étalera entre 2025 et 2035.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-28-amsterdam-schiphol-cherche-des-partenaires-de-long-terme-pour-renover-ses-terminaux-et-ses-aires-de-stationnement-5277771.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Amsterdam-Schiphol-avion-blanc-neutre_Source-AMS-Schiphol-Airport.jpg"
+    },
+    {
+      "cat": "innovation",
+      "label": "INNOVATION",
+      "fresh": "HISTOIRE",
+      "title": "1908 : Wilbur Wright repart à la conquête du prix d'aviation",
+      "city": "France · 28 sept.",
+      "copy": "L'aviateur américain s'élance pour tenter de remporter la récompense de 5 000 francs décernée par la Commission d'aviation. Il détient déjà un record de durée de vol.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-09-28-le-28-septembre-1908-wilbur-wright-repart-a-la-conquete-du-prix-de-la-commission-daviation-5277748.html",
+      "img": ""
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "Malaysia Airlines envisage l'achat de dix Boeing 787-10 Dreamliner",
-      "city": "Kuala Lumpur · 21 sept.",
-      "copy": "Le groupe maison mère de Malaysia Airlines pourrait commander dix Boeing 787-10 à partir de 2031. Cette opération remplacerait sept Airbus A350-900 actuellement loués.",
+      "title": "Azores Airlines : la privatisation passe une étape",
+      "city": "Portugal · 27 sept.",
+      "copy": "La maison-mère SATA a reçu cinq propositions non contraignantes pour acquérir au moins 75% d'Azores Airlines. Le processus de privatisation entre désormais dans sa phase d'évaluation.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-21-boeing-787-10-malaysia-airlines-pourrait-tourner-la-page-des-a350-loues-5277621.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-A350-malaysia-airlines-source-H.Gousse-Airbus-scaled.jpg"
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "RÉCENT",
-      "title": "Transavia déploie la technologie satellitaire IRIS sur sa flotte Airbus",
-      "city": "Pays-Bas · 21 sept.",
-      "copy": "La compagnie intègre la technologie IRIS pour optimiser les échanges avec le contrôle aérien. L'objectif est de raccourcir les trajectoires et de réduire la consommation de carburant.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-21-trajectoires-carburant-co%e2%82%82-transavia-generalise-iris-sur-sa-flotte-airbus-5277625.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-Airbus-A321neo-Transavia-Holland-scaled.jpg"
+      "url": "https://www.air-journal.fr/2026-09-27-azores-airlines-la-privatisation-avance-avec-cinq-offres-non-contraignantes-5277753.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-avions-azores-airlines-aeroport-Ponta-Delgada-acores-portugal-source-Aeroportos-dos-Acores.jpg"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
       "fresh": "RÉCENT",
-      "title": "Interruption des vols à Riyad suite à une attaque d'un dépôt de carburant",
-      "city": "Riyad · 21 sept.",
-      "copy": "L'aéroport international King Khalid a temporairement suspendu ses opérations après une attaque revendiquée par les Houthis. Un incendie à proximité a perturbé le trafic durant deux heures.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-21-a-riyad-laviation-civile-rattrapee-par-lescalade-entre-larabie-saoudite-et-les-houthis-5277627.html",
-      "img": "https://s.w.org/images/core/emoji/15.0.3/72x72/1f1fe.png"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "RÉCENT",
-      "title": "Lufthansa célèbre l'Oktoberfest 2026 avec des costumes traditionnels",
-      "city": "Munich · 21 sept.",
-      "copy": "Les équipages long-courriers de Lufthansa portent des dirndls et lederhosen pour la fête de la bière. Cette tradition bavaroise s'applique sur une sélection de vols jusqu'au 4 octobre.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-21-lufthansa-habille-ses-equipages-aux-couleurs-de-loktoberfest-2026-5277622.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-uniformes-equipage-LufthansaOktoberfest_Source-Lufthansa.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Embraer et Japan Airlines prolongent leur contrat de maintenance",
-      "city": "Japon · 21 sept.",
-      "copy": "Le constructeur brésilien et la compagnie japonaise renouvellent leur accord pour la flotte E170 et E190. L'entente couvre la fourniture de pièces de rechange et les services de réparation.",
+      "title": "Un A321 d'IndiGo subit un tail strike à Bengaluru",
+      "city": "Inde · 27 sept.",
+      "copy": "Un Airbus A321 reliant Guwahati à Bengaluru a frotté sa queue contre la piste lors d'une deuxième tentative d'atterrissage. L'appareil est à l'arrêt pour vérification technique.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/embraer-japan-airlines-e170-e190",
-      "img": "https://www.aerotime.aero/images/mc-21_flying-80x80.jpg.webp"
+      "url": "https://www.aerotime.aero/articles/indigo-a321-suffers-tail-strike-during-second-landing-attempt-in-bengaluru",
+      "img": ""
     },
     {
-      "cat": "innovation",
-      "label": "INNOVATION",
+      "cat": "meteo",
+      "label": "MÉTÉO",
       "fresh": "RÉCENT",
-      "title": "Un turbopropulseur ATR évalué pour la lutte contre les incendies en Europe",
-      "city": "Toulouse · 1 sept.",
-      "copy": "Un appareil ATR a effectué des vols d'essai au-dessus de Toulouse au début du mois de septembre. Ce projet étudie l'utilisation du turbopropulseur comme solution face aux feux de forêt.",
+      "title": "L'Etna paralyse le trafic aérien à Catane",
+      "city": "Italie · 27 sept.",
+      "copy": "Le regain d'activité volcanique du mont Etna et le rejet de cendres forcent l'aéroport de Catane à suspendre ses opérations. Plusieurs vols ont été annulés ou déroutés.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/is-this-atr-turboprop-the-answer-to-europes-pressing-wildfire-problem",
-      "img": "https://www.aerotime.aero/images/2026/09/Portrait_David_Joubert_Pdt_Kepplair-Evolution©KepplairEvolution-1200x800.jpg"
+      "url": "https://www.aerotime.aero/articles/etna-ash-disrupts-catania-flights-forcing-diversions-and-cancelations",
+      "img": ""
+    },
+    {
+      "cat": "meteo",
+      "label": "MÉTÉO",
+      "fresh": "RÉCENT",
+      "title": "Une tempête bloque les vols dans le nord-est américain",
+      "city": "États-Unis · 27 sept.",
+      "copy": "Un puissant Nor’easter provoque des centaines d'annulations de vols sur la côte nord-est des États-Unis. L'aéroport de Boston Logan est particulièrement touché par les intempéries.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/noreaster-triggers-hundreds-of-flight-cancelations-across-us-northeast",
+      "img": ""
     },
     {
       "cat": "technique",
       "label": "TECHNIQUE",
       "fresh": "RÉCENT",
-      "title": "L'Europe étudie le futur du transport aérien stratégique lourd",
-      "city": "Europe · 21 sept.",
-      "copy": "Une étude financée par l'Union européenne analyse la modernisation de la flotte d'Antonov An-124. L'option alternative consisterait à concevoir un successeur européen au Boeing C-17.",
+      "title": "Boeing MAX 7 et 10 : nouveau problème logiciel décelé",
+      "city": "États-Unis · 27 sept.",
+      "copy": "Boeing subit une nouvelle évaluation réglementaire suite au repérage d'un problème dans le logiciel de gestion de vol de la famille 737 MAX. Cela remet la certification sous haute surveillance.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/europe-an124-modernization-c17-successor-airlift",
-      "img": "https://www.aerotime.aero/images/a_german_military_helicopter_loaded_onto_the_airbus_belugast_aircraft-1024x682.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Aeroflot confirme une commande ferme pour 90 avions russes MC-21-310",
-      "city": "Russie · 12 sept.",
-      "copy": "La compagnie aérienne russe Aeroflot a formalisé sa commande de 90 appareils moyen-courriers MC-21-310. Cette signature s'inscrit dans le renouvellement national de sa flotte commercialisée.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/aeroflot-firms-order-for-90-russian-made-mc-21-310-aircraft",
+      "url": "https://www.aerotime.aero/articles/software-issue-puts-boeing-max-7-and-max-10-programs-under-fresh-scrutiny",
       "img": ""
     }
   ],
   "lexicon": [
     {
-      "term": "IRIS",
-      "def": "Le programme IRIS est une technologie de communication par satellite entre le cockpit et le contrôle aérien. Elle permet d'optimiser les trajectoires de vol en temps réel pour réduire la consommation de carburant et l'empreinte carbone."
+      "term": "Tail strike",
+      "def": "Impact involontaire de la partie arrière du fuselage de l'avion avec la piste d'atterrissage ou de décollage. Cela survient en général lors d'une assiette de cabrage trop prononcée."
     },
     {
-      "term": "MC-21-310",
-      "def": "Le MC-21-310 est un avion de ligne bimoteur moyen-courrier conçu par le constructeur russe Irkout. Il vise à équiper les compagnies nationales comme Aeroflot en se passant des composants occidentaux."
+      "term": "Nor’easter",
+      "def": "Aussi appelé tempête du nord-est, il s'agit d'une forte perturbation météorologique côtière en Amérique du Nord. Elle engendre de violents vents, de fortes pluies ou des chutes de neige massives."
     },
     {
-      "term": "Aviation générale",
-      "def": "L'aviation générale englobe l'ensemble des activités aériennes civiles non commerciales, y compris les vols de loisir, le pilotage privé et l'aviation d'affaires. Elle se distingue du transport aérien commercial régulier sur lignes fixes."
+      "term": "A320neo",
+      "def": "Version modernisée de l'avion moyen-courrier d'Airbus, dotée de moteurs de nouvelle génération. Le sigle 'neo' signifie 'New Engine Option'."
     },
     {
-      "term": "Transport aérien stratégique",
-      "def": "Le transport aérien stratégique désigne la capacité à déplacer du matériel militaire ou humanitaire lourd et volumineux sur de très longues distances. Cela nécessite des avions cargo hors normes tels que le Boeing C-17 ou l'Antonov An-124."
+      "term": "Logiciel de gestion de vol",
+      "def": "Système informatique embarqué à bord d'un aéronef permettant d'automatiser et de piloter les tâches de navigation et de calcul des performances."
     }
   ],
   "stat": {
-    "big": "94%",
-    "text": "En 2025, 94 % des 116 personnes tuées dans des accidents aériens en Europe concernaient des vols non commerciaux. Les bilans d'Eurostat et de l'EASA soulignent la très forte sécurité du transport commercial régulier par rapport à l'aviation générale."
+    "big": "10 Md€",
+    "text": "C'est le montant total du programme d'investissement prévu par l'aéroport d'Amsterdam-Schiphol entre 2025 et 2035. Ce budget permettra de rénover ses terminaux et ses infrastructures de stationnement."
   },
   "sources": [
     {
-      "label": "Air Journal — Sécurité aérienne en Europe en 2025",
-      "url": "https://www.air-journal.fr/2026-09-21-securite-aerienne-en-europe-94-des-116-deces-recenses-en-2025-concernent-des-vols-non-commerciaux-5277628.html"
+      "label": "Air Journal — EasyJet à Londres-Southend",
+      "url": "https://www.air-journal.fr/2026-09-28-easyjet-accelere-a-londres-southend-avec-un-quatrieme-avion-et-une-liaison-vers-rhodes-5277773.html"
     },
     {
-      "label": "Air Journal — Projet d'acquisition Boeing 787-10 par Malaysia Airlines",
-      "url": "https://www.air-journal.fr/2026-09-21-boeing-787-10-malaysia-airlines-pourrait-tourner-la-page-des-a350-loues-5277621.html"
+      "label": "Air Journal — Boeing 737 MAX 7 et logiciel",
+      "url": "https://www.air-journal.fr/2026-09-28-boeing-737-max-7-certifie-mais-toujours-sans-passagers-5277770.html"
     },
     {
-      "label": "Air Journal — Transavia et la technologie IRIS",
-      "url": "https://www.air-journal.fr/2026-09-21-trajectoires-carburant-co%e2%82%82-transavia-generalise-iris-sur-sa-flotte-airbus-5277625.html"
+      "label": "Air Journal — Rénovation de Schiphol",
+      "url": "https://www.air-journal.fr/2026-09-28-amsterdam-schiphol-cherche-des-partenaires-de-long-terme-pour-renover-ses-terminaux-et-ses-aires-de-stationnement-5277771.html"
     },
     {
-      "label": "Air Journal — Incidents à l'aéroport King Khalid de Riyad",
-      "url": "https://www.air-journal.fr/2026-09-21-a-riyad-laviation-civile-rattrapee-par-lescalade-entre-larabie-saoudite-et-les-houthis-5277627.html"
+      "label": "Air Journal — Histoire Wilbur Wright 1908",
+      "url": "https://www.air-journal.fr/2026-09-28-le-28-septembre-1908-wilbur-wright-repart-a-la-conquete-du-prix-de-la-commission-daviation-5277748.html"
     },
     {
-      "label": "AeroTime — Évaluation de turbopropulseurs ATR bombardiers d'eau",
-      "url": "https://www.aerotime.aero/articles/is-this-atr-turboprop-the-answer-to-europes-pressing-wildfire-problem"
+      "label": "Air Journal — Privatisation d'Azores Airlines",
+      "url": "https://www.air-journal.fr/2026-09-27-azores-airlines-la-privatisation-avance-avec-cinq-offres-non-contraignantes-5277753.html"
     },
     {
-      "label": "AeroTime — Étude européenne sur la capacité de transport stratégique",
-      "url": "https://www.aerotime.aero/articles/europe-an124-modernization-c17-successor-airlift"
+      "label": "AeroTime — Tail strike d'IndiGo à Bengaluru",
+      "url": "https://www.aerotime.aero/articles/indigo-a321-suffers-tail-strike-during-second-landing-attempt-in-bengaluru"
     },
     {
-      "label": "AeroTime — Commande ferme d'Aeroflot pour des MC-21-310",
-      "url": "https://www.aerotime.aero/articles/aeroflot-firms-order-for-90-russian-made-mc-21-310-aircraft"
+      "label": "AeroTime — Éruption de l'Etna et vols à Catane",
+      "url": "https://www.aerotime.aero/articles/etna-ash-disrupts-catania-flights-forcing-diversions-and-cancelations"
+    },
+    {
+      "label": "AeroTime — Tempête Nor’easter aux États-Unis",
+      "url": "https://www.aerotime.aero/articles/noreaster-triggers-hundreds-of-flight-cancelations-across-us-northeast"
     }
   ]
 }
