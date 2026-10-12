@@ -1,160 +1,171 @@
 {
-  "updated": "2026-09-28T07:28:50.790Z",
+  "updated": "2026-10-12T11:22:26.844Z",
   "items": [
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "< 24 H · FLASH",
-      "title": "EasyJet renforce sa base de Londres-Southend",
-      "city": "Royaume-Uni · 28 sept.",
-      "copy": "La compagnie low-cost basera un quatrième Airbus A320neo à Londres-Southend dès l'été 2027. Elle ouvrira également une nouvelle liaison vers la Grèce avec deux vols par semaine.",
+      "title": "easyJet réduit son programme d'hiver pour économiser le carburant",
+      "city": "Royaume-Uni · 12 oct.",
+      "copy": "La compagnie à bas coûts retire jusqu'à 700 000 sièges supplémentaires de son offre hivernale. Cette mesure vise à annuler les vols les moins rentables face aux coûts du carburant.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-28-easyjet-accelere-a-londres-southend-avec-un-quatrieme-avion-et-une-liaison-vers-rhodes-5277773.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-a320-easyjet-aeroport-malaga-espagne-source-AJ-DR.jpg"
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Boeing 737 MAX 7 : certifié mais sans passagers",
-      "city": "États-Unis · 28 sept.",
-      "copy": "Certifié par la FAA début août, le plus petit appareil de la gamme MAX n'a pas encore livré de premier exemplaire. Un problème logiciel retarde sa mise en service commerciale chez Southwest Airlines.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-28-boeing-737-max-7-certifie-mais-toujours-sans-passagers-5277770.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_Southwest_737-MAX-7-july23©Boeing.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Schiphol lance un plan massif de 10 milliards d'euros",
-      "city": "Pays-Bas · 28 sept.",
-      "copy": "L'aéroport d'Amsterdam cherche des partenaires à long terme pour moderniser ses terminaux et aires de stationnement. Ce programme d'investissement majeur s'étalera entre 2025 et 2035.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-28-amsterdam-schiphol-cherche-des-partenaires-de-long-terme-pour-renover-ses-terminaux-et-ses-aires-de-stationnement-5277771.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Amsterdam-Schiphol-avion-blanc-neutre_Source-AMS-Schiphol-Airport.jpg"
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "HISTOIRE",
-      "title": "1908 : Wilbur Wright repart à la conquête du prix d'aviation",
-      "city": "France · 28 sept.",
-      "copy": "L'aviateur américain s'élance pour tenter de remporter la récompense de 5 000 francs décernée par la Commission d'aviation. Il détient déjà un record de durée de vol.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-28-le-28-septembre-1908-wilbur-wright-repart-a-la-conquete-du-prix-de-la-commission-daviation-5277748.html",
-      "img": ""
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Azores Airlines : la privatisation passe une étape",
-      "city": "Portugal · 27 sept.",
-      "copy": "La maison-mère SATA a reçu cinq propositions non contraignantes pour acquérir au moins 75% d'Azores Airlines. Le processus de privatisation entre désormais dans sa phase d'évaluation.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-09-27-azores-airlines-la-privatisation-avance-avec-cinq-offres-non-contraignantes-5277753.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-avions-azores-airlines-aeroport-Ponta-Delgada-acores-portugal-source-Aeroportos-dos-Acores.jpg"
+      "url": "https://www.air-journal.fr/2026-10-12-easyjet-taille-dans-son-programme-hivernal-pour-contenir-sa-facture-de-carburant-5278168.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-a320-parking-source-easyJet.jpg"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Un A321 d'IndiGo subit un tail strike à Bengaluru",
-      "city": "Inde · 27 sept.",
-      "copy": "Un Airbus A321 reliant Guwahati à Bengaluru a frotté sa queue contre la piste lors d'une deuxième tentative d'atterrissage. L'appareil est à l'arrêt pour vérification technique.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/indigo-a321-suffers-tail-strike-during-second-landing-attempt-in-bengaluru",
-      "img": ""
+      "fresh": "< 24 H · FLASH",
+      "title": "Controverse chez Air France après des exigences de filtrage en Israël",
+      "city": "France · 12 oct.",
+      "copy": "Une directive israélienne restreint l'accès à son espace aérien pour les équipages de certaines nationalités. L'application de cette mesure suscite de vives réactions au sein de la compagnie.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-10-12-air-france-le-filtrage-des-equipages-exige-par-israel-declenche-la-polemique-5278163.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal_Aibus-babybus-A318-Air-France-Source-Air-France-KLM.jpg"
     },
     {
-      "cat": "meteo",
-      "label": "MÉTÉO",
+      "cat": "passager",
+      "label": "PASSAGER",
       "fresh": "RÉCENT",
-      "title": "L'Etna paralyse le trafic aérien à Catane",
-      "city": "Italie · 27 sept.",
-      "copy": "Le regain d'activité volcanique du mont Etna et le rejet de cendres forcent l'aéroport de Catane à suspendre ses opérations. Plusieurs vols ont été annulés ou déroutés.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/etna-ash-disrupts-catania-flights-forcing-diversions-and-cancelations",
-      "img": ""
+      "title": "Air Astana développe ses liaisons vers Oman et le Japon",
+      "city": "Kazakhstan · 12 oct.",
+      "copy": "La compagnie kazakhe ouvre deux nouvelles routes vers Salalah à Oman ainsi qu'une ligne vers Tokyo-Narita. Les vols seront assurés principalement en Airbus A321LR.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-10-12-air-astana-met-le-cap-sur-oman-et-le-japon-5278155.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Air-Astana-787-Dreamliner_Source-Boeing.jpg"
     },
     {
-      "cat": "meteo",
-      "label": "MÉTÉO",
+      "cat": "industrie",
+      "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "Une tempête bloque les vols dans le nord-est américain",
-      "city": "États-Unis · 27 sept.",
-      "copy": "Un puissant Nor’easter provoque des centaines d'annulations de vols sur la côte nord-est des États-Unis. L'aéroport de Boston Logan est particulièrement touché par les intempéries.",
+      "title": "Emirates SkyCargo intensifie ses vols fret vers l'Amérique du Sud",
+      "city": "Émirats Arabes Unis · 12 oct.",
+      "copy": "La division cargo ajoute sept fréquences hebdomadaires desservant notamment Buenos Aires, Bogotá et São Paulo. Ces vols renforcent l'offre d'emport déjà disponible sur les vols passagers.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-10-12-emirates-skycargo-ajoute-sept-vols-cargo-hebdomadaires-vers-amerique-du-sud-5278154.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_emirates-skycargo-777F-trois©Emirates.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Birmingham planifie 2 milliards de livres d'investissements sans nouvelle piste",
+      "city": "Royaume-Uni · 12 oct.",
+      "copy": "L'aérodrome souhaite doubler son trafic pour atteindre 30 millions de passagers par an d'ici 2041. L'effort financier portera sur les terminaux et les accès terrestres.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-10-12-birmingham-voit-grand-2-milliards-de-livres-pour-doubler-son-trafic-sans-nouvelle-piste-5278151.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Birmingham-airport-Source-Birmingham-airport.jpg"
+    },
+    {
+      "cat": "innovation",
+      "label": "INNOVATION",
+      "fresh": "< 24 H · FLASH",
+      "title": "Le drone de combat Airbus U740 Valkyrie réussit son premier vol européen",
+      "city": "Europe · 12 oct.",
+      "copy": "Airbus a achevé le premier essai en vol de son appareil sans pilote U740 Valkyrie. Le modèle dérive de la technologie développée par le constructeur Kratos.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/noreaster-triggers-hundreds-of-flight-cancelations-across-us-northeast",
-      "img": ""
+      "url": "https://www.aerotime.aero/articles/airbus-u740-valkyrie-combat-drone-first-flight-europe",
+      "img": "https://www.aerotime.aero/images/2026/08/Valk-Takeoff-Hero-80x80.jpeg"
+    },
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "RÉCENT",
+      "title": "Vietjet s'ouvre au marché européen avec une ligne vers Prague",
+      "city": "Vietnam · 11 oct.",
+      "copy": "La compagnie aérienne vietnamienne inaugure un service reliant Hanoi à Prague via Almaty. Il s'agit de sa première desserte au sein de l'Union européenne.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/vietjet-launches-hanoi-almaty-prague-services-in-first-foray-into-european-union",
+      "img": "https://www.aerotime.aero/images/2026/09/Untitled-design-75-80x80.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Londres-Heathrow sous pression de plus de 40 compagnies pour des créneaux",
+      "city": "Royaume-Uni · 12 oct.",
+      "copy": "Une quarantaine de transporteurs recherchent activement des slots sur le hub londonien. Cette forte demande relance le débat sur la construction d'une troisième piste.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/heathrow-airport-expansion-third-runway-thomas-woldbye",
+      "img": "https://www.aerotime.aero/images/2025/12/Heathrow-Terminal-4-1200x800.jpg"
     },
     {
       "cat": "technique",
       "label": "TECHNIQUE",
-      "fresh": "RÉCENT",
-      "title": "Boeing MAX 7 et 10 : nouveau problème logiciel décelé",
-      "city": "États-Unis · 27 sept.",
-      "copy": "Boeing subit une nouvelle évaluation réglementaire suite au repérage d'un problème dans le logiciel de gestion de vol de la famille 737 MAX. Cela remet la certification sous haute surveillance.",
+      "fresh": "< 24 H · FLASH",
+      "title": "Anduril dévoile les missiles d'interception Steelfin face aux menaces hypersoniques",
+      "city": "États-Unis · 12 oct.",
+      "copy": "Cette nouvelle gamme de missiles sol-air s'appuie sur une conception à deux étages. Elle est destinée à détruire les menaces balistiques et hypersoniques évoluées.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/software-issue-puts-boeing-max-7-and-max-10-programs-under-fresh-scrutiny",
+      "url": "https://www.aerotime.aero/articles/anduril-steelfin-air-defense-interceptor-missiles",
+      "img": "https://www.aerotime.aero/images/2026/10/Lockheed-Martins-PAC-3-Edge-interceptor-developed-for-the-US-Armys-Future-Interceptor-program-to-counter-advanced-ballistic-and-hypersonic-missile-threats-1200x800.jpg"
+    },
+    {
+      "cat": "innovation",
+      "label": "INNOVATION",
+      "fresh": "RÉCENT",
+      "title": "La startup française HyLight lève 13 millions d'euros pour ses dirigibles",
+      "city": "France · 12 oct.",
+      "copy": "HyLight a réuni 13 millions d'euros afin d'accélérer la production de ses dirigibles autonomes. Ces appareils sont conçus pour effectuer de la surveillance d'infrastructures.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/french-startup-hylight-raises-e13-million-to-build-autonomous-airships",
       "img": ""
     }
   ],
   "lexicon": [
     {
-      "term": "Tail strike",
-      "def": "Impact involontaire de la partie arrière du fuselage de l'avion avec la piste d'atterrissage ou de décollage. Cela survient en général lors d'une assiette de cabrage trop prononcée."
+      "term": "Airbus A321LR",
+      "def": "Version à long rayon d'action de l'avion monocouloir d'Airbus. Elle permet d'effectuer des liaisons transcontinentales auparavant réservées aux gros-porteurs."
     },
     {
-      "term": "Nor’easter",
-      "def": "Aussi appelé tempête du nord-est, il s'agit d'une forte perturbation météorologique côtière en Amérique du Nord. Elle engendre de violents vents, de fortes pluies ou des chutes de neige massives."
+      "term": "Créneau horaire (Slot)",
+      "def": "Autorisation accordée à une compagnie d'utiliser l'infrastructure d'un aéroport encombré à une date et heure précises. Ces créneaux sont essentiels pour opérer sur les grand hubs."
     },
     {
-      "term": "A320neo",
-      "def": "Version modernisée de l'avion moyen-courrier d'Airbus, dotée de moteurs de nouvelle génération. Le sigle 'neo' signifie 'New Engine Option'."
+      "term": "Drone de combat (UCAS)",
+      "def": "Aéronef militaire volant sans pilote à bord et conçu pour mener des missions tactiques ou de frappe. Il peut opérer de manière télécommandée ou autonome."
     },
     {
-      "term": "Logiciel de gestion de vol",
-      "def": "Système informatique embarqué à bord d'un aéronef permettant d'automatiser et de piloter les tâches de navigation et de calcul des performances."
+      "term": "Interceptor missile",
+      "def": "Engin défensif sol-air conçu pour détruire en vol des engins hostiles comme des missiles balistiques. Il s'appuie sur des vitesses élevées et un guidage de haute précision."
     }
   ],
   "stat": {
-    "big": "10 Md€",
-    "text": "C'est le montant total du programme d'investissement prévu par l'aéroport d'Amsterdam-Schiphol entre 2025 et 2035. Ce budget permettra de rénover ses terminaux et ses infrastructures de stationnement."
+    "big": "13 M€",
+    "text": "Montant levé par la startup française HyLight pour industrialiser ses dirigibles autonomes. Ce financement va permettre de passer à l'échelle supérieure de production."
   },
   "sources": [
     {
-      "label": "Air Journal — EasyJet à Londres-Southend",
-      "url": "https://www.air-journal.fr/2026-09-28-easyjet-accelere-a-londres-southend-avec-un-quatrieme-avion-et-une-liaison-vers-rhodes-5277773.html"
+      "label": "Air Journal — Réduction de voilure chez easyJet",
+      "url": "https://www.air-journal.fr/2026-10-12-easyjet-taille-dans-son-programme-hivernal-pour-contenir-sa-facture-de-carburant-5278168.html"
     },
     {
-      "label": "Air Journal — Boeing 737 MAX 7 et logiciel",
-      "url": "https://www.air-journal.fr/2026-09-28-boeing-737-max-7-certifie-mais-toujours-sans-passagers-5277770.html"
+      "label": "Air Journal — Exigences israéliennes sur les équipages",
+      "url": "https://www.air-journal.fr/2026-10-12-air-france-le-filtrage-des-equipages-exige-par-israel-declenche-la-polemique-5278163.html"
     },
     {
-      "label": "Air Journal — Rénovation de Schiphol",
-      "url": "https://www.air-journal.fr/2026-09-28-amsterdam-schiphol-cherche-des-partenaires-de-long-terme-pour-renover-ses-terminaux-et-ses-aires-de-stationnement-5277771.html"
+      "label": "Air Journal — Nouveaux vols d'Air Astana",
+      "url": "https://www.air-journal.fr/2026-10-12-air-astana-met-le-cap-sur-oman-et-le-japon-5278155.html"
     },
     {
-      "label": "Air Journal — Histoire Wilbur Wright 1908",
-      "url": "https://www.air-journal.fr/2026-09-28-le-28-septembre-1908-wilbur-wright-repart-a-la-conquete-du-prix-de-la-commission-daviation-5277748.html"
+      "label": "Air Journal — Offre fret Emirates SkyCargo",
+      "url": "https://www.air-journal.fr/2026-10-12-emirates-skycargo-ajoute-sept-vols-cargo-hebdomadaires-vers-amerique-du-sud-5278154.html"
     },
     {
-      "label": "Air Journal — Privatisation d'Azores Airlines",
-      "url": "https://www.air-journal.fr/2026-09-27-azores-airlines-la-privatisation-avance-avec-cinq-offres-non-contraignantes-5277753.html"
+      "label": "Air Journal — Plan d'investissement de Birmingham",
+      "url": "https://www.air-journal.fr/2026-10-12-birmingham-voit-grand-2-milliards-de-livres-pour-doubler-son-trafic-sans-nouvelle-piste-5278151.html"
     },
     {
-      "label": "AeroTime — Tail strike d'IndiGo à Bengaluru",
-      "url": "https://www.aerotime.aero/articles/indigo-a321-suffers-tail-strike-during-second-landing-attempt-in-bengaluru"
+      "label": "AeroTime — Premier vol du drone U740 Valkyrie",
+      "url": "https://www.aerotime.aero/articles/airbus-u740-valkyrie-combat-drone-first-flight-europe"
     },
     {
-      "label": "AeroTime — Éruption de l'Etna et vols à Catane",
-      "url": "https://www.aerotime.aero/articles/etna-ash-disrupts-catania-flights-forcing-diversions-and-cancelations"
+      "label": "AeroTime — Arrivée de Vietjet dans l'Union Européenne",
+      "url": "https://www.aerotime.aero/articles/vietjet-launches-hanoi-almaty-prague-services-in-first-foray-into-european-union"
     },
     {
-      "label": "AeroTime — Tempête Nor’easter aux États-Unis",
-      "url": "https://www.aerotime.aero/articles/noreaster-triggers-hundreds-of-flight-cancelations-across-us-northeast"
+      "label": "AeroTime — Levée de fonds de la startup HyLight",
+      "url": "https://www.aerotime.aero/articles/french-startup-hylight-raises-e13-million-to-build-autonomous-airships"
     }
   ]
 }
