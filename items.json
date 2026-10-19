@@ -1,171 +1,160 @@
 {
-  "updated": "2026-10-12T11:22:26.844Z",
+  "updated": "2026-10-19T09:20:37.117Z",
   "items": [
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "< 24 H · FLASH",
-      "title": "easyJet réduit son programme d'hiver pour économiser le carburant",
-      "city": "Royaume-Uni · 12 oct.",
-      "copy": "La compagnie à bas coûts retire jusqu'à 700 000 sièges supplémentaires de son offre hivernale. Cette mesure vise à annuler les vols les moins rentables face aux coûts du carburant.",
+      "title": "Lufthansa retire ses Airbus A340-600 du service",
+      "city": "Allemagne · 19 oct.",
+      "copy": "Après près de 23 ans de service, la compagnie allemande effectue le dernier vol régulier de ses Airbus A340-600. Ce retrait s'explique par la hausse du prix du carburant et l'arrivée de nouveaux long-courriers.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-12-easyjet-taille-dans-son-programme-hivernal-pour-contenir-sa-facture-de-carburant-5278168.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-a320-parking-source-easyJet.jpg"
+      "url": "https://www.air-journal.fr/2026-10-19-lufthansa-la340-600-tire-sa-reverence-apres-pres-de-23-ans-de-service-5278354.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_lufthansa-a340-600-munich-close©Lufthansa.jpg"
     },
     {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
+      "cat": "industrie",
+      "label": "INDUSTRIE",
       "fresh": "< 24 H · FLASH",
-      "title": "Controverse chez Air France après des exigences de filtrage en Israël",
-      "city": "France · 12 oct.",
-      "copy": "Une directive israélienne restreint l'accès à son espace aérien pour les équipages de certaines nationalités. L'application de cette mesure suscite de vives réactions au sein de la compagnie.",
+      "title": "Airbus étudie une seconde ligne d'assemblage pour l'A350",
+      "city": "France · 19 oct.",
+      "copy": "Airbus envisage d'augmenter la production de l'A350 au-delà de 12 appareils par mois d'ici 2028. Ce projet nécessiterait la création d'une nouvelle chaîne d'assemblage pour répondre à la forte demande.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-12-air-france-le-filtrage-des-equipages-exige-par-israel-declenche-la-polemique-5278163.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal_Aibus-babybus-A318-Air-France-Source-Air-France-KLM.jpg"
+      "url": "https://www.air-journal.fr/2026-10-19-airbus-a350-une-deuxieme-chaine-dassemblage-a-letude-5278352.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-A350-KLM-ligne-d-assemblage-FAL_Source-KLM-1.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Air Canada et United renforcent leur partenariat",
+      "city": "Canada · 19 oct.",
+      "copy": "Les deux compagnies prévoient d'ouvrir six nouvelles liaisons transfrontalières pour l'été 2027. Cet élargissement s'inscrit dans le cadre du renouvellement de leur accord de coentreprise.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-10-19-canada-etats-unis-air-canada-et-united-passent-la-vitesse-superieure-pour-lete-2027-5278350.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-A321XLR-moteur-GTF-United_Source-RTX.jpg"
     },
     {
       "cat": "passager",
       "label": "PASSAGER",
       "fresh": "RÉCENT",
-      "title": "Air Astana développe ses liaisons vers Oman et le Japon",
-      "city": "Kazakhstan · 12 oct.",
-      "copy": "La compagnie kazakhe ouvre deux nouvelles routes vers Salalah à Oman ainsi qu'une ligne vers Tokyo-Narita. Les vols seront assurés principalement en Airbus A321LR.",
+      "title": "Etihad et Southwest associent leurs programmes de fidélité",
+      "city": "Émirats arabes unis · 19 oct.",
+      "copy": "Dès le printemps 2027, les voyageurs pourront cumuler et échanger leurs points sur les réseaux respectifs des deux transporteurs. Ce partenariat rapproche le réseau américain de Southwest et l'offre internationale d'Etihad.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-12-air-astana-met-le-cap-sur-oman-et-le-japon-5278155.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Air-Astana-787-Dreamliner_Source-Boeing.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Emirates SkyCargo intensifie ses vols fret vers l'Amérique du Sud",
-      "city": "Émirats Arabes Unis · 12 oct.",
-      "copy": "La division cargo ajoute sept fréquences hebdomadaires desservant notamment Buenos Aires, Bogotá et São Paulo. Ces vols renforcent l'offre d'emport déjà disponible sur les vols passagers.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-12-emirates-skycargo-ajoute-sept-vols-cargo-hebdomadaires-vers-amerique-du-sud-5278154.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_emirates-skycargo-777F-trois©Emirates.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Birmingham planifie 2 milliards de livres d'investissements sans nouvelle piste",
-      "city": "Royaume-Uni · 12 oct.",
-      "copy": "L'aérodrome souhaite doubler son trafic pour atteindre 30 millions de passagers par an d'ici 2041. L'effort financier portera sur les terminaux et les accès terrestres.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-12-birmingham-voit-grand-2-milliards-de-livres-pour-doubler-son-trafic-sans-nouvelle-piste-5278151.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Birmingham-airport-Source-Birmingham-airport.jpg"
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "< 24 H · FLASH",
-      "title": "Le drone de combat Airbus U740 Valkyrie réussit son premier vol européen",
-      "city": "Europe · 12 oct.",
-      "copy": "Airbus a achevé le premier essai en vol de son appareil sans pilote U740 Valkyrie. Le modèle dérive de la technologie développée par le constructeur Kratos.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/airbus-u740-valkyrie-combat-drone-first-flight-europe",
-      "img": "https://www.aerotime.aero/images/2026/08/Valk-Takeoff-Hero-80x80.jpeg"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "RÉCENT",
-      "title": "Vietjet s'ouvre au marché européen avec une ligne vers Prague",
-      "city": "Vietnam · 11 oct.",
-      "copy": "La compagnie aérienne vietnamienne inaugure un service reliant Hanoi à Prague via Almaty. Il s'agit de sa première desserte au sein de l'Union européenne.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/vietjet-launches-hanoi-almaty-prague-services-in-first-foray-into-european-union",
-      "img": "https://www.aerotime.aero/images/2026/09/Untitled-design-75-80x80.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Londres-Heathrow sous pression de plus de 40 compagnies pour des créneaux",
-      "city": "Royaume-Uni · 12 oct.",
-      "copy": "Une quarantaine de transporteurs recherchent activement des slots sur le hub londonien. Cette forte demande relance le débat sur la construction d'une troisième piste.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/heathrow-airport-expansion-third-runway-thomas-woldbye",
-      "img": "https://www.aerotime.aero/images/2025/12/Heathrow-Terminal-4-1200x800.jpg"
+      "url": "https://www.air-journal.fr/2026-10-19-etihad-et-southwest-misent-sur-la-fidelite-pour-rapprocher-leurs-reseaux-5278349.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-jornal-boeing-737-800-en-vol-livree-freedom-one-southwest-airlines.jpg"
     },
     {
       "cat": "technique",
       "label": "TECHNIQUE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Anduril dévoile les missiles d'interception Steelfin face aux menaces hypersoniques",
-      "city": "États-Unis · 12 oct.",
-      "copy": "Cette nouvelle gamme de missiles sol-air s'appuie sur une conception à deux étages. Elle est destinée à détruire les menaces balistiques et hypersoniques évoluées.",
+      "fresh": "RÉCENT",
+      "title": "Ryanair explique l'absence de hublot au siège 11A",
+      "city": "Irlande · 19 oct.",
+      "copy": "L'absence de fenêtre au rang 11A sur les Boeing 737-800 s'explique par le passage de conduites de climatisation. La compagnie aérienne en a profité pour répondre avec humour aux passagers surpris.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-10-19-ryanair-pourquoi-le-celebre-siege-11a-na-pas-de-hublot-5278348.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-boeing-737-8-200-737-MAX-source-Ryanair.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "VietJet visée par un gel mondial de ses avoirs",
+      "city": "Royaume-Uni · 19 oct.",
+      "copy": "La Haute Cour commerciale du Royaume-Uni a ordonné un gel mondial des actifs de VietJet suite à un litige financier. La compagnie fait face à une dette de 250 millions de dollars liée au leasing d'avions.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/anduril-steelfin-air-defense-interceptor-missiles",
-      "img": "https://www.aerotime.aero/images/2026/10/Lockheed-Martins-PAC-3-Edge-interceptor-developed-for-the-US-Armys-Future-Interceptor-program-to-counter-advanced-ballistic-and-hypersonic-missile-threats-1200x800.jpg"
+      "url": "https://www.aerotime.aero/articles/vietjet-faces-worldwide-asset-freeze-over-250-million-aircraft-leasing-debt",
+      "img": ""
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "RÉCENT",
+      "title": "Le fondateur de 777 Partners plaide coupable de fraude",
+      "city": "États-Unis · 19 oct.",
+      "copy": "Joshua Wander a reconnu sa culpabilité dans une fraude financière estimée à 500 millions de dollars. L'ancien dirigeant s'expose à de lourdes sanctions judiciaires.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/777-partners-founder-pleads-guilty-to-500-million-fraud-scheme",
+      "img": "https://www.aerotime.aero/images/boeing_737_max_in_north_charleston_south_carolina_in_its_test_livery-1-80x80.jpg"
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "RÉCENT",
+      "title": "Le Pakistan prolonge l'interdiction d'espace aérien à l'Inde",
+      "city": "Pakistan · 19 oct.",
+      "copy": "Les autorités pakistanaises ont reconduit les restrictions de survol visant les compagnies aériennes indiennes pour un mois supplémentaire. La mesure restera en vigueur jusqu'en novembre.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/pakistan-extends-airspace-ban-on-indian-airlines",
+      "img": "https://www.aerotime.aero/images/2024/11/Air-India-Airbus-A350-80x80.jpg.webp"
     },
     {
       "cat": "innovation",
       "label": "INNOVATION",
       "fresh": "RÉCENT",
-      "title": "La startup française HyLight lève 13 millions d'euros pour ses dirigibles",
-      "city": "France · 12 oct.",
-      "copy": "HyLight a réuni 13 millions d'euros afin d'accélérer la production de ses dirigibles autonomes. Ces appareils sont conçus pour effectuer de la surveillance d'infrastructures.",
+      "title": "La FAA veut entrer au capital d'une entreprise d'IA",
+      "city": "États-Unis · 19 oct.",
+      "copy": "L'administration de l'aviation civile américaine cherche à prendre une participation dans Air Space Intelligence. Cette société développe un système d'intelligence artificielle destiné au contrôle du trafic aérien.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/french-startup-hylight-raises-e13-million-to-build-autonomous-airships",
+      "url": "https://www.aerotime.aero/articles/faa-stake-air-space-intelligence-ai-air-traffic",
       "img": ""
     }
   ],
   "lexicon": [
     {
-      "term": "Airbus A321LR",
-      "def": "Version à long rayon d'action de l'avion monocouloir d'Airbus. Elle permet d'effectuer des liaisons transcontinentales auparavant réservées aux gros-porteurs."
+      "term": "Coentreprise",
+      "def": "Accord commercial dans lequel plusieurs compagnies aériennes mettent en commun leurs réseaux, leurs coûts et leurs recettes sur certaines liaisons. Cela leur permet d'offrir des horaires coordonnés et des tarifs combinés aux passagers."
     },
     {
-      "term": "Créneau horaire (Slot)",
-      "def": "Autorisation accordée à une compagnie d'utiliser l'infrastructure d'un aéroport encombré à une date et heure précises. Ces créneaux sont essentiels pour opérer sur les grand hubs."
+      "term": "Chaîne d'assemblage",
+      "def": "Ligne industrielle spécialisée dans le montage et l'intégration des différents éléments constitutifs d'un aéronef. La création d'une nouvelle chaîne permet à un constructeur d'augmenter son rythme mensuel de livraison."
     },
     {
-      "term": "Drone de combat (UCAS)",
-      "def": "Aéronef militaire volant sans pilote à bord et conçu pour mener des missions tactiques ou de frappe. Il peut opérer de manière télécommandée ou autonome."
+      "term": "Gel d'avoirs",
+      "def": "Mesure judiciaire conservatoire qui bloque temporairement l'accès d'une entreprise ou d'un individu à ses biens et comptes bancaires. Elle vise à garantir le remboursement de créances en cas de litige financier."
     },
     {
-      "term": "Interceptor missile",
-      "def": "Engin défensif sol-air conçu pour détruire en vol des engins hostiles comme des missiles balistiques. Il s'appuie sur des vitesses élevées et un guidage de haute précision."
+      "term": "Gestion du trafic par IA",
+      "def": "Utilisation d'algorithmes d'intelligence artificielle pour optimiser la régulation et la trajectoire des vols en temps réel. Cette technologie assiste le contrôle aérien afin de réduire les retards et la consommation de carburant."
     }
   ],
   "stat": {
-    "big": "13 M€",
-    "text": "Montant levé par la startup française HyLight pour industrialiser ses dirigibles autonomes. Ce financement va permettre de passer à l'échelle supérieure de production."
+    "big": "500 M$",
+    "text": "Le cofondateur de la société d'investissement 777 Partners a plaidé coupable dans une affaire de fraude portant sur 500 millions de dollars. Ce dossier ébranle le secteur du financement des flottes aériennes."
   },
   "sources": [
     {
-      "label": "Air Journal — Réduction de voilure chez easyJet",
-      "url": "https://www.air-journal.fr/2026-10-12-easyjet-taille-dans-son-programme-hivernal-pour-contenir-sa-facture-de-carburant-5278168.html"
+      "label": "Air Journal — Retrait de l'A340-600 de Lufthansa",
+      "url": "https://www.air-journal.fr/2026-10-19-lufthansa-la340-600-tire-sa-reverence-apres-pres-de-23-ans-de-service-5278354.html"
     },
     {
-      "label": "Air Journal — Exigences israéliennes sur les équipages",
-      "url": "https://www.air-journal.fr/2026-10-12-air-france-le-filtrage-des-equipages-exige-par-israel-declenche-la-polemique-5278163.html"
+      "label": "Air Journal — Deuxième chaîne A350 chez Airbus",
+      "url": "https://www.air-journal.fr/2026-10-19-airbus-a350-une-deuxieme-chaine-dassemblage-a-letude-5278352.html"
     },
     {
-      "label": "Air Journal — Nouveaux vols d'Air Astana",
-      "url": "https://www.air-journal.fr/2026-10-12-air-astana-met-le-cap-sur-oman-et-le-japon-5278155.html"
+      "label": "Air Journal — Accord Air Canada & United Airlines",
+      "url": "https://www.air-journal.fr/2026-10-19-canada-etats-unis-air-canada-et-united-passent-la-vitesse-superieure-pour-lete-2027-5278350.html"
     },
     {
-      "label": "Air Journal — Offre fret Emirates SkyCargo",
-      "url": "https://www.air-journal.fr/2026-10-12-emirates-skycargo-ajoute-sept-vols-cargo-hebdomadaires-vers-amerique-du-sud-5278154.html"
+      "label": "Air Journal — Partenariat Etihad & Southwest",
+      "url": "https://www.air-journal.fr/2026-10-19-etihad-et-southwest-misent-sur-la-fidelite-pour-rapprocher-leurs-reseaux-5278349.html"
     },
     {
-      "label": "Air Journal — Plan d'investissement de Birmingham",
-      "url": "https://www.air-journal.fr/2026-10-12-birmingham-voit-grand-2-milliards-de-livres-pour-doubler-son-trafic-sans-nouvelle-piste-5278151.html"
+      "label": "AeroTime — Gel des avoirs de VietJet",
+      "url": "https://www.aerotime.aero/articles/vietjet-faces-worldwide-asset-freeze-over-250-million-aircraft-leasing-debt"
     },
     {
-      "label": "AeroTime — Premier vol du drone U740 Valkyrie",
-      "url": "https://www.aerotime.aero/articles/airbus-u740-valkyrie-combat-drone-first-flight-europe"
+      "label": "AeroTime — Plaidoyer de culpabilité chez 777 Partners",
+      "url": "https://www.aerotime.aero/articles/777-partners-founder-pleads-guilty-to-500-million-fraud-scheme"
     },
     {
-      "label": "AeroTime — Arrivée de Vietjet dans l'Union Européenne",
-      "url": "https://www.aerotime.aero/articles/vietjet-launches-hanoi-almaty-prague-services-in-first-foray-into-european-union"
+      "label": "AeroTime — Restrictions d'espace aérien au Pakistan",
+      "url": "https://www.aerotime.aero/articles/pakistan-extends-airspace-ban-on-indian-airlines"
     },
     {
-      "label": "AeroTime — Levée de fonds de la startup HyLight",
-      "url": "https://www.aerotime.aero/articles/french-startup-hylight-raises-e13-million-to-build-autonomous-airships"
+      "label": "AeroTime — Projet de la FAA avec Air Space Intelligence",
+      "url": "https://www.aerotime.aero/articles/faa-stake-air-space-intelligence-ai-air-traffic"
     }
   ]
 }
