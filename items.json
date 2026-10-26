@@ -1,160 +1,171 @@
 {
-  "updated": "2026-10-19T09:20:37.117Z",
+  "updated": "2026-10-26T10:34:25.529Z",
   "items": [
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Lufthansa retire ses Airbus A340-600 du service",
-      "city": "Allemagne · 19 oct.",
-      "copy": "Après près de 23 ans de service, la compagnie allemande effectue le dernier vol régulier de ses Airbus A340-600. Ce retrait s'explique par la hausse du prix du carburant et l'arrivée de nouveaux long-courriers.",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "JetBlue : appel à des spécialistes face à la dette",
+      "city": "États-Unis · 26 oct.",
+      "copy": "Des créanciers de la compagnie américaine JetBlue ont fait appel à des experts en restructuration en raison de la chute historique du cours de l'action. Le transporteur subit l'impact financier de la hausse du kérosène tout en tentant de maintenir son plan de redressement.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-19-lufthansa-la340-600-tire-sa-reverence-apres-pres-de-23-ans-de-service-5278354.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_lufthansa-a340-600-munich-close©Lufthansa.jpg"
+      "url": "https://www.air-journal.fr/2026-10-26-des-creanciers-de-jetblue-font-appel-a-des-specialistes-de-la-restructuration-5278492.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-A320-en-vol-source-JetBlue.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Airbus étudie une seconde ligne d'assemblage pour l'A350",
-      "city": "France · 19 oct.",
-      "copy": "Airbus envisage d'augmenter la production de l'A350 au-delà de 12 appareils par mois d'ici 2028. Ce projet nécessiterait la création d'une nouvelle chaîne d'assemblage pour répondre à la forte demande.",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "American Airlines : le carburant plombe un trimestre record",
+      "city": "États-Unis · 26 oct.",
+      "copy": "American Airlines a atteint un chiffre d'affaires record de 16,3 milliards de dollars au troisième trimestre. Cependant, l'augmentation de 1,9 milliard de dollars de la facture de kérosène entraîne une perte nette de 269 millions de dollars.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-19-airbus-a350-une-deuxieme-chaine-dassemblage-a-letude-5278352.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-A350-KLM-ligne-d-assemblage-FAL_Source-KLM-1.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Air Canada et United renforcent leur partenariat",
-      "city": "Canada · 19 oct.",
-      "copy": "Les deux compagnies prévoient d'ouvrir six nouvelles liaisons transfrontalières pour l'été 2027. Cet élargissement s'inscrit dans le cadre du renouvellement de leur accord de coentreprise.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-19-canada-etats-unis-air-canada-et-united-passent-la-vitesse-superieure-pour-lete-2027-5278350.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-A321XLR-moteur-GTF-United_Source-RTX.jpg"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "RÉCENT",
-      "title": "Etihad et Southwest associent leurs programmes de fidélité",
-      "city": "Émirats arabes unis · 19 oct.",
-      "copy": "Dès le printemps 2027, les voyageurs pourront cumuler et échanger leurs points sur les réseaux respectifs des deux transporteurs. Ce partenariat rapproche le réseau américain de Southwest et l'offre internationale d'Etihad.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-19-etihad-et-southwest-misent-sur-la-fidelite-pour-rapprocher-leurs-reseaux-5278349.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-jornal-boeing-737-800-en-vol-livree-freedom-one-southwest-airlines.jpg"
+      "url": "https://www.air-journal.fr/2026-10-26-american-airlines-le-kerosene-engloutit-les-recettes-record-5278491.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-decollage-737-MAX-American-Airlines-Source-boeing.jpg"
     },
     {
       "cat": "technique",
       "label": "TECHNIQUE",
-      "fresh": "RÉCENT",
-      "title": "Ryanair explique l'absence de hublot au siège 11A",
-      "city": "Irlande · 19 oct.",
-      "copy": "L'absence de fenêtre au rang 11A sur les Boeing 737-800 s'explique par le passage de conduites de climatisation. La compagnie aérienne en a profité pour répondre avec humour aux passagers surpris.",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "Moteurs LEAP : Safran accélère la cadence de production",
+      "city": "France · 26 oct.",
+      "copy": "Le groupe Safran a livré 1 565 moteurs LEAP sur les neuf premiers mois de l'année, soit une hausse de 26 %. Bien que des difficultés subsistent chez certains sous-traitants, les approvisionnements globaux s'améliorent.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-19-ryanair-pourquoi-le-celebre-siege-11a-na-pas-de-hublot-5278348.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-boeing-737-8-200-737-MAX-source-Ryanair.jpg"
+      "url": "https://www.air-journal.fr/2026-10-26-moteurs-leap-safran-veut-tenir-la-cadence-dairbus-et-boeing-5278490.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-Airbus-A320neo-moteur-Leap-source-British-Airways.jpg"
     },
     {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "VietJet visée par un gel mondial de ses avoirs",
-      "city": "Royaume-Uni · 19 oct.",
-      "copy": "La Haute Cour commerciale du Royaume-Uni a ordonné un gel mondial des actifs de VietJet suite à un litige financier. La compagnie fait face à une dette de 250 millions de dollars liée au leasing d'avions.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/vietjet-faces-worldwide-asset-freeze-over-250-million-aircraft-leasing-debt",
-      "img": ""
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Le fondateur de 777 Partners plaide coupable de fraude",
-      "city": "États-Unis · 19 oct.",
-      "copy": "Joshua Wander a reconnu sa culpabilité dans une fraude financière estimée à 500 millions de dollars. L'ancien dirigeant s'expose à de lourdes sanctions judiciaires.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/777-partners-founder-pleads-guilty-to-500-million-fraud-scheme",
-      "img": "https://www.aerotime.aero/images/boeing_737_max_in_north_charleston_south_carolina_in_its_test_livery-1-80x80.jpg"
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Le Pakistan prolonge l'interdiction d'espace aérien à l'Inde",
-      "city": "Pakistan · 19 oct.",
-      "copy": "Les autorités pakistanaises ont reconduit les restrictions de survol visant les compagnies aériennes indiennes pour un mois supplémentaire. La mesure restera en vigueur jusqu'en novembre.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/pakistan-extends-airspace-ban-on-indian-airlines",
-      "img": "https://www.aerotime.aero/images/2024/11/Air-India-Airbus-A350-80x80.jpg.webp"
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "Transavia lance une liaison Brest–Séville",
+      "city": "France · 26 oct.",
+      "copy": "La filiale low cost d'Air France-KLM a inauguré sa sixième ligne au départ de l'aéroport de Brest Bretagne. Deux vols hebdomadaires sont prévus chaque jeudi et dimanche pour la saison hivernale.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-10-26-transavia-ouvre-brest-seville-sa-sixieme-destination-depuis-le-finistere-5278493.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-Boeing-737-Transavia-Nimes-FNI-source-ERaviation-Enzo-Rodolosi.jpg"
     },
     {
       "cat": "innovation",
       "label": "INNOVATION",
-      "fresh": "RÉCENT",
-      "title": "La FAA veut entrer au capital d'une entreprise d'IA",
-      "city": "États-Unis · 19 oct.",
-      "copy": "L'administration de l'aviation civile américaine cherche à prendre une participation dans Air Space Intelligence. Cette société développe un système d'intelligence artificielle destiné au contrôle du trafic aérien.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/faa-stake-air-space-intelligence-ai-air-traffic",
+      "fresh": "HISTOIRE · 26 OCT.",
+      "title": "1907 : l'exploit d'Henri Farman à Issy-les-Moulineaux",
+      "city": "France · 26 oct.",
+      "copy": "Le pionnier franco-britannique Henri Farman a accompli un vol approchant les 1 000 mètres de distance sur le champ de manœuvres d'Issy-les-Moulineaux. Cette performance a illustré les rapides progrès de l'aviation au début du XXe siècle.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-10-26-le-26-octobre-1907-dans-le-ciel-un-vol-approchant-les-1-000-metres-pour-farman-5278479.html",
       "img": ""
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "Chasseur GCAP : discussions entre Airbus et BAE Systems",
+      "city": "Europe · 26 oct.",
+      "copy": "Airbus s'apprête à échanger avec BAE Systems sur de nouvelles opportunités de coopération autour du programme d'avion de combat GCAP. La démarche pourrait renforcer la présence de l'avionneur européen dans le projet.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/airbus-gpac-fighter-opportunities-bae-systems",
+      "img": "https://www.aerotime.aero/images/2025/09/The-GCAP-fighter-model-at-DSEI-UK-2025-1-1200x799.jpg"
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "Collision de deux SF-260 aux Philippines : 4 morts",
+      "city": "Philippines · 26 oct.",
+      "copy": "Le ministère de la Défense philippin enquête sur l'accident survenu entre deux avions d'entraînement militaire SF-260. La collision en vol a causé le décès de quatre pilotes de la force aérienne.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/philippines-probes-fatal-sf-260-midair-collision-that-killed-four-paf-pilots",
+      "img": "https://www.aerotime.aero/images/2026/10/Untitled-design-90-80x80.jpg.webp"
+    },
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "Lufthansa et SWISS suspendent leur retour à Dubaï",
+      "city": "Moyen-Orient · 26 oct.",
+      "copy": "En raison de l'instabilité régionale au Moyen-Orient, Lufthansa, SWISS et Eurowings ont repoussé la reprise de leurs lignes vers Dubaï. Les compagnies évoquent une forte volatilité géopolitique dans la zone.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/lufthansa-eurowings-swiss-delay-dubai-return-volatility-middle-east",
+      "img": "https://www.aerotime.aero/images/2026/02/SWISS-A350-2-1200x800.jpg"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "Starlink : Elon Musk accuse l'Ukraine de violation des conditions",
+      "city": "Ukraine · 26 oct.",
+      "copy": "Elon Musk a déclaré que les forces armées ukrainiennes avaient enfreint les conditions d'utilisation du réseau satellite Starlink à des fins offensives. L'accès au débit maximal a toutefois été réactivé.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/elon-musk-ukraine-violated-starlink-terms-full-speed-service-returns",
+      "img": "https://www.aerotime.aero/images/2026/10/Riyadh-Air-Boeing-787-Dreamliner-HZ-RXAK-80x80.jpg"
+    },
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "< 24 H · RÉCENT",
+      "title": "Riyadh Air déplace ses opérations à Al-Qassim",
+      "city": "Arabie Saoudite · 26 oct.",
+      "copy": "La compagnie aérienne saoudienne Riyadh Air a transféré une partie de ses opérations logistiques hors de la capitale. Les vols de la compagnie s'effectueront désormais depuis l'aéroport d'Al-Qassim.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/riyadh-air-operations-saudi-capital-al-qassim-airport",
+      "img": "https://www.aerotime.aero/images/2026/05/Riyadh-Air-Boeing-787-9-1200x800.jpg"
     }
   ],
   "lexicon": [
     {
-      "term": "Coentreprise",
-      "def": "Accord commercial dans lequel plusieurs compagnies aériennes mettent en commun leurs réseaux, leurs coûts et leurs recettes sur certaines liaisons. Cela leur permet d'offrir des horaires coordonnés et des tarifs combinés aux passagers."
+      "term": "Moteur LEAP",
+      "def": "Turboréacteur de nouvelle génération conçu par CFM International pour les avions de ligne monocouloirs. Il offre une consommation de carburant réduite et une meilleure efficacité environnementale."
     },
     {
-      "term": "Chaîne d'assemblage",
-      "def": "Ligne industrielle spécialisée dans le montage et l'intégration des différents éléments constitutifs d'un aéronef. La création d'une nouvelle chaîne permet à un constructeur d'augmenter son rythme mensuel de livraison."
+      "term": "GCAP",
+      "def": "Le Global Combat Air Programme est un projet d'alliance internationale visant à concevoir un avion de chasse furtif de nouvelle génération. Il rassemble des acteurs industriels majeurs du secteur de la défense."
     },
     {
-      "term": "Gel d'avoirs",
-      "def": "Mesure judiciaire conservatoire qui bloque temporairement l'accès d'une entreprise ou d'un individu à ses biens et comptes bancaires. Elle vise à garantir le remboursement de créances en cas de litige financier."
+      "term": "Starlink",
+      "def": "Constellation de satellites en orbite basse conçue par SpaceX pour fournir une connexion Internet à haut débit partout dans le monde. La technologie est fréquemment utilisée dans des contextes de crise ou de conflit."
     },
     {
-      "term": "Gestion du trafic par IA",
-      "def": "Utilisation d'algorithmes d'intelligence artificielle pour optimiser la régulation et la trajectoire des vols en temps réel. Cette technologie assiste le contrôle aérien afin de réduire les retards et la consommation de carburant."
+      "term": "SF-260",
+      "def": "Avion d'entraînement militaire léger à hélices conçu pour l'instruction initiale des pilotes. Il est utilisé par plusieurs forces aériennes à travers le monde pour l'apprentissage des manœuvres de vol."
     }
   ],
   "stat": {
-    "big": "500 M$",
-    "text": "Le cofondateur de la société d'investissement 777 Partners a plaidé coupable dans une affaire de fraude portant sur 500 millions de dollars. Ce dossier ébranle le secteur du financement des flottes aériennes."
+    "big": "1 565",
+    "text": "C'est le nombre de moteurs LEAP livrés par le groupe Safran au cours des neuf premiers mois de l'année, marquant une progression de 26 %. Cette hausse permet d'accompagner l'augmentation des cadences de production d'Airbus et de Boeing."
   },
   "sources": [
     {
-      "label": "Air Journal — Retrait de l'A340-600 de Lufthansa",
-      "url": "https://www.air-journal.fr/2026-10-19-lufthansa-la340-600-tire-sa-reverence-apres-pres-de-23-ans-de-service-5278354.html"
+      "label": "Air Journal — Restructuration des créanciers de JetBlue",
+      "url": "https://www.air-journal.fr/2026-10-26-des-creanciers-de-jetblue-font-appel-a-des-specialistes-de-la-restructuration-5278492.html"
     },
     {
-      "label": "Air Journal — Deuxième chaîne A350 chez Airbus",
-      "url": "https://www.air-journal.fr/2026-10-19-airbus-a350-une-deuxieme-chaine-dassemblage-a-letude-5278352.html"
+      "label": "Air Journal — Résultats financiers d'American Airlines",
+      "url": "https://www.air-journal.fr/2026-10-26-american-airlines-le-kerosene-engloutit-les-recettes-record-5278491.html"
     },
     {
-      "label": "Air Journal — Accord Air Canada & United Airlines",
-      "url": "https://www.air-journal.fr/2026-10-19-canada-etats-unis-air-canada-et-united-passent-la-vitesse-superieure-pour-lete-2027-5278350.html"
+      "label": "Air Journal — Livraisons de moteurs LEAP par Safran",
+      "url": "https://www.air-journal.fr/2026-10-26-moteurs-leap-safran-veut-tenir-la-cadence-dairbus-et-boeing-5278490.html"
     },
     {
-      "label": "Air Journal — Partenariat Etihad & Southwest",
-      "url": "https://www.air-journal.fr/2026-10-19-etihad-et-southwest-misent-sur-la-fidelite-pour-rapprocher-leurs-reseaux-5278349.html"
+      "label": "Air Journal — Inauguration Brest-Séville par Transavia",
+      "url": "https://www.air-journal.fr/2026-10-26-transavia-ouvre-brest-seville-sa-sixieme-destination-depuis-le-finistere-5278493.html"
     },
     {
-      "label": "AeroTime — Gel des avoirs de VietJet",
-      "url": "https://www.aerotime.aero/articles/vietjet-faces-worldwide-asset-freeze-over-250-million-aircraft-leasing-debt"
+      "label": "AeroTime — Échanges Airbus et BAE Systems sur le GCAP",
+      "url": "https://www.aerotime.aero/articles/airbus-gpac-fighter-opportunities-bae-systems"
     },
     {
-      "label": "AeroTime — Plaidoyer de culpabilité chez 777 Partners",
-      "url": "https://www.aerotime.aero/articles/777-partners-founder-pleads-guilty-to-500-million-fraud-scheme"
+      "label": "AeroTime — Enquête collision SF-260 aux Philippines",
+      "url": "https://www.aerotime.aero/articles/philippines-probes-fatal-sf-260-midair-collision-that-killed-four-paf-pilots"
     },
     {
-      "label": "AeroTime — Restrictions d'espace aérien au Pakistan",
-      "url": "https://www.aerotime.aero/articles/pakistan-extends-airspace-ban-on-indian-airlines"
+      "label": "AeroTime — Suspension des vols vers Dubaï par SWISS",
+      "url": "https://www.aerotime.aero/articles/lufthansa-eurowings-swiss-delay-dubai-return-volatility-middle-east"
     },
     {
-      "label": "AeroTime — Projet de la FAA avec Air Space Intelligence",
-      "url": "https://www.aerotime.aero/articles/faa-stake-air-space-intelligence-ai-air-traffic"
+      "label": "AeroTime — Conditions d'utilisation de Starlink en Ukraine",
+      "url": "https://www.aerotime.aero/articles/elon-musk-ukraine-violated-starlink-terms-full-speed-service-returns"
     }
   ]
 }
