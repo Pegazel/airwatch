@@ -1,171 +1,179 @@
 {
-  "updated": "2026-10-26T10:34:25.529Z",
+  "updated": "2026-11-02T12:54:35.758Z",
   "items": [
     {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "JetBlue : appel à des spécialistes face à la dette",
-      "city": "États-Unis · 26 oct.",
-      "copy": "Des créanciers de la compagnie américaine JetBlue ont fait appel à des experts en restructuration en raison de la chute historique du cours de l'action. Le transporteur subit l'impact financier de la hausse du kérosène tout en tentant de maintenir son plan de redressement.",
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "RÉCENT",
+      "title": "TAP Air Portugal s'envolera vers l'Islande à l'été 2027",
+      "city": "Portugal · 2 nov.",
+      "copy": "TAP Air Portugal ouvrira une ligne saisonnière entre Lisbonne et Keflavík à partir de l'été 2027. Trois liaisons hebdomadaires seront effectuées en Airbus A320neo jusqu'à la fin octobre.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-26-des-creanciers-de-jetblue-font-appel-a-des-specialistes-de-la-restructuration-5278492.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-A320-en-vol-source-JetBlue.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "American Airlines : le carburant plombe un trimestre record",
-      "city": "États-Unis · 26 oct.",
-      "copy": "American Airlines a atteint un chiffre d'affaires record de 16,3 milliards de dollars au troisième trimestre. Cependant, l'augmentation de 1,9 milliard de dollars de la facture de kérosène entraîne une perte nette de 269 millions de dollars.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-26-american-airlines-le-kerosene-engloutit-les-recettes-record-5278491.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-decollage-737-MAX-American-Airlines-Source-boeing.jpg"
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "Moteurs LEAP : Safran accélère la cadence de production",
-      "city": "France · 26 oct.",
-      "copy": "Le groupe Safran a livré 1 565 moteurs LEAP sur les neuf premiers mois de l'année, soit une hausse de 26 %. Bien que des difficultés subsistent chez certains sous-traitants, les approvisionnements globaux s'améliorent.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-26-moteurs-leap-safran-veut-tenir-la-cadence-dairbus-et-boeing-5278490.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-Airbus-A320neo-moteur-Leap-source-British-Airways.jpg"
+      "url": "https://www.air-journal.fr/2026-11-02-cap-au-nord-tap-met-le-cap-sur-lislande-a-lete-2027-5278642.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal_A320-TAP-Air-Portugal-Source-TAP-Air-Portugal.png"
     },
     {
       "cat": "passager",
       "label": "PASSAGER",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "Transavia lance une liaison Brest–Séville",
-      "city": "France · 26 oct.",
-      "copy": "La filiale low cost d'Air France-KLM a inauguré sa sixième ligne au départ de l'aéroport de Brest Bretagne. Deux vols hebdomadaires sont prévus chaque jeudi et dimanche pour la saison hivernale.",
+      "fresh": "RÉCENT",
+      "title": "Les Baléares séduisent l'aérien bien au-delà de la saison estivale",
+      "city": "Espagne · 2 nov.",
+      "copy": "Soutenues par une desserte aérienne importante, les îles Baléares attirent les vacanciers toute l'année. Cet engouement soulève toutefois des questions d'équilibre entre tourisme et vie locale.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-26-transavia-ouvre-brest-seville-sa-sixieme-destination-depuis-le-finistere-5278493.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-Boeing-737-Transavia-Nimes-FNI-source-ERaviation-Enzo-Rodolosi.jpg"
-    },
-    {
-      "cat": "innovation",
-      "label": "INNOVATION",
-      "fresh": "HISTOIRE · 26 OCT.",
-      "title": "1907 : l'exploit d'Henri Farman à Issy-les-Moulineaux",
-      "city": "France · 26 oct.",
-      "copy": "Le pionnier franco-britannique Henri Farman a accompli un vol approchant les 1 000 mètres de distance sur le champ de manœuvres d'Issy-les-Moulineaux. Cette performance a illustré les rapides progrès de l'aviation au début du XXe siècle.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-10-26-le-26-octobre-1907-dans-le-ciel-un-vol-approchant-les-1-000-metres-pour-farman-5278479.html",
-      "img": ""
+      "url": "https://www.air-journal.fr/2026-11-02-voyage-aux-baleares-une-destination-mediterraneenne-qui-seduit-bien-au-dela-de-lete-5278399.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-espagne-baleares-majorque-source-AETIB-Agencia-de-Estrategia-Turistica-de-les-Illes-Balears.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "Chasseur GCAP : discussions entre Airbus et BAE Systems",
-      "city": "Europe · 26 oct.",
-      "copy": "Airbus s'apprête à échanger avec BAE Systems sur de nouvelles opportunités de coopération autour du programme d'avion de combat GCAP. La démarche pourrait renforcer la présence de l'avionneur européen dans le projet.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/airbus-gpac-fighter-opportunities-bae-systems",
-      "img": "https://www.aerotime.aero/images/2025/09/The-GCAP-fighter-model-at-DSEI-UK-2025-1-1200x799.jpg"
+      "fresh": "RÉCENT",
+      "title": "Affaire Airbus : inculpation du fils de l'ancien président sri-lankais",
+      "city": "Sri Lanka · 2 nov.",
+      "copy": "Le député Namal Rajapaksa fait face à 24 chefs d'accusation concernant l'achat d'Airbus par SriLankan Airlines. Il est soupçonné de corruption dans le renouvellement de la flotte long-courrier.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-02-srilankan-airlines-laffaire-airbus-rattrape-le-fils-de-lancien-president-5278638.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_SriLankan-airlines-A350-900-hires©Airbus.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "LOT Polish Airlines retire ses Embraer E170 après 22 ans de service",
+      "city": "Pologne · 2 nov.",
+      "copy": "La compagnie aérienne polonaise a effectué son dernier vol commercial en E170 entre Varsovie et Vienne. LOT tourne ainsi la page de ce biréacteur pour accueillir prochainement des Airbus A220.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-02-lot-tourne-la-page-de-lembraer-e170-apres-22-ans-de-service-5278637.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_LOT-Polish-E170.jpg"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "Collision de deux SF-260 aux Philippines : 4 morts",
-      "city": "Philippines · 26 oct.",
-      "copy": "Le ministère de la Défense philippin enquête sur l'accident survenu entre deux avions d'entraînement militaire SF-260. La collision en vol a causé le décès de quatre pilotes de la force aérienne.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/philippines-probes-fatal-sf-260-midair-collision-that-killed-four-paf-pilots",
-      "img": "https://www.aerotime.aero/images/2026/10/Untitled-design-90-80x80.jpg.webp"
+      "fresh": "RÉCENT",
+      "title": "Un membre d'équipage Lufthansa décède lors d'une escale en Inde",
+      "city": "Inde · 2 nov.",
+      "copy": "Un membre d'équipage est mort dans la piscine d'un hôtel à Bangalore pendant une escale. La police privilégie la piste d'une électrocution accidentelle.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-02-lufthansa-un-membre-dequipage-meurt-dans-une-piscine-dhotel-en-inde-5278636.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-Lufthansa-Airbus-A330-300-source-Dallas-Fort-Worth-International-Airport.jpg"
     },
     {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "Lufthansa et SWISS suspendent leur retour à Dubaï",
-      "city": "Moyen-Orient · 26 oct.",
-      "copy": "En raison de l'instabilité régionale au Moyen-Orient, Lufthansa, SWISS et Eurowings ont repoussé la reprise de leurs lignes vers Dubaï. Les compagnies évoquent une forte volatilité géopolitique dans la zone.",
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "AirAsia prépare l'ouverture de son hub à Bahreïn d'ici mars 2027",
+      "city": "Bahreïn · 2 nov.",
+      "copy": "Le groupe AirAsia a nommé le conseil d'administration de sa future base à Bahreïn. Le projet vise désormais un lancement effectif des opérations au printemps 2027.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/lufthansa-eurowings-swiss-delay-dubai-return-volatility-middle-east",
-      "img": "https://www.aerotime.aero/images/2026/02/SWISS-A350-2-1200x800.jpg"
+      "url": "https://www.aerotime.aero/articles/airasia-appoints-bahrain-board-hub-launch-by-march-2027",
+      "img": "https://www.aerotime.aero/images/2026/11/AirAsia-Group-Bahrain-1200x800.jpg"
     },
     {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "Starlink : Elon Musk accuse l'Ukraine de violation des conditions",
-      "city": "Ukraine · 26 oct.",
-      "copy": "Elon Musk a déclaré que les forces armées ukrainiennes avaient enfreint les conditions d'utilisation du réseau satellite Starlink à des fins offensives. L'accès au débit maximal a toutefois été réactivé.",
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "Boeing autorisé par les États-Unis à travailler avec Belavia",
+      "city": "États-Unis · 2 nov.",
+      "copy": "Le département du Commerce des États-Unis aurait accordé une permission à Boeing pour collaborer avec la compagnie nationale biélorusse Belavia, d'après les déclarations de son PDG.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/elon-musk-ukraine-violated-starlink-terms-full-speed-service-returns",
-      "img": "https://www.aerotime.aero/images/2026/10/Riyadh-Air-Boeing-787-Dreamliner-HZ-RXAK-80x80.jpg"
+      "url": "https://www.aerotime.aero/articles/united-states-boeing-belarus-belavia-ceo",
+      "img": "https://www.aerotime.aero/images/2026/11/FlyErbil-A320-aircraft-80x80.jpg.webp"
     },
     {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "< 24 H · RÉCENT",
-      "title": "Riyadh Air déplace ses opérations à Al-Qassim",
-      "city": "Arabie Saoudite · 26 oct.",
-      "copy": "La compagnie aérienne saoudienne Riyadh Air a transféré une partie de ses opérations logistiques hors de la capitale. Les vols de la compagnie s'effectueront désormais depuis l'aéroport d'Al-Qassim.",
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "PIA prend livraison de son premier Boeing 787-9 Dreamliner",
+      "city": "Pakistan · 2 nov.",
+      "copy": "Pakistan International Airlines a accueilli son tout premier Boeing 787-9 à l'aéroport international d'Islamabad. Cette arrivée marque une nouvelle étape dans le développement de sa flotte.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/riyadh-air-operations-saudi-capital-al-qassim-airport",
-      "img": "https://www.aerotime.aero/images/2026/05/Riyadh-Air-Boeing-787-9-1200x800.jpg"
+      "url": "https://www.aerotime.aero/articles/pakistan-international-airlines-receives-first-boeing-787-9-dreamliner",
+      "img": "https://www.aerotime.aero/images/2026/10/PIA_B777_Business_Class_Seat_Design-1-80x80.png.webp"
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · FLASH",
+      "title": "Crash d'un Learjet en Floride : neuf morts après un signalement de givrage",
+      "city": "États-Unis · 1 nov.",
+      "copy": "Neuf personnes sont décédées dans l'accident d'un Learjet 60 dans le comté de Palm Beach. Les pilotes avaient signalé du givrage et d'importantes turbulences peu avant le crash.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/florida-learjet-crash-nine-killed-icing-turbulence",
+      "img": ""
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · FLASH",
+      "title": "L'aéroport de Jersey une nouvelle fois perturbé par des drones",
+      "city": "Royaume-Uni · 31 oct.",
+      "copy": "L'aéroport de Jersey a connu une deuxième soirée consécutive de perturbations en raison d'activités suspectes de drones. Des investigations sont en cours pour sécuriser le trafic.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/jersey-airport-hit-by-drone-disruption-for-second-consecutive-night",
+      "img": ""
     }
   ],
   "lexicon": [
     {
-      "term": "Moteur LEAP",
-      "def": "Turboréacteur de nouvelle génération conçu par CFM International pour les avions de ligne monocouloirs. Il offre une consommation de carburant réduite et une meilleure efficacité environnementale."
+      "term": "Hub",
+      "def": "Plateforme aéroportuaire de correspondance où une compagnie centralise ses vols pour permettre aux passagers de changer facilement d'appareil vers d'autres destinations."
     },
     {
-      "term": "GCAP",
-      "def": "Le Global Combat Air Programme est un projet d'alliance internationale visant à concevoir un avion de chasse furtif de nouvelle génération. Il rassemble des acteurs industriels majeurs du secteur de la défense."
+      "term": "Biréacteur",
+      "def": "Avion propulsé par deux turboréacteurs. Ce type d'appareil est très répandu pour les liaisons régionales et moyen-courriers."
     },
     {
-      "term": "Starlink",
-      "def": "Constellation de satellites en orbite basse conçue par SpaceX pour fournir une connexion Internet à haut débit partout dans le monde. La technologie est fréquemment utilisée dans des contextes de crise ou de conflit."
+      "term": "Givrage",
+      "def": "Accumulation de glace sur les surfaces d'un avion en vol, qui peut alourdir l'appareil et perturber gravement son écoulement aérodynamique."
     },
     {
-      "term": "SF-260",
-      "def": "Avion d'entraînement militaire léger à hélices conçu pour l'instruction initiale des pilotes. Il est utilisé par plusieurs forces aériennes à travers le monde pour l'apprentissage des manœuvres de vol."
+      "term": "Escale",
+      "def": "Arrêt intermédiaire prévu au cours d'un voyage aérien pour l'embarquement, le débarquement ou le repos de l'équipage."
     }
   ],
   "stat": {
-    "big": "1 565",
-    "text": "C'est le nombre de moteurs LEAP livrés par le groupe Safran au cours des neuf premiers mois de l'année, marquant une progression de 26 %. Cette hausse permet d'accompagner l'augmentation des cadences de production d'Airbus et de Boeing."
+    "big": "22 ans",
+    "text": "Il s'agit de la durée d'exploitation de l'Embraer E170 par LOT Polish Airlines, qui fut la première compagnie au monde à le mettre en service commercial en 2004. L'appareil a effectué son ultime rotation le 30 octobre 2026."
   },
   "sources": [
     {
-      "label": "Air Journal — Restructuration des créanciers de JetBlue",
-      "url": "https://www.air-journal.fr/2026-10-26-des-creanciers-de-jetblue-font-appel-a-des-specialistes-de-la-restructuration-5278492.html"
+      "label": "Air Journal — Liaisons TAP Air Portugal vers Keflavík",
+      "url": "https://www.air-journal.fr/2026-11-02-cap-au-nord-tap-met-le-cap-sur-lislande-a-lete-2027-5278642.html"
     },
     {
-      "label": "Air Journal — Résultats financiers d'American Airlines",
-      "url": "https://www.air-journal.fr/2026-10-26-american-airlines-le-kerosene-engloutit-les-recettes-record-5278491.html"
+      "label": "Air Journal — Fréquentation et desserte aérienne des Baléares",
+      "url": "https://www.air-journal.fr/2026-11-02-voyage-aux-baleares-une-destination-mediterraneenne-qui-seduit-bien-au-dela-de-lete-5278399.html"
     },
     {
-      "label": "Air Journal — Livraisons de moteurs LEAP par Safran",
-      "url": "https://www.air-journal.fr/2026-10-26-moteurs-leap-safran-veut-tenir-la-cadence-dairbus-et-boeing-5278490.html"
+      "label": "Air Journal — Procédure judiciaire SriLankan Airlines",
+      "url": "https://www.air-journal.fr/2026-11-02-srilankan-airlines-laffaire-airbus-rattrape-le-fils-de-lancien-president-5278638.html"
     },
     {
-      "label": "Air Journal — Inauguration Brest-Séville par Transavia",
-      "url": "https://www.air-journal.fr/2026-10-26-transavia-ouvre-brest-seville-sa-sixieme-destination-depuis-le-finistere-5278493.html"
+      "label": "Air Journal — Retrait de l'Embraer E170 chez LOT Polish Airlines",
+      "url": "https://www.air-journal.fr/2026-11-02-lot-tourne-la-page-de-lembraer-e170-apres-22-ans-de-service-5278637.html"
     },
     {
-      "label": "AeroTime — Échanges Airbus et BAE Systems sur le GCAP",
-      "url": "https://www.aerotime.aero/articles/airbus-gpac-fighter-opportunities-bae-systems"
+      "label": "Air Journal — Incident en escale Lufthansa à Bangalore",
+      "url": "https://www.air-journal.fr/2026-11-02-lufthansa-un-membre-dequipage-meurt-dans-une-piscine-dhotel-en-inde-5278636.html"
     },
     {
-      "label": "AeroTime — Enquête collision SF-260 aux Philippines",
-      "url": "https://www.aerotime.aero/articles/philippines-probes-fatal-sf-260-midair-collision-that-killed-four-paf-pilots"
+      "label": "AeroTime — Projet de hub AirAsia à Bahreïn",
+      "url": "https://www.aerotime.aero/articles/airasia-appoints-bahrain-board-hub-launch-by-march-2027"
     },
     {
-      "label": "AeroTime — Suspension des vols vers Dubaï par SWISS",
-      "url": "https://www.aerotime.aero/articles/lufthansa-eurowings-swiss-delay-dubai-return-volatility-middle-east"
+      "label": "AeroTime — Relations Boeing et Belavia",
+      "url": "https://www.aerotime.aero/articles/united-states-boeing-belarus-belavia-ceo"
     },
     {
-      "label": "AeroTime — Conditions d'utilisation de Starlink en Ukraine",
-      "url": "https://www.aerotime.aero/articles/elon-musk-ukraine-violated-starlink-terms-full-speed-service-returns"
+      "label": "AeroTime — Livraison du Boeing 787-9 de PIA",
+      "url": "https://www.aerotime.aero/articles/pakistan-international-airlines-receives-first-boeing-787-9-dreamliner"
+    },
+    {
+      "label": "AeroTime — Accident d'un Learjet 60 en Floride",
+      "url": "https://www.aerotime.aero/articles/florida-learjet-crash-nine-killed-icing-turbulence"
+    },
+    {
+      "label": "AeroTime — Incursions de drones à l'aéroport de Jersey",
+      "url": "https://www.aerotime.aero/articles/jersey-airport-hit-by-drone-disruption-for-second-consecutive-night"
     }
   ]
 }
