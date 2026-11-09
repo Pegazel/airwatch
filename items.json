@@ -1,179 +1,152 @@
 {
-  "updated": "2026-11-02T12:54:35.758Z",
+  "updated": "2026-11-09T13:25:55.495Z",
   "items": [
     {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "Air France reçoit son 60e Airbus A220-300",
+      "city": "France · 9 nov. 2026",
+      "copy": "Air France a pris livraison de son 60e Airbus A220-300 baptisé « Mimizan ». Cette livraison vient clore la commande ferme initiale passée par la compagnie en 2019.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-09-avec-mimizan-air-france-passe-le-cap-des-60-airbus-a220-5278753.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-Air-France-Airbus-A220-200-Nimes-FNI-source-ERaviation-Enzo-Rodolosi-source-ERaviation-Enzo-Rodolosi.jpg"
+    },
+    {
+      "cat": "innovation",
+      "label": "INNOVATION",
+      "fresh": "< 24 H · FLASH",
+      "title": "Starlink s'installe à bord de Brussels Airlines",
+      "city": "Belgique · 9 nov. 2026",
+      "copy": "Brussels Airlines a lancé son premier vol commercial équipé du Wi-Fi haut débit Starlink sans supplément. Le service équipera 15 appareils au premier semestre 2027.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-09-brussels-airlines-le-wi-fi-starlink-arrive-a-bord-sans-supplement-5278749.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-installation-wifi-Starlink-Source-Brussels-Airlines.jpg"
+    },
+    {
       "cat": "passager",
       "label": "PASSAGER",
-      "fresh": "RÉCENT",
-      "title": "TAP Air Portugal s'envolera vers l'Islande à l'été 2027",
-      "city": "Portugal · 2 nov.",
-      "copy": "TAP Air Portugal ouvrira une ligne saisonnière entre Lisbonne et Keflavík à partir de l'été 2027. Trois liaisons hebdomadaires seront effectuées en Airbus A320neo jusqu'à la fin octobre.",
+      "fresh": "< 24 H · FLASH",
+      "title": "Grève générale en Espagne : perturbations attendues",
+      "city": "Espagne · 9 nov. 2026",
+      "copy": "Une grève générale de 24 heures prévue le 11 novembre menace d'affecter le transport aérien et l'accès aux aéroports espagnols. Les voyageurs sont invités à anticiper leurs déplacements.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-02-cap-au-nord-tap-met-le-cap-sur-lislande-a-lete-2027-5278642.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal_A320-TAP-Air-Portugal-Source-TAP-Air-Portugal.png"
+      "url": "https://www.air-journal.fr/2026-11-09-espagne-la-greve-generale-du-11-novembre-menace-de-perturber-les-vols-et-lacces-aux-aeroports-5278746.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-A350-900-Iberia-Madrid-source-Aena.jpg"
     },
     {
       "cat": "passager",
       "label": "PASSAGER",
-      "fresh": "RÉCENT",
-      "title": "Les Baléares séduisent l'aérien bien au-delà de la saison estivale",
-      "city": "Espagne · 2 nov.",
-      "copy": "Soutenues par une desserte aérienne importante, les îles Baléares attirent les vacanciers toute l'année. Cet engouement soulève toutefois des questions d'équilibre entre tourisme et vie locale.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-02-voyage-aux-baleares-une-destination-mediterraneenne-qui-seduit-bien-au-dela-de-lete-5278399.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-espagne-baleares-majorque-source-AETIB-Agencia-de-Estrategia-Turistica-de-les-Illes-Balears.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Affaire Airbus : inculpation du fils de l'ancien président sri-lankais",
-      "city": "Sri Lanka · 2 nov.",
-      "copy": "Le député Namal Rajapaksa fait face à 24 chefs d'accusation concernant l'achat d'Airbus par SriLankan Airlines. Il est soupçonné de corruption dans le renouvellement de la flotte long-courrier.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-02-srilankan-airlines-laffaire-airbus-rattrape-le-fils-de-lancien-president-5278638.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_SriLankan-airlines-A350-900-hires©Airbus.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "LOT Polish Airlines retire ses Embraer E170 après 22 ans de service",
-      "city": "Pologne · 2 nov.",
-      "copy": "La compagnie aérienne polonaise a effectué son dernier vol commercial en E170 entre Varsovie et Vienne. LOT tourne ainsi la page de ce biréacteur pour accueillir prochainement des Airbus A220.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-02-lot-tourne-la-page-de-lembraer-e170-apres-22-ans-de-service-5278637.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal_LOT-Polish-E170.jpg"
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Un membre d'équipage Lufthansa décède lors d'une escale en Inde",
-      "city": "Inde · 2 nov.",
-      "copy": "Un membre d'équipage est mort dans la piscine d'un hôtel à Bangalore pendant une escale. La police privilégie la piste d'une électrocution accidentelle.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-02-lufthansa-un-membre-dequipage-meurt-dans-une-piscine-dhotel-en-inde-5278636.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-Lufthansa-Airbus-A330-300-source-Dallas-Fort-Worth-International-Airport.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
       "fresh": "< 24 H · FLASH",
-      "title": "AirAsia prépare l'ouverture de son hub à Bahreïn d'ici mars 2027",
-      "city": "Bahreïn · 2 nov.",
-      "copy": "Le groupe AirAsia a nommé le conseil d'administration de sa future base à Bahreïn. Le projet vise désormais un lancement effectif des opérations au printemps 2027.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/airasia-appoints-bahrain-board-hub-launch-by-march-2027",
-      "img": "https://www.aerotime.aero/images/2026/11/AirAsia-Group-Bahrain-1200x800.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Boeing autorisé par les États-Unis à travailler avec Belavia",
-      "city": "États-Unis · 2 nov.",
-      "copy": "Le département du Commerce des États-Unis aurait accordé une permission à Boeing pour collaborer avec la compagnie nationale biélorusse Belavia, d'après les déclarations de son PDG.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/united-states-boeing-belarus-belavia-ceo",
-      "img": "https://www.aerotime.aero/images/2026/11/FlyErbil-A320-aircraft-80x80.jpg.webp"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "PIA prend livraison de son premier Boeing 787-9 Dreamliner",
-      "city": "Pakistan · 2 nov.",
-      "copy": "Pakistan International Airlines a accueilli son tout premier Boeing 787-9 à l'aéroport international d'Islamabad. Cette arrivée marque une nouvelle étape dans le développement de sa flotte.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/pakistan-international-airlines-receives-first-boeing-787-9-dreamliner",
-      "img": "https://www.aerotime.aero/images/2026/10/PIA_B777_Business_Class_Seat_Design-1-80x80.png.webp"
+      "title": "SWISS déploie l'A350 sur Zurich–Mumbai cet hiver",
+      "city": "Suisse · 9 nov. 2026",
+      "copy": "À partir du 15 décembre 2026, SWISS exploitera l'Airbus A350-900 vers Mumbai avec la nouvelle cabine SWISS Senses. Le temps de trajet sera réduit d'environ 25 minutes.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-09-zurich-mumbai-swiss-deploie-la350-pour-lhiver-5278744.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal_A350-900-SWISS-livree-Wanderlust-Toulouse-Source-SWISS.png"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
       "fresh": "< 24 H · FLASH",
-      "title": "Crash d'un Learjet en Floride : neuf morts après un signalement de givrage",
-      "city": "États-Unis · 1 nov.",
-      "copy": "Neuf personnes sont décédées dans l'accident d'un Learjet 60 dans le comté de Palm Beach. Les pilotes avaient signalé du givrage et d'importantes turbulences peu avant le crash.",
+      "title": "Déroutement militaire refusé : l'affaire Aer Lingus",
+      "city": "France · 9 nov. 2026",
+      "copy": "Le déroutement d'un A320 sous escorte militaire suscite le débat suite au refus initial d'un commandant de se poser sur une base militaire. L'association de pilotes BeCA défend la décision du pilote.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-09-un-commandant-de-bord-peut-il-refuser-un-deroutement-militaire-laffaire-aer-lingus-relance-le-debat-5278743.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-a330-en-vol-source-aer-lingus.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Emirates finance deux Airbus A350 via un montage novateur",
+      "city": "Émirats Arabes Unis",
+      "copy": "Emirates a conclu le financement de deux Airbus A350-900 en s'appuyant sur une approche financière innovante. Ce schéma combine des structures adaptées aux exigences de la compagnie.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/florida-learjet-crash-nine-killed-icing-turbulence",
-      "img": ""
+      "url": "https://www.aerotime.aero/articles/emirates-airbus-a350-fianancing-shariah",
+      "img": "https://www.aerotime.aero/images/2025/07/Emirates-A350-business-class-1200x800.jpg"
+    },
+    {
+      "cat": "formation",
+      "label": "FORMATION",
+      "fresh": "RÉCENT",
+      "title": "Emirates ouvre son centre de formation de 8M$ aux entreprises",
+      "city": "Dubaï",
+      "copy": "Emirates ouvre aux entreprises locales son centre de formation à l'hospitalité d'une valeur de 8 millions de dollars. Initialement conçu pour le personnel navigant commercial, ce pôle partage son savoir-faire.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/emirates-opens-8-million-dubai-cabin-crew-hospitality-hub-to-uae-businesses",
+      "img": "https://www.aerotime.aero/images/2025/10/Emirates-new-training-center-for-hospitality-80x80.jpg.webp"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
-      "fresh": "< 24 H · FLASH",
-      "title": "L'aéroport de Jersey une nouvelle fois perturbé par des drones",
-      "city": "Royaume-Uni · 31 oct.",
-      "copy": "L'aéroport de Jersey a connu une deuxième soirée consécutive de perturbations en raison d'activités suspectes de drones. Des investigations sont en cours pour sécuriser le trafic.",
+      "fresh": "RÉCENT",
+      "title": "Fixtures anti-drones pour les abris F-35 de Tyndall",
+      "city": "États-Unis",
+      "copy": "L'US Air Force envisage d'installer des filets anti-drones pour protéger six abris d'avions F-35A sur la base aérienne de Tyndall en Floride.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/jersey-airport-hit-by-drone-disruption-for-second-consecutive-night",
-      "img": ""
+      "url": "https://www.aerotime.aero/articles/us-air-force-anti-drone-nets-f35-shelters-tyndall",
+      "img": "https://www.aerotime.aero/images/2026/11/A-US-Air-Force-F-35A-Lightning-II-beneath-a-covered-aircraft-shelter-at-Tyndall-Air-Force-Base-1200x800.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Airbus lance un rachat d'actions de 5 milliards d'euros",
+      "city": "Toulouse · 9 nov. 2026",
+      "copy": "Airbus a initié la première tranche de 800 millions d'euros dans le cadre de son programme global de rachat d'actions de 5 milliards d'euros.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/airbus-5-billion-share-buyback-800-million-tranche",
+      "img": "https://www.aerotime.aero/images/2025/12/Airbus-A321-assembly-line-in-Toulouse-1200x800.jpg"
     }
   ],
   "lexicon": [
     {
-      "term": "Hub",
-      "def": "Plateforme aéroportuaire de correspondance où une compagnie centralise ses vols pour permettre aux passagers de changer facilement d'appareil vers d'autres destinations."
+      "term": "Déroutement",
+      "def": "Changement de la trajectoire prévue d'un vol vers un autre aéroport que celui de destination initiale. Ce choix est généralement dicté par des raisons de sécurité, de météo ou d'urgence médicale."
     },
     {
-      "term": "Biréacteur",
-      "def": "Avion propulsé par deux turboréacteurs. Ce type d'appareil est très répandu pour les liaisons régionales et moyen-courriers."
+      "term": "Airbus A220-300",
+      "def": "Avion commercial monocouloir de moyenne capacité conçu pour les liaisons court et moyen-courriers. Il offre une consommation de carburant réduite et un confort amélioré pour les passagers."
     },
     {
-      "term": "Givrage",
-      "def": "Accumulation de glace sur les surfaces d'un avion en vol, qui peut alourdir l'appareil et perturber gravement son écoulement aérodynamique."
+      "term": "Starlink",
+      "def": "Réseau d'accès à Internet à haut débit par satellite opérant en orbite terrestre basse. Il permet de fournir une connexion Wi-Fi rapide et stable à bord des avions en vol."
     },
     {
-      "term": "Escale",
-      "def": "Arrêt intermédiaire prévu au cours d'un voyage aérien pour l'embarquement, le débarquement ou le repos de l'équipage."
+      "term": "Rachat d'actions",
+      "def": "Opération financière par laquelle une entreprise rachète ses propres titres sur le marché boursier. Cela permet de restituer du capital aux actionnaires et de soutenir la valeur du titre."
     }
   ],
   "stat": {
-    "big": "22 ans",
-    "text": "Il s'agit de la durée d'exploitation de l'Embraer E170 par LOT Polish Airlines, qui fut la première compagnie au monde à le mettre en service commercial en 2004. L'appareil a effectué son ultime rotation le 30 octobre 2026."
+    "big": "5 Mds €",
+    "text": "Airbus a lancé son programme massif de rachat d'actions d'un montant total de 5 milliards d'euros. La première tranche d'exécution s'élève à 800 millions d'euros."
   },
   "sources": [
     {
-      "label": "Air Journal — Liaisons TAP Air Portugal vers Keflavík",
-      "url": "https://www.air-journal.fr/2026-11-02-cap-au-nord-tap-met-le-cap-sur-lislande-a-lete-2027-5278642.html"
+      "label": "Air Journal — Livraison du 60e A220 Air France",
+      "url": "https://www.air-journal.fr/2026-11-09-avec-mimizan-air-france-passe-le-cap-des-60-airbus-a220-5278753.html"
     },
     {
-      "label": "Air Journal — Fréquentation et desserte aérienne des Baléares",
-      "url": "https://www.air-journal.fr/2026-11-02-voyage-aux-baleares-une-destination-mediterraneenne-qui-seduit-bien-au-dela-de-lete-5278399.html"
+      "label": "Air Journal — Wi-Fi Starlink chez Brussels Airlines",
+      "url": "https://www.air-journal.fr/2026-11-09-brussels-airlines-le-wi-fi-starlink-arrive-a-bord-sans-supplement-5278749.html"
     },
     {
-      "label": "Air Journal — Procédure judiciaire SriLankan Airlines",
-      "url": "https://www.air-journal.fr/2026-11-02-srilankan-airlines-laffaire-airbus-rattrape-le-fils-de-lancien-president-5278638.html"
+      "label": "Air Journal — Grève générale du 11 novembre en Espagne",
+      "url": "https://www.air-journal.fr/2026-11-09-espagne-la-greve-generale-du-11-novembre-menace-de-perturber-les-vols-et-lacces-aux-aeroports-5278746.html"
     },
     {
-      "label": "Air Journal — Retrait de l'Embraer E170 chez LOT Polish Airlines",
-      "url": "https://www.air-journal.fr/2026-11-02-lot-tourne-la-page-de-lembraer-e170-apres-22-ans-de-service-5278637.html"
+      "label": "Air Journal — Déploiement A350 SWISS vers Mumbai",
+      "url": "https://www.air-journal.fr/2026-11-09-zurich-mumbai-swiss-deploie-la350-pour-lhiver-5278744.html"
     },
     {
-      "label": "Air Journal — Incident en escale Lufthansa à Bangalore",
-      "url": "https://www.air-journal.fr/2026-11-02-lufthansa-un-membre-dequipage-meurt-dans-une-piscine-dhotel-en-inde-5278636.html"
+      "label": "Air Journal — Enquête déroutement militaire Aer Lingus",
+      "url": "https://www.air-journal.fr/2026-11-09-un-commandant-de-bord-peut-il-refuser-un-deroutement-militaire-laffaire-aer-lingus-relance-le-debat-5278743.html"
     },
     {
-      "label": "AeroTime — Projet de hub AirAsia à Bahreïn",
-      "url": "https://www.aerotime.aero/articles/airasia-appoints-bahrain-board-hub-launch-by-march-2027"
-    },
-    {
-      "label": "AeroTime — Relations Boeing et Belavia",
-      "url": "https://www.aerotime.aero/articles/united-states-boeing-belarus-belavia-ceo"
-    },
-    {
-      "label": "AeroTime — Livraison du Boeing 787-9 de PIA",
-      "url": "https://www.aerotime.aero/articles/pakistan-international-airlines-receives-first-boeing-787-9-dreamliner"
-    },
-    {
-      "label": "AeroTime — Accident d'un Learjet 60 en Floride",
-      "url": "https://www.aerotime.aero/articles/florida-learjet-crash-nine-killed-icing-turbulence"
-    },
-    {
-      "label": "AeroTime — Incursions de drones à l'aéroport de Jersey",
-      "url": "https://www.aerotime.aero/articles/jersey-airport-hit-by-drone-disruption-for-second-consecutive-night"
+      "label": "AeroTime — Rachat d'actions Airbus de 5 Mds €",
+      "url": "https://www.aerotime.aero/articles/airbus-5-billion-share-buyback-800-million-tranche"
     }
   ]
 }
