@@ -1,152 +1,171 @@
 {
-  "updated": "2026-11-09T13:25:55.495Z",
+  "updated": "2026-11-16T13:11:18.948Z",
   "items": [
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "RÉCENT",
+      "title": "Un Boeing 747 réunit un couple 27 ans après leur rencontre",
+      "city": "Belgique · 16 nov.",
+      "copy": "Un couple formé à bord d'un Boeing 747 d'All Nippon Airways en 1999 a pu remonter dans le même appareil à l'aéroport de Liège. L'avion a depuis été converti au transport de fret.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-16-de-la-premiere-classe-au-fret-le-boeing-747-temoin-dune-histoire-damour-5278894.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal_B747-400-All-Nippon-Airways_Haneda.jpg"
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · FLASH",
+      "title": "Paralysie du ciel américain : Trump réclame des milliards pour la FAA",
+      "city": "États-Unis · 16 nov.",
+      "copy": "Après une interruption nationale des départs ayant provoqué des milliers d'annulations, Donald Trump demande au Congrès de financer la modernisation du contrôle aérien. La FAA indique que le réseau est désormais stabilisé.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-16-etats-unis-apres-la-paralysie-du-ciel-trump-reclame-des-milliards-pour-le-controle-aerien-5278893.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Atterrissage-avion-United-San-Francisco_Source-San-francisco-Airport.jpg"
+    },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Air France reçoit son 60e Airbus A220-300",
-      "city": "France · 9 nov. 2026",
-      "copy": "Air France a pris livraison de son 60e Airbus A220-300 baptisé « Mimizan ». Cette livraison vient clore la commande ferme initiale passée par la compagnie en 2019.",
+      "fresh": "RÉCENT",
+      "title": "Brésil : recettes touristiques record et vols Air France renforcés",
+      "city": "Brésil · 16 nov.",
+      "copy": "Air France augmente sa capacité vers Rio, Fortaleza et Salvador pour la haute saison. Cette décision accompagne une hausse marquée des recettes du tourisme international au Brésil.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-09-avec-mimizan-air-france-passe-le-cap-des-60-airbus-a220-5278753.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-Air-France-Airbus-A220-200-Nimes-FNI-source-ERaviation-Enzo-Rodolosi-source-ERaviation-Enzo-Rodolosi.jpg"
+      "url": "https://www.air-journal.fr/2026-11-16-voyage-au-bresil-recettes-touristiques-record-et-vols-air-france-renforces-pour-la-haute-saison-5278819.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-vacances-voyage-rio-bresil-christ-redemtion-plage-source-AJ-scaled.jpg"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "RÉCENT",
+      "title": "United Airlines rénove la cabine de ses Boeing 757-300",
+      "city": "États-Unis · 16 nov.",
+      "copy": "United Airlines planifie la modernisation des cabines de 21 Boeing 757-300 avec de nouveaux écrans et des coffres à bagages agrandis. Ce projet prolonge la durée de vie opérationnelle de ces avions.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-16-united-airlines-les-boeing-757-300-jouent-les-prolongations-avec-une-cabine-modernisee-5278891.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-United-Boeing-757-200-aeroport-Bilbao-source-Aena.jpg"
     },
     {
       "cat": "innovation",
       "label": "INNOVATION",
       "fresh": "< 24 H · FLASH",
-      "title": "Starlink s'installe à bord de Brussels Airlines",
-      "city": "Belgique · 9 nov. 2026",
-      "copy": "Brussels Airlines a lancé son premier vol commercial équipé du Wi-Fi haut débit Starlink sans supplément. Le service équipera 15 appareils au premier semestre 2027.",
+      "title": "COMAC réalise le premier vol piloté de son avion électrique CE-25A",
+      "city": "Chine · 16 nov.",
+      "copy": "Le constructeur chinois COMAC a fait voler son prototype électrique de 10 tonnes avec un équipage à bord à Binzhou. Conçu pour 19 passagers, l'appareil poursuit sa démarche de certification.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-09-brussels-airlines-le-wi-fi-starlink-arrive-a-bord-sans-supplement-5278749.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-installation-wifi-Starlink-Source-Brussels-Airlines.jpg"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "< 24 H · FLASH",
-      "title": "Grève générale en Espagne : perturbations attendues",
-      "city": "Espagne · 9 nov. 2026",
-      "copy": "Une grève générale de 24 heures prévue le 11 novembre menace d'affecter le transport aérien et l'accès aux aéroports espagnols. Les voyageurs sont invités à anticiper leurs déplacements.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-09-espagne-la-greve-generale-du-11-novembre-menace-de-perturber-les-vols-et-lacces-aux-aeroports-5278746.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-A350-900-Iberia-Madrid-source-Aena.jpg"
-    },
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "< 24 H · FLASH",
-      "title": "SWISS déploie l'A350 sur Zurich–Mumbai cet hiver",
-      "city": "Suisse · 9 nov. 2026",
-      "copy": "À partir du 15 décembre 2026, SWISS exploitera l'Airbus A350-900 vers Mumbai avec la nouvelle cabine SWISS Senses. Le temps de trajet sera réduit d'environ 25 minutes.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-09-zurich-mumbai-swiss-deploie-la350-pour-lhiver-5278744.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal_A350-900-SWISS-livree-Wanderlust-Toulouse-Source-SWISS.png"
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "< 24 H · FLASH",
-      "title": "Déroutement militaire refusé : l'affaire Aer Lingus",
-      "city": "France · 9 nov. 2026",
-      "copy": "Le déroutement d'un A320 sous escorte militaire suscite le débat suite au refus initial d'un commandant de se poser sur une base militaire. L'association de pilotes BeCA défend la décision du pilote.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-09-un-commandant-de-bord-peut-il-refuser-un-deroutement-militaire-laffaire-aer-lingus-relance-le-debat-5278743.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-airbus-a330-en-vol-source-aer-lingus.jpg"
+      "url": "https://www.air-journal.fr/2026-11-16-avec-son-ce-25a-comac-fait-voler-ses-ambitions-electriques-avec-un-equipage-a-bord-5278889.html",
+      "img": ""
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "Emirates finance deux Airbus A350 via un montage novateur",
-      "city": "Émirats Arabes Unis",
-      "copy": "Emirates a conclu le financement de deux Airbus A350-900 en s'appuyant sur une approche financière innovante. Ce schéma combine des structures adaptées aux exigences de la compagnie.",
+      "title": "Widerøe recevra deux nouveaux Embraer E195-E2 début 2028",
+      "city": "Norvège · 16 nov.",
+      "copy": "La filiale de la compagnie Norwegian prévoit de réceptionner deux Embraer E195-E2 au premier trimestre 2028. L'arrivée de ces appareils viendra renforcer son réseau régional.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/emirates-airbus-a350-fianancing-shariah",
-      "img": "https://www.aerotime.aero/images/2025/07/Emirates-A350-business-class-1200x800.jpg"
-    },
-    {
-      "cat": "formation",
-      "label": "FORMATION",
-      "fresh": "RÉCENT",
-      "title": "Emirates ouvre son centre de formation de 8M$ aux entreprises",
-      "city": "Dubaï",
-      "copy": "Emirates ouvre aux entreprises locales son centre de formation à l'hospitalité d'une valeur de 8 millions de dollars. Initialement conçu pour le personnel navigant commercial, ce pôle partage son savoir-faire.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/emirates-opens-8-million-dubai-cabin-crew-hospitality-hub-to-uae-businesses",
-      "img": "https://www.aerotime.aero/images/2025/10/Emirates-new-training-center-for-hospitality-80x80.jpg.webp"
-    },
-    {
-      "cat": "securite",
-      "label": "SÉCURITÉ",
-      "fresh": "RÉCENT",
-      "title": "Fixtures anti-drones pour les abris F-35 de Tyndall",
-      "city": "États-Unis",
-      "copy": "L'US Air Force envisage d'installer des filets anti-drones pour protéger six abris d'avions F-35A sur la base aérienne de Tyndall en Floride.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/us-air-force-anti-drone-nets-f35-shelters-tyndall",
-      "img": "https://www.aerotime.aero/images/2026/11/A-US-Air-Force-F-35A-Lightning-II-beneath-a-covered-aircraft-shelter-at-Tyndall-Air-Force-Base-1200x800.jpg"
+      "url": "https://www.aerotime.aero/articles/wideroe-embraer-e195-e2-aircraft",
+      "img": "https://www.aerotime.aero/images/2026/11/Wideroe-Embraer-E190-E2-1200x800.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "Airbus lance un rachat d'actions de 5 milliards d'euros",
-      "city": "Toulouse · 9 nov. 2026",
-      "copy": "Airbus a initié la première tranche de 800 millions d'euros dans le cadre de son programme global de rachat d'actions de 5 milliards d'euros.",
+      "title": "Philippine Airlines finalise sa commande de 20 Boeing 787-10",
+      "city": "Philippines · 16 nov.",
+      "copy": "Philippine Airlines a confirmé un contrat avec Boeing et GE Aerospace portant sur un maximum de 20 Boeing 787-10. Ces appareils seront équipés de motorisations General Electric.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/airbus-5-billion-share-buyback-800-million-tranche",
-      "img": "https://www.aerotime.aero/images/2025/12/Airbus-A321-assembly-line-in-Toulouse-1200x800.jpg"
+      "url": "https://www.aerotime.aero/articles/philippine-airlines-firms-order-for-up-to-20-boeing-787-10s-with-ge-engines",
+      "img": "https://www.aerotime.aero/images/2026/09/Untitled-design-56-80x80.jpg.webp"
+    },
+    {
+      "cat": "securite",
+      "label": "SÉCURITÉ",
+      "fresh": "< 24 H · FLASH",
+      "title": "Brouillage GPS aux Pays-Bas : 80 appareils perturbés près de Schiphol",
+      "city": "Pays-Bas · 16 nov.",
+      "copy": "Des interférences GPS ont touché des dizaines d'avions survolant la mer du Nord et les territoires voisins. Ces perturbations ont directement affecté les phases d'approche vers l'aéroport d'Amsterdam-Schiphol.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/schiphol-gps-jamming-80-aircraft-north-sea",
+      "img": "https://www.aerotime.aero/images/2026/11/The-Russian-cargo-vessel-Lady-R-1200x800.jpg"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "< 24 H · FLASH",
+      "title": "Échec d'un tir ULA : 40 satellites Amazon LEO perdus",
+      "city": "États-Unis · 16 nov.",
+      "copy": "Une fusée de la United Launch Alliance a subi une défaillance 10 minutes après son décollage. L'incident a entraîné la destruction des 40 satellites de la constellation Amazon embarqués.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/ula-rocket-fails-after-liftoff-amazon-leo-satellites",
+      "img": "https://www.aerotime.aero/images/2026/11/starship-recovey-80x80.png.webp"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "La Corée du Sud valide la fusion de trois compagnies low-cost",
+      "city": "Corée du Sud · 16 nov.",
+      "copy": "Le ministère des Transports sud-coréen a officiellement approuvé le regroupement de trois transporteurs à bas coûts. Cette restructuration vise à consolider le secteur aérien local.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/south-korean-government-approves-merger-between-three-low-cost-airlines",
+      "img": ""
     }
   ],
   "lexicon": [
     {
-      "term": "Déroutement",
-      "def": "Changement de la trajectoire prévue d'un vol vers un autre aéroport que celui de destination initiale. Ce choix est généralement dicté par des raisons de sécurité, de météo ou d'urgence médicale."
+      "term": "FAA",
+      "def": "La Federal Aviation Administration est l'agence fédérale américaine chargée de réglementer l'aviation civile et de gérer le contrôle du trafic aérien aux États-Unis. Elle veille à la sécurité et au maintien des normes aéronautiques."
     },
     {
-      "term": "Airbus A220-300",
-      "def": "Avion commercial monocouloir de moyenne capacité conçu pour les liaisons court et moyen-courriers. Il offre une consommation de carburant réduite et un confort amélioré pour les passagers."
+      "term": "Satellites LEO",
+      "def": "Les satellites LEO (Low Earth Orbit) circulent en orbite terrestre basse, généralement à moins de 2 000 kilomètres d'altitude. Cette proximité permet de réduire le temps de transmission des données pour les réseaux de télécommunication."
     },
     {
-      "term": "Starlink",
-      "def": "Réseau d'accès à Internet à haut débit par satellite opérant en orbite terrestre basse. Il permet de fournir une connexion Wi-Fi rapide et stable à bord des avions en vol."
+      "term": "Brouillage GPS",
+      "def": "Le brouillage GPS consiste en l'émission de signaux parasites qui perturbent la réception des données satellitaires de géolocalisation. Cela peut priver les instruments de bord d'indications précises de positionnement."
     },
     {
-      "term": "Rachat d'actions",
-      "def": "Opération financière par laquelle une entreprise rachète ses propres titres sur le marché boursier. Cela permet de restituer du capital aux actionnaires et de soutenir la valeur du titre."
+      "term": "Certification de type",
+      "def": "La certification de type est une homologation officielle délivrée par les autorités de l'aviation civile pour valider qu'un modèle d'aéronef répond à toutes les exigences de sécurité avant sa mise en service."
     }
   ],
   "stat": {
-    "big": "5 Mds €",
-    "text": "Airbus a lancé son programme massif de rachat d'actions d'un montant total de 5 milliards d'euros. La première tranche d'exécution s'élève à 800 millions d'euros."
+    "big": "80",
+    "text": "Il s'agit du nombre d'aéronefs touchés par des perturbations GPS au-dessus des Pays-Bas et de la mer du Nord. Ces interférences ont entraîné des difficultés de navigation lors des approches vers l'aéroport d'Amsterdam-Schiphol."
   },
   "sources": [
     {
-      "label": "Air Journal — Livraison du 60e A220 Air France",
-      "url": "https://www.air-journal.fr/2026-11-09-avec-mimizan-air-france-passe-le-cap-des-60-airbus-a220-5278753.html"
+      "label": "Air Journal — Histoire du Boeing 747 entre Tokyo et Liège",
+      "url": "https://www.air-journal.fr/2026-11-16-de-la-premiere-classe-au-fret-le-boeing-747-temoin-dune-histoire-damour-5278894.html"
     },
     {
-      "label": "Air Journal — Wi-Fi Starlink chez Brussels Airlines",
-      "url": "https://www.air-journal.fr/2026-11-09-brussels-airlines-le-wi-fi-starlink-arrive-a-bord-sans-supplement-5278749.html"
+      "label": "Air Journal — Déclarations de Trump sur le contrôle aérien FAA",
+      "url": "https://www.air-journal.fr/2026-11-16-etats-unis-apres-la-paralysie-du-ciel-trump-reclame-des-milliards-pour-le-controle-aerien-5278893.html"
     },
     {
-      "label": "Air Journal — Grève générale du 11 novembre en Espagne",
-      "url": "https://www.air-journal.fr/2026-11-09-espagne-la-greve-generale-du-11-novembre-menace-de-perturber-les-vols-et-lacces-aux-aeroports-5278746.html"
+      "label": "Air Journal — Offre renforcée d'Air France vers le Brésil",
+      "url": "https://www.air-journal.fr/2026-11-16-voyage-au-bresil-recettes-touristiques-record-et-vols-air-france-renforces-pour-la-haute-saison-5278819.html"
     },
     {
-      "label": "Air Journal — Déploiement A350 SWISS vers Mumbai",
-      "url": "https://www.air-journal.fr/2026-11-09-zurich-mumbai-swiss-deploie-la350-pour-lhiver-5278744.html"
+      "label": "Air Journal — Projet de modernisation des B757-300 de United",
+      "url": "https://www.air-journal.fr/2026-11-16-united-airlines-les-boeing-757-300-jouent-les-prolongations-avec-une-cabine-modernisee-5278891.html"
     },
     {
-      "label": "Air Journal — Enquête déroutement militaire Aer Lingus",
-      "url": "https://www.air-journal.fr/2026-11-09-un-commandant-de-bord-peut-il-refuser-un-deroutement-militaire-laffaire-aer-lingus-relance-le-debat-5278743.html"
+      "label": "Air Journal — Vol d'essai de l'avion électrique COMAC CE-25A",
+      "url": "https://www.air-journal.fr/2026-11-16-avec-son-ce-25a-comac-fait-voler-ses-ambitions-electriques-avec-un-equipage-a-bord-5278889.html"
     },
     {
-      "label": "AeroTime — Rachat d'actions Airbus de 5 Mds €",
-      "url": "https://www.aerotime.aero/articles/airbus-5-billion-share-buyback-800-million-tranche"
+      "label": "AeroTime — Livraison d'Embraer E195-E2 pour Widerøe",
+      "url": "https://www.aerotime.aero/articles/wideroe-embraer-e195-e2-aircraft"
+    },
+    {
+      "label": "AeroTime — Commande ferme de Boeing 787-10 par PAL",
+      "url": "https://www.aerotime.aero/articles/philippine-airlines-firms-order-for-up-to-20-boeing-787-10s-with-ge-engines"
+    },
+    {
+      "label": "AeroTime — Incidents de brouillage GPS vers Schiphol",
+      "url": "https://www.aerotime.aero/articles/schiphol-gps-jamming-80-aircraft-north-sea"
     }
   ]
 }
