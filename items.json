@@ -1,171 +1,171 @@
 {
-  "updated": "2026-11-16T13:11:18.948Z",
+  "updated": "2026-11-23T15:26:46.884Z",
   "items": [
-    {
-      "cat": "passager",
-      "label": "PASSAGER",
-      "fresh": "RÉCENT",
-      "title": "Un Boeing 747 réunit un couple 27 ans après leur rencontre",
-      "city": "Belgique · 16 nov.",
-      "copy": "Un couple formé à bord d'un Boeing 747 d'All Nippon Airways en 1999 a pu remonter dans le même appareil à l'aéroport de Liège. L'avion a depuis été converti au transport de fret.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-16-de-la-premiere-classe-au-fret-le-boeing-747-temoin-dune-histoire-damour-5278894.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal_B747-400-All-Nippon-Airways_Haneda.jpg"
-    },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
       "fresh": "< 24 H · FLASH",
-      "title": "Paralysie du ciel américain : Trump réclame des milliards pour la FAA",
-      "city": "États-Unis · 16 nov.",
-      "copy": "Après une interruption nationale des départs ayant provoqué des milliers d'annulations, Donald Trump demande au Congrès de financer la modernisation du contrôle aérien. La FAA indique que le réseau est désormais stabilisé.",
+      "title": "Air Niugini : alerte feu moteur et évacuation d'urgence à Davao",
+      "city": "Philippines · 21 nov.",
+      "copy": "Un Boeing 767-300ER d'Air Niugini transportant 137 passagers a dû se poser en urgence à Davao suite à une alerte d'incendie sur le moteur droit. L'ensemble des passagers a été évacué en sécurité par les toboggans.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-16-etats-unis-apres-la-paralysie-du-ciel-trump-reclame-des-milliards-pour-le-controle-aerien-5278893.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Atterrissage-avion-United-San-Francisco_Source-San-francisco-Airport.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Brésil : recettes touristiques record et vols Air France renforcés",
-      "city": "Brésil · 16 nov.",
-      "copy": "Air France augmente sa capacité vers Rio, Fortaleza et Salvador pour la haute saison. Cette décision accompagne une hausse marquée des recettes du tourisme international au Brésil.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-16-voyage-au-bresil-recettes-touristiques-record-et-vols-air-france-renforces-pour-la-haute-saison-5278819.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-tourisme-vacances-voyage-rio-bresil-christ-redemtion-plage-source-AJ-scaled.jpg"
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "RÉCENT",
-      "title": "United Airlines rénove la cabine de ses Boeing 757-300",
-      "city": "États-Unis · 16 nov.",
-      "copy": "United Airlines planifie la modernisation des cabines de 21 Boeing 757-300 avec de nouveaux écrans et des coffres à bagages agrandis. Ce projet prolonge la durée de vie opérationnelle de ces avions.",
-      "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-16-united-airlines-les-boeing-757-300-jouent-les-prolongations-avec-une-cabine-modernisee-5278891.html",
-      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-United-Boeing-757-200-aeroport-Bilbao-source-Aena.jpg"
+      "url": "https://www.air-journal.fr/2026-11-23-air-niugini-un-boeing-767-de-35-ans-evacue-par-toboggans-a-davao-apres-une-alerte-feu-moteur-5279288.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-journal-Air-Nuigini-767-300-pneus-degonfles_Source-The-Aviation-Herald.jpg"
     },
     {
       "cat": "innovation",
       "label": "INNOVATION",
-      "fresh": "< 24 H · FLASH",
-      "title": "COMAC réalise le premier vol piloté de son avion électrique CE-25A",
-      "city": "Chine · 16 nov.",
-      "copy": "Le constructeur chinois COMAC a fait voler son prototype électrique de 10 tonnes avec un équipage à bord à Binzhou. Conçu pour 19 passagers, l'appareil poursuit sa démarche de certification.",
+      "fresh": "RÉCENT",
+      "title": "Archer et Disney dévoilent un taxi volant Midnight aux couleurs d'Avengers",
+      "city": "Las Vegas · 19 nov.",
+      "copy": "Le constructeur d'eVTOL Archer s'est associé à Disney Imagineering pour présenter une livrée spéciale au Grand Prix de F1. Derrière ce coup de communication se cache un partenariat d'études de recherche et développement.",
       "src": "Air Journal",
-      "url": "https://www.air-journal.fr/2026-11-16-avec-son-ce-25a-comac-fait-voler-ses-ambitions-electriques-avec-un-equipage-a-bord-5278889.html",
+      "url": "https://www.air-journal.fr/2026-11-23-insolite-archer-sassocie-a-disney-imagineering-et-devoile-un-taxi-volant-aux-couleurs-des-avengers-5279285.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-taxi-electrique-eVTOL-midnight-source-archer-aviation.jpg"
+    },
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "< 24 H · FLASH",
+      "title": "Ryanair ajoute 188 000 sièges vers la France pour les fêtes de Noël",
+      "city": "France · 23 nov.",
+      "copy": "Pour répondre à la forte demande festive, Ryanair renforce sa capacité globale avec 188 000 sièges additionnels reliant la France à l'Europe. La compagnie vise environ 700 000 voyageurs durant cette période.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-23-noel-2026-ryanair-met-le-cap-sur-la-france-avec-188-000-sieges-de-plus-5279284.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/Air-Journal-Ryanair-737-Tanger-Maroc-source-AJ.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "RÉCENT",
+      "title": "Airbus fixera le lancement des versions allongées des A220 et A350 d'ici un an",
+      "city": "Toulouse · 18 nov.",
+      "copy": "Airbus tranchera dans les douze prochains mois concernant l'étirement potentiel des fuselage de l'A220 et de l'A350. C'est la première fois qu'un calendrier officiel de décision est rendu public par la direction.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-23-airbus-a220-et-a350-allonges-la-decision-de-lancement-attendue-dici-douze-mois-5279283.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-FAL-Airbus-A350-1000ULR-source-Qantas.jpg"
+    },
+    {
+      "cat": "passager",
+      "label": "PASSAGER",
+      "fresh": "RÉCENT",
+      "title": "British Airways lance de nouvelles liaisons européennes pour l'été 2027",
+      "city": "Royaume-Uni · 23 nov.",
+      "copy": "British Airways annonce l'ouverture d'une ligne directe entre Londres-Heathrow et Bergen. De plus, sa filiale BA Cityflyer assurera des vols saisonniers de Glasgow vers Nice.",
+      "src": "Air Journal",
+      "url": "https://www.air-journal.fr/2026-11-23-british-airways-devoile-ses-nouveautes-europeennes-pour-lete-2027-dont-nice-depuis-glasgow-5279272.html",
+      "img": "https://www.air-journal.fr/wp-content/uploads/air-journal-Embraer-E190-aeroport-londres-London-City-vol-au-dessus-Canary-Wharf-source-British-Airways.jpg"
+    },
+    {
+      "cat": "industrie",
+      "label": "INDUSTRIE",
+      "fresh": "< 24 H · FLASH",
+      "title": "Cessation probable des opérations pour la compagnie espagnole Plus Ultra",
+      "city": "Espagne · 23 nov.",
+      "copy": "La compagnie aérienne long-courrier Plus Ultra Líneas Aéreas semble avoir interrompu l'ensemble de ses vols le 23 novembre 2026. La faillite opérationnelle de l'opérateur espagnol se précise.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/spains-plus-ultra-may-have-operated-final-flight-ceased-operations",
       "img": ""
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Widerøe recevra deux nouveaux Embraer E195-E2 début 2028",
-      "city": "Norvège · 16 nov.",
-      "copy": "La filiale de la compagnie Norwegian prévoit de réceptionner deux Embraer E195-E2 au premier trimestre 2028. L'arrivée de ces appareils viendra renforcer son réseau régional.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/wideroe-embraer-e195-e2-aircraft",
-      "img": "https://www.aerotime.aero/images/2026/11/Wideroe-Embraer-E190-E2-1200x800.jpg"
-    },
-    {
-      "cat": "industrie",
-      "label": "INDUSTRIE",
-      "fresh": "RÉCENT",
-      "title": "Philippine Airlines finalise sa commande de 20 Boeing 787-10",
-      "city": "Philippines · 16 nov.",
-      "copy": "Philippine Airlines a confirmé un contrat avec Boeing et GE Aerospace portant sur un maximum de 20 Boeing 787-10. Ces appareils seront équipés de motorisations General Electric.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/philippine-airlines-firms-order-for-up-to-20-boeing-787-10s-with-ge-engines",
-      "img": "https://www.aerotime.aero/images/2026/09/Untitled-design-56-80x80.jpg.webp"
     },
     {
       "cat": "securite",
       "label": "SÉCURITÉ",
-      "fresh": "< 24 H · FLASH",
-      "title": "Brouillage GPS aux Pays-Bas : 80 appareils perturbés près de Schiphol",
-      "city": "Pays-Bas · 16 nov.",
-      "copy": "Des interférences GPS ont touché des dizaines d'avions survolant la mer du Nord et les territoires voisins. Ces perturbations ont directement affecté les phases d'approche vers l'aéroport d'Amsterdam-Schiphol.",
+      "fresh": "RÉCENT",
+      "title": "Un Mirage 2000 ukrainien détruit un drone à réaction au canon",
+      "city": "Ukraine · 23 nov.",
+      "copy": "L'armée de l'air ukrainienne a diffusé les images de l'interception réussie d'un drone propulsé par réacteur. L'appareil de fabrication française Mirage 2000 a abattu sa cible directement au canon.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/schiphol-gps-jamming-80-aircraft-north-sea",
-      "img": "https://www.aerotime.aero/images/2026/11/The-Russian-cargo-vessel-Lady-R-1200x800.jpg"
-    },
-    {
-      "cat": "technique",
-      "label": "TECHNIQUE",
-      "fresh": "< 24 H · FLASH",
-      "title": "Échec d'un tir ULA : 40 satellites Amazon LEO perdus",
-      "city": "États-Unis · 16 nov.",
-      "copy": "Une fusée de la United Launch Alliance a subi une défaillance 10 minutes après son décollage. L'incident a entraîné la destruction des 40 satellites de la constellation Amazon embarqués.",
-      "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/ula-rocket-fails-after-liftoff-amazon-leo-satellites",
-      "img": "https://www.aerotime.aero/images/2026/11/starship-recovey-80x80.png.webp"
+      "url": "https://www.aerotime.aero/articles/ukraine-mirage-2000-cannon-drone-interception-video",
+      "img": "https://www.aerotime.aero/images/2026/01/Ukrainian-pilot-walking-towards-Mirage-2000-fighter-jet-1200x800.jpg"
     },
     {
       "cat": "industrie",
       "label": "INDUSTRIE",
       "fresh": "RÉCENT",
-      "title": "La Corée du Sud valide la fusion de trois compagnies low-cost",
-      "city": "Corée du Sud · 16 nov.",
-      "copy": "Le ministère des Transports sud-coréen a officiellement approuvé le regroupement de trois transporteurs à bas coûts. Cette restructuration vise à consolider le secteur aérien local.",
+      "title": "JSX rachète New Pacific Airways pour relancer ses activités aériennes",
+      "city": "États-Unis · 23 nov.",
+      "copy": "L'opérateur de vols charters régionaux JSX a finalisé l'acquisition de la jeune compagnie en difficulté New Pacific Airways. JSX prévoit de remettre l'entreprise rapidement en exploitation.",
       "src": "AeroTime",
-      "url": "https://www.aerotime.aero/articles/south-korean-government-approves-merger-between-three-low-cost-airlines",
+      "url": "https://www.aerotime.aero/articles/jsx-to-bring-new-pacific-airways-back-into-operation-after-acquisition",
+      "img": "https://www.aerotime.aero/images/2026/07/Executive-Spotlight-1920x1200-Alex-Wilcox-80x80.jpg.webp"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "RÉCENT",
+      "title": "Entraînement de Rafale et F-35A sur autoroute lors d'un exercice en Finlande",
+      "city": "Finlande · 23 nov.",
+      "copy": "Des chasseurs F-35A néerlandais et des Rafale français ont effectué des opérations depuis une section autoroutière à Jännevirta. Ces manœuvres s'inscrivent dans le cadre de l'exercice militaire Protective Fence 26.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/dutch-f35-french-rafale-finnish-highway-exercise",
+      "img": "https://www.aerotime.aero/images/2026/11/Royal-Netherlands-Air-and-Space-Force-F-35A-fighters-operate-from-the-Jannevirta-highway-strip-in-Finland-during-Protective-Fence-26-in-November-2026.jpg"
+    },
+    {
+      "cat": "technique",
+      "label": "TECHNIQUE",
+      "fresh": "RÉCENT",
+      "title": "Joramco accélère son expansion avec de nouveaux hangars de maintenance",
+      "city": "Jordanie · 23 nov.",
+      "copy": "Le spécialiste de la maintenance aéronautique Joramco modernise ses infrastructures et prépare la construction de nouveaux hangars. L'entreprise souhaite renforcer son positionnement mondial dans le secteur de la MRO.",
+      "src": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/joramco-expansion-hangar-mro-digital-technology",
       "img": ""
     }
   ],
   "lexicon": [
     {
-      "term": "FAA",
-      "def": "La Federal Aviation Administration est l'agence fédérale américaine chargée de réglementer l'aviation civile et de gérer le contrôle du trafic aérien aux États-Unis. Elle veille à la sécurité et au maintien des normes aéronautiques."
+      "term": "eVTOL",
+      "def": "Sigle anglais pour Electric Vertical Take-Off and Landing (aéronef électrique à décollage et atterrissage verticaux). Il désigne une nouvelle catégorie d'appareils destinés au transport urbain et périurbain."
     },
     {
-      "term": "Satellites LEO",
-      "def": "Les satellites LEO (Low Earth Orbit) circulent en orbite terrestre basse, généralement à moins de 2 000 kilomètres d'altitude. Cette proximité permet de réduire le temps de transmission des données pour les réseaux de télécommunication."
+      "term": "Livrée",
+      "def": "Ensemble du schéma de peinture, des couleurs et des motifs appliqués sur le fuselage d'un aéronef. Elle permet d'identifier visuellement une compagnie aérienne ou une opération commerciale spécifique."
     },
     {
-      "term": "Brouillage GPS",
-      "def": "Le brouillage GPS consiste en l'émission de signaux parasites qui perturbent la réception des données satellitaires de géolocalisation. Cela peut priver les instruments de bord d'indications précises de positionnement."
+      "term": "767-300ER",
+      "def": "Version à rayon d'action étendu (Extended Range) de l'avion long-courrier bimoteur Boeing 767-300. Il dispose de réservoirs de carburant agrandis pour effectuer de longs trajets transocéaniques."
     },
     {
-      "term": "Certification de type",
-      "def": "La certification de type est une homologation officielle délivrée par les autorités de l'aviation civile pour valider qu'un modèle d'aéronef répond à toutes les exigences de sécurité avant sa mise en service."
+      "term": "MRO",
+      "def": "Acronyme signifiant Maintenance, Repair and Overhaul (Maintenance, Réparation et Révision). Il englobe toutes les activités techniques et d'inspection nécessaires pour garantir la navigabilité continue des avions."
     }
   ],
   "stat": {
-    "big": "80",
-    "text": "Il s'agit du nombre d'aéronefs touchés par des perturbations GPS au-dessus des Pays-Bas et de la mer du Nord. Ces interférences ont entraîné des difficultés de navigation lors des approches vers l'aéroport d'Amsterdam-Schiphol."
+    "big": "+188 000",
+    "text": "Il s'agit du nombre de sièges supplémentaires mis en vente par la compagnie Ryanair vers la France pour Noël 2026. L'opérateur s'attend à transporter près de 700 000 passagers sur cette période."
   },
   "sources": [
     {
-      "label": "Air Journal — Histoire du Boeing 747 entre Tokyo et Liège",
-      "url": "https://www.air-journal.fr/2026-11-16-de-la-premiere-classe-au-fret-le-boeing-747-temoin-dune-histoire-damour-5278894.html"
+      "label": "Air Journal — Incident évacuation Air Niugini",
+      "url": "https://www.air-journal.fr/2026-11-23-air-niugini-un-boeing-767-de-35-ans-evacue-par-toboggans-a-davao-apres-une-alerte-feu-moteur-5279288.html"
     },
     {
-      "label": "Air Journal — Déclarations de Trump sur le contrôle aérien FAA",
-      "url": "https://www.air-journal.fr/2026-11-16-etats-unis-apres-la-paralysie-du-ciel-trump-reclame-des-milliards-pour-le-controle-aerien-5278893.html"
+      "label": "Air Journal — Collaboration Archer et Disney Imagineering",
+      "url": "https://www.air-journal.fr/2026-11-23-insolite-archer-sassocie-a-disney-imagineering-et-devoile-un-taxi-volant-aux-couleurs-des-avengers-5279285.html"
     },
     {
-      "label": "Air Journal — Offre renforcée d'Air France vers le Brésil",
-      "url": "https://www.air-journal.fr/2026-11-16-voyage-au-bresil-recettes-touristiques-record-et-vols-air-france-renforces-pour-la-haute-saison-5278819.html"
+      "label": "Air Journal — Programme Noël Ryanair en France",
+      "url": "https://www.air-journal.fr/2026-11-23-noel-2026-ryanair-met-le-cap-sur-la-france-avec-188-000-sieges-de-plus-5279284.html"
     },
     {
-      "label": "Air Journal — Projet de modernisation des B757-300 de United",
-      "url": "https://www.air-journal.fr/2026-11-16-united-airlines-les-boeing-757-300-jouent-les-prolongations-avec-une-cabine-modernisee-5278891.html"
+      "label": "Air Journal — Calendrier décisions Airbus A220 et A350",
+      "url": "https://www.air-journal.fr/2026-11-23-airbus-a220-et-a350-allonges-la-decision-de-lancement-attendue-dici-douze-mois-5279283.html"
     },
     {
-      "label": "Air Journal — Vol d'essai de l'avion électrique COMAC CE-25A",
-      "url": "https://www.air-journal.fr/2026-11-16-avec-son-ce-25a-comac-fait-voler-ses-ambitions-electriques-avec-un-equipage-a-bord-5278889.html"
+      "label": "Air Journal — Nouveautés réseau British Airways 2027",
+      "url": "https://www.air-journal.fr/2026-11-23-british-airways-devoile-ses-nouveautes-europeennes-pour-lete-2027-dont-nice-depuis-glasgow-5279272.html"
     },
     {
-      "label": "AeroTime — Livraison d'Embraer E195-E2 pour Widerøe",
-      "url": "https://www.aerotime.aero/articles/wideroe-embraer-e195-e2-aircraft"
+      "label": "AeroTime — Interception drone Mirage 2000",
+      "url": "https://www.aerotime.aero/articles/ukraine-mirage-2000-cannon-drone-interception-video"
     },
     {
-      "label": "AeroTime — Commande ferme de Boeing 787-10 par PAL",
-      "url": "https://www.aerotime.aero/articles/philippine-airlines-firms-order-for-up-to-20-boeing-787-10s-with-ge-engines"
+      "label": "AeroTime — Acquisition New Pacific Airways par JSX",
+      "url": "https://www.aerotime.aero/articles/jsx-to-bring-new-pacific-airways-back-into-operation-after-acquisition"
     },
     {
-      "label": "AeroTime — Incidents de brouillage GPS vers Schiphol",
-      "url": "https://www.aerotime.aero/articles/schiphol-gps-jamming-80-aircraft-north-sea"
+      "label": "AeroTime — Exercice militaire F-35 et Rafale en Finlande",
+      "url": "https://www.aerotime.aero/articles/dutch-f35-french-rafale-finnish-highway-exercise"
     }
   ]
 }
